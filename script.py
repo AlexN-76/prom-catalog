@@ -1,30 +1,32 @@
-import pandas as pd
+import xml.etree.ElementTree as ET
+import requests
 
-# Завантажуємо ваш останній файл з помилками
-file_path = 'FINAL_GOOGLE_SYNC_VERTICAL - FINAL_GOOGLE_SYNC_VERTICAL.csv.csv'
-df = pd.read_csv(file_path, dtype=str)
+# Исходная ссылка на фид из Пром
+PROM_FEED_URL = "https://plumbershop.in.ua/rozetka_feed.xml?rozetka_hash_tag=c69c98092d7af42c4a6369d81"
+OUTPUT_FILE = "rozetka_clean.xml"
 
-# 1. Додаємо обов'язкову колонку 'Одиниця_виміру' після 'Валюта'
-if 'Одиниця_виміру' not in df.columns:
-    # Вставляємо колонку зі значенням 'шт.'
-    df.insert(df.columns.get_loc('Валюта') + 1, 'Одиниця_виміру', 'шт.')
+def process_feed():
+    response = requests.get(PROM_FEED_URL, timeout=60)
+    response.raise_for_status()
+    
+    root = ET.fromstring(response.content)
+    
+    for offer in root.findall(".//offer"):
+        article_elem = offer.find("article")
+        article = article_elem.text.strip() if article_elem is not None and article_elem.text else ""
+        
+        # Если артикул НЕ начинается с "SD" (товар не от Sandi+), убираем скидку Пром
+        if not article.startswith("SD"):
+            price_elem = offer.find("price")
+            price_old_elem = offer.find("price_old")
+            
+            if price_old_elem is not None and price_old_elem.text:
+                if price_elem is not None:
+                    price_elem.text = price_old_elem.text  # Восстанавливаем цену без скидки
+                offer.remove(price_old_elem)  # Удаляем зачеркнутую цену для Розетки
 
-# 2. Список колонок, які Пром хоче бачити в кожному рядку (заповнюємо пропуски зверху вниз)
-fill_cols = [
-    'Назва_позиції', 'Назва_позиції_укр', 'Ціна', 'Валюта', 
-    'Наявність', 'Одиниця_виміру', 'Опис', 'Опис_укр', 
-    'Пошукові_запити', 'Пошукові_запити_укр'
-]
+    tree = ET.ElementTree(root)
+    tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
 
-# Заповнюємо порожні клітинки значеннями з першого рядка товару
-for col in fill_cols:
-    if col in df.columns:
-        df[col] = df.groupby('Унікальний_ідентифікатор')[col].ffill()
-
-# 3. На всякий випадок ще раз перевіряємо наявність '+' (виправляємо #ERROR!)
-if 'Наявність' in df.columns:
-    df['Наявність'] = df['Наявність'].replace('#ERROR!', '+')
-
-# Зберігаємо фінальний, повністю заповнений файл
-df.to_csv('FINAL_FIXED_FOR_PROM_FULL.csv', index=False, encoding='utf-8')
-print("Готово! Створено файл: FINAL_FIXED_FOR_PROM_FULL.csv")
+if __name__ == "__main__":
+    process_feed()
