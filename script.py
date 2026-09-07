@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import requests
 
 # Исходная ссылка на фид из Пром
-PROM_FEED_URL = "https://plumbershop.in.ua/rozetka_feed.xml?rozetka_hash_tag=c69c98092d7af42c4a6369d81"
+PROM_FEED_URL = "https://plumbershop.in.ua/rozetka_feed.xml?rozetka_hash_tag=c69c98092d7af42c4a6369d814f17180&product_ids=&label_ids=118147160&languages=uk%2Cru&group_ids="
 OUTPUT_FILE = "rozetka_clean.xml"
 
 def process_feed():
