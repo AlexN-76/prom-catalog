@@ -64,6 +64,89 @@ jobs:
           print("Offers:", len(offers))
           print("Excluded:", report["excluded"])
           PY
+      
+      - name: Apply approved Prom categories
+        run: |
+          python3 add_prom_categories_hybrid.py \
+            --input merged_prom_catalog_test.xml \
+            --output merged_prom_catalog_categorized.xml \
+            --mapping prom_category_mapping.csv \
+            --reference prom_reference_categories.csv \
+            --overrides prom_product_category_overrides.csv \
+            --review category_review.csv \
+            --report category_report.json
+
+      - name: Verify and activate categorized XML
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import xml.etree.ElementTree as ET
+
+          original = ET.parse(
+              "merged_prom_catalog_test.xml"
+          ).getroot()
+          categorized = ET.parse(
+              "merged_prom_catalog_categorized.xml"
+          ).getroot()
+
+          def normalize(element):
+              attrs = tuple(sorted(
+                  (k, v) for k, v in element.attrib.items()
+                  if not (
+                      element.tag == "category"
+                      and k == "portal_id"
+                  )
+              ))
+              children = tuple(
+                  normalize(child)
+                  for child in element
+                  if child.tag != "portal_category_id"
+              )
+              value = element.text or ""
+              if not value.strip():
+                  value = ""
+              return element.tag, attrs, value, children
+
+          for section, tag in (
+              ("categories", "category"),
+              ("offers", "offer")
+          ):
+              before = original.findall(
+                  f"./shop/{section}/{tag}"
+              )
+              after = categorized.findall(
+                  f"./shop/{section}/{tag}"
+              )
+              assert len(before) == len(after), section
+
+              for a, b in zip(before, after):
+                  assert normalize(a) == normalize(b), (
+                      f"Unexpected change: {a.get('id')}"
+                  )
+
+              print(f"{section}: {len(before)} OK")
+
+          with open(
+              "category_report.json", encoding="utf-8"
+          ) as f:
+              report = json.load(f)
+
+          counts = report["counts"]
+          assert counts.get("unmapped", 0) == 0, (
+              "Unmapped supplier categories"
+          )
+
+          print("Category statistics:", counts)
+
+          os.replace(
+              "merged_prom_catalog_categorized.xml",
+              "merged_prom_catalog_test.xml"
+          )
+
+          print("CATEGORIZED XML VERIFIED")
+          PY
+    
 
       - name: Prepare website
         run: |
