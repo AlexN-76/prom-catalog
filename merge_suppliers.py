@@ -1,3 +1,4 @@
+import os
 import xml.etree.ElementTree as ET
 import requests
 from datetime import datetime
@@ -11,6 +12,11 @@ FEED_URLS = [
 ]
 
 OUTPUT_FILE = "merged_prom_catalog.xml"
+
+# Корректировки цен по артикулам: {"АРТИКУЛ": "НОВАЯ_ЦЕНА"}
+CUSTOM_PRICES = {
+    "ТР-00027103": "350"
+}
 
 def merge_feeds():
     yml_catalog = ET.Element("yml_catalog", date=datetime.now().strftime("%Y-%m-%d %H:%M"))
@@ -28,13 +34,36 @@ def merge_feeds():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
+    skipped_zero_prices = 0
+
     for idx, url in enumerate(FEED_URLS, start=1):
-        print(f"[{idx}/5] Скачиваем фид: {url}")
+        cache_file = f"cache_s{idx}.xml"
+        xml_content = None
+        
+        print(f"[{idx}/5] Загрузка фида: {url}")
         try:
             response = requests.get(url, headers=headers, timeout=60)
             response.raise_for_status()
+            xml_content = response.content
             
-            root = ET.fromstring(response.content)
+            with open(cache_file, "wb") as f:
+                f.write(xml_content)
+            print(f"   -> Успешно скачано и обновлено в кэше ({cache_file}).")
+        except Exception as e:
+            print(f"   [ВНИМАНИЕ] Сервер поставщика #{idx} недоступен: {e}")
+            if os.path.exists(cache_file):
+                print(f"   -> Загружаем данные из локального кэша: {cache_file}")
+                with open(cache_file, "rb") as f:
+                    xml_content = f.read()
+            else:
+                print(f"   [ОШИБКА] Кэш {cache_file} отсутствует, пропуск.")
+                continue
+
+        if not xml_content:
+            continue
+
+        try:
+            root = ET.fromstring(xml_content)
             shop_source = root.find("shop") if root.find("shop") is not None else root
             
             # 1. Валюты
@@ -66,6 +95,20 @@ def merge_feeds():
             offers_source = shop_source.find("offers")
             if offers_source is not None:
                 for offer in offers_source.findall("offer"):
+                    # Проверка корректности цены
+                    price_elem = offer.find("price")
+                    price_val = 0.0
+                    if price_elem is not None and price_elem.text:
+                        try:
+                            price_val = float(price_elem.text.replace(",", ".").strip())
+                        except ValueError:
+                            price_val = 0.0
+
+                    # Отфильтровываем товары с ценой менее 0.01 грн
+                    if price_val < 0.01:
+                        skipped_zero_prices += 1
+                        continue
+
                     orig_offer_id = offer.attrib.get("id", "")
                     offer.set("id", f"s{idx}_{orig_offer_id}")
                     
@@ -73,20 +116,32 @@ def merge_feeds():
                     if cat_id_elem is not None and cat_id_elem.text:
                         cat_id_elem.text = f"s{idx}_{cat_id_elem.text}"
                     
+                    # Модификация цен по артикулам
+                    art = (offer.findtext("article") or offer.findtext("vendorCode") or "").strip()
+                    if art in CUSTOM_PRICES:
+                        new_price = CUSTOM_PRICES[art]
+                        if price_elem is not None:
+                            price_elem.text = new_price
+                        else:
+                            ET.SubElement(offer, "price").text = new_price
+                        print(f"   [ЦЕНА ИЗМЕНЕНА] Товар {art}: установлена цена {new_price} грн")
+
                     offers_elem.append(offer)
 
-            print(f"   -> Успешно обработан.")
+            print(f"   -> Фид #{idx} успешно добавлен в каталог.")
 
         except Exception as e:
-            print(f"   [ОШИБКА] Ошибка загрузки фида #{idx}: {e}")
+            print(f"   [ОШИБКА] Разбор XML для фида #{idx} завершился с ошибкой: {e}")
 
     if not added_currencies:
         ET.SubElement(currencies_elem, "currency", id="UAH", rate="1")
 
+    print(f"\nОтфильтровано позиций с нулевой/некорректной ценой: {skipped_zero_prices}")
+
     tree = ET.ElementTree(yml_catalog)
     ET.indent(tree, space="  ", level=0)
     tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-    print(f"\nОбъединенный файл сохранен как {OUTPUT_FILE}")
+    print(f"Объединенный файл сохранен как {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     merge_feeds()
