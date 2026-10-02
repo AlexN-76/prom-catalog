@@ -1,35 +1,107 @@
+
 name: Merge Suppliers Feeds
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Запуск каждые 2 часа
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: prom-catalog-pages
+  cancel-in-progress: false
+
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
-      - name: Install dependencies
+      - name: Check backup and database
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
+          test -s merged_prom_catalog.xml
+          test -s prom_existing_products_safe.csv
+          test -s merge_suppliers_safe.py
 
-      - name: Run merge script
-        run: python merge_suppliers.py
-
-      - name: Commit and Push merged XML
+      - name: Generate safe XML
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          python merge_suppliers_safe.py
+
+      - name: Validate generated catalog
+        run: |
+          python - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+
+          with open("merge_summary_test.json", encoding="utf-8") as f:
+              report = json.load(f)
+
+          root = ET.parse("merged_prom_catalog_test.xml").getroot()
+          offers = root.findall("./shop/offers/offer")
+          ids = [o.get("id") for o in offers]
+
+          assert len(offers) > 0, "Empty catalog"
+          assert len(ids) == len(set(ids)), "Duplicate offer IDs"
+          assert len(offers) == report["output_offers"], "Count mismatch"
+
+          print("XML validation passed")
+          print("Offers:", len(offers))
+          print("Excluded:", report["excluded"])
+          PY
+
+      - name: Prepare website
+        run: |
+          mkdir -p _site
+          cp merged_prom_catalog_test.xml \
+            _site/merged_prom_catalog.xml
+          echo '<!doctype html><title>Prom Catalog</title>' \
+            > _site/index.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Save published XML as backup
+        run: |
+          cp merged_prom_catalog_test.xml merged_prom_catalog.xml
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "github-actions[bot]@users.noreply.github.com"
           git add merged_prom_catalog.xml
-          git commit -m "Auto-update merged suppliers catalog" || exit 0
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Update safe suppliers catalog"
+            git push origin HEAD:main
+          fi
+
+      - name: Save diagnostic reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: prom-import-reports
+          path: |
+            merge_summary_test.json
+            merge_exclusions_test.csv
+          retention-days: 14
