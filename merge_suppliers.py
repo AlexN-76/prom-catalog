@@ -30,11 +30,13 @@ def merge_feeds():
     offers_elem = ET.SubElement(shop, "offers")
     
     added_currencies = set()
+    seen_offer_ids = set()
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
     skipped_zero_prices = 0
+    skipped_duplicate_offers = 0
 
     for idx, url in enumerate(FEED_URLS, start=1):
         cache_file = f"cache_s{idx}.xml"
@@ -75,18 +77,18 @@ def merge_feeds():
                         added_currencies.add(curr_id)
                         ET.SubElement(currencies_elem, "currency", curr.attrib)
             
-            # 2. Категории с изоляцией ID
+            # 2. Категории с изоляцией ID (чтобы структуры категорий разных поставщиков не смешивались)
             categories_source = shop_source.find("categories")
             if categories_source is not None:
                 for cat in categories_source.findall("category"):
                     orig_id = cat.attrib.get("id")
-                    new_id = f"s{idx}_{orig_id}"
+                    new_id = f"c{idx}_{orig_id}"
                     
                     new_cat_attrib = dict(cat.attrib)
                     new_cat_attrib["id"] = new_id
                     
                     if "parentId" in new_cat_attrib:
-                        new_cat_attrib["parentId"] = f"s{idx}_{new_cat_attrib['parentId']}"
+                        new_cat_attrib["parentId"] = f"c{idx}_{new_cat_attrib['parentId']}"
                     
                     new_cat = ET.SubElement(categories_elem, "category", new_cat_attrib)
                     new_cat.text = cat.text
@@ -95,7 +97,7 @@ def merge_feeds():
             offers_source = shop_source.find("offers")
             if offers_source is not None:
                 for offer in offers_source.findall("offer"):
-                    # Проверка корректности цены
+                    # Проверка корректности цены (отфильтровываем товары с ценой менее 0.01 грн)
                     price_elem = offer.find("price")
                     price_val = 0.0
                     if price_elem is not None and price_elem.text:
@@ -104,17 +106,21 @@ def merge_feeds():
                         except ValueError:
                             price_val = 0.0
 
-                    # Отфильтровываем товары с ценой менее 0.01 грн
                     if price_val < 0.01:
                         skipped_zero_prices += 1
                         continue
 
-                    orig_offer_id = offer.attrib.get("id", "")
-                    offer.set("id", f"s{idx}_{orig_offer_id}")
+                    # Сохраняем ОРИГИНАЛЬНЫЙ offer id без префиксов
+                    offer_id = offer.attrib.get("id", "")
+                    if offer_id in seen_offer_ids:
+                        skipped_duplicate_offers += 1
+                        continue
+                    seen_offer_ids.add(offer_id)
                     
+                    # Привязываем товар к изолированной категории
                     cat_id_elem = offer.find("categoryId")
                     if cat_id_elem is not None and cat_id_elem.text:
-                        cat_id_elem.text = f"s{idx}_{cat_id_elem.text}"
+                        cat_id_elem.text = f"c{idx}_{cat_id_elem.text}"
                     
                     # Модификация цен по артикулам
                     art = (offer.findtext("article") or offer.findtext("vendorCode") or "").strip()
@@ -137,6 +143,7 @@ def merge_feeds():
         ET.SubElement(currencies_elem, "currency", id="UAH", rate="1")
 
     print(f"\nОтфильтровано позиций с нулевой/некорректной ценой: {skipped_zero_prices}")
+    print(f"Пропущено повторных offer ID: {skipped_duplicate_offers}")
 
     tree = ET.ElementTree(yml_catalog)
     ET.indent(tree, space="  ", level=0)
