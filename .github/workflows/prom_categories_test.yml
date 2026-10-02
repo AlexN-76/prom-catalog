@@ -1,0 +1,88 @@
+name: Prom Categories Dry Run
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          test -s merged_prom_catalog.xml
+          test -s add_prom_categories_hybrid.py
+          test -s prom_category_mapping.csv
+          test -s prom_reference_categories.csv
+          test -s prom_product_category_overrides.csv
+
+      - name: Generate categorized XML
+        run: |
+          python3 add_prom_categories_hybrid.py \
+            --input merged_prom_catalog.xml \
+            --output categorized_test.xml \
+            --mapping prom_category_mapping.csv \
+            --reference prom_reference_categories.csv \
+            --overrides prom_product_category_overrides.csv \
+            --review category_review.csv \
+            --report category_report.json
+
+      - name: Verify product data unchanged
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          a = ET.parse("merged_prom_catalog.xml").getroot()
+          b = ET.parse("categorized_test.xml").getroot()
+
+          def normalize(e):
+              attrs = tuple(sorted(
+                  (k, v) for k, v in e.attrib.items()
+                  if not (
+                      e.tag == "category"
+                      and k == "portal_id"
+                  )
+              ))
+              children = tuple(
+                  normalize(c) for c in e
+                  if c.tag != "portal_category_id"
+              )
+              return (
+                  e.tag, attrs,
+                  (e.text or "").strip(), children
+              )
+
+          for section, tag in (
+              ("categories", "category"),
+              ("offers", "offer")
+          ):
+              old = a.findall(f"./shop/{section}/{tag}")
+              new = b.findall(f"./shop/{section}/{tag}")
+
+              assert len(old) == len(new), section
+
+              for x, y in zip(old, new):
+                  assert normalize(x) == normalize(y), (
+                      f"Unexpected change: {x.get('id')}"
+                  )
+
+              print(f"{section}: {len(old)} OK")
+
+          print("CATEGORY TEST PASSED")
+          PY
+
+      - name: Save reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: prom-category-test
+          path: |
+            category_report.json
+            category_review.csv
+          retention-days: 7
