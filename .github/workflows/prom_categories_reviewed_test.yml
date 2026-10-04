@@ -1,0 +1,65 @@
+name: Prom Categories Reviewed - Dry Run 1282
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-reviewed-categories:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required files
+        run: |
+          for f in merged_prom_catalog.xml add_prom_categories_hybrid.py validate_prom_category_diff.py \
+            prom_category_mapping.csv prom_reference_categories.csv prom_product_category_overrides.csv \
+            prom_reviewed_category_decisions_1282.csv prom_reviewed_extra_categories.csv \
+            apply_reviewed_category_decisions.py verify_reviewed_preview.py; do
+              test -s "$f" || { echo "Missing file: $f"; exit 1; }
+          done
+      - name: Existing hybrid classifier (preview only)
+        run: |
+          python3 add_prom_categories_hybrid.py \
+            --input merged_prom_catalog.xml \
+            --output preview_hybrid.xml \
+            --mapping prom_category_mapping.csv \
+            --reference prom_reference_categories.csv \
+            --overrides prom_product_category_overrides.csv \
+            --review prom_categories_review.csv \
+            --report prom_hybrid_category_report.json
+      - name: Apply 1282 approved decisions (preview only)
+        run: |
+          python3 apply_reviewed_category_decisions.py \
+            --input preview_hybrid.xml \
+            --output preview_reviewed.xml \
+            --decisions prom_reviewed_category_decisions_1282.csv \
+            --reference prom_reference_categories.csv \
+            --extra-categories prom_reviewed_extra_categories.csv \
+            --report prom_reviewed_category_report.json
+      - name: Check non-category fields unchanged
+        run: |
+          python3 validate_prom_category_diff.py \
+            --input preview_hybrid.xml \
+            --output preview_reviewed.xml \
+            --report prom_hybrid_category_report.json
+      - name: Check every approved ID and SOLOMON 29865
+        run: |
+          python3 verify_reviewed_preview.py \
+            --xml preview_reviewed.xml \
+            --decisions prom_reviewed_category_decisions_1282.csv \
+            --report prom_reviewed_verification.json
+      - name: Attach test reports only (no publishing)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prom-categories-1282-preview-results
+          path: |
+            prom_hybrid_category_report.json
+            prom_reviewed_category_report.json
+            prom_reviewed_verification.json
+            prom_categories_review.csv
+          retention-days: 14
+          if-no-files-found: warn
