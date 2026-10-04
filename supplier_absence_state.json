@@ -13939,7 +13939,11 @@
     "f748434f-c1ab-4beb-85ee-29de86986acb": "c5_d191ae68-f2ee-4472-8036-e37d06c8ffc9"
   },
   "missing_streak": {},
-  "processed_generation_ids": [],
+  "processed_generation_ids": [
+    "37241345053"
+  ],
   "baseline_workflow_run_number": 21,
-  "baseline_workflow_run_id": 37232728103
+  "baseline_workflow_run_id": 37232728103,
+  "last_processed_workflow_run_number": 22,
+  "last_processed_workflow_run_id": "37241345053"
 }
