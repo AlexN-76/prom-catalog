@@ -1,0 +1,4 @@
+portal_category_id,category_name,origin
+64403,Запчасти для стиральных и сушильных машин,Real Prom API category observed in audit and explicitly approved
+82105,Моющие и чистящие средства,Real Prom API category observed in audit and explicitly approved
+131018,Труби з полівінілхлориду,Official Prom category XML provided by user; accepted PVC pipe category
