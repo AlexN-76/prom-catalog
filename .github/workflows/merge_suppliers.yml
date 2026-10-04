@@ -146,6 +146,26 @@ jobs:
 
           print("CATEGORIZED XML VERIFIED")
           PY
+      - name: Apply 1282 reviewed Prom categories
+        run: |
+          python3 apply_reviewed_category_decisions.py \
+            --input merged_prom_catalog_test.xml \
+            --output merged_prom_catalog_reviewed.xml \
+            --decisions prom_reviewed_category_decisions_1282.csv \
+            --reference prom_reference_categories.csv \
+            --extra-categories prom_reviewed_extra_categories.csv \
+            --report prom_reviewed_category_report.json
+
+      - name: Verify reviewed categories and activate XML
+        run: |
+          python3 validate_prom_category_diff.py \
+            --input merged_prom_catalog_test.xml \
+            --output merged_prom_catalog_reviewed.xml
+          python3 verify_reviewed_preview.py \
+            --xml merged_prom_catalog_reviewed.xml \
+            --decisions prom_reviewed_category_decisions_1282.csv \
+            --report prom_reviewed_verification.json
+          mv merged_prom_catalog_reviewed.xml merged_prom_catalog_test.xml    
     
 
       - name: Prepare website
