@@ -38,6 +38,8 @@ jobs:
           test -s merged_prom_catalog.xml
           test -s prom_existing_products_safe.csv
           test -s merge_suppliers_safe.py
+          test -s supplier_absence_observer.py
+          test -s supplier_absence_state.json
 
       - name: Generate safe XML
         run: |
@@ -168,6 +170,24 @@ jobs:
           mv merged_prom_catalog_reviewed.xml merged_prom_catalog_test.xml    
     
 
+      # State is only proposed here. No Prom API writes; on failure there is
+      # no deployment and no state commit. Each supplier is evaluated only
+      # when its source is fresh and all final-XML checks have passed.
+      - name: Observe supplier absences (dry-run only)
+        env:
+          OBS_RUN_ID: ${{ github.run_id }}
+          OBS_RUN_NUMBER: ${{ github.run_number }}
+        run: |
+          python3 supplier_absence_observer.py \
+            --run-id "$OBS_RUN_ID" \
+            --run-number "$OBS_RUN_NUMBER" \
+            --state supplier_absence_state.json \
+            --summary merge_summary_test.json \
+            --observations supplier_observations_test.json \
+            --feed merged_prom_catalog_test.xml \
+            --output-state supplier_absence_next_state.json \
+            --report supplier_absence_report.json
+
       - name: Prepare website
         run: |
           mkdir -p _site
@@ -190,11 +210,13 @@ jobs:
 
       - name: Save published XML as backup
         run: |
+          test -s supplier_absence_next_state.json
+          mv supplier_absence_next_state.json supplier_absence_state.json
           cp merged_prom_catalog_test.xml merged_prom_catalog.xml
           git config user.name "github-actions[bot]"
           git config user.email \
             "github-actions[bot]@users.noreply.github.com"
-          git add merged_prom_catalog.xml
+          git add merged_prom_catalog.xml supplier_absence_state.json
           if ! git diff --cached --quiet; then
             git commit -m "Update safe suppliers catalog"
             git push origin HEAD:main
@@ -207,4 +229,5 @@ jobs:
           path: |
             merge_summary_test.json
             merge_exclusions_test.csv
+            supplier_absence_report.json
           retention-days: 14

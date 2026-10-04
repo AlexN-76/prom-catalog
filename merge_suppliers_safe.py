@@ -17,6 +17,7 @@ OLD_SCRIPT = BASE / "merge_suppliers.py"
 OUTPUT = BASE / "merged_prom_catalog_test.xml"
 EXCLUSIONS = BASE / "merge_exclusions_test.csv"
 REPORT = BASE / "merge_summary_test.json"
+OBSERVATIONS = BASE / "supplier_observations_test.json"
 
 SUPPLIERS = {
     1: "SANDI",
@@ -189,13 +190,17 @@ def download_supplier(number, url):
         categories.append(item)
 
     offers = []
+    raw_offer_ids = []
+    raw_seen = set()
 
     for offer in source_offers:
         oid = (offer.get("id") or "").strip()
         cid = (offer.findtext("categoryId") or "").strip()
 
-        if not oid:
-            raise RuntimeError("Товар без offer id")
+        if not oid or oid in raw_seen:
+            raise RuntimeError(f"Пустой или повторный ID у поставщика: {oid!r}")
+        raw_seen.add(oid)
+        raw_offer_ids.append(oid)
 
         if cid not in category_ids:
             raise RuntimeError(
@@ -223,6 +228,7 @@ def download_supplier(number, url):
     return {
         "categories": categories,
         "offers": offers,
+        "raw_offer_ids": raw_offer_ids,
     }, currencies
 
 
@@ -441,6 +447,27 @@ def main():
     REPORT.write_text(
         json.dumps(summary, ensure_ascii=False, indent=2),
         encoding="utf-8"
+    )
+
+    # Observe all raw supplier IDs BEFORE filtering price and duplicates.
+    # A cached feed NEVER counts as a new supplier observation.
+    observations = {
+        "schema": "supplier_observations_v1",
+        "suppliers": {},
+    }
+    for number, name in SUPPLIERS.items():
+        status = statuses[name]["source"]
+        raw = (supplier_data[number]["raw_offer_ids"]
+               if status == "fresh" else [])
+        observations["suppliers"][str(number)] = {
+            "name": name,
+            "source": status,
+            "raw_offer_count": len(raw),
+            "raw_offer_ids": raw,
+        }
+    OBSERVATIONS.write_text(
+        json.dumps(observations, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
     )
 
     print("\n=== ИТОГ ===")
