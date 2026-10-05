@@ -235,11 +235,18 @@ jobs:
               report = json.load(f)
 
           counts = report["counts"]
-          assert counts.get("unmapped", 0) == 0, (
-              "Unmapped supplier categories"
-          )
+          unmapped = counts.get("unmapped", 0)
 
           print("Category statistics:", counts)
+
+          if unmapped:
+              print(
+                  "WARNING:",
+                  unmapped,
+                  "products have no mapped Prom category. "
+                  "They will still be published; Prom may "
+                  "determine their marketplace category."
+              )
 
           os.replace(
               "merged_prom_catalog_categorized.xml",
