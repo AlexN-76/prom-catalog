@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -207,19 +207,3 @@ jobs:
       - name: Deploy both feeds to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      # TRANSITION ONLY:
-      # Keep the old Git/raw URL alive until Rozetka is confirmed to use
-      # https://alexn-76.github.io/prom-catalog/rozetka_clean.xml
-      - name: Keep legacy tracked Rozetka feed during transition
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email \
-            "github-actions[bot]@users.noreply.github.com"
-
-          git add rozetka_clean.xml
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-update feed"
-            git push origin HEAD:main
-          fi
