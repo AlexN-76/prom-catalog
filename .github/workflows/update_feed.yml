@@ -2,30 +2,224 @@ name: Update Rozetka Feed
 
 on:
   schedule:
-    - cron: '0 * * * *' # Автозапуск каждый час
-  workflow_dispatch: # Кнопка для ручного запуска
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Serialize every GitHub Pages deployment with the Prom feed workflow.
+concurrency:
+  group: prom-catalog-pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - uses: actions/checkout@v3
-      
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.x'
-          
+          python-version: '3.12'
+
       - name: Install dependencies
-        run: pip install requests
-        
-      - name: Run script
+        run: python -m pip install requests
+
+      - name: Generate Rozetka XML
         run: python script.py
-        
-      - name: Commit and Push cleaned XML
+
+      - name: Validate generated Rozetka XML
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          path = Path('rozetka_clean.xml')
+          if not path.is_file():
+              raise RuntimeError('rozetka_clean.xml was not created')
+
+          size = path.stat().st_size
+          if size < 1_000_000:
+              raise RuntimeError(
+                  f'Rozetka feed is unexpectedly small: {size}'
+              )
+
+          offers = 0
+          for _, elem in ET.iterparse(path, events=('end',)):
+              if elem.tag == 'offer':
+                  offers += 1
+              elem.clear()
+
+          if offers < 1_000:
+              raise RuntimeError(
+                  f'Rozetka feed has too few offers: {offers}'
+              )
+
+          print('Rozetka XML validation passed')
+          print('Bytes:', size)
+          print('Offers:', offers)
+          PY
+
+      - name: Fetch exact current Prom feed from Pages
+        env:
+          PROM_PAGES_URL: https://alexn-76.github.io/prom-catalog/merged_prom_catalog.xml
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import time
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          url = os.environ['PROM_PAGES_URL']
+          target = Path('merged_prom_for_pages.xml')
+          temp = Path('merged_prom_for_pages.xml.download')
+
+          state = json.loads(
+              Path('supplier_absence_state.json').read_text(
+                  encoding='utf-8-sig'
+              )
+          )
+
+          expected_sha = str(
+              state.get('published_feed_sha256') or ''
+          ).strip().lower()
+
+          if not expected_sha:
+              raise RuntimeError(
+                  'No published Prom feed SHA-256 in state'
+              )
+
+          last_error = None
+
+          for attempt in range(1, 5):
+              try:
+                  req = urllib.request.Request(
+                      url,
+                      headers={
+                          'User-Agent': 'rozetka-pages-bridge/1.0',
+                          'Cache-Control': 'no-cache',
+                      },
+                  )
+
+                  h = hashlib.sha256()
+                  size = 0
+
+                  with urllib.request.urlopen(
+                      req, timeout=180
+                  ) as response, temp.open('wb') as f:
+                      while True:
+                          chunk = response.read(1024 * 1024)
+                          if not chunk:
+                              break
+                          f.write(chunk)
+                          h.update(chunk)
+                          size += len(chunk)
+
+                  actual_sha = h.hexdigest()
+
+                  if actual_sha != expected_sha:
+                      raise RuntimeError(
+                          'Prom Pages SHA-256 mismatch: '
+                          f'{actual_sha} != {expected_sha}'
+                      )
+
+                  if size < 1_000_000:
+                      raise RuntimeError(
+                          f'Prom feed unexpectedly small: {size}'
+                      )
+
+                  offers = 0
+                  for _, elem in ET.iterparse(
+                      temp, events=('end',)
+                  ):
+                      if elem.tag == 'offer':
+                          offers += 1
+                      elem.clear()
+
+                  if offers < 10_000:
+                      raise RuntimeError(
+                          f'Prom feed has too few offers: {offers}'
+                      )
+
+                  temp.replace(target)
+
+                  print('Prom Pages feed verified')
+                  print('Bytes:', size)
+                  print('Offers:', offers)
+                  print('SHA256:', actual_sha)
+                  break
+
+              except Exception as exc:
+                  last_error = exc
+                  temp.unlink(missing_ok=True)
+
+                  if attempt == 4:
+                      raise
+
+                  print(
+                      f'Attempt {attempt}/4 failed: {exc}. '
+                      'Retrying in 15 seconds...'
+                  )
+                  time.sleep(15)
+
+          else:
+              raise RuntimeError(str(last_error))
+          PY
+
+      - name: Prepare joint Pages site
+        run: |
+          mkdir -p _site
+
+          cp merged_prom_for_pages.xml \
+            _site/merged_prom_catalog.xml
+
+          cp rozetka_clean.xml \
+            _site/rozetka_clean.xml
+
+          echo '<!doctype html><title>Marketplace Feeds</title>' \
+            > _site/index.html
+
+          test -s _site/merged_prom_catalog.xml
+          test -s _site/rozetka_clean.xml
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy both feeds to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      # TRANSITION ONLY:
+      # Keep the old Git/raw URL alive until Rozetka is confirmed to use
+      # https://alexn-76.github.io/prom-catalog/rozetka_clean.xml
+      - name: Keep legacy tracked Rozetka feed during transition
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "github-actions[bot]@users.noreply.github.com"
+
           git add rozetka_clean.xml
-          git commit -m "Auto-update feed" || exit 0
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update feed"
+            git push origin HEAD:main
+          fi
