@@ -1,0 +1,67 @@
+name: Repository Keepalive
+
+on:
+  schedule:
+    # Проверка раз в неделю.
+    # Коммит создаётся только если репозиторий не менялся >= 40 дней.
+    - cron: '23 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prom-catalog-pages
+  cancel-in-progress: false
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Check repository inactivity
+        id: check
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          NOW="$(date +%s)"
+          LAST_COMMIT="$(git log -1 --format=%ct)"
+          AGE_DAYS="$(( (NOW - LAST_COMMIT) / 86400 ))"
+
+          echo "Last repository commit: $AGE_DAYS days ago"
+
+          if [ "$AGE_DAYS" -ge 40 ]; then
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+            echo "Keepalive commit is required."
+          else
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+            echo "No keepalive commit required."
+          fi
+
+      - name: Create keepalive commit
+        if: steps.check.outputs.needed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          date -u +"%Y-%m-%dT%H:%M:%SZ" \
+            > .github/keepalive.txt
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "github-actions[bot]@users.noreply.github.com"
+
+          git add .github/keepalive.txt
+          git commit -m "Keep scheduled workflows active"
+
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
