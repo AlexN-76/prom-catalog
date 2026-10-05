@@ -13944,10 +13944,16 @@
     "37241870582",
     "37246977580",
     "37276881181",
-    "37280070042"
+    "37280070042",
+    "37292566503"
   ],
   "baseline_workflow_run_number": 21,
   "baseline_workflow_run_id": 37232728103,
-  "last_processed_workflow_run_number": 26,
-  "last_processed_workflow_run_id": "37280070042"
+  "last_processed_workflow_run_number": 27,
+  "last_processed_workflow_run_id": "37292566503",
+  "published_feed_sha256": "3473d8d96b51919e783591a4d1d56d412400e818970bc5af17393129f0e44b2f",
+  "published_feed_size_bytes": 67941093,
+  "published_feed_offer_count": 13933,
+  "published_feed_workflow_run_id": "37292566503",
+  "published_feed_workflow_run_number": 27
 }
