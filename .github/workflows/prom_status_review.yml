@@ -7,10 +7,12 @@ on:
 
 permissions:
   actions: read
-  contents: read
+  contents: write
 
+# Use the same concurrency group as Merge Suppliers Feeds.
+# This prevents catalog/state commits and hide-journal commits from racing each other.
 concurrency:
-  group: prom-supplier-status-review
+  group: prom-catalog-pages
   cancel-in-progress: false
 
 jobs:
@@ -21,11 +23,14 @@ jobs:
       github.event.workflow_run.event != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 25
+
     steps:
       - name: Checkout current catalog and observer state
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -49,24 +54,49 @@ jobs:
           python3 - <<'PY'
           import json, os
           from pathlib import Path
-          state = json.loads(Path('supplier_absence_state.json').read_text(encoding='utf-8'))
-          report = json.loads((Path(os.environ['REPORT_DIR']) / 'supplier_absence_report.json').read_text(encoding='utf-8'))
+
+          state = json.loads(
+              Path('supplier_absence_state.json').read_text(encoding='utf-8')
+          )
+          report = json.loads(
+              (Path(os.environ['REPORT_DIR']) / 'supplier_absence_report.json')
+              .read_text(encoding='utf-8')
+          )
+
           expected = str(os.environ['EXPECTED_RUN_ID'])
+
           assert str(report.get('run_id')) == expected, 'wrong run report'
           assert report.get('mode') == 'READ_ONLY_DRY_RUN', 'wrong observer mode'
           assert report.get('no_prom_api_calls') is True, 'unexpected observer report'
           assert not report.get('skipped'), 'observer skipped generation'
-          # If a newer generation has already committed its state, do not process stale reports.
+
           current = str(state.get('last_processed_workflow_run_id')) == expected
-          current &= expected in set(map(str, state.get('processed_generation_ids', [])))
-          current &= state.get('last_processed_workflow_run_number') == report.get('run_number')
+          current &= expected in set(
+              map(str, state.get('processed_generation_ids', []))
+          )
+          current &= (
+              state.get('last_processed_workflow_run_number')
+              == report.get('run_number')
+          )
+
           count = report.get('candidate_review_only')
           assert type(count) is int and count >= 0, 'invalid candidate count'
-          assert isinstance(report.get('candidates_for_manual_review'), list), 'missing candidate list'
-          assert len(report['candidates_for_manual_review']) == count, 'candidate count mismatch'
+          assert isinstance(
+              report.get('candidates_for_manual_review'), list
+          ), 'missing candidate list'
+          assert (
+              len(report['candidates_for_manual_review']) == count
+          ), 'candidate count mismatch'
+
           needed = current and count > 0
-          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
-              output.write(f"has_candidates={'true' if needed else 'false'}\n")
+
+          with open(
+              os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8'
+          ) as output:
+              output.write(
+                  f"has_candidates={'true' if needed else 'false'}\n"
+              )
+
           print('Generation matches committed state:', current)
           print('Candidates reported:', count)
           print('Prom API read required:', needed)
@@ -78,8 +108,14 @@ jobs:
           PROM_API_TOKEN: ${{ secrets.PROM_API_TOKEN }}
           REPORT_DIR: ${{ runner.temp }}/prom-status-audit
         run: |
-          test -n "$PROM_API_TOKEN" || { echo 'PROM_API_TOKEN is missing'; exit 1; }
-          python3 prom_live_api_readonly.py --full --min-expected 11000 \
+          test -n "$PROM_API_TOKEN" || {
+            echo 'PROM_API_TOKEN is missing'
+            exit 1
+          }
+
+          python3 prom_live_api_readonly.py \
+            --full \
+            --min-expected 11000 \
             --output "$REPORT_DIR/prom_snapshot.csv"
 
       - name: Recover protected manual list privately
@@ -91,22 +127,52 @@ jobs:
           python3 - <<'PY'
           import base64, csv, io, os
           from pathlib import Path
+
           payload = os.environ.get('PROM_PROTECTED_59_B64', '')
           assert payload, 'PROM_PROTECTED_59_B64 is missing'
+
           raw = base64.b64decode(payload, validate=True)
           assert len(raw) < 48000, 'unreasonable protected list size'
-          rows = list(csv.DictReader(io.StringIO(raw.decode('utf-8-sig')), delimiter=';'))
-          assert len(rows) == 59, 'protected registry must contain exactly 59 rows'
-          assert all(r.get('protect', '').strip().upper() == 'YES' for r in rows), 'bad protection flag'
-          ids = [r.get('prom_internal_id', '').strip() for r in rows]
-          assert len(set(ids)) == 59 and all(v.isdigit() for v in ids), 'bad internal IDs'
-          p = Path(os.environ['REPORT_DIR']) / 'manual_protected.csv'
+
+          rows = list(
+              csv.DictReader(
+                  io.StringIO(raw.decode('utf-8-sig')),
+                  delimiter=';'
+              )
+          )
+
+          assert len(rows) == 59, (
+              'protected registry must contain exactly 59 rows'
+          )
+          assert all(
+              r.get('protect', '').strip().upper() == 'YES'
+              for r in rows
+          ), 'bad protection flag'
+
+          ids = [
+              r.get('prom_internal_id', '').strip()
+              for r in rows
+          ]
+
+          assert (
+              len(set(ids)) == 59
+              and all(v.isdigit() for v in ids)
+          ), 'bad internal IDs'
+
+          p = (
+              Path(os.environ['REPORT_DIR'])
+              / 'manual_protected.csv'
+          )
           p.write_bytes(raw)
           p.chmod(0o600)
-          print('Private protection registry: 59 entries validated')
+
+          print(
+              'Private protection registry: '
+              '59 entries validated'
+          )
           PY
 
-      - name: Prepare candidate review (no status changes)
+      - name: Prepare candidate review
         if: steps.decision.outputs.has_candidates == 'true'
         env:
           REPORT_DIR: ${{ runner.temp }}/prom-status-audit
@@ -120,9 +186,310 @@ jobs:
             --baseline prom_existing_products_safe.csv \
             --output "$REPORT_DIR/review_only.csv" \
             --snapshot-max-age-hours 6
-          echo 'Review generated privately. No data uploaded, no POST/PATCH/DELETE requests.'
 
-      - name: Confirm no auto-write path was enabled
+      - name: Select at most one exact candidate
+        id: candidate
+        if: steps.decision.outputs.has_candidates == 'true'
+        env:
+          REPORT_DIR: ${{ runner.temp }}/prom-status-audit
         run: |
-          echo 'READ-ONLY: this workflow never executes prom_one_hide.py.'
-          echo 'No Prom.ua product statuses were changed by this workflow.'
+          python3 - <<'PY'
+          import csv, os
+          from pathlib import Path
+
+          path = (
+              Path(os.environ['REPORT_DIR'])
+              / 'review_only.csv'
+          )
+
+          with path.open(
+              encoding='utf-8-sig',
+              newline=''
+          ) as f:
+              rows = list(csv.DictReader(f, delimiter=';'))
+
+          exact = [
+              r for r in rows
+              if r.get('assessment') == 'review_only'
+              and r.get('status') == 'on_display'
+              and (r.get('prom_internal_id') or '').isdigit()
+              and (r.get('missing_streak') or '').isdigit()
+              and int(r['missing_streak']) >= 3
+          ]
+
+          exact.sort(
+              key=lambda r: int(r['prom_internal_id'])
+          )
+
+          with open(
+              os.environ['GITHUB_OUTPUT'],
+              'a',
+              encoding='utf-8'
+          ) as out:
+              out.write(f"exact_count={len(exact)}\n")
+
+              if exact:
+                  c = exact[0]
+                  out.write(
+                      f"internal_id="
+                      f"{c['prom_internal_id']}\n"
+                  )
+                  out.write(
+                      f"import_id={c['import_id']}\n"
+                  )
+                  out.write(
+                      f"sku={c['sku']}\n"
+                  )
+              else:
+                  out.write("internal_id=\n")
+                  out.write("import_id=\n")
+                  out.write("sku=\n")
+
+          print(
+              'Exact on-display candidates:',
+              len(exact)
+          )
+
+          if exact:
+              print(
+                  'This run may process ONE card:',
+                  exact[0]['prom_internal_id']
+              )
+          PY
+
+      - name: Show automatic-write switch
+        if: steps.decision.outputs.has_candidates == 'true'
+        env:
+          AUTO_HIDE: ${{ vars.PROM_AUTO_HIDE_ENABLED }}
+        run: |
+          if [ "$AUTO_HIDE" = "YES" ]; then
+            echo 'PROM_AUTO_HIDE_ENABLED=YES'
+            echo 'Automatic one-card execution is enabled.'
+          else
+            echo 'Automatic execution is OFF.'
+            echo 'Set repository variable PROM_AUTO_HIDE_ENABLED=YES to enable it.'
+          fi
+
+      - name: Create durable pre-POST lock
+        id: lock
+        if: >-
+          steps.decision.outputs.has_candidates == 'true' &&
+          steps.candidate.outputs.internal_id != '' &&
+          vars.PROM_AUTO_HIDE_ENABLED == 'YES'
+        env:
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          RUN_NUMBER: ${{ github.event.workflow_run.run_number }}
+          INTERNAL_ID: ${{ steps.candidate.outputs.internal_id }}
+          IMPORT_ID: ${{ steps.candidate.outputs.import_id }}
+          SKU: ${{ steps.candidate.outputs.sku }}
+          LOCK_MARKER: ${{ runner.temp }}/prom-hide-proceed
+        run: |
+          set -e
+
+          mkdir -p prom_hide_journal
+          rm -f "$LOCK_MARKER"
+
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          rid = os.environ['INTERNAL_ID']
+          run_id = os.environ['RUN_ID']
+          path = Path('prom_hide_journal') / f'{rid}.json'
+
+          previous = None
+          if path.exists():
+              previous = json.loads(
+                  path.read_text(encoding='utf-8')
+              )
+
+          blocked = (
+              isinstance(previous, dict)
+              and previous.get('status')
+              in {
+                  'PREPARED',
+                  'NEEDS_MANUAL_VERIFICATION',
+              }
+          )
+
+          with open(
+              os.environ['GITHUB_OUTPUT'],
+              'a',
+              encoding='utf-8'
+          ) as out:
+              out.write(
+                  f"proceed={'false' if blocked else 'true'}\n"
+              )
+
+          if blocked:
+              print(
+                  'AUTO-HIDE BLOCKED: unresolved previous '
+                  'attempt for internal ID',
+                  rid
+              )
+              raise SystemExit(0)
+
+          Path(os.environ['LOCK_MARKER']).write_text(
+              'YES\n', encoding='utf-8'
+          )
+
+          now = datetime.now(timezone.utc).isoformat()
+
+          record = {
+              'schema': 'prom_hide_lock_v1',
+              'status': 'PREPARED',
+              'prepared_utc': now,
+              'workflow_run_id': run_id,
+              'workflow_run_number': int(
+                  os.environ['RUN_NUMBER']
+              ),
+              'prom_internal_id': rid,
+              'import_id': os.environ['IMPORT_ID'],
+              'sku': os.environ['SKU'],
+              'desired_status': 'not_on_display',
+              'max_cards_this_run': 1,
+          }
+
+          path.write_text(
+              json.dumps(
+                  record,
+                  ensure_ascii=False,
+                  indent=2
+              ) + '\n',
+              encoding='utf-8'
+          )
+
+          print('Durable lock prepared:', path)
+          PY
+
+          if [ ! -f "$LOCK_MARKER" ]; then
+            echo 'No durable lock created; no Prom POST will be allowed.'
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "github-actions[bot]@users.noreply.github.com"
+
+          git add "prom_hide_journal/$INTERNAL_ID.json"
+          git commit -m \
+            "Prepare Prom hide $INTERNAL_ID from run $RUN_ID"
+
+          # This push MUST succeed before any POST to Prom.ua.
+          git push origin HEAD:main
+
+      - name: Hide exactly one confirmed product
+        id: hide
+        if: >-
+          steps.lock.outputs.proceed == 'true' &&
+          vars.PROM_AUTO_HIDE_ENABLED == 'YES'
+        continue-on-error: true
+        env:
+          PROM_API_TOKEN: ${{ secrets.PROM_API_TOKEN }}
+          PROM_ENABLE_SINGLE_WRITE: YES
+          REPORT_DIR: ${{ runner.temp }}/prom-status-audit
+          INTERNAL_ID: ${{ steps.candidate.outputs.internal_id }}
+        run: |
+          test -n "$PROM_API_TOKEN" || {
+            echo 'PROM_API_TOKEN is missing'
+            exit 1
+          }
+
+          python3 prom_one_hide.py \
+            --state supplier_absence_state.json \
+            --report "$REPORT_DIR/supplier_absence_report.json" \
+            --feed merged_prom_catalog.xml \
+            --snapshot "$REPORT_DIR/prom_snapshot.csv" \
+            --protected "$REPORT_DIR/manual_protected.csv" \
+            --baseline prom_existing_products_safe.csv \
+            --journal "$REPORT_DIR/local_exec_journal" \
+            --execute \
+            --confirm-internal-id "$INTERNAL_ID"
+
+      - name: Finalize durable hide journal
+        if: >-
+          always() &&
+          steps.lock.outputs.proceed == 'true' &&
+          vars.PROM_AUTO_HIDE_ENABLED == 'YES'
+        env:
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          INTERNAL_ID: ${{ steps.candidate.outputs.internal_id }}
+          HIDE_OUTCOME: ${{ steps.hide.outcome }}
+        run: |
+          set -e
+
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          rid = os.environ['INTERNAL_ID']
+          run_id = os.environ['RUN_ID']
+          outcome = os.environ.get('HIDE_OUTCOME', '')
+
+          path = Path('prom_hide_journal') / f'{rid}.json'
+          record = json.loads(
+              path.read_text(encoding='utf-8')
+          )
+
+          assert record.get('status') == 'PREPARED'
+          assert str(record.get('workflow_run_id')) == str(run_id)
+          assert str(record.get('prom_internal_id')) == str(rid)
+
+          if outcome == 'success':
+              record['status'] = 'VERIFIED_HIDDEN'
+              record['verified_utc'] = (
+                  datetime.now(timezone.utc).isoformat()
+              )
+          else:
+              record['status'] = 'NEEDS_MANUAL_VERIFICATION'
+              record['failed_or_uncertain_utc'] = (
+                  datetime.now(timezone.utc).isoformat()
+              )
+
+          path.write_text(
+              json.dumps(
+                  record,
+                  ensure_ascii=False,
+                  indent=2
+              ) + '\n',
+              encoding='utf-8'
+          )
+
+          print(
+              'Journal finalized:',
+              record['status']
+          )
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "github-actions[bot]@users.noreply.github.com"
+
+          git add "prom_hide_journal/$INTERNAL_ID.json"
+          git commit -m \
+            "Finalize Prom hide $INTERNAL_ID from run $RUN_ID"
+          git push origin HEAD:main
+
+      - name: Fail visibly if Prom write was not verified
+        if: >-
+          steps.lock.outputs.proceed == 'true' &&
+          vars.PROM_AUTO_HIDE_ENABLED == 'YES' &&
+          steps.hide.outcome != 'success'
+        run: |
+          echo 'Prom write was attempted but not verified.'
+          echo 'The durable journal blocks automatic retry.'
+          echo 'Check this exact card manually in Prom.ua.'
+          exit 1
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "Observer run: ${{ github.event.workflow_run.run_number }}"
+          echo "Candidates in observer: ${{ steps.decision.outputs.has_candidates }}"
+          echo "Exact review candidates: ${{ steps.candidate.outputs.exact_count }}"
+          echo "Selected internal ID: ${{ steps.candidate.outputs.internal_id }}"
+          echo "Auto-hide switch: ${{ vars.PROM_AUTO_HIDE_ENABLED }}"
+          echo "Write outcome: ${{ steps.hide.outcome }}"
+          echo 'Maximum Prom writes per workflow run: 1'
