@@ -25,7 +25,7 @@ jobs:
     timeout-minutes: 25
 
     steps:
-      - name: Checkout current catalog and observer state
+      - name: Checkout current code and observer state
         uses: actions/checkout@v4
         with:
           ref: main
@@ -100,6 +100,120 @@ jobs:
           print('Generation matches committed state:', current)
           print('Candidates reported:', count)
           print('Prom API read required:', needed)
+          PY
+
+      - name: Fetch and verify exact published XML from Pages
+        if: steps.decision.outputs.has_candidates == 'true'
+        env:
+          EXPECTED_RUN_ID: ${{ github.event.workflow_run.id }}
+          REPORT_DIR: ${{ runner.temp }}/prom-status-audit
+          PUBLISHED_FEED_URL: https://alexn-76.github.io/prom-catalog/merged_prom_catalog.xml
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import time
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          report_dir = Path(os.environ['REPORT_DIR'])
+          target = report_dir / 'published_feed.xml'
+          temp = report_dir / 'published_feed.xml.download'
+          expected_run_id = str(os.environ['EXPECTED_RUN_ID'])
+
+          state = json.loads(
+              Path('supplier_absence_state.json').read_text(
+                  encoding='utf-8-sig'
+              )
+          )
+          report = json.loads(
+              (report_dir / 'supplier_absence_report.json').read_text(
+                  encoding='utf-8-sig'
+              )
+          )
+
+          expected_sha = str(
+              state.get('published_feed_sha256') or ''
+          ).strip().lower()
+          assert len(expected_sha) == 64, 'state has no published feed SHA256'
+          assert all(c in '0123456789abcdef' for c in expected_sha)
+          assert str(state.get('published_feed_workflow_run_id')) == expected_run_id
+          assert str(report.get('run_id')) == expected_run_id
+          assert str(report.get('published_feed_sha256')) == expected_sha
+
+          expected_size = int(state.get('published_feed_size_bytes') or 0)
+          expected_offers = int(state.get('published_feed_offer_count') or 0)
+          assert expected_size > 1_000_000
+          assert expected_offers >= 10_000
+
+          last_actual = ''
+          for attempt in range(1, 5):
+              req = urllib.request.Request(
+                  os.environ['PUBLISHED_FEED_URL'],
+                  headers={
+                      'User-Agent': 'prom-status-review/1.0',
+                      'Cache-Control': 'no-cache',
+                  },
+              )
+              h = hashlib.sha256()
+              size = 0
+              try:
+                  with urllib.request.urlopen(
+                      req, timeout=180
+                  ) as response, temp.open('wb') as f:
+                      while True:
+                          chunk = response.read(1024 * 1024)
+                          if not chunk:
+                              break
+                          f.write(chunk)
+                          h.update(chunk)
+                          size += len(chunk)
+
+                  actual = h.hexdigest()
+                  last_actual = actual
+                  if actual != expected_sha:
+                      raise RuntimeError(
+                          f'Pages SHA mismatch: {actual} != {expected_sha}'
+                      )
+                  if size != expected_size:
+                      raise RuntimeError(
+                          f'Pages size mismatch: {size} != {expected_size}'
+                      )
+
+                  offers = 0
+                  for _, elem in ET.iterparse(
+                      temp, events=('end',)
+                  ):
+                      if elem.tag == 'offer':
+                          offers += 1
+                      elem.clear()
+                  if offers != expected_offers:
+                      raise RuntimeError(
+                          f'Pages offer count mismatch: '
+                          f'{offers} != {expected_offers}'
+                      )
+
+                  temp.replace(target)
+                  print('Exact published feed verified')
+                  print('Bytes:', size)
+                  print('Offers:', offers)
+                  print('SHA256:', actual)
+                  break
+              except Exception as exc:
+                  temp.unlink(missing_ok=True)
+                  if attempt == 4:
+                      raise
+                  print(
+                      f'Attempt {attempt}/4 failed: {exc}. '
+                      'Waiting for Pages propagation...'
+                  )
+                  time.sleep(15)
+          else:
+              raise RuntimeError(
+                  f'Unable to verify Pages feed, last SHA={last_actual}'
+              )
           PY
 
       - name: Fetch current Prom.ua snapshot (GET only)
@@ -180,7 +294,7 @@ jobs:
           python3 prom_hide_review_plan.py \
             --state supplier_absence_state.json \
             --report "$REPORT_DIR/supplier_absence_report.json" \
-            --feed merged_prom_catalog.xml \
+            --feed "$REPORT_DIR/published_feed.xml" \
             --snapshot "$REPORT_DIR/prom_snapshot.csv" \
             --protected "$REPORT_DIR/manual_protected.csv" \
             --baseline prom_existing_products_safe.csv \
@@ -399,7 +513,7 @@ jobs:
           python3 prom_one_hide.py \
             --state supplier_absence_state.json \
             --report "$REPORT_DIR/supplier_absence_report.json" \
-            --feed merged_prom_catalog.xml \
+            --feed "$REPORT_DIR/published_feed.xml" \
             --snapshot "$REPORT_DIR/prom_snapshot.csv" \
             --protected "$REPORT_DIR/manual_protected.csv" \
             --baseline prom_existing_products_safe.csv \

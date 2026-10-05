@@ -15,3 +15,6 @@ Thumbs.db
 
 # Тимчасові файли Excel
 ~$*
+
+# Published Prom feed lives on GitHub Pages
+/merged_prom_catalog.xml
