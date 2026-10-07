@@ -2,7 +2,7 @@
   "schema": "supplier_absence_state_v1",
   "created_utc": "2026-10-04T20:59:07.862310+00:00",
   "baseline_feed_count": 13933,
-  "historical_ids_count": 14437,
+  "historical_ids_count": 14438,
   "last_known_category_by_id": {
     "SD00021924": "c1_862",
     "SD00022001": "c1_816",
@@ -14440,7 +14440,8 @@
     "0a0a802c-f6b6-4a94-88f0-8e9d21530375": "c5_e679a4a9-0158-4101-9206-332f81d1f22b",
     "baf82013-0cd6-4510-a3ce-308ad4b1cb86": "c5_23c6d203-11f7-4053-af59-6b254d5b6662",
     "ccf47a63-dfa8-40db-8f4e-5a7d7eccffcd": "c5_e679a4a9-0158-4101-9206-332f81d1f22b",
-    "1832635c-352f-433c-8879-18a6a45495ac": "c5_23c6d203-11f7-4053-af59-6b254d5b6662"
+    "1832635c-352f-433c-8879-18a6a45495ac": "c5_23c6d203-11f7-4053-af59-6b254d5b6662",
+    "rs4u39067": "c3_92"
   },
   "missing_streak": {},
   "processed_generation_ids": [
@@ -14457,15 +14458,16 @@
     "37452656167",
     "37504360151",
     "37537548839",
-    "37555947513"
+    "37555947513",
+    "37589913220"
   ],
   "baseline_workflow_run_number": 21,
   "baseline_workflow_run_id": 37232728103,
-  "last_processed_workflow_run_number": 36,
-  "last_processed_workflow_run_id": "37555947513",
-  "published_feed_sha256": "6b626701ac8471cd6ad8a8d74b17e769769ff8ab27e85029ef15be832716969b",
-  "published_feed_size_bytes": 70262374,
-  "published_feed_offer_count": 14437,
-  "published_feed_workflow_run_id": "37555947513",
-  "published_feed_workflow_run_number": 36
+  "last_processed_workflow_run_number": 37,
+  "last_processed_workflow_run_id": "37589913220",
+  "published_feed_sha256": "1ef3e440c1d8cfd4f0768866f02a845b8548cb4025cca872ac3ef6c656a1bbeb",
+  "published_feed_size_bytes": 70271731,
+  "published_feed_offer_count": 14438,
+  "published_feed_workflow_run_id": "37589913220",
+  "published_feed_workflow_run_number": 37
 }
