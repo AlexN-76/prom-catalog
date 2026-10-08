@@ -14460,15 +14460,16 @@
     "37537548839",
     "37555947513",
     "37589913220",
-    "37685350218"
+    "37685350218",
+    "37712823194"
   ],
   "baseline_workflow_run_number": 21,
   "baseline_workflow_run_id": 37232728103,
-  "last_processed_workflow_run_number": 39,
-  "last_processed_workflow_run_id": "37685350218",
-  "published_feed_sha256": "222de45789a72cd6098b430f6056beb1674ca352fc89c712236195cc2d0831bd",
+  "last_processed_workflow_run_number": 40,
+  "last_processed_workflow_run_id": "37712823194",
+  "published_feed_sha256": "51214206cd1350413d688d9736b7af03a1b82ca3e06851c78b78712cab622a25",
   "published_feed_size_bytes": 70271997,
   "published_feed_offer_count": 14438,
-  "published_feed_workflow_run_id": "37685350218",
-  "published_feed_workflow_run_number": 39
+  "published_feed_workflow_run_id": "37712823194",
+  "published_feed_workflow_run_number": 40
 }
