@@ -14445,21 +14445,21 @@
     "SD00058576": "c1_763"
   },
   "missing_streak": {
-    "SD00043910": 1,
-    "SD00038938": 1,
-    "SD00043935": 1,
-    "SD00038921": 1,
-    "SD00043892": 1,
-    "SD00036696": 1,
-    "SD00056014": 1,
-    "SD00031524": 1,
-    "SD00035986": 1,
-    "SD00053586": 1,
-    "SD00044920": 1,
-    "SD00036699": 1,
-    "SD00035969": 1,
-    "SD00043898": 1,
-    "SD00043914": 1
+    "SD00043910": 2,
+    "SD00038938": 2,
+    "SD00043935": 2,
+    "SD00038921": 2,
+    "SD00043892": 2,
+    "SD00036696": 2,
+    "SD00056014": 2,
+    "SD00031524": 2,
+    "SD00035986": 2,
+    "SD00053586": 2,
+    "SD00044920": 2,
+    "SD00036699": 2,
+    "SD00035969": 2,
+    "SD00043898": 2,
+    "SD00043914": 2
   },
   "processed_generation_ids": [
     "37241345053",
@@ -14480,15 +14480,16 @@
     "37685350218",
     "37712823194",
     "37747781502",
-    "37813636338"
+    "37813636338",
+    "37854550509"
   ],
   "baseline_workflow_run_number": 21,
   "baseline_workflow_run_id": 37232728103,
-  "last_processed_workflow_run_number": 42,
-  "last_processed_workflow_run_id": "37813636338",
-  "published_feed_sha256": "8f14e026f012ac7dc89e42eab43ca493b73e76e4cdcab056b712b9c947641a79",
-  "published_feed_size_bytes": 70335116,
+  "last_processed_workflow_run_number": 43,
+  "last_processed_workflow_run_id": "37854550509",
+  "published_feed_sha256": "493143feb7426a01ba50f2fc98425f21cb8a48ee0c72307a2a5a1241b7655b6a",
+  "published_feed_size_bytes": 70341022,
   "published_feed_offer_count": 14424,
-  "published_feed_workflow_run_id": "37813636338",
-  "published_feed_workflow_run_number": 42
+  "published_feed_workflow_run_id": "37854550509",
+  "published_feed_workflow_run_number": 43
 }
