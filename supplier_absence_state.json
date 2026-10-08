@@ -2,7 +2,7 @@
   "schema": "supplier_absence_state_v1",
   "created_utc": "2026-10-04T20:59:07.862310+00:00",
   "baseline_feed_count": 13933,
-  "historical_ids_count": 14438,
+  "historical_ids_count": 14439,
   "last_known_category_by_id": {
     "SD00021924": "c1_862",
     "SD00022001": "c1_816",
@@ -14441,9 +14441,26 @@
     "baf82013-0cd6-4510-a3ce-308ad4b1cb86": "c5_23c6d203-11f7-4053-af59-6b254d5b6662",
     "ccf47a63-dfa8-40db-8f4e-5a7d7eccffcd": "c5_e679a4a9-0158-4101-9206-332f81d1f22b",
     "1832635c-352f-433c-8879-18a6a45495ac": "c5_23c6d203-11f7-4053-af59-6b254d5b6662",
-    "rs4u39067": "c3_92"
+    "rs4u39067": "c3_92",
+    "SD00058576": "c1_763"
   },
-  "missing_streak": {},
+  "missing_streak": {
+    "SD00043910": 1,
+    "SD00038938": 1,
+    "SD00043935": 1,
+    "SD00038921": 1,
+    "SD00043892": 1,
+    "SD00036696": 1,
+    "SD00056014": 1,
+    "SD00031524": 1,
+    "SD00035986": 1,
+    "SD00053586": 1,
+    "SD00044920": 1,
+    "SD00036699": 1,
+    "SD00035969": 1,
+    "SD00043898": 1,
+    "SD00043914": 1
+  },
   "processed_generation_ids": [
     "37241345053",
     "37241870582",
@@ -14462,15 +14479,16 @@
     "37589913220",
     "37685350218",
     "37712823194",
-    "37747781502"
+    "37747781502",
+    "37813636338"
   ],
   "baseline_workflow_run_number": 21,
   "baseline_workflow_run_id": 37232728103,
-  "last_processed_workflow_run_number": 41,
-  "last_processed_workflow_run_id": "37747781502",
-  "published_feed_sha256": "b36b7d2fa9a0510addf7551df6b84dfe7e2e7eb02e568ff7e5afe5894157ca11",
-  "published_feed_size_bytes": 70272321,
-  "published_feed_offer_count": 14438,
-  "published_feed_workflow_run_id": "37747781502",
-  "published_feed_workflow_run_number": 41
+  "last_processed_workflow_run_number": 42,
+  "last_processed_workflow_run_id": "37813636338",
+  "published_feed_sha256": "8f14e026f012ac7dc89e42eab43ca493b73e76e4cdcab056b712b9c947641a79",
+  "published_feed_size_bytes": 70335116,
+  "published_feed_offer_count": 14424,
+  "published_feed_workflow_run_id": "37813636338",
+  "published_feed_workflow_run_number": 42
 }
