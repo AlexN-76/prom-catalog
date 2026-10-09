@@ -1,6 +1,6 @@
 {
   "schema": "prom_hide_lock_v1",
-  "status": "PREPARED",
+  "status": "VERIFIED_HIDDEN",
   "prepared_utc": "2026-10-09T22:04:22.210220+00:00",
   "workflow_run_id": "37996543266",
   "workflow_run_number": 47,
@@ -8,5 +8,6 @@
   "import_id": "SD00043898",
   "sku": "SD00043898",
   "desired_status": "not_on_display",
-  "max_cards_this_run": 1
+  "max_cards_this_run": 1,
+  "verified_utc": "2026-10-09T22:04:26.717152+00:00"
 }
