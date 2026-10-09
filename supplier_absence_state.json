@@ -2,7 +2,7 @@
   "schema": "supplier_absence_state_v1",
   "created_utc": "2026-10-04T20:59:07.862310+00:00",
   "baseline_feed_count": 13933,
-  "historical_ids_count": 14439,
+  "historical_ids_count": 14440,
   "last_known_category_by_id": {
     "SD00021924": "c1_862",
     "SD00022001": "c1_816",
@@ -14442,24 +14442,25 @@
     "ccf47a63-dfa8-40db-8f4e-5a7d7eccffcd": "c5_e679a4a9-0158-4101-9206-332f81d1f22b",
     "1832635c-352f-433c-8879-18a6a45495ac": "c5_23c6d203-11f7-4053-af59-6b254d5b6662",
     "rs4u39067": "c3_92",
-    "SD00058576": "c1_763"
+    "SD00058576": "c1_763",
+    "SD00058575": "c1_763"
   },
   "missing_streak": {
-    "SD00043910": 3,
-    "SD00038938": 3,
-    "SD00043935": 3,
-    "SD00038921": 3,
-    "SD00043892": 3,
-    "SD00036696": 3,
-    "SD00056014": 3,
-    "SD00031524": 3,
-    "SD00035986": 3,
-    "SD00053586": 3,
-    "SD00044920": 3,
-    "SD00036699": 3,
-    "SD00035969": 3,
-    "SD00043898": 3,
-    "SD00043914": 3
+    "SD00043910": 4,
+    "SD00038938": 4,
+    "SD00043935": 4,
+    "SD00038921": 4,
+    "SD00043892": 4,
+    "SD00036696": 4,
+    "SD00056014": 4,
+    "SD00031524": 4,
+    "SD00035986": 4,
+    "SD00053586": 4,
+    "SD00044920": 4,
+    "SD00036699": 4,
+    "SD00035969": 4,
+    "SD00043898": 4,
+    "SD00043914": 4
   },
   "processed_generation_ids": [
     "37241345053",
@@ -14482,15 +14483,16 @@
     "37747781502",
     "37813636338",
     "37854550509",
-    "37879501711"
+    "37879501711",
+    "37920948310"
   ],
   "baseline_workflow_run_number": 21,
   "baseline_workflow_run_id": 37232728103,
-  "last_processed_workflow_run_number": 44,
-  "last_processed_workflow_run_id": "37879501711",
-  "published_feed_sha256": "8baec2cca84b545ccbe94440b934e9b86e154fffb55f6c75a3702d214fad212b",
-  "published_feed_size_bytes": 70343281,
-  "published_feed_offer_count": 14424,
-  "published_feed_workflow_run_id": "37879501711",
-  "published_feed_workflow_run_number": 44
+  "last_processed_workflow_run_number": 45,
+  "last_processed_workflow_run_id": "37920948310",
+  "published_feed_sha256": "2a5637c44aa80b6ab9e99d0a2bbf048a6c61bf37b0a280855878be559cb4c8f8",
+  "published_feed_size_bytes": 70390331,
+  "published_feed_offer_count": 14425,
+  "published_feed_workflow_run_id": "37920948310",
+  "published_feed_workflow_run_number": 45
 }
