@@ -1,13 +1,12 @@
 {
   "schema": "prom_hide_lock_v1",
-  "status": "VERIFIED_HIDDEN",
-  "prepared_utc": "2026-10-22T19:44:17.723494+00:00",
-  "workflow_run_id": "39841546468",
-  "workflow_run_number": 110,
+  "status": "PREPARED",
+  "prepared_utc": "2026-10-31T01:20:18.394078+00:00",
+  "workflow_run_id": "41154116026",
+  "workflow_run_number": 149,
   "prom_internal_id": "3106552249",
   "import_id": "rs4u38560",
   "sku": "ТР-00027612",
   "desired_status": "not_on_display",
-  "max_cards_this_run": 1,
-  "verified_utc": "2026-10-22T19:44:23.181959+00:00"
+  "max_cards_this_run": 1
 }
