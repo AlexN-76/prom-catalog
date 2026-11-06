@@ -64,7 +64,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rozetka_clean.xml
+          git add -f rozetka_clean.xml
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update rozetka_clean.xml feed"
             git push origin HEAD:main
