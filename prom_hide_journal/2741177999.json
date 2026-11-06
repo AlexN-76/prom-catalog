@@ -1,0 +1,12 @@
+{
+  "schema": "prom_hide_lock_v1",
+  "status": "PREPARED",
+  "prepared_utc": "2026-11-06T15:35:56.760218+00:00",
+  "workflow_run_id": "42243521930",
+  "workflow_run_number": 182,
+  "prom_internal_id": "2741177999",
+  "import_id": "Pr45922",
+  "sku": "SP000044306",
+  "desired_status": "not_on_display",
+  "max_cards_this_run": 1
+}
