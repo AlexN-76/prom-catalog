@@ -6,23 +6,17 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
+  contents: write
   id-token: write
 
-# Serialize every GitHub Pages deployment with the Prom feed workflow.
 concurrency:
-  group: prom-catalog-pages
+  group: rozetka-feed-update
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 25
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -44,85 +38,37 @@ jobs:
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
           from pathlib import Path
-
           path = Path('rozetka_clean.xml')
           if not path.is_file():
               raise RuntimeError('rozetka_clean.xml was not created')
-
           size = path.stat().st_size
           if size < 1_000_000:
               raise RuntimeError(
                   f'Rozetka feed is unexpectedly small: {size}'
               )
-
           offers = 0
           for _, elem in ET.iterparse(path, events=('end',)):
               if elem.tag == 'offer':
                   offers += 1
               elem.clear()
-
           if offers < 1_000:
               raise RuntimeError(
                   f'Rozetka feed has too few offers: {offers}'
               )
-
           print('Rozetka XML validation passed')
           print('Bytes:', size)
           print('Offers:', offers)
           PY
 
-      - name: Validate local Prom feed
+      - name: Commit and push updated Rozetka feed
         run: |
-          python3 - <<'PY'
-          import xml.etree.ElementTree as ET
-          from pathlib import Path
-
-          path = Path('merged_prom_catalog.xml')
-          if not path.is_file():
-              raise RuntimeError('merged_prom_catalog.xml was not found in repository')
-
-          size = path.stat().st_size
-          if size < 1_000_000:
-              raise RuntimeError(f'Prom feed is unexpectedly small: {size}')
-
-          offers = 0
-          for _, elem in ET.iterparse(path, events=('end',)):
-              if elem.tag == 'offer':
-                  offers += 1
-              elem.clear()
-
-          if offers < 10_000:
-              raise RuntimeError(f'Prom feed has too few offers: {offers}')
-
-          print('Local Prom XML validation passed')
-          print('Bytes:', size)
-          print('Offers:', offers)
-          PY
-
-      - name: Prepare joint Pages site
-        run: |
-          mkdir -p _site
-
-          cp merged_prom_catalog.xml \
-            _site/merged_prom_catalog.xml
-
-          cp rozetka_clean.xml \
-            _site/rozetka_clean.xml
-
-          echo '<!doctype html><title>Marketplace Feeds</title>' \
-            > _site/index.html
-
-          test -s _site/merged_prom_catalog.xml
-          test -s _site/rozetka_clean.xml
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: _site
-
-      - name: Deploy both feeds to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rozetka_clean.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update rozetka_clean.xml feed"
+            git push origin HEAD:main
+            echo "Rozetka feed committed to repository."
+          else
+            echo "No changes in rozetka_clean.xml to commit."
+          fi
