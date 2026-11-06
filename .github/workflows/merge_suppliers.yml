@@ -40,14 +40,14 @@ jobs:
           test -s supplier_absence_state.json
       - name: Create dummy catalog fallback if missing
         run: |
-          python3 - <<'PY'
+          python3 - <<'EOF'
           from pathlib import Path
           for name in ['merged_prom_catalog.xml', 'merged_prom_catalog_test.xml']:
               p = Path(name)
               if not p.is_file():
                   p.write_text('<?xml version="1.0" encoding="UTF-8"?><yml_catalog date="2026-11-06"><shop><name>Init</name><offers></offers></shop></yml_catalog>', encoding='utf-8')
           print("Fallback XMLs checked/created.")
-          PY   
+          EOF
 
       - name: Generate safe XML
         run: |
