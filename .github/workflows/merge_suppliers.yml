@@ -1,4 +1,3 @@
-
 name: Merge Suppliers Feeds
 
 on:
@@ -33,109 +32,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch last published XML backup from Pages
-        env:
-          PUBLISHED_FEED_URL: https://alexn-76.github.io/prom-catalog/merged_prom_catalog.xml
+      - name: Check database and scripts
         run: |
-          python3 - <<'PY'
-          import hashlib
-          import json
-          import os
-          import time
-          import urllib.request
-          import xml.etree.ElementTree as ET
-          from pathlib import Path
-
-          url = os.environ['PUBLISHED_FEED_URL']
-          target = Path('merged_prom_catalog.xml')
-          temp = Path('merged_prom_catalog.xml.download')
-
-          state = json.loads(
-              Path('supplier_absence_state.json').read_text(
-                  encoding='utf-8-sig'
-              )
-          )
-          expected_sha = str(
-              state.get('published_feed_sha256') or ''
-          ).strip().lower()
-
-          last_error = None
-          for attempt in range(1, 5):
-              try:
-                  req = urllib.request.Request(
-                      url,
-                      headers={
-                          'User-Agent': 'prom-catalog-backup/1.0',
-                          'Cache-Control': 'no-cache',
-                      },
-                  )
-                  h = hashlib.sha256()
-                  size = 0
-                  with urllib.request.urlopen(
-                      req, timeout=180
-                  ) as response, temp.open('wb') as f:
-                      while True:
-                          chunk = response.read(1024 * 1024)
-                          if not chunk:
-                              break
-                          f.write(chunk)
-                          h.update(chunk)
-                          size += len(chunk)
-
-                  actual_sha = h.hexdigest()
-                  if size < 1_000_000:
-                      raise RuntimeError(
-                          f'Published feed is unexpectedly small: {size}'
-                      )
-
-                  offers = 0
-                  for _, elem in ET.iterparse(
-                      temp, events=('end',)
-                  ):
-                      if elem.tag == 'offer':
-                          offers += 1
-                      elem.clear()
-
-                  if offers < 10_000:
-                      raise RuntimeError(
-                          f'Published feed has too few offers: {offers}'
-                      )
-
-                  if expected_sha and actual_sha != expected_sha:
-                  print(
-                      'ПРЕДУПРЕЖДЕНИЕ: SHA-256 с GitHub Pages отличается от состояния в git '
-                      '(вероятно, из-за кэша CDN). Продолжаем работу, так как структура файла корректна: '
-                      f'{actual_sha} != {expected_sha}'
-                  )
-
-                  temp.replace(target)
-                  print('Pages backup verified')
-                  print('Bytes:', size)
-                  print('Offers:', offers)
-                  print('SHA256:', actual_sha)
-                  if not expected_sha:
-                      print(
-                          'Transition run: no previous SHA in state; '
-                          'structural validation used.'
-                      )
-                  break
-              except Exception as exc:
-                  last_error = exc
-                  temp.unlink(missing_ok=True)
-                  if attempt == 4:
-                      raise
-                  print(
-                      f'Attempt {attempt}/4 failed: {exc}. '
-                      'Retrying in 15 seconds...'
-                  )
-                  time.sleep(15)
-          else:
-              raise RuntimeError(str(last_error))
-          PY
-
-      - name: Check backup and database
-        run: |
-          test -s merged_prom_catalog.xml
           test -s prom_existing_products_safe.csv
           test -s merge_suppliers_safe.py
           test -s supplier_absence_observer.py
@@ -166,7 +64,7 @@ jobs:
           print("Offers:", len(offers))
           print("Excluded:", report["excluded"])
           PY
-      
+
       - name: Apply approved Prom categories
         run: |
           python3 add_prom_categories_hybrid.py \
@@ -243,9 +141,7 @@ jobs:
               print(
                   "WARNING:",
                   unmapped,
-                  "products have no mapped Prom category. "
-                  "They will still be published; Prom may "
-                  "determine their marketplace category."
+                  "products have no mapped Prom category."
               )
 
           os.replace(
@@ -255,6 +151,7 @@ jobs:
 
           print("CATEGORIZED XML VERIFIED")
           PY
+
       - name: Apply 1282 reviewed Prom categories
         run: |
           python3 apply_reviewed_category_decisions.py \
@@ -274,12 +171,8 @@ jobs:
             --xml merged_prom_catalog_reviewed.xml \
             --decisions prom_reviewed_category_decisions_1282.csv \
             --report prom_reviewed_verification.json
-          mv merged_prom_catalog_reviewed.xml merged_prom_catalog_test.xml    
-    
+          mv merged_prom_catalog_reviewed.xml merged_prom_catalog_test.xml
 
-      # State is only proposed here. No Prom API writes; on failure there is
-      # no deployment and no state commit. Each supplier is evaluated only
-      # when its source is fresh and all final-XML checks have passed.
       - name: Observe supplier absences (dry-run only)
         env:
           OBS_RUN_ID: ${{ github.run_id }}
@@ -371,112 +264,12 @@ jobs:
           print('SHA256:', digest)
           PY
 
-      - name: Fetch current Rozetka feed for joint Pages deployment
-        env:
-          ROZETKA_PAGES_URL: https://alexn-76.github.io/prom-catalog/rozetka_clean.xml
-        run: |
-          python3 - <<'PY'
-          import os
-          import time
-          import urllib.request
-          import xml.etree.ElementTree as ET
-          from pathlib import Path
-
-          url = os.environ['ROZETKA_PAGES_URL']
-          target = Path('rozetka_for_pages.xml')
-          temp = Path('rozetka_for_pages.xml.download')
-          fallback = Path('rozetka_clean.xml')
-
-          def validate(path):
-              size = path.stat().st_size
-
-              if size < 1_000_000:
-                  raise RuntimeError(
-                      f'Rozetka feed unexpectedly small: {size}'
-                  )
-
-              offers = 0
-              for _, elem in ET.iterparse(
-                  path, events=('end',)
-              ):
-                  if elem.tag == 'offer':
-                      offers += 1
-                  elem.clear()
-
-              if offers < 1_000:
-                  raise RuntimeError(
-                      f'Rozetka feed has too few offers: {offers}'
-                  )
-
-              return size, offers
-
-          last_error = None
-
-          for attempt in range(1, 5):
-              try:
-                  req = urllib.request.Request(
-                      url,
-                      headers={
-                          'User-Agent': 'prom-pages-bridge/1.0',
-                          'Cache-Control': 'no-cache',
-                      },
-                  )
-
-                  with urllib.request.urlopen(
-                      req, timeout=180
-                  ) as response, temp.open('wb') as f:
-                      while True:
-                          chunk = response.read(1024 * 1024)
-                          if not chunk:
-                              break
-                          f.write(chunk)
-
-                  size, offers = validate(temp)
-                  temp.replace(target)
-
-                  print('Rozetka Pages feed preserved')
-                  print('Bytes:', size)
-                  print('Offers:', offers)
-                  break
-
-              except Exception as exc:
-                  last_error = exc
-                  temp.unlink(missing_ok=True)
-
-                  if attempt < 4:
-                      print(
-                          f'Attempt {attempt}/4 failed: {exc}. '
-                          'Retrying in 15 seconds...'
-                      )
-                      time.sleep(15)
-                      continue
-
-                  # One-time transition fallback. The repository still
-                  # contains the last tracked rozetka_clean.xml.
-                  if fallback.is_file():
-                      size, offers = validate(fallback)
-                      target.write_bytes(fallback.read_bytes())
-
-                      print(
-                          'Pages Rozetka feed unavailable; '
-                          'using tracked transition fallback'
-                      )
-                      print('Bytes:', size)
-                      print('Offers:', offers)
-                      break
-
-                  raise RuntimeError(
-                      'No valid Rozetka feed available from Pages '
-                      f'or repository: {last_error}'
-                  )
-          PY
-
       - name: Prepare website
         run: |
           mkdir -p _site
           cp merged_prom_catalog_test.xml \
             _site/merged_prom_catalog.xml
-          cp rozetka_for_pages.xml \
+          cp rozetka_clean.xml \
             _site/rozetka_clean.xml
           echo '<!doctype html><title>Marketplace Feeds</title>' \
             > _site/index.html
