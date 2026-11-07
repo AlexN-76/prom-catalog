@@ -7,21 +7,15 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: prom-catalog-pages
+  group: prom-catalog-main
   cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 25
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -48,33 +42,26 @@ jobs:
                   p.write_text('<?xml version="1.0" encoding="UTF-8"?><yml_catalog date="2026-11-06"><shop><name>Init</name><offers></offers></shop></yml_catalog>', encoding='utf-8')
           print("Fallback XMLs checked/created.")
           EOF
-
       - name: Generate safe XML
         run: |
           python merge_suppliers_safe.py
-
       - name: Validate generated catalog
         run: |
           python - <<'PY'
           import json
           import xml.etree.ElementTree as ET
-
           with open("merge_summary_test.json", encoding="utf-8") as f:
               report = json.load(f)
-
           root = ET.parse("merged_prom_catalog_test.xml").getroot()
           offers = root.findall("./shop/offers/offer")
           ids = [o.get("id") for o in offers]
-
           assert len(offers) > 0, "Empty catalog"
           assert len(ids) == len(set(ids)), "Duplicate offer IDs"
           assert len(offers) == report["output_offers"], "Count mismatch"
-
           print("XML validation passed")
           print("Offers:", len(offers))
           print("Excluded:", report["excluded"])
           PY
-
       - name: Apply approved Prom categories
         run: |
           python3 add_prom_categories_hybrid.py \
@@ -85,21 +72,18 @@ jobs:
             --overrides prom_product_category_overrides.csv \
             --review category_review.csv \
             --report category_report.json
-
       - name: Verify and activate categorized XML
         run: |
           python3 - <<'PY'
           import json
           import os
           import xml.etree.ElementTree as ET
-
           original = ET.parse(
               "merged_prom_catalog_test.xml"
           ).getroot()
           categorized = ET.parse(
               "merged_prom_catalog_categorized.xml"
           ).getroot()
-
           def normalize(element):
               attrs = tuple(sorted(
                   (k, v) for k, v in element.attrib.items()
@@ -117,7 +101,6 @@ jobs:
               if not value.strip():
                   value = ""
               return element.tag, attrs, value, children
-
           for section, tag in (
               ("categories", "category"),
               ("offers", "offer")
@@ -129,39 +112,30 @@ jobs:
                   f"./shop/{section}/{tag}"
               )
               assert len(before) == len(after), section
-
               for a, b in zip(before, after):
                   assert normalize(a) == normalize(b), (
                       f"Unexpected change: {a.get('id')}"
                   )
-
               print(f"{section}: {len(before)} OK")
-
           with open(
               "category_report.json", encoding="utf-8"
           ) as f:
               report = json.load(f)
-
           counts = report["counts"]
           unmapped = counts.get("unmapped", 0)
-
           print("Category statistics:", counts)
-
           if unmapped:
               print(
                   "WARNING:",
                   unmapped,
                   "products have no mapped Prom category."
               )
-
           os.replace(
               "merged_prom_catalog_categorized.xml",
               "merged_prom_catalog_test.xml"
           )
-
           print("CATEGORIZED XML VERIFIED")
           PY
-
       - name: Apply 1282 reviewed Prom categories
         run: |
           python3 apply_reviewed_category_decisions.py \
@@ -171,7 +145,6 @@ jobs:
             --reference prom_reference_categories.csv \
             --extra-categories prom_reviewed_extra_categories.csv \
             --report prom_reviewed_category_report.json
-
       - name: Verify reviewed categories and activate XML
         run: |
           python3 validate_prom_category_diff.py \
@@ -182,7 +155,6 @@ jobs:
             --decisions prom_reviewed_category_decisions_1282.csv \
             --report prom_reviewed_verification.json
           mv merged_prom_catalog_reviewed.xml merged_prom_catalog_test.xml
-
       - name: Observe supplier absences (dry-run only)
         env:
           OBS_RUN_ID: ${{ github.run_id }}
@@ -197,7 +169,6 @@ jobs:
             --feed merged_prom_catalog_test.xml \
             --output-state supplier_absence_next_state.json \
             --report supplier_absence_report.json
-
       - name: Bind observer state to exact published XML
         env:
           OBS_RUN_ID: ${{ github.run_id }}
@@ -209,27 +180,22 @@ jobs:
           import os
           import xml.etree.ElementTree as ET
           from pathlib import Path
-
           feed = Path('merged_prom_catalog_test.xml')
           state_path = Path('supplier_absence_next_state.json')
           report_path = Path('supplier_absence_report.json')
-
           state = json.loads(
               state_path.read_text(encoding='utf-8-sig')
           )
           report = json.loads(
               report_path.read_text(encoding='utf-8-sig')
           )
-
           run_id = str(os.environ['OBS_RUN_ID'])
           run_number = int(os.environ['OBS_RUN_NUMBER'])
-
           assert str(state.get('last_processed_workflow_run_id')) == run_id
           assert state.get('last_processed_workflow_run_number') == run_number
           assert str(report.get('run_id')) == run_id
           assert report.get('run_number') == run_number
           assert report.get('skipped') is False
-
           sha = hashlib.sha256()
           size = 0
           with feed.open('rb') as f:
@@ -240,25 +206,20 @@ jobs:
                   sha.update(chunk)
                   size += len(chunk)
           digest = sha.hexdigest()
-
           offers = 0
           for _, elem in ET.iterparse(feed, events=('end',)):
               if elem.tag == 'offer':
                   offers += 1
               elem.clear()
-
           assert offers >= 10_000, offers
-
           state['published_feed_sha256'] = digest
           state['published_feed_size_bytes'] = size
           state['published_feed_offer_count'] = offers
           state['published_feed_workflow_run_id'] = run_id
           state['published_feed_workflow_run_number'] = run_number
-
           report['published_feed_sha256'] = digest
           report['published_feed_size_bytes'] = size
           report['published_feed_offer_count'] = offers
-
           state_path.write_text(
               json.dumps(state, ensure_ascii=False, indent=2) + '\n',
               encoding='utf-8'
@@ -267,62 +228,29 @@ jobs:
               json.dumps(report, ensure_ascii=False, indent=2) + '\n',
               encoding='utf-8'
           )
-
           print('Published XML identity recorded')
           print('Bytes:', size)
           print('Offers:', offers)
           print('SHA256:', digest)
           PY
-
-      - name: Prepare website
+      - name: Commit and push merged catalog and observer state
         run: |
-          mkdir -p _site
-          cp merged_prom_catalog_test.xml \
-            _site/merged_prom_catalog.xml
-
-          # Если файл rozetka_clean.xml отсутствует, пытаемся сгенерировать его
-          if [ ! -f rozetka_clean.xml ]; then
-            python script.py || true
-          fi
-
-          if [ -f rozetka_clean.xml ]; then
-            cp rozetka_clean.xml _site/rozetka_clean.xml
-          else
-            # Создаем валидную заглушку, чтобы деплой не падал
-            echo '<?xml version="1.0" encoding="UTF-8"?><yml_catalog date="2026-11-06"><shop><name>Fallback</name><offers></offers></shop></yml_catalog>' > _site/rozetka_clean.xml
-          fi
-
-          echo '<!doctype html><title>Marketplace Feeds</title>' \
-            > _site/index.html
-
-          test -s _site/merged_prom_catalog.xml
-          test -s _site/rozetka_clean.xml
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: _site
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-      - name: Save published observer state
-        run: |
+          cp merged_prom_catalog_test.xml merged_prom_catalog.xml
           test -s supplier_absence_next_state.json
           mv supplier_absence_next_state.json supplier_absence_state.json
+          
           git config user.name "github-actions[bot]"
-          git config user.email \
-            "github-actions[bot]@users.noreply.github.com"
-          git add supplier_absence_state.json
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add -f merged_prom_catalog.xml supplier_absence_state.json
+          
           if ! git diff --cached --quiet; then
-            git commit -m "Update supplier observation state"
+            git commit -m "Auto-update merged Prom catalog and observer state"
             git push origin HEAD:main
+            echo "Merged catalog and observer state successfully committed."
+          else
+            echo "No changes in merged catalog or state to commit."
           fi
-
       - name: Save diagnostic reports
         uses: actions/upload-artifact@v4
         with:
