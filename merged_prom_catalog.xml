@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-08 21:27">
+<yml_catalog date="2026-11-09 01:18">
   <shop>
     <name>PlumberShop Suppliers Catalog</name>
     <company>Сантехник</company>
@@ -568642,43 +568642,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Гарантія на деталі змішувача (міс)">12</param>
         <param name="Комплектація">Гнучка підводка, аератор, елемент кріплення, грузик</param>
       </offer>
-      <offer id="2022611f-7222-48ce-bf7a-9afb8596ce9e" available="true">
-        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-scp009180x180-z-peva-polietilenvinilatsetatu-vizerunok-brizki-sini-zx6082</url>
-        <price>207.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
-        <picture>https://ol.partners/Products/Photo/B53755BE-6F23-4E1A-B959-31099ABFFE92</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/2022611f-7222-48ce-bf7a-9afb8596ce9e/image_03.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/2022611f-7222-48ce-bf7a-9afb8596ce9e/image_05.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/2022611f-7222-48ce-bf7a-9afb8596ce9e/image_04.jpg</picture>
-        <vendor>ZERIX</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
-        <name>Шторка для ванної ZERIX SCP-009-180x180 з PEVA (поліетиленвінілацетату) (Візерунок "Бризки" сині) (ZX6082)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>ZX6082</vendorCode>
-        <param name="Од. в упак.">36</param>
-        <param name="Об'єм ящ.">0.033</param>
-        <param name="Вага ящ.">12.3</param>
-        <param name="Розміри виробу (ВхШхГ)">180x180</param>
-        <param name="Висота (мм)">1800</param>
-        <param name="Ширина (мм)">1800</param>
-        <param name="Призначення">Текстиль для ванної</param>
-        <param name="Серія">SCP</param>
-        <param name="Тип виробу">Шторки для ванни</param>
-        <param name="Торгова марка">ZERIX</param>
-        <param name="Країна бренду">Чехія</param>
-        <param name="Вид виробу">Шторка-фіранка для ванни</param>
-        <param name="Тип монтажу">Настінний</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
-        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
-        <param name="Гарантійний період (міс)">12</param>
-        <param name="Колір">Візерунок "Бризки" сині</param>
-        <param name="Форма">Квадратна</param>
-        <param name="Матеріал">PEVA (поліетиленвінілацетат)</param>
-        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
-      </offer>
       <offer id="f91bc56a-7020-4653-abd8-924afbf734f8" available="true">
         <url>https://ol.partners/products/aksesuari-dlya-vannoi/milnitsi/milnitsya-nastinna-koer-as010205-sklo-kolir-chorniy-kr6158</url>
         <price>1551.00</price>
@@ -568728,6 +568691,43 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Розміри виробу (ВхШхГ)">52x81x91</param>
         <param name="Діаметр (мм)">107</param>
         <param name="Висота (мм)">52</param>
+      </offer>
+      <offer id="2022611f-7222-48ce-bf7a-9afb8596ce9e" available="true">
+        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-scp009180x180-z-peva-polietilenvinilatsetatu-vizerunok-brizki-sini-zx6082</url>
+        <price>207.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
+        <picture>https://ol.partners/Products/Photo/B53755BE-6F23-4E1A-B959-31099ABFFE92</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/2022611f-7222-48ce-bf7a-9afb8596ce9e/image_03.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/2022611f-7222-48ce-bf7a-9afb8596ce9e/image_05.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/2022611f-7222-48ce-bf7a-9afb8596ce9e/image_04.jpg</picture>
+        <vendor>ZERIX</vendor>
+        <stock_quantity>100</stock_quantity>
+        <availabilityStatus>Достатньо</availabilityStatus>
+        <name>Шторка для ванної ZERIX SCP-009-180x180 з PEVA (поліетиленвінілацетату) (Візерунок "Бризки" сині) (ZX6082)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>ZX6082</vendorCode>
+        <param name="Од. в упак.">36</param>
+        <param name="Об'єм ящ.">0.033</param>
+        <param name="Вага ящ.">12.3</param>
+        <param name="Розміри виробу (ВхШхГ)">180x180</param>
+        <param name="Висота (мм)">1800</param>
+        <param name="Ширина (мм)">1800</param>
+        <param name="Призначення">Текстиль для ванної</param>
+        <param name="Серія">SCP</param>
+        <param name="Тип виробу">Шторки для ванни</param>
+        <param name="Торгова марка">ZERIX</param>
+        <param name="Країна бренду">Чехія</param>
+        <param name="Вид виробу">Шторка-фіранка для ванни</param>
+        <param name="Тип монтажу">Настінний</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
+        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
+        <param name="Гарантійний період (міс)">12</param>
+        <param name="Колір">Візерунок "Бризки" сині</param>
+        <param name="Форма">Квадратна</param>
+        <param name="Матеріал">PEVA (поліетиленвінілацетат)</param>
+        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
       </offer>
       <offer id="f1fbc7a2-5f9a-45f7-ae7a-adca42929280" available="true">
         <url>https://ol.partners/products/aksesuari-dlya-vannoi/paperotrimach/trimach-dlya-paperovikh-rushnikiv-koer-as010805-pivkiltse-kolir-chorniy-kr6178</url>
@@ -575433,60 +575433,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Гарантія на деталі змішувача (міс)">12</param>
         <param name="Комплектація">Аератор, ексцентрики, чашки, гумові прокладки</param>
       </offer>
-      <offer id="71d347da-2cfc-4753-88eb-e45dfc19ded1" available="true">
-        <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-vanni/liti-zmishuvachi-dlya-vannoi/zmishuvach-dlya-vanni-z-korotkim-vilivom-koer-kb4100901-kolir-khrom-kr3502</url>
-        <price>7997.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_23c6d203-11f7-4053-af59-6b254d5b6662</categoryId>
-        <picture>https://ol.partners/Products/Photo/62C11F00-305F-4778-96D1-2B9D4F6F2AC9</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_03.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_06.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_01.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_07.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_02.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_08.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_05.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_04.jpg</picture>
-        <vendor>KOER</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
-        <name>Змішувач для ванни з коротким виливом KOER KB-41009-01 (Колір хром) (KR3502)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>KR3502</vendorCode>
-        <param name="Од. в упак.">8</param>
-        <param name="Об'єм ящ.">0.092</param>
-        <param name="Вага ящ.">29</param>
-        <param name="Колір">Хром</param>
-        <param name="Покриття">З покриттям</param>
-        <param name="Стиль">Модерн</param>
-        <param name="Тип виливу">Литий</param>
-        <param name="Мінімальна температура води (°C)">5</param>
-        <param name="Довжина шланга (см)">150</param>
-        <param name="Картридж чи кран букса">Картридж</param>
-        <param name="Тип керування">Одноважільні</param>
-        <param name="Максимальний тиск (бар)">10,00</param>
-        <param name="Матеріал виробу">Латунь</param>
-        <param name="Максимальна температура води (°C)">90</param>
-        <param name="Мінімальний тиск (бар)">0,50</param>
-        <param name="MAX різниця тиску гарячої та холодної води (бар)">1,50</param>
-        <param name="Діаметр картриджа (мм)">35</param>
-        <param name="Особливості">Перемикач у виливі: 90°</param>
-        <param name="Комплектація">Шланг 150 см, ручна лійка, тримач для лійки, аератор, ексцентрики, чашки, гумові прокладки</param>
-        <param name="Гарантія на деталі змішувача (міс)">12</param>
-        <param name="Гарантія на корпус змішувача (міс)">60</param>
-        <param name="Довжина виливу (мм)">128</param>
-        <param name="Довжина виливу (см)">11-15</param>
-        <param name="Загальна довжина (мм)">192</param>
-        <param name="Група товару">Змішувачі</param>
-        <param name="Країна бренду">Чехія</param>
-        <param name="Модель">KB-41009-01</param>
-        <param name="Вид виробу">Змішувачі для ванни з коротким зливом</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Тип виробу">Змішувачі для ванни</param>
-        <param name="Серія">009</param>
-        <param name="Тип монтажу">Настінні</param>
-        <param name="Торгова марка">KOER</param>
-      </offer>
       <offer id="223a45c8-042d-4d96-8c89-b7070a154c9e" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-kukhni/zmishuvach-dlya-kukhni-na-dvi-vodi/zmishuvach-dlya-kukhni-z-vikhodom-dlya-pitnoi-vodi-koer-kb7202307-kolir-grafitsilikonoviy-viliv-chorniy-kr5010</url>
         <price>5998.00</price>
@@ -575544,6 +575490,60 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Висота змішувача (мм)">440</param>
         <param name="Висота змішувача (см)">41-45</param>
         <param name="Довжина виливу (мм)">235</param>
+      </offer>
+      <offer id="71d347da-2cfc-4753-88eb-e45dfc19ded1" available="true">
+        <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-vanni/liti-zmishuvachi-dlya-vannoi/zmishuvach-dlya-vanni-z-korotkim-vilivom-koer-kb4100901-kolir-khrom-kr3502</url>
+        <price>7997.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_23c6d203-11f7-4053-af59-6b254d5b6662</categoryId>
+        <picture>https://ol.partners/Products/Photo/62C11F00-305F-4778-96D1-2B9D4F6F2AC9</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_03.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_06.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_01.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_07.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_02.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_08.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_05.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/71d347da-2cfc-4753-88eb-e45dfc19ded1/image_04.jpg</picture>
+        <vendor>KOER</vendor>
+        <stock_quantity>100</stock_quantity>
+        <availabilityStatus>Достатньо</availabilityStatus>
+        <name>Змішувач для ванни з коротким виливом KOER KB-41009-01 (Колір хром) (KR3502)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>KR3502</vendorCode>
+        <param name="Од. в упак.">8</param>
+        <param name="Об'єм ящ.">0.092</param>
+        <param name="Вага ящ.">29</param>
+        <param name="Колір">Хром</param>
+        <param name="Покриття">З покриттям</param>
+        <param name="Стиль">Модерн</param>
+        <param name="Тип виливу">Литий</param>
+        <param name="Мінімальна температура води (°C)">5</param>
+        <param name="Довжина шланга (см)">150</param>
+        <param name="Картридж чи кран букса">Картридж</param>
+        <param name="Тип керування">Одноважільні</param>
+        <param name="Максимальний тиск (бар)">10,00</param>
+        <param name="Матеріал виробу">Латунь</param>
+        <param name="Максимальна температура води (°C)">90</param>
+        <param name="Мінімальний тиск (бар)">0,50</param>
+        <param name="MAX різниця тиску гарячої та холодної води (бар)">1,50</param>
+        <param name="Діаметр картриджа (мм)">35</param>
+        <param name="Особливості">Перемикач у виливі: 90°</param>
+        <param name="Комплектація">Шланг 150 см, ручна лійка, тримач для лійки, аератор, ексцентрики, чашки, гумові прокладки</param>
+        <param name="Гарантія на деталі змішувача (міс)">12</param>
+        <param name="Гарантія на корпус змішувача (міс)">60</param>
+        <param name="Довжина виливу (мм)">128</param>
+        <param name="Довжина виливу (см)">11-15</param>
+        <param name="Загальна довжина (мм)">192</param>
+        <param name="Група товару">Змішувачі</param>
+        <param name="Країна бренду">Чехія</param>
+        <param name="Модель">KB-41009-01</param>
+        <param name="Вид виробу">Змішувачі для ванни з коротким зливом</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Тип виробу">Змішувачі для ванни</param>
+        <param name="Серія">009</param>
+        <param name="Тип монтажу">Настінні</param>
+        <param name="Торгова марка">KOER</param>
       </offer>
       <offer id="d4ecfeb8-5e11-4576-9c1b-0003f85fe77f" available="false">
         <url>https://ol.partners/products/sifoni-trapi-dlya-dushu/sifoni/sifon-dlya-vanni-koer-bd0401-napivavtomatichniy-z-perelivom-bez-revizii-kolir-khrom-1-12-kr5442</url>
@@ -577136,6 +577136,43 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Колір">Візерунок "Райдуга"</param>
         <param name="Форма">Квадратна</param>
       </offer>
+      <offer id="b1b54a0d-8afb-4b54-b91a-96c78419f19c" available="true">
+        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-sct001180x180-z-poliesteru-kolir-biliy-zx4992</url>
+        <price>365.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
+        <picture>https://ol.partners/Products/Photo/CABAA294-F8A9-43A3-A98A-B98B395DC5A4</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/b1b54a0d-8afb-4b54-b91a-96c78419f19c/image_03.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/b1b54a0d-8afb-4b54-b91a-96c78419f19c/image_05.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/b1b54a0d-8afb-4b54-b91a-96c78419f19c/image_04.jpg</picture>
+        <vendor>ZERIX</vendor>
+        <stock_quantity>100</stock_quantity>
+        <availabilityStatus>Достатньо</availabilityStatus>
+        <name>Шторка для ванної ZERIX SCT-001-180x180 з поліестеру (Колір білий) (ZX4992)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>ZX4992</vendorCode>
+        <param name="Од. в упак.">36</param>
+        <param name="Об'єм ящ.">0.045</param>
+        <param name="Вага ящ.">15</param>
+        <param name="Тип виробу">Шторки для ванни</param>
+        <param name="Країна бренду">Китай</param>
+        <param name="Торгова марка">ZERIX</param>
+        <param name="Тип монтажу">Настінний</param>
+        <param name="Вид виробу">Шторка-фіранка для ванни</param>
+        <param name="Серія">SCT</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Призначення">Текстиль для ванної</param>
+        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
+        <param name="Матеріал">Поліестер</param>
+        <param name="Форма">Квадратна</param>
+        <param name="Колір">Білий</param>
+        <param name="Ширина (мм)">1800</param>
+        <param name="Висота (мм)">1800</param>
+        <param name="Розміри виробу (ВхШхГ)">180x180</param>
+        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
+        <param name="Гарантійний період (міс)">12</param>
+        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
+      </offer>
       <offer id="48bdb79f-2396-4609-b771-5302a6b2d3e9" available="true">
         <url>https://ol.partners/products/dushovi-koloni-ta-sistemi/dushovi-koloni/dushova-kolona-zi-zmishuvachem-mixxus-premium-degas-009j-mi8250</url>
         <price>7642.00</price>
@@ -577190,43 +577227,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Стиль">Модерн</param>
         <param name="Вилив">Короткий вилив</param>
         <param name="Покриття">З покриттям</param>
-      </offer>
-      <offer id="b1b54a0d-8afb-4b54-b91a-96c78419f19c" available="true">
-        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-sct001180x180-z-poliesteru-kolir-biliy-zx4992</url>
-        <price>365.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
-        <picture>https://ol.partners/Products/Photo/CABAA294-F8A9-43A3-A98A-B98B395DC5A4</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/b1b54a0d-8afb-4b54-b91a-96c78419f19c/image_03.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/b1b54a0d-8afb-4b54-b91a-96c78419f19c/image_05.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/b1b54a0d-8afb-4b54-b91a-96c78419f19c/image_04.jpg</picture>
-        <vendor>ZERIX</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
-        <name>Шторка для ванної ZERIX SCT-001-180x180 з поліестеру (Колір білий) (ZX4992)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>ZX4992</vendorCode>
-        <param name="Од. в упак.">36</param>
-        <param name="Об'єм ящ.">0.045</param>
-        <param name="Вага ящ.">15</param>
-        <param name="Тип виробу">Шторки для ванни</param>
-        <param name="Країна бренду">Китай</param>
-        <param name="Торгова марка">ZERIX</param>
-        <param name="Тип монтажу">Настінний</param>
-        <param name="Вид виробу">Шторка-фіранка для ванни</param>
-        <param name="Серія">SCT</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Призначення">Текстиль для ванної</param>
-        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
-        <param name="Матеріал">Поліестер</param>
-        <param name="Форма">Квадратна</param>
-        <param name="Колір">Білий</param>
-        <param name="Ширина (мм)">1800</param>
-        <param name="Висота (мм)">1800</param>
-        <param name="Розміри виробу (ВхШхГ)">180x180</param>
-        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
-        <param name="Гарантійний період (міс)">12</param>
-        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
       </offer>
       <offer id="feba82ee-448c-4df1-9e9e-8c21e1fbedf7" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-umivalnika/odnovazhilniy-zmishuvach-dlya-rakovini/zmishuvach-dlya-umivalnika-koer-kb1003105-kolir-chorniy-kr5431</url>
@@ -579531,6 +579531,36 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Гарантія на деталі змішувача (міс)">12</param>
         <param name="Гарантія на корпус змішувача (міс)">60</param>
       </offer>
+      <offer id="0de1347d-e3c4-4b3a-9b6e-f11c1ed01696" available="true">
+        <url>https://ol.partners/products/rushnikosushki/vodyani-rushnikosushki/sushka-dlya-rushnikiv-vodyana-ep-stinka-4kh4-8006400-ps0232</url>
+        <price>3809.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_40137948-7c36-4187-a598-0d50eb1df16f</categoryId>
+        <picture>https://ol.partners/Products/Photo/38A0B003-70CF-4A30-B66E-E2E4DBFDD1D5</picture>
+        <vendor>EUROPRODUCT</vendor>
+        <stock_quantity>100</stock_quantity>
+        <availabilityStatus>Достатньо</availabilityStatus>
+        <name>Сушка для рушників водяна EP (стінка) 4х4 800/6/400 (PS0232)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>PS0232</vendorCode>
+        <param name="Од. в упак.">1</param>
+        <param name="Об'єм ящ.">0</param>
+        <param name="Вага ящ.">0</param>
+        <param name="Міжосьова відстань (мм)">400</param>
+        <param name="Висота (мм)">800</param>
+        <param name="Діаметр перемички (мм)">18</param>
+        <param name="Діаметр основної труби (мм)">32</param>
+        <param name="Тип виробу">Водяні рушникосушки</param>
+        <param name="Серія">Стінка</param>
+        <param name="Країна бренду">Україна</param>
+        <param name="Торгова марка">EUROPRODUCT</param>
+        <param name="Матеріал">Нержавіюча сталь</param>
+        <param name="Підключення">Будь-яке (4х4)</param>
+        <param name="Кількість перемичок">6</param>
+        <param name="Гарантійний період (міс)">60</param>
+        <param name="Комплектація">Рушникосушарка, декоративна накладка 2 - 4 шт (взалежності від моделі), декоративний циліндр 2 - 4 шт (взалежності від моделі). Заглушки та саморізи до комплектації не входять.</param>
+        <param name="Особливості">Комплектацію уточнюйте у менеджера (може змінюватись виробником в залежності від партії)</param>
+      </offer>
       <offer id="11cca598-62ba-44da-b661-783a11626f39" available="true">
         <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-scp023180x180-z-peva-polietilenvinilatsetatu-vizerunok-klitina-blakitna-zx6096</url>
         <price>207.00</price>
@@ -579567,36 +579597,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Матеріал">PEVA (поліетиленвінілацетат)</param>
         <param name="Колір">Візерунок "Клітина" голуба</param>
         <param name="Форма">Квадратна</param>
-      </offer>
-      <offer id="0de1347d-e3c4-4b3a-9b6e-f11c1ed01696" available="true">
-        <url>https://ol.partners/products/rushnikosushki/vodyani-rushnikosushki/sushka-dlya-rushnikiv-vodyana-ep-stinka-4kh4-8006400-ps0232</url>
-        <price>3809.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_40137948-7c36-4187-a598-0d50eb1df16f</categoryId>
-        <picture>https://ol.partners/Products/Photo/38A0B003-70CF-4A30-B66E-E2E4DBFDD1D5</picture>
-        <vendor>EUROPRODUCT</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
-        <name>Сушка для рушників водяна EP (стінка) 4х4 800/6/400 (PS0232)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>PS0232</vendorCode>
-        <param name="Од. в упак.">1</param>
-        <param name="Об'єм ящ.">0</param>
-        <param name="Вага ящ.">0</param>
-        <param name="Міжосьова відстань (мм)">400</param>
-        <param name="Висота (мм)">800</param>
-        <param name="Діаметр перемички (мм)">18</param>
-        <param name="Діаметр основної труби (мм)">32</param>
-        <param name="Тип виробу">Водяні рушникосушки</param>
-        <param name="Серія">Стінка</param>
-        <param name="Країна бренду">Україна</param>
-        <param name="Торгова марка">EUROPRODUCT</param>
-        <param name="Матеріал">Нержавіюча сталь</param>
-        <param name="Підключення">Будь-яке (4х4)</param>
-        <param name="Кількість перемичок">6</param>
-        <param name="Гарантійний період (міс)">60</param>
-        <param name="Комплектація">Рушникосушарка, декоративна накладка 2 - 4 шт (взалежності від моделі), декоративний циліндр 2 - 4 шт (взалежності від моделі). Заглушки та саморізи до комплектації не входять.</param>
-        <param name="Особливості">Комплектацію уточнюйте у менеджера (може змінюватись виробником в залежності від партії)</param>
       </offer>
       <offer id="4260724d-197f-4b53-b6c4-76910cc2e25f" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-umivalnika/odnovazhilniy-zmishuvach-dlya-rakovini/zmishuvach-dlya-umivalnika-plamix-afina001-white-bez-pidvedennya-kolir-biliy-pm0684</url>
@@ -580398,6 +580398,42 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Максимальна висота (см)">105</param>
         <param name="Довжина виливу (мм)">290</param>
       </offer>
+      <offer id="c65d9cf7-e410-45f5-a2dc-95bddf583644" available="true">
+        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-sct007180x180-z-poliesteru-vizerunok-zigzag-bilochorniy-zx4987</url>
+        <price>384.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
+        <picture>https://ol.partners/Products/Photo/2115B9A8-85BE-4C26-BB46-1245E7160362</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/c65d9cf7-e410-45f5-a2dc-95bddf583644/image_04.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/c65d9cf7-e410-45f5-a2dc-95bddf583644/image_03.jpg</picture>
+        <vendor>ZERIX</vendor>
+        <stock_quantity>100</stock_quantity>
+        <availabilityStatus>Достатньо</availabilityStatus>
+        <name>Шторка для ванної ZERIX SCT-007-180x180 з поліестеру (Візерунок "Зигзаг" біло-чорний) (ZX4987)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>ZX4987</vendorCode>
+        <param name="Од. в упак.">36</param>
+        <param name="Об'єм ящ.">0.045</param>
+        <param name="Вага ящ.">13</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Тип виробу">Шторки для ванни</param>
+        <param name="Країна бренду">Китай</param>
+        <param name="Призначення">Текстиль для ванної</param>
+        <param name="Тип монтажу">Настінний</param>
+        <param name="Торгова марка">ZERIX</param>
+        <param name="Вид виробу">Шторка-фіранка для ванни</param>
+        <param name="Серія">SCT</param>
+        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
+        <param name="Гарантійний період (міс)">12</param>
+        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
+        <param name="Висота (мм)">1800</param>
+        <param name="Розміри виробу (ВхШхГ)">180x180</param>
+        <param name="Ширина (мм)">1800</param>
+        <param name="Колір">Візерунок "Зигзаг" біло-чорний</param>
+        <param name="Форма">Квадратна</param>
+        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
+        <param name="Матеріал">Поліестер</param>
+      </offer>
       <offer id="c1742b6b-7b77-4193-8277-0f404e635ba8" available="true">
         <url>https://ol.partners/products/sifoni-trapi-dlya-dushu/zlivni-trapi/dushoviy-trap-koer-fd20s150-z-nerzh-stali-sus304-150x150mm-kr3282</url>
         <price>1616.00</price>
@@ -580460,42 +580496,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Ширина (мм)">70</param>
         <param name="Довжина (мм)">500</param>
         <param name="Колір">Нержавіюча сталь</param>
-      </offer>
-      <offer id="c65d9cf7-e410-45f5-a2dc-95bddf583644" available="true">
-        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-sct007180x180-z-poliesteru-vizerunok-zigzag-bilochorniy-zx4987</url>
-        <price>384.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
-        <picture>https://ol.partners/Products/Photo/2115B9A8-85BE-4C26-BB46-1245E7160362</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/c65d9cf7-e410-45f5-a2dc-95bddf583644/image_04.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/c65d9cf7-e410-45f5-a2dc-95bddf583644/image_03.jpg</picture>
-        <vendor>ZERIX</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
-        <name>Шторка для ванної ZERIX SCT-007-180x180 з поліестеру (Візерунок "Зигзаг" біло-чорний) (ZX4987)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>ZX4987</vendorCode>
-        <param name="Од. в упак.">36</param>
-        <param name="Об'єм ящ.">0.045</param>
-        <param name="Вага ящ.">13</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Тип виробу">Шторки для ванни</param>
-        <param name="Країна бренду">Китай</param>
-        <param name="Призначення">Текстиль для ванної</param>
-        <param name="Тип монтажу">Настінний</param>
-        <param name="Торгова марка">ZERIX</param>
-        <param name="Вид виробу">Шторка-фіранка для ванни</param>
-        <param name="Серія">SCT</param>
-        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
-        <param name="Гарантійний період (міс)">12</param>
-        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
-        <param name="Висота (мм)">1800</param>
-        <param name="Розміри виробу (ВхШхГ)">180x180</param>
-        <param name="Ширина (мм)">1800</param>
-        <param name="Колір">Візерунок "Зигзаг" біло-чорний</param>
-        <param name="Форма">Квадратна</param>
-        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
-        <param name="Матеріал">Поліестер</param>
       </offer>
       <offer id="44f8a43b-6850-4129-b38c-c7bd274ac177" available="false">
         <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtangi-teleskopichni/shtanga-dlya-shtorki-teleskopichna-pryama-mixxus-cra110x200-110cm200cm-alyuminiy-ac0655</url>
@@ -596061,53 +596061,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Тип приєднання">Різьбове</param>
         <param name="Матеріал виробу">Латунь</param>
       </offer>
-      <offer id="111918e3-ffc6-4d54-8828-488af29838b7" available="true">
-        <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-gigiyenichnogo-dushu/zmishuvach-dlya-gigiyenichnogo-dushu-z-liykoyu-mixxus-premium-ares-024-mi8259</url>
-        <price>2458.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_23c6d203-11f7-4053-af59-6b254d5b6662</categoryId>
-        <picture>https://ol.partners/Products/Photo/65B91A3F-E23A-4AE2-A7F7-AC7266348606</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_04.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_02.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_06.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_05.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_01.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_03.jpg</picture>
-        <vendor>MIXXUS PREMIUM</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
-        <name>Змішувач для гігієнічного душу (з лійкою) MIXXUS PREMIUM ARES 024 (MI8259)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>MI8259</vendorCode>
-        <param name="Од. в упак.">10</param>
-        <param name="Об'єм ящ.">0.05</param>
-        <param name="Вага ящ.">15.6</param>
-        <param name="MAX різниця тиску гарячої та холодної води (бар)">1,50</param>
-        <param name="Мінімальний тиск (бар)">0,50</param>
-        <param name="Тип керування">Одноважільні</param>
-        <param name="Мінімальна температура води (°C)">5</param>
-        <param name="Довжина шланга (см)">120</param>
-        <param name="Робочий тиск (бар)">1-5</param>
-        <param name="Максимальна температура води (°C)">90</param>
-        <param name="Максимальний тиск (бар)">10,00</param>
-        <param name="Матеріал виробу">Латунь</param>
-        <param name="Картридж чи кран букса">Картридж</param>
-        <param name="Група товару">Змішувачі</param>
-        <param name="Торгова марка">MIXXUS PREMIUM</param>
-        <param name="Країна бренду">Німеччина</param>
-        <param name="Вид виробу">Змішувачі для гігієнічного душу настінні</param>
-        <param name="Серія">ARES</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Модель">024</param>
-        <param name="Тип монтажу">Настінні</param>
-        <param name="Тип виробу">Змішувачі для гігієнічного душу</param>
-        <param name="Покриття">З покриттям</param>
-        <param name="Колір">Хром</param>
-        <param name="Стиль">Модерн</param>
-        <param name="Гарантія на корпус змішувача (міс)">60</param>
-        <param name="Комплектація">Шланг 120 см, лійка для гігієнічного душу 4,5х13,7 см, чашки, ексцентрики, гумові прокладки, посібник з експлуатації та гарантійний талон</param>
-        <param name="Гарантія на деталі змішувача (міс)">12</param>
-      </offer>
       <offer id="bb01ddeb-cf7b-4299-b5a0-82cf999151ac" available="true">
         <url>https://ol.partners/products/dushovi-koloni-ta-sistemi/dushovi-koloni/dushova-kolona-mixxus-premium-edem-009j-black-zi-zmishuvachem-kolir-chorniy-mi5842</url>
         <price>6590.00</price>
@@ -596160,6 +596113,53 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Серія">EDEM</param>
         <param name="Тип монтажу">Настінні</param>
         <param name="Країна виробник">Китай</param>
+      </offer>
+      <offer id="111918e3-ffc6-4d54-8828-488af29838b7" available="true">
+        <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-gigiyenichnogo-dushu/zmishuvach-dlya-gigiyenichnogo-dushu-z-liykoyu-mixxus-premium-ares-024-mi8259</url>
+        <price>2458.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_23c6d203-11f7-4053-af59-6b254d5b6662</categoryId>
+        <picture>https://ol.partners/Products/Photo/65B91A3F-E23A-4AE2-A7F7-AC7266348606</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_04.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_02.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_06.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_05.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_01.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/111918e3-ffc6-4d54-8828-488af29838b7/image_03.jpg</picture>
+        <vendor>MIXXUS PREMIUM</vendor>
+        <stock_quantity>100</stock_quantity>
+        <availabilityStatus>Достатньо</availabilityStatus>
+        <name>Змішувач для гігієнічного душу (з лійкою) MIXXUS PREMIUM ARES 024 (MI8259)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>MI8259</vendorCode>
+        <param name="Од. в упак.">10</param>
+        <param name="Об'єм ящ.">0.05</param>
+        <param name="Вага ящ.">15.6</param>
+        <param name="MAX різниця тиску гарячої та холодної води (бар)">1,50</param>
+        <param name="Мінімальний тиск (бар)">0,50</param>
+        <param name="Тип керування">Одноважільні</param>
+        <param name="Мінімальна температура води (°C)">5</param>
+        <param name="Довжина шланга (см)">120</param>
+        <param name="Робочий тиск (бар)">1-5</param>
+        <param name="Максимальна температура води (°C)">90</param>
+        <param name="Максимальний тиск (бар)">10,00</param>
+        <param name="Матеріал виробу">Латунь</param>
+        <param name="Картридж чи кран букса">Картридж</param>
+        <param name="Група товару">Змішувачі</param>
+        <param name="Торгова марка">MIXXUS PREMIUM</param>
+        <param name="Країна бренду">Німеччина</param>
+        <param name="Вид виробу">Змішувачі для гігієнічного душу настінні</param>
+        <param name="Серія">ARES</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Модель">024</param>
+        <param name="Тип монтажу">Настінні</param>
+        <param name="Тип виробу">Змішувачі для гігієнічного душу</param>
+        <param name="Покриття">З покриттям</param>
+        <param name="Колір">Хром</param>
+        <param name="Стиль">Модерн</param>
+        <param name="Гарантія на корпус змішувача (міс)">60</param>
+        <param name="Комплектація">Шланг 120 см, лійка для гігієнічного душу 4,5х13,7 см, чашки, ексцентрики, гумові прокладки, посібник з експлуатації та гарантійний талон</param>
+        <param name="Гарантія на деталі змішувача (міс)">12</param>
       </offer>
       <offer id="a7c6c6cf-257e-4738-8e2e-85beb5bc9d4f" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-vanni/liti-zmishuvachi-dlya-vannoi/zmishuvach-dlya-vanni-plamix-oscar009-euro-black-bez-shlanga-ta-liyki-kolir-chorniy-pm0642</url>
@@ -614520,6 +614520,43 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Матеріал">Пластик</param>
         <param name="Колір">Нержавіюча сталь</param>
       </offer>
+      <offer id="f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b" available="true">
+        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-scp016180x200-z-peva-polietilenvinilatsetatu-vizerunok-zigzag-bilochorniy-zx6089</url>
+        <price>216.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
+        <picture>https://ol.partners/Products/Photo/205559B8-E67A-4A74-9DB0-A55AA9295330</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b/image_03.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b/image_05.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b/image_04.jpg</picture>
+        <vendor>ZERIX</vendor>
+        <stock_quantity>100</stock_quantity>
+        <availabilityStatus>Достатньо</availabilityStatus>
+        <name>Шторка для ванної ZERIX SCP-016-180x200 з PEVA (поліетиленвінілацетату) (Візерунок "Зигзаг" біло-чорний) (ZX6089)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>ZX6089</vendorCode>
+        <param name="Од. в упак.">36</param>
+        <param name="Об'єм ящ.">0.033</param>
+        <param name="Вага ящ.">13.4</param>
+        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
+        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
+        <param name="Гарантійний період (міс)">12</param>
+        <param name="Матеріал">PEVA (поліетиленвінілацетат)</param>
+        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
+        <param name="Висота (мм)">2000</param>
+        <param name="Ширина (мм)">1800</param>
+        <param name="Розміри виробу (ВхШхГ)">200x180</param>
+        <param name="Країна бренду">Чехія</param>
+        <param name="Серія">SCP</param>
+        <param name="Вид виробу">Шторка-фіранка для ванни</param>
+        <param name="Торгова марка">ZERIX</param>
+        <param name="Тип виробу">Шторки для ванни</param>
+        <param name="Призначення">Текстиль для ванної</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Тип монтажу">Настінний</param>
+        <param name="Колір">Візерунок "Зигзаг" біло-чорний</param>
+        <param name="Форма">Прямокутна</param>
+      </offer>
       <offer id="5130a0e8-3770-4389-a0fe-55e45aec0bdc" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-vanni/zmishuvach-dlya-vanni-z-povorotnim-vilivom/zmishuvach-dlya-vanni-ep-mf-143-ep0071</url>
         <price>2136.00</price>
@@ -614564,43 +614601,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Комплектація">Шланг 150 см, ручна лійка на 3 режиму розміром 8х20 см, чашки, ексцентрики, гумові прокладки, тримач для лійки</param>
         <param name="Гарантія на корпус змішувача (міс)">24</param>
         <param name="Гарантія на деталі змішувача (міс)">6</param>
-      </offer>
-      <offer id="f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b" available="true">
-        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-scp016180x200-z-peva-polietilenvinilatsetatu-vizerunok-zigzag-bilochorniy-zx6089</url>
-        <price>216.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
-        <picture>https://ol.partners/Products/Photo/205559B8-E67A-4A74-9DB0-A55AA9295330</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b/image_03.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b/image_05.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/f55dac04-a3b6-4364-9f2d-9ffbb38eeb2b/image_04.jpg</picture>
-        <vendor>ZERIX</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
-        <name>Шторка для ванної ZERIX SCP-016-180x200 з PEVA (поліетиленвінілацетату) (Візерунок "Зигзаг" біло-чорний) (ZX6089)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>ZX6089</vendorCode>
-        <param name="Од. в упак.">36</param>
-        <param name="Об'єм ящ.">0.033</param>
-        <param name="Вага ящ.">13.4</param>
-        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
-        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
-        <param name="Гарантійний період (міс)">12</param>
-        <param name="Матеріал">PEVA (поліетиленвінілацетат)</param>
-        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
-        <param name="Висота (мм)">2000</param>
-        <param name="Ширина (мм)">1800</param>
-        <param name="Розміри виробу (ВхШхГ)">200x180</param>
-        <param name="Країна бренду">Чехія</param>
-        <param name="Серія">SCP</param>
-        <param name="Вид виробу">Шторка-фіранка для ванни</param>
-        <param name="Торгова марка">ZERIX</param>
-        <param name="Тип виробу">Шторки для ванни</param>
-        <param name="Призначення">Текстиль для ванної</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Тип монтажу">Настінний</param>
-        <param name="Колір">Візерунок "Зигзаг" біло-чорний</param>
-        <param name="Форма">Прямокутна</param>
       </offer>
       <offer id="fefe915f-3c54-42d5-9f6c-eb28aec3380d" available="true">
         <url>https://ol.partners/products/zapchastini-dlya-zmishuvacha/donniy-klapan-dlya-rakovini/donniy-klapan-dlya-rakovini-universalniy-zbez-perelivu-koer-pw0201-avtomatichniy-clickclack-kolir-khrom-1-14-kr3399</url>
@@ -617460,6 +617460,40 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Тип виливу">Ні</param>
         <param name="Покриття">З покриттям</param>
       </offer>
+      <offer id="1cc9e799-02af-450b-9218-a6c7971122e2" available="false">
+        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-sct009180x180-z-poliesteru-vizerunok-bilozeleniy-zx4984</url>
+        <price>384.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
+        <picture>https://ol.partners/Products/Photo/1D355A11-9542-4270-A59B-2A0B3FF06CFC</picture>
+        <vendor>ZERIX</vendor>
+        <stock_quantity>0</stock_quantity>
+        <availabilityStatus>Немає в наявності</availabilityStatus>
+        <name>Шторка для ванної ZERIX SCT-009-180x180 з поліестеру (Візерунок біло-зелений) (ZX4984)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>ZX4984</vendorCode>
+        <param name="Од. в упак.">36</param>
+        <param name="Об'єм ящ.">0.045</param>
+        <param name="Вага ящ.">13</param>
+        <param name="Вид виробу">Шторка-фіранка для ванни</param>
+        <param name="Тип виробу">Шторки для ванни</param>
+        <param name="Призначення">Текстиль для ванної</param>
+        <param name="Тип монтажу">Настінний</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Серія">SCT</param>
+        <param name="Торгова марка">ZERIX</param>
+        <param name="Країна бренду">Китай</param>
+        <param name="Висота (мм)">1800</param>
+        <param name="Ширина (мм)">1800</param>
+        <param name="Розміри виробу (ВхШхГ)">180x180</param>
+        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
+        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
+        <param name="Гарантійний період (міс)">12</param>
+        <param name="Форма">Квадратна</param>
+        <param name="Колір">Візерунок біло-зелений</param>
+        <param name="Матеріал">Поліестер</param>
+        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
+      </offer>
       <offer id="ec62a96b-625b-4702-855e-3d8a7036f926" available="true">
         <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtangi-teleskopichni/shtanga-dlya-shtorki-pidtrimuyucha-pryama-mixxus-cras60-60cm-alyuminiy-ac3594</url>
         <price>240.00</price>
@@ -617501,40 +617535,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Розміри виробу (ВхШхГ)">60</param>
         <param name="Колір">Білий</param>
         <param name="Форма">Підтримуюча пряма</param>
-      </offer>
-      <offer id="1cc9e799-02af-450b-9218-a6c7971122e2" available="false">
-        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtori-dlya-vannoi/shtorka-dlya-vannoi-zerix-sct009180x180-z-poliesteru-vizerunok-bilozeleniy-zx4984</url>
-        <price>384.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
-        <picture>https://ol.partners/Products/Photo/1D355A11-9542-4270-A59B-2A0B3FF06CFC</picture>
-        <vendor>ZERIX</vendor>
-        <stock_quantity>0</stock_quantity>
-        <availabilityStatus>Немає в наявності</availabilityStatus>
-        <name>Шторка для ванної ZERIX SCT-009-180x180 з поліестеру (Візерунок біло-зелений) (ZX4984)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>ZX4984</vendorCode>
-        <param name="Од. в упак.">36</param>
-        <param name="Об'єм ящ.">0.045</param>
-        <param name="Вага ящ.">13</param>
-        <param name="Вид виробу">Шторка-фіранка для ванни</param>
-        <param name="Тип виробу">Шторки для ванни</param>
-        <param name="Призначення">Текстиль для ванної</param>
-        <param name="Тип монтажу">Настінний</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Серія">SCT</param>
-        <param name="Торгова марка">ZERIX</param>
-        <param name="Країна бренду">Китай</param>
-        <param name="Висота (мм)">1800</param>
-        <param name="Ширина (мм)">1800</param>
-        <param name="Розміри виробу (ВхШхГ)">180x180</param>
-        <param name="Комплектація">Шторка, комплект пластикових кілець (12 штук), запаковані в пакет з тримачем</param>
-        <param name="Умови експлуатації та догляд">1. Рекомендується прати не рідше 1 разу на місяць у ручному режимі при температурі не більше 30°С. 2. Для збереження зовнішнього вигляду виробу рекомендується споліскувати фіранку після прийому душу. 3. При появі плісняви рекомендується замочити фіранку в розчині прального порошку з теплою водою та невеликої кількості відбілювача на 30-40 хв, після чого прати у ручному режимі за температури 30 °С. Якщо через нетривалий час цвіль з'явиться знову, рекомендується замінити виріб на новий.</param>
-        <param name="Гарантійний період (міс)">12</param>
-        <param name="Форма">Квадратна</param>
-        <param name="Колір">Візерунок біло-зелений</param>
-        <param name="Матеріал">Поліестер</param>
-        <param name="Тип кріплення">Пластиковими кільцями до штанги</param>
       </offer>
       <offer id="9723ca6a-b2e7-415c-9fa3-6bba721ae4e3" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-umivalnika/odnovazhilniy-zmishuvach-dlya-rakovini/zmishuvach-dlya-umivalnika-koer-kb1003005-kolir-chorniy-kr5425</url>
@@ -637805,6 +637805,52 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Максимальна висота (см)">146</param>
         <param name="Довжина виливу (мм)">10</param>
       </offer>
+      <offer id="a29efab6-6a9a-4afe-9a30-8cb6dc5b4773" available="false">
+        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtangi-teleskopichni/shtanga-dlya-shtorki-teleskopichna-pryama-zerix-crs110x200-110cm200cm-nerzhaviyucha-stal-zx4996</url>
+        <price>226.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
+        <picture>https://ol.partners/Products/Photo/54F0E016-C040-4964-8EFC-C0749FCACAE7</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_11.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_06.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_04.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_02.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_12.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_03.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_07.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_13.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_08.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_05.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_09.jpg</picture>
+        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_10.jpg</picture>
+        <vendor>ZERIX</vendor>
+        <stock_quantity>0</stock_quantity>
+        <availabilityStatus>Малий залишок</availabilityStatus>
+        <name>Штанга для шторки телескопічна пряма ZERIX CRS-110x200 110cm-200cm (нержавіюча сталь) (ZX4996)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>ZX4996</vendorCode>
+        <param name="Од. в упак.">36</param>
+        <param name="Об'єм ящ.">0.04</param>
+        <param name="Вага ящ.">11</param>
+        <param name="Країна бренду">Китай</param>
+        <param name="Призначення">Аксесуари для ванної</param>
+        <param name="Торгова марка">ZERIX</param>
+        <param name="Вид виробу">Штанга для штор</param>
+        <param name="Тип монтажу">Настінний</param>
+        <param name="Серія">CRS</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Тип виробу">Шторки для ванни</param>
+        <param name="Матеріал">Нержавіюча сталь</param>
+        <param name="Тип кріплення">До стіни</param>
+        <param name="Колір">Нержавіюча сталь</param>
+        <param name="Форма">Телескопічна пряма</param>
+        <param name="Розміри виробу (ВхШхГ)">110x200</param>
+        <param name="Діапазон довжини (мм)">1100-2000</param>
+        <param name="Довжина (мм)">2000</param>
+        <param name="Умови експлуатації та догляд">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
+        <param name="Гарантійний період (міс)">12</param>
+        <param name="Комплектація">Штанга, запакована у пакет з тримачем</param>
+      </offer>
       <offer id="e37c36bd-a238-4035-906e-8bf01673c3c6" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-kukhni/zmishuvach-na-kukhnyu-z-gnuchkim-silikonovim-vilivom/zmishuvach-dlya-kukhni-mixxus-premium-oliwer-017-black-reflblack-kolir-chorniyviliv-chorniy-mi6966</url>
         <price>2220.00</price>
@@ -637861,52 +637907,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Покриття">З покриттям</param>
         <param name="Тип виливу">Гнучкий</param>
         <param name="Стиль">Модерн</param>
-      </offer>
-      <offer id="a29efab6-6a9a-4afe-9a30-8cb6dc5b4773" available="false">
-        <url>https://ol.partners/products/aksesuari-dlya-vannoi/shtangi-teleskopichni/shtanga-dlya-shtorki-teleskopichna-pryama-zerix-crs110x200-110cm200cm-nerzhaviyucha-stal-zx4996</url>
-        <price>226.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_98cef2a4-d106-4da2-9b4c-f8e66696fd13</categoryId>
-        <picture>https://ol.partners/Products/Photo/54F0E016-C040-4964-8EFC-C0749FCACAE7</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_11.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_06.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_04.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_02.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_12.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_03.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_07.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_13.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_08.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_05.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_09.jpg</picture>
-        <picture>https://cdn.olinfrastructure.com/productfile/a29efab6-6a9a-4afe-9a30-8cb6dc5b4773/image_10.jpg</picture>
-        <vendor>ZERIX</vendor>
-        <stock_quantity>0</stock_quantity>
-        <availabilityStatus>Малий залишок</availabilityStatus>
-        <name>Штанга для шторки телескопічна пряма ZERIX CRS-110x200 110cm-200cm (нержавіюча сталь) (ZX4996)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>ZX4996</vendorCode>
-        <param name="Од. в упак.">36</param>
-        <param name="Об'єм ящ.">0.04</param>
-        <param name="Вага ящ.">11</param>
-        <param name="Країна бренду">Китай</param>
-        <param name="Призначення">Аксесуари для ванної</param>
-        <param name="Торгова марка">ZERIX</param>
-        <param name="Вид виробу">Штанга для штор</param>
-        <param name="Тип монтажу">Настінний</param>
-        <param name="Серія">CRS</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Тип виробу">Шторки для ванни</param>
-        <param name="Матеріал">Нержавіюча сталь</param>
-        <param name="Тип кріплення">До стіни</param>
-        <param name="Колір">Нержавіюча сталь</param>
-        <param name="Форма">Телескопічна пряма</param>
-        <param name="Розміри виробу (ВхШхГ)">110x200</param>
-        <param name="Діапазон довжини (мм)">1100-2000</param>
-        <param name="Довжина (мм)">2000</param>
-        <param name="Умови експлуатації та догляд">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
-        <param name="Гарантійний період (міс)">12</param>
-        <param name="Комплектація">Штанга, запакована у пакет з тримачем</param>
       </offer>
       <offer id="3fdf6621-0582-49da-a9c5-3e128a7ac025" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-gigiyenichnogo-dushu/zmishuvach-dlya-gigiyenichnogo-dushu-koer-kb2403707-kolir-grafit-kr6006</url>
