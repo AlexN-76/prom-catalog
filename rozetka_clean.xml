@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-09 02:17">
+<yml_catalog date="2026-11-09 09:24">
   <shop>
     <name>Магазин СантехниК</name>
     <company>565043</company>
@@ -202814,6 +202814,87 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Длина чаши" unit="мм">545</param>
     <param name="Вага (нетто)" unit="кг">15.4</param>
   </offer>
+  <offer id="2865187295" available="true">
+    <article>SP000051483</article>
+    <url>https://plumbershop.in.ua/p2865187295-kuhonnaya-granitnaya-mojka.html</url>
+    <price>7026</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1302</categoryId>
+    <picture>https://images.prom.ua/YcehXfBNnGKn4ffxKXVWxBV5E7A3aEzsk3mcB_wGEfA=/7035675117_kuhonnaya-granitnaya-mojka.jpg</picture>
+    <picture>https://images.prom.ua/rDIo-YDcD0msmLpSxE-c_8b-iYkkuhlGGdyE7rH54z0=/6969307000_kuhonnaya-granitnaya-mojka.jpg</picture>
+    <picture>https://images.prom.ua/kD_Nq2i_D1TL2Chia7NRuksjZJ1rJEUtHMRgsW2j47M=/7035675113_kuhonnaya-granitnaya-mojka.jpg</picture>
+    <picture>https://images.prom.ua/yfeX-TqzICHiBGZWOgEGIai5UN8pQ8E9D1BSaJ7hGec=/7035675114_kuhonnaya-granitnaya-mojka.jpg</picture>
+    <picture>https://images.prom.ua/aoZpHQ7qS_eNap46yuyK_4hHt-ftAJjnWVFkvPi6-o0=/7035675115_kuhonnaya-granitnaya-mojka.jpg</picture>
+    <picture>https://images.prom.ua/-2veF6IOTTE8sJT73s0WiARtLwWqwFCoijv6TVP1YFE=/7035675116_kuhonnaya-granitnaya-mojka.jpg</picture>
+    <picture>https://images.prom.ua/rfamWr_N43VYxIliIv5deyC82F3T3GhqVmLhzAQlLqI=/7035675118_kuhonnaya-granitnaya-mojka.jpg</picture>
+    <vendor>Valeso</vendor>
+    <stock_quantity>1</stock_quantity>
+    <name>Кухонная гранитная мойка 5444 AMELI VALESO белая в точку</name>
+    <name_ua>Кухонна гранітна мийка 5444 AMELI VALESO біла в крапку</name_ua>
+    <description>&lt;div&gt;&lt;h2&gt;Кухонная гранитная мойка 5444 AMELI VALESO белая в точку&lt;/h2&gt;&lt;p&gt;Эта элегантная кухонная мойка станет неотъемлемой частью вашей современной кухни, обеспечивая максимальный комфорт и функциональность во время ежедневных кулинарных дел. Она идеально подходит для мытья посуды, овощей и фруктов, а также для выполнения других кухонных задач.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Высокая устойчивость к царапинам, ударам и термическим перепадам.&lt;/li&gt;&lt;li&gt;Легка в уходе, не впитывает грязь и жир, сохраняя первозданный вид.&lt;/li&gt;&lt;li&gt;Экологически чистый и безопасный материал, не выделяющий вредных веществ.&lt;/li&gt;&lt;li&gt;Современный дизайн "белая в точку", который гармонично впишется в любой интерьер.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Заказывайте сейчас и получите надежное оборудование с официальной гарантией от производителя!&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;table border="1"&gt;
+&lt;tr&gt;
+&lt;td&gt;Параметри&lt;/td&gt;
+&lt;td&gt;Значение&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Габариты мойки&lt;/td&gt;
+&lt;td&gt;540 x 440 — мм&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Глубина чаши&lt;/td&gt;
+&lt;td&gt;200 - мм&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Цвет модели&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Гарантия&lt;/td&gt;
+&lt;td&gt;120 месяцев (10 лет)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+    <description_ua>&lt;div&gt;&lt;h2&gt;Кухонна гранітна мийка 5444 AMELI VALESO біла в крапку&lt;/h2&gt;&lt;p&gt;Ця елегантна кухонна мийка стане невід'ємною частиною вашої сучасної кухні, забезпечуючи максимальний комфорт та функціональність під час щоденних кулінарних справ. Вона ідеально підходить для миття посуду, овочів та фруктів, а також для виконання інших кухонних завдань.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Висока стійкість до подряпин, ударів та термічних перепадів.&lt;/li&gt;&lt;li&gt;Легка у догляді, не вбирає бруд та жир, зберігаючи первозданний вигляд.&lt;/li&gt;&lt;li&gt;Екологічно чистий та безпечний матеріал, що не виділяє шкідливих речовин.&lt;/li&gt;&lt;li&gt;Сучасний дизайн "біла в крапку", що гармонійно впишеться в будь-який інтер'єр.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Замовляйте зараз та отримайте надійне обладнання з офіційною гарантією від виробника!&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;table border="1"&gt;
+&lt;tr&gt;
+&lt;td&gt;Параметри&lt;/td&gt;
+&lt;td&gt;Значення&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Габарити мийки&lt;/td&gt;
+&lt;td&gt;540 x 440 — мм&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Глибина чаші&lt;/td&gt;
+&lt;td&gt;200 - мм&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Колір моделі&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Гарантія&lt;/td&gt;
+&lt;td&gt;120 місяців (10 років)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description_ua>
+    <param name="Гарантийный срок" unit="мес">120</param>
+    <param name="Глубина чаши" unit="мм">215</param>
+    <param name="Длина мойки" unit="мм">540</param>
+    <param name="Длина чаши мойки" unit="мм">500</param>
+    <param name="Цвет">Белый</param>
+    <param name="Конструкция мойки">Одночашевая</param>
+    <param name="Материал мойки">Гранит</param>
+    <param name="Отверстие под смеситель">Нет</param>
+    <param name="Сифон">Нет</param>
+    <param name="Тип установки мойки">Интегрированная</param>
+    <param name="Тип поверхности">Матовая</param>
+    <param name="Форма мойки">Прямоугольная</param>
+    <param name="Ширина мойки" unit="мм">440</param>
+    <param name="Ширина чаши мойки" unit="мм">400</param>
+    <param name="Ширина шкафа (для мойки)" unit="мм">600</param>
+    <param name="Глибина мийки, мм" unit="">215</param>
+    <param name="Комплектація до мийки" unit="">кріплення</param>
+    <param name="Материал" unit="">Гранит</param>
+    <param name="Фактура поверхні" unit="">матова</param>
+  </offer>
   <offer id="2865187296" available="true">
     <article>SP000051486</article>
     <url>https://plumbershop.in.ua/p2865187296-kuhonnaya-granitnaya-mojka.html</url>
@@ -204933,7 +205014,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Країна реєстрації бренду" unit="">Украина</param>
     <param name="Материал радиатора" unit="">Сталь</param>
   </offer>
-  <offer id="2866899442" available="true">
+<offer id="2866899442" available="true">
     <article>SD00054937</article>
     <url>https://plumbershop.in.ua/p2866899442-stalnoj-radiator-thermo.html</url>
     <price>6669</price>
@@ -204991,7 +205072,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Країна реєстрації бренду" unit="">Украина</param>
     <param name="Материал радиатора" unit="">Сталь</param>
   </offer>
-<offer id="2866899443" available="true">
+  <offer id="2866899443" available="true">
     <article>SD00054933</article>
     <url>https://plumbershop.in.ua/p2866899443-stalnoj-radiator-thermo.html</url>
     <price>4898</price>
@@ -222733,7 +222814,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Диаметр" unit="мм">80</param>
     <param name="Тип запчасти" unit="">Мембрана</param>
   </offer>
-  <offer id="2919178460" available="true">
+<offer id="2919178460" available="true">
     <article>ТР-00022251</article>
     <url>https://plumbershop.in.ua/p2919178460-bak-rasshiryayuschij-dlya.html</url>
     <price>1141</price>
@@ -222824,7 +222905,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Тип бака" unit="">расширительный</param>
     <param name="Температура жидкости, до" unit="">+99°</param>
   </offer>
-<offer id="2919178461" available="true">
+  <offer id="2919178461" available="true">
     <article>ТР-00022528</article>
     <url>https://plumbershop.in.ua/p2919178461-elektronnoe-rele-davleniya.html</url>
     <price>1414</price>
@@ -236130,7 +236211,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Страна-производитель" unit="">Китай</param>
     <param name="Тип изделия" unit="">Гибкая подводка</param>
   </offer>
-  <offer id="3008141380" available="true">
+<offer id="3008141380" available="true">
     <article>SP000047689</article>
     <url>https://plumbershop.in.ua/p3008141380-smesitel-dlya-kuhni.html</url>
     <price>3087</price>
@@ -236159,7 +236240,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Тип смесителя (крана)">Однорычажный</param>
     <param name="Тип подводки">Гибкая</param>
   </offer>
-<offer id="3008162521" available="true">
+  <offer id="3008162521" available="true">
     <article>00000017226</article>
     <url>https://plumbershop.in.ua/p3008162521-truba-ppr-asco.html</url>
     <price>607.07</price>
@@ -245842,7 +245923,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Цвет ППР" unit="">Серый</param>
     <param name="Вид фитинга" unit="">Соединительный</param>
   </offer>
-  <offer id="3008162964" available="true">
+<offer id="3008162964" available="true">
     <article>ТР-00022820</article>
     <url>https://plumbershop.in.ua/p3008162964-kran-sharovyj-radiatornyj.html</url>
     <price>258.72</price>
@@ -245878,7 +245959,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Цвет ППР" unit="">Серый</param>
     <param name="Вид фитинга" unit="">Соединительный</param>
   </offer>
-<offer id="3008162965" available="true">
+  <offer id="3008162965" available="true">
     <article>ТР-00022821</article>
     <url>https://plumbershop.in.ua/p3008162965-kran-radiatornyj-uglovoj.html</url>
     <price>223.61</price>
@@ -256415,7 +256496,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Количество грузовых мест" unit="">1</param>
     <param name="Дополнительные характеристики" unit="">Мощность котла: 40 кВт; Диаметр сопла: 6,9 мм</param>
   </offer>
-  <offer id="3026679944" available="true">
+<offer id="3026679944" available="true">
     <article>SD00004237</article>
     <url>https://plumbershop.in.ua/p3026679944-gazovaya-diafragma-airfel.html</url>
     <price>140</price>
@@ -256444,7 +256525,7 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Количество грузовых мест" unit="">1</param>
     <param name="Дополнительные характеристики" unit="">Мощность котла: 25 кВт; Диаметр сопла: 5,4 мм</param>
   </offer>
-<offer id="3026679945" available="true">
+  <offer id="3026679945" available="true">
     <article>SD00004263</article>
     <url>https://plumbershop.in.ua/p3026679945-gibkaya-truba-bajpasa.html</url>
     <price>556</price>
@@ -269117,7 +269198,7 @@ Lidz Handmade H4545HB – це не просто мийка, це централ
     <param name="Страна-производитель" unit="">Турция</param>
     <param name="Количество грузовых мест" unit="">1</param>
   </offer>
-  <offer id="3036685474" available="true">
+<offer id="3036685474" available="true">
     <article>SD00051986</article>
     <url>https://plumbershop.in.ua/p3036685474-rasshiritelnyj-bak-thermo.html</url>
     <price>3468</price>
@@ -269143,7 +269224,7 @@ Lidz Handmade H4545HB – це не просто мийка, це централ
     <param name="Страна-производитель" unit="">Турция</param>
     <param name="Количество грузовых мест" unit="">1</param>
   </offer>
-<offer id="3036685475" available="true">
+  <offer id="3036685475" available="true">
     <article>SD00051961</article>
     <url>https://plumbershop.in.ua/p3036685475-komplekt-uplotnitelnyh-kolets.html</url>
     <price>232</price>
@@ -283059,7 +283140,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Цвет клавиши" unit="">Черный</param>
     <param name="Цвет унитаза" unit="">Белый</param>
   </offer>
-  <offer id="3114779673" available="true">
+<offer id="3114779673" available="true">
     <article>SD00057637</article>
     <url>https://plumbershop.in.ua/p3114779673-nabor-installyatsiya-qtap.html</url>
     <price_old>13511</price_old>
@@ -283119,7 +283200,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Цвет клавиши" unit="">Хром</param>
     <param name="Цвет унитаза" unit="">Белый</param>
   </offer>
-<offer id="3114779674" available="true">
+  <offer id="3114779674" available="true">
     <article>SD00057693</article>
     <url>https://plumbershop.in.ua/p3114779674-komplekt-installyatsii-qtap.html</url>
     <price_old>13670</price_old>
@@ -298606,7 +298687,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Цвет клавиши" unit="">Черный</param>
     <param name="Цвет унитаза" unit="">Белый</param>
   </offer>
-  <offer id="3128369925" available="true">
+<offer id="3128369925" available="true">
     <article>SD00057809</article>
     <url>https://plumbershop.in.ua/p3128369925-nabor-installyatsii-podvesnogo.html</url>
     <price_old>13918</price_old>
@@ -298693,7 +298774,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Цвет клавиши" unit="">Белый</param>
     <param name="Цвет унитаза" unit="">Белый</param>
   </offer>
-<offer id="3128369926" available="true">
+  <offer id="3128369926" available="true">
     <article>SD00057799</article>
     <url>https://plumbershop.in.ua/p3128369926-nabor-installyatsii-dlya.html</url>
     <price_old>18815</price_old>
@@ -312950,7 +313031,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Угол поворота" unit="">30</param>
     <param name="Уровень шумопроводности" unit="">21-26 дБ</param>
   </offer>
-  <offer id="3197834150" available="true">
+<offer id="3197834150" available="true">
     <article>SD00057138</article>
     <url>https://plumbershop.in.ua/p3197834150-reduktsiya-kanalizatsionnaya-ostendorf.html</url>
     <price>83</price>
@@ -312989,7 +313070,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип изделия" unit="">Редукция короткая</param>
     <param name="Уровень шумопроводности" unit="">21-26 дБ</param>
   </offer>
-<offer id="3197834151" available="true">
+  <offer id="3197834151" available="true">
     <article>SD00057140</article>
     <url>https://plumbershop.in.ua/p3197834151-reduktsiya-kanalizatsionnaya-ostendorf.html</url>
     <price>69</price>
@@ -323035,7 +323116,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип изделия" unit="">Колено</param>
     <param name="Уровень шумопроводности" unit="">21-26 дБ</param>
   </offer>
-  <offer id="3199199916" available="true">
+<offer id="3199199916" available="true">
     <article>SD00057579</article>
     <url>https://plumbershop.in.ua/p3199199916-koleno-kanalizatsionnoe-ostendorf.html</url>
     <price>58</price>
@@ -323073,7 +323154,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип изделия" unit="">Колено</param>
     <param name="Уровень шумопроводности" unit="">21-26 дБ</param>
   </offer>
-<offer id="3199476500" available="true">
+  <offer id="3199476500" available="true">
     <article>SD00029379</article>
     <url>https://plumbershop.in.ua/p3199476500-trojnik-ppr-thermo.html</url>
     <price>432</price>
@@ -334056,7 +334137,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип изделия" unit="">Аксесуари та комплектуючі для кухонних мийок</param>
     <param name="Торгова марка" unit="">KOER</param>
   </offer>
-  <offer id="3222731135" available="true">
+<offer id="3222731135" available="true">
     <article>KR4995</article>
     <url>https://plumbershop.in.ua/p3222731135-lejka-dlya-dusha.html</url>
     <price>922</price>
@@ -334080,7 +334161,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Мoдель" unit="">0403-03</param>
     <param name="Тип лійки" unit="">Ручна</param>
   </offer>
-<offer id="3222731136" available="true">
+  <offer id="3222731136" available="true">
     <article>KR4999</article>
     <url>https://plumbershop.in.ua/p3222731136-ruchnaya-lejka-dlya.html</url>
     <price>912</price>
@@ -349279,7 +349360,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип монтажа" unit="">Прихований на зливний отвір раковини</param>
     <param name="Торгова марка" unit="">KOER</param>
   </offer>
-  <offer id="3222731903" available="true">
+<offer id="3222731903" available="true">
     <article>KR5310</article>
     <url>https://plumbershop.in.ua/p3222731903-dushevaya-kolonna-smesitelem.html</url>
     <price>9874</price>
@@ -349346,7 +349427,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип монтажа" unit="">Настінні</param>
     <param name="Торгова марка" unit="">KOER</param>
   </offer>
-<offer id="3222731904" available="true">
+  <offer id="3222731904" available="true">
     <article>KR6158</article>
     <url>https://plumbershop.in.ua/p3222731904-mylnitsa-nastennaya-koer.html</url>
     <price>1551</price>
@@ -362235,7 +362316,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип изделия" unit="">Водяні рушникосушки</param>
     <param name="Торгова марка" unit="">EUROPRODUCT</param>
   </offer>
-  <offer id="3238126182" available="true">
+<offer id="3238126182" available="true">
     <article>PS0189</article>
     <url>https://plumbershop.in.ua/p3238126182-elektricheskij-polotentsesushitel-europroduct.html</url>
     <price>3888</price>
@@ -362269,7 +362350,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип изделия" unit="">Електричні рушникосушки</param>
     <param name="Торгова марка" unit="">EUROPRODUCT</param>
   </offer>
-<offer id="3238126183" available="true">
+  <offer id="3238126183" available="true">
     <article>EP0078</article>
     <url>https://plumbershop.in.ua/p3238126183-smesitel-dlya-kuhni.html</url>
     <price>1321</price>
@@ -376014,7 +376095,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип затвора" unit="">Комбінований</param>
     <param name="Ширина (мм)" unit="">70</param>
   </offer>
-  <offer id="3254182726" available="true">
+<offer id="3254182726" available="true">
     <article>KR5135</article>
     <url>https://plumbershop.in.ua/p3254182726-dushevoj-trap-koer.html</url>
     <price>2163</price>
@@ -376073,7 +376154,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип затвора" unit="">Комбінований</param>
     <param name="Ширина (мм)" unit="">20</param>
   </offer>
-<offer id="3254182727" available="true">
+  <offer id="3254182727" available="true">
     <article>AC0687</article>
     <url>https://plumbershop.in.ua/p3254182727-dushevoj-trap-koer.html</url>
     <price>1828</price>
@@ -389293,7 +389374,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Состояние">Новое</param>
     <param name="Стилистика дизайна">Современный стиль</param>
   </offer>
-  <offer id="3259130745" available="true">
+<offer id="3259130745" available="true">
     <article>MI6981</article>
     <url>https://plumbershop.in.ua/p3259130745-smesitel-dlya-kuhni.html</url>
     <price>3418</price>
@@ -389344,7 +389425,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Довжина виливу (см)" unit="">21-25</param>
     <param name="Діаметр шланга підключення" unit="">1/2</param>
   </offer>
-<offer id="3259130746" available="true">
+  <offer id="3259130746" available="true">
     <article>MI5848</article>
     <url>https://plumbershop.in.ua/p3259130746-smesitel-dlya-umyvalnika.html</url>
     <price>1744</price>
@@ -405371,7 +405452,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Шланг для подключения к водопроводу">Да</param>
     <param name="Довжина виливу (см)" unit="">11-15</param>
   </offer>
-  <offer id="3259131424" available="true">
+<offer id="3259131424" available="true">
     <article>MI5968</article>
     <url>https://plumbershop.in.ua/p3259131424-smesitel-dlya-gigienicheskogo.html</url>
     <price>2112</price>
@@ -405416,7 +405497,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Материал душевой системы" unit="">Латунь</param>
     <param name="Стилистика дизайна" unit="">Современный стиль</param>
   </offer>
-<offer id="3259131425" available="true">
+  <offer id="3259131425" available="true">
     <article>MI5835</article>
     <url>https://plumbershop.in.ua/p3259131425-smesitel-dlya-vanny.html</url>
     <price>2765</price>
