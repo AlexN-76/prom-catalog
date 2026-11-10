@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-09 20:16">
+<yml_catalog date="2026-11-10 03:53">
   <shop>
     <name>PlumberShop Suppliers Catalog</name>
     <company>Сантехник</company>
@@ -317884,8 +317884,8 @@
         <typePrefix />
         <categoryId>c3_130</categoryId>
         <price>372.92</price>
-        <amount>3</amount>
-        <quantity_in_stock>3</quantity_in_stock>
+        <amount>1</amount>
+        <quantity_in_stock>1</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/53/zzz69.57.14.jpg</picture>
         <vendor>Харківська арматура</vendor>
@@ -317937,8 +317937,8 @@
         <typePrefix />
         <categoryId>c3_129</categoryId>
         <price>144.4</price>
-        <amount>19</amount>
-        <quantity_in_stock>19</quantity_in_stock>
+        <amount>18</amount>
+        <quantity_in_stock>18</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/54/zzz570000.jpg</picture>
         <vendor>Харківська арматура</vendor>
@@ -318047,8 +318047,8 @@
         <typePrefix />
         <categoryId>c3_87</categoryId>
         <price>1407</price>
-        <amount>49</amount>
-        <quantity_in_stock>49</quantity_in_stock>
+        <amount>48</amount>
+        <quantity_in_stock>48</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/133/zzz_book-card.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -318165,8 +318165,8 @@
         <typePrefix />
         <categoryId>c3_87</categoryId>
         <price>1219</price>
-        <amount>23</amount>
-        <quantity_in_stock>23</quantity_in_stock>
+        <amount>22</amount>
+        <quantity_in_stock>22</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/135/zzz_book-card.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -318380,8 +318380,8 @@
         <typePrefix />
         <categoryId>c3_129</categoryId>
         <price>137.19</price>
-        <amount>45</amount>
-        <quantity_in_stock>45</quantity_in_stock>
+        <amount>44</amount>
+        <quantity_in_stock>44</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/219/zzz540000.jpg</picture>
         <vendor>Харківська арматура</vendor>
@@ -318793,8 +318793,8 @@
         <typePrefix />
         <categoryId>c3_199</categoryId>
         <price>219.87</price>
-        <amount>18</amount>
-        <quantity_in_stock>18</quantity_in_stock>
+        <amount>26</amount>
+        <quantity_in_stock>26</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/486/spineniy_ppr.jpg</picture>
         <vendor>USTM</vendor>
@@ -318836,8 +318836,8 @@
         <typePrefix />
         <categoryId>c3_199</categoryId>
         <price>439.73</price>
-        <amount>48</amount>
-        <quantity_in_stock>48</quantity_in_stock>
+        <amount>39</amount>
+        <quantity_in_stock>39</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/487/zDSC_0268.jpg</picture>
         <vendor>USTM</vendor>
@@ -320155,8 +320155,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_527</categoryId>
         <price>866.84</price>
-        <amount>39</amount>
-        <quantity_in_stock>39</quantity_in_stock>
+        <amount>38</amount>
+        <quantity_in_stock>38</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/885/zzzzgayka_nerzh.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -321739,8 +321739,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_535</categoryId>
         <price>973.68</price>
-        <amount>17</amount>
-        <quantity_in_stock>17</quantity_in_stock>
+        <amount>16</amount>
+        <quantity_in_stock>16</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/1016/zzzz_MRS-51-40-006.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -323487,8 +323487,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_43</categoryId>
         <price>188.03</price>
-        <amount>4</amount>
-        <quantity_in_stock>4</quantity_in_stock>
+        <amount>9</amount>
+        <quantity_in_stock>9</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/3100/DSC_0909_png_11.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -323525,8 +323525,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_43</categoryId>
         <price>202.82</price>
-        <amount>44</amount>
-        <quantity_in_stock>44</quantity_in_stock>
+        <amount>39</amount>
+        <quantity_in_stock>39</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/3103/DSC_0908_jpeg.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -323793,7 +323793,7 @@ ISO 2548
         <param name="Тип подключения" unit="">НВ</param>
         <param name="Диаметр крана" unit="">1/2"</param>
       </offer>
-      <offer id="rs4u3110" selling_type="r" available="true">
+      <offer id="rs4u3110" selling_type="r" available="false">
         <name>Кран шаровой 3/4" НВ красная бабочка с проточкой ASCO  PN40  1/27</name>
         <name_ua>Кран кульовий 3/4" ЗВ червоний метелик,з проточкою ASCO PN40 1/27</name_ua>
         <article>NP-RB21</article>
@@ -323805,9 +323805,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_43</categoryId>
         <price>288.75</price>
-        <amount>6</amount>
-        <quantity_in_stock>6</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/3110/DSC_0911_jpeg.jpg</picture>
         <vendor>ASCO armatura</vendor>
         <vendorCode>00000018189</vendorCode>
@@ -323956,8 +323956,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_43</categoryId>
         <price>201.89</price>
-        <amount>49</amount>
-        <quantity_in_stock>49</quantity_in_stock>
+        <amount>39</amount>
+        <quantity_in_stock>39</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/3115/DSC_0906_jpeg.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -324682,8 +324682,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_48</categoryId>
         <price>356.2</price>
-        <amount>83</amount>
-        <quantity_in_stock>83</quantity_in_stock>
+        <amount>79</amount>
+        <quantity_in_stock>79</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/3137/s_nak_gaykoy_pryamoj.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -325306,7 +325306,7 @@ ISO 2548
         <param name="Диаметр трубы ПЭ" unit="">25</param>
         <param name="Давление трубы ПЭ" unit="">PN 10</param>
       </offer>
-      <offer id="rs4u3354" selling_type="r" available="true">
+      <offer id="rs4u3354" selling_type="r" available="false">
         <name>Труба питьевая T&amp;T ЕСО РЕ-100 SDR17 40 х2.8 мм 10 бар 100м</name>
         <name_ua>Труба питна T&amp;T ЕСО РЕ-100 SDR17 40 х2.8 мм 10 бар 100м</name_ua>
         <article>ТТ-40-2.8</article>
@@ -325320,9 +325320,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_103</categoryId>
         <price>42.61</price>
-        <amount>100</amount>
-        <quantity_in_stock>100</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/3354/zzz_TT_pipe.jpg</picture>
         <vendor>T&amp;T POLIMERS</vendor>
         <vendorCode>00000014428</vendorCode>
@@ -326358,8 +326358,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>285.61</price>
-        <amount>86</amount>
-        <quantity_in_stock>86</quantity_in_stock>
+        <amount>84</amount>
+        <quantity_in_stock>84</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/4548/DSC09871.jpg</picture>
         <vendor>FORA</vendor>
@@ -326388,8 +326388,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>285.56</price>
-        <amount>37</amount>
-        <quantity_in_stock>37</quantity_in_stock>
+        <amount>35</amount>
+        <quantity_in_stock>35</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/4549/DSC09869.jpg</picture>
         <vendor>FORA</vendor>
@@ -326481,8 +326481,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>72.9</price>
-        <amount>81</amount>
-        <quantity_in_stock>81</quantity_in_stock>
+        <amount>99</amount>
+        <quantity_in_stock>99</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/4554/FORA_kartridzh-iz-polipropilenov.png</picture>
         <vendor>FORA</vendor>
@@ -326516,8 +326516,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>46.88</price>
-        <amount>83</amount>
-        <quantity_in_stock>83</quantity_in_stock>
+        <amount>99</amount>
+        <quantity_in_stock>99</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/4555/zDSC_0277.jpg</picture>
         <vendor>FORA</vendor>
@@ -326588,8 +326588,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_196</categoryId>
         <price>505.89</price>
-        <amount>34</amount>
-        <quantity_in_stock>34</quantity_in_stock>
+        <amount>35</amount>
+        <quantity_in_stock>35</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/4557/z_kolba-4.jpg</picture>
         <vendor>TITAN</vendor>
@@ -326718,7 +326718,7 @@ ISO 2548
         <param name="Температура воды" unit="">Холодная вода</param>
         <param name="Тип магистрального картриджа" unit="">Полипропилен</param>
       </offer>
-      <offer id="rs4u4944" selling_type="r" available="true">
+      <offer id="rs4u4944" selling_type="r" available="false">
         <name>Картридж из вспененного полипропилена 10 мкм FORA 1/50</name>
         <name_ua>Картридж зі спіненого поліпропілену 10 мкм FORA 1/50</name_ua>
         <article>PP10 S10</article>
@@ -326733,9 +326733,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>46.88</price>
-        <amount>1</amount>
-        <quantity_in_stock>1</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/4944/zDSC_0277.jpg</picture>
         <vendor>FORA</vendor>
         <vendorCode>ТР-00000877</vendorCode>
@@ -326941,8 +326941,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_501</categoryId>
         <price>224</price>
-        <amount>99</amount>
-        <quantity_in_stock>99</quantity_in_stock>
+        <amount>84</amount>
+        <quantity_in_stock>84</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/5083/uuuuuu-RSRV01.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -327042,8 +327042,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_501</categoryId>
         <price>248.09</price>
-        <amount>80</amount>
-        <quantity_in_stock>80</quantity_in_stock>
+        <amount>72</amount>
+        <quantity_in_stock>72</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/5086/zz_AS-RV04.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -327839,8 +327839,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_52</categoryId>
         <price>657.89</price>
-        <amount>572</amount>
-        <quantity_in_stock>572</quantity_in_stock>
+        <amount>560</amount>
+        <quantity_in_stock>560</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/6974/GREY-PPR-AL-PPR.jpg</picture>
         <vendor>ASCO</vendor>
@@ -327995,8 +327995,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_150</categoryId>
         <price>549.47</price>
-        <amount>7</amount>
-        <quantity_in_stock>7</quantity_in_stock>
+        <amount>6</amount>
+        <quantity_in_stock>6</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/8398/zzzzzz_shlang_konez.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -328158,8 +328158,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>257.18</price>
-        <amount>23</amount>
-        <quantity_in_stock>23</quantity_in_stock>
+        <amount>22</amount>
+        <quantity_in_stock>22</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/8567/089.jpg</picture>
         <vendor>SEFA</vendor>
@@ -328560,8 +328560,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>1627.05</price>
-        <amount>17</amount>
-        <quantity_in_stock>17</quantity_in_stock>
+        <amount>16</amount>
+        <quantity_in_stock>16</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/9118/F0A0267.jpg</picture>
         <vendor>SEFA</vendor>
@@ -328655,8 +328655,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_150</categoryId>
         <price>572.05</price>
-        <amount>16</amount>
-        <quantity_in_stock>16</quantity_in_stock>
+        <amount>15</amount>
+        <quantity_in_stock>15</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/9353/zzzzzz_shlang_konez.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -329270,7 +329270,7 @@ ISO 2548
         <article>ETS-203465</article>
         <barcode>2000000014913</barcode>
         <uktzed>8481 40 90 00</uktzed>
-        <keywords>взривний клапан бойлера, клапан бойлера, клапан для бойлера, латунь, запобіжний, підривний клапан, підривник, запобіжник, клапан запобіжник, спускний клапан, спускник, клапан для бойлера без флажка, клапан для бойлера без прапорця</keywords>
+        <keywords>запобіжник для бойлера, взривний клапан бойлера, клапан бойлера, клапан для бойлера, латунь, запобіжний, підривний клапан, підривник, запобіжник, клапан запобіжник, спускний клапан, спускник, клапан для бойлера без флажка, клапан для бойлера без прапорця</keywords>
         <currencyId>UAH</currencyId>
         <portal_category_id>13241102</portal_category_id>
         <typePrefix />
@@ -330138,8 +330138,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_110</categoryId>
         <price>150.64</price>
-        <amount>36</amount>
-        <quantity_in_stock>36</quantity_in_stock>
+        <amount>34</amount>
+        <quantity_in_stock>34</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/11627/193549878_w640_h640_32_1.jpg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -330489,8 +330489,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_153</categoryId>
         <price>165</price>
-        <amount>65</amount>
-        <quantity_in_stock>65</quantity_in_stock>
+        <amount>64</amount>
+        <quantity_in_stock>64</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/11742/00_011.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -331593,8 +331593,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_85</categoryId>
         <price>3515</price>
-        <amount>25</amount>
-        <quantity_in_stock>25</quantity_in_stock>
+        <amount>23</amount>
+        <quantity_in_stock>23</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/13801/zzzz_gayki.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -331826,8 +331826,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_198</categoryId>
         <price>167.71</price>
-        <amount>63</amount>
-        <quantity_in_stock>63</quantity_in_stock>
+        <amount>56</amount>
+        <quantity_in_stock>56</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/14598/filter_salt.jpg</picture>
         <vendor>TITAN</vendor>
@@ -333088,8 +333088,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_449</categoryId>
         <price>120.44</price>
-        <amount>88</amount>
-        <quantity_in_stock>88</quantity_in_stock>
+        <amount>86</amount>
+        <quantity_in_stock>86</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/15304/mufta_pe_13.jpeg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -333240,8 +333240,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_449</categoryId>
         <price>135.58</price>
-        <amount>68</amount>
-        <quantity_in_stock>68</quantity_in_stock>
+        <amount>67</amount>
+        <quantity_in_stock>67</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/15316/mufta_pe_75.jpeg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -333477,8 +333477,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_449</categoryId>
         <price>115.96</price>
-        <amount>14</amount>
-        <quantity_in_stock>14</quantity_in_stock>
+        <amount>13</amount>
+        <quantity_in_stock>13</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/15322/DSC_0093.jpg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -333557,8 +333557,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_449</categoryId>
         <price>186.27</price>
-        <amount>58</amount>
-        <quantity_in_stock>58</quantity_in_stock>
+        <amount>51</amount>
+        <quantity_in_stock>51</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/15324/mufta_pe_33.jpeg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -336858,8 +336858,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_451</categoryId>
         <price>320.16</price>
-        <amount>53</amount>
-        <quantity_in_stock>53</quantity_in_stock>
+        <amount>48</amount>
+        <quantity_in_stock>48</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/15434/troynik_komp_20.jpeg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -337956,8 +337956,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_450</categoryId>
         <price>196.84</price>
-        <amount>85</amount>
-        <quantity_in_stock>85</quantity_in_stock>
+        <amount>75</amount>
+        <quantity_in_stock>75</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/15489/zatyskne_kolino_22.jpeg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -338249,8 +338249,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_88</categoryId>
         <price>1928.85</price>
-        <amount>23</amount>
-        <quantity_in_stock>23</quantity_in_stock>
+        <amount>16</amount>
+        <quantity_in_stock>16</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/15521/000-HT50.10.D9.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -338819,8 +338819,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_201</categoryId>
         <price>823.14</price>
-        <amount>84</amount>
-        <quantity_in_stock>84</quantity_in_stock>
+        <amount>82</amount>
+        <quantity_in_stock>82</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17282/00gidrotek2.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -338961,8 +338961,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_201</categoryId>
         <price>768.31</price>
-        <amount>42</amount>
-        <quantity_in_stock>42</quantity_in_stock>
+        <amount>41</amount>
+        <quantity_in_stock>41</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17293/schot_hol_b.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -339021,8 +339021,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>257.18</price>
-        <amount>73</amount>
-        <quantity_in_stock>73</quantity_in_stock>
+        <amount>70</amount>
+        <quantity_in_stock>70</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17614/089.jpg</picture>
         <vendor>SEFA</vendor>
@@ -339526,8 +339526,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_129</categoryId>
         <price>249.94</price>
-        <amount>33</amount>
-        <quantity_in_stock>33</quantity_in_stock>
+        <amount>31</amount>
+        <quantity_in_stock>31</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17742/ZN2105.jpg</picture>
         <vendor>K.K.-POL</vendor>
@@ -339755,8 +339755,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_196</categoryId>
         <price>1035.96</price>
-        <amount>10</amount>
-        <quantity_in_stock>10</quantity_in_stock>
+        <amount>8</amount>
+        <quantity_in_stock>8</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17813/kolba_atlas_2.jpeg</picture>
         <vendor>ATLAS</vendor>
@@ -339923,8 +339923,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_198</categoryId>
         <price>421.02</price>
-        <amount>45</amount>
-        <quantity_in_stock>45</quantity_in_stock>
+        <amount>43</amount>
+        <quantity_in_stock>43</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17819/DOSAL1.jpeg</picture>
         <vendor>ATLAS</vendor>
@@ -340116,7 +340116,7 @@ ISO 2548
         <param name="Размер резьбы, дюйм" unit="">3/4"</param>
         <param name="Тип подключения" unit="">В</param>
       </offer>
-      <offer id="rs4u17823" selling_type="r" available="false">
+      <offer id="rs4u17823" selling_type="r" available="true">
         <name>Фильтр-колба Atlas 10 DP-TRIO 1" OT-TS 1/4</name>
         <name_ua>Фільтр-колба Atlas 10 DP-TRIO 1" OT-TS 1/4</name_ua>
         <article>104145</article>
@@ -340128,9 +340128,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_196</categoryId>
         <price>2796.79</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>4</amount>
+        <quantity_in_stock>4</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17823/kolba_atlas_8.jpeg</picture>
         <vendor>ATLAS</vendor>
         <vendorCode>00000004973</vendorCode>
@@ -340232,8 +340232,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_196</categoryId>
         <price>2828.94</price>
-        <amount>2</amount>
-        <quantity_in_stock>2</quantity_in_stock>
+        <amount>5</amount>
+        <quantity_in_stock>5</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/17825/kolba_atlas_10.jpeg</picture>
         <vendor>ATLAS</vendor>
@@ -340764,8 +340764,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>1627.05</price>
-        <amount>38</amount>
-        <quantity_in_stock>38</quantity_in_stock>
+        <amount>36</amount>
+        <quantity_in_stock>36</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/18770/F0A0257.jpg</picture>
         <vendor>SEFA</vendor>
@@ -340816,8 +340816,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_199</categoryId>
         <price>1091.99</price>
-        <amount>8</amount>
-        <quantity_in_stock>8</quantity_in_stock>
+        <amount>7</amount>
+        <quantity_in_stock>7</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/19066/zIR20.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -340872,8 +340872,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>539.24</price>
-        <amount>36</amount>
-        <quantity_in_stock>36</quantity_in_stock>
+        <amount>35</amount>
+        <quantity_in_stock>35</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/19289/F0A0180.jpg</picture>
         <vendor>SEFA</vendor>
@@ -340924,8 +340924,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>539.24</price>
-        <amount>45</amount>
-        <quantity_in_stock>45</quantity_in_stock>
+        <amount>42</amount>
+        <quantity_in_stock>42</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/19298/F0A0182.jpg</picture>
         <vendor>SEFA</vendor>
@@ -341419,8 +341419,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_75</categoryId>
         <price>1600</price>
-        <amount>28</amount>
-        <quantity_in_stock>28</quantity_in_stock>
+        <amount>26</amount>
+        <quantity_in_stock>26</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/19761/yyyyyyy-paialnyk-malyii.jpg</picture>
         <vendor>ASCO</vendor>
@@ -341439,7 +341439,7 @@ ISO 2548
         <param name="Размер/диаметр,мм2" unit="">32</param>
         <param name="Диапазон диаметров" unit="">20-32</param>
       </offer>
-      <offer id="rs4u19765" selling_type="r" available="true">
+      <offer id="rs4u19765" selling_type="r" available="false">
         <name>Опрессовщик ручной 0-60кг/см2 ASCO 1/2</name>
         <name_ua>Пресувальник ручний 0-60кг/см2 ASCO 1/2</name_ua>
         <article>23.03.2024-TG161</article>
@@ -341455,9 +341455,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_76</categoryId>
         <price>5015.93</price>
-        <amount>1</amount>
-        <quantity_in_stock>1</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/19765/yyyy-23032024TG161.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00004723</vendorCode>
@@ -341949,7 +341949,7 @@ ISO 2548
         <param name="Тип механизма смешивания" unit="">Керамическая кранбукса</param>
         <param name="Тип крепления смесителя" unit="">Гайка</param>
       </offer>
-      <offer id="rs4u20068" selling_type="r" available="true">
+      <offer id="rs4u20068" selling_type="r" available="false">
         <name>Смеситель для кухонной мойки MILLZ настенный буксовый ручки-крестики MRS-SS-X-0003 нержавеющий 1/10</name>
         <name_ua>Змішувач для кухонної мийки MILLZ настінний буксовий ручки-хрестики MRS-SS-X-0003 нержавіючий 1/10</name_ua>
         <article>MRS-SS-X-0003</article>
@@ -341965,9 +341965,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_148</categoryId>
         <price>851.1</price>
-        <amount>2</amount>
-        <quantity_in_stock>2</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/20068/zzZMRS-SS-X-0003.jpg</picture>
         <vendor>MILLZ</vendor>
         <vendorCode>ТР-00008561</vendorCode>
@@ -342017,8 +342017,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_89</categoryId>
         <price>6664.05</price>
-        <amount>4</amount>
-        <quantity_in_stock>4</quantity_in_stock>
+        <amount>3</amount>
+        <quantity_in_stock>3</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/20069/zzz_portal_cabel.jpg</picture>
         <vendor>FROG</vendor>
@@ -343057,8 +343057,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_108</categoryId>
         <price>139.39</price>
-        <amount>77</amount>
-        <quantity_in_stock>77</quantity_in_stock>
+        <amount>56</amount>
+        <quantity_in_stock>56</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/20116/ZZkran.jpg</picture>
         <vendor>SANTEHPLAST</vendor>
@@ -343569,8 +343569,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>383</price>
-        <amount>7</amount>
-        <quantity_in_stock>7</quantity_in_stock>
+        <amount>5</amount>
+        <quantity_in_stock>5</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/20862/2_AKC522.jpg</picture>
         <vendor>K.K.-POL</vendor>
@@ -346946,8 +346946,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_66</categoryId>
         <price>309.54</price>
-        <amount>66</amount>
-        <quantity_in_stock>66</quantity_in_stock>
+        <amount>68</amount>
+        <quantity_in_stock>68</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/21738/000kran_ppr.jpg</picture>
         <vendor>ASCO</vendor>
@@ -347379,8 +347379,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_201</categoryId>
         <price>1271.88</price>
-        <amount>31</amount>
-        <quantity_in_stock>31</quantity_in_stock>
+        <amount>30</amount>
+        <quantity_in_stock>30</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/31945/hot_magnet_box.jpg</picture>
         <vendor>B METERS</vendor>
@@ -347413,8 +347413,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_201</categoryId>
         <price>1271.88</price>
-        <amount>24</amount>
-        <quantity_in_stock>24</quantity_in_stock>
+        <amount>21</amount>
+        <quantity_in_stock>21</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/31946/cold_magnet_box.jpg</picture>
         <vendor>B METERS</vendor>
@@ -347589,8 +347589,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_213</categoryId>
         <price>38.81</price>
-        <amount>4</amount>
-        <quantity_in_stock>4</quantity_in_stock>
+        <amount>2</amount>
+        <quantity_in_stock>2</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/32012/000mufta.jpg</picture>
         <vendor>ASCO</vendor>
@@ -347662,8 +347662,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_87</categoryId>
         <price>687</price>
-        <amount>35</amount>
-        <quantity_in_stock>35</quantity_in_stock>
+        <amount>34</amount>
+        <quantity_in_stock>34</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33321/zzz_membrane3.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -347854,8 +347854,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_87</categoryId>
         <price>1168</price>
-        <amount>74</amount>
-        <quantity_in_stock>74</quantity_in_stock>
+        <amount>73</amount>
+        <quantity_in_stock>73</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33324/zzz_membrane3.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -347918,8 +347918,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_87</categoryId>
         <price>1141</price>
-        <amount>68</amount>
-        <quantity_in_stock>68</quantity_in_stock>
+        <amount>67</amount>
+        <quantity_in_stock>67</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33325/zzz_membrane3.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -349030,8 +349030,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_459</categoryId>
         <price>635.25</price>
-        <amount>40</amount>
-        <quantity_in_stock>40</quantity_in_stock>
+        <amount>39</amount>
+        <quantity_in_stock>39</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33437/zzzz_shnek_to.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -349477,7 +349477,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">110</param>
       </offer>
-      <offer id="rs4u33535" selling_type="r" available="false">
+      <offer id="rs4u33535" selling_type="r" available="true">
         <name>Угольник PPR 45° Ø20 серый цвет ASCO® 50/700шт</name>
         <name_ua>Кутник PPR 45° Ø20 сірий колір ASCO® 50/700шт</name_ua>
         <article>AS31030202</article>
@@ -349489,9 +349489,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_64</categoryId>
         <price>6.47</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>99</amount>
+        <quantity_in_stock>99</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33535/000kut_45.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022461</vendorCode>
@@ -349634,8 +349634,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_64</categoryId>
         <price>115.5</price>
-        <amount>18</amount>
-        <quantity_in_stock>18</quantity_in_stock>
+        <amount>8</amount>
+        <quantity_in_stock>8</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33540/000kut_45.jpg</picture>
         <vendor>ASCO</vendor>
@@ -350644,8 +350644,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>182</price>
-        <amount>88</amount>
-        <quantity_in_stock>88</quantity_in_stock>
+        <amount>81</amount>
+        <quantity_in_stock>81</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33851/zzz90SH-24.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -350760,8 +350760,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_88</categoryId>
         <price>4639</price>
-        <amount>63</amount>
-        <quantity_in_stock>63</quantity_in_stock>
+        <amount>61</amount>
+        <quantity_in_stock>61</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33853/yy50L.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -351033,8 +351033,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_225</categoryId>
         <price>80.39</price>
-        <amount>10</amount>
-        <quantity_in_stock>10</quantity_in_stock>
+        <amount>8</amount>
+        <quantity_in_stock>8</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33864/000tr_big_diameter.jpg</picture>
         <vendor>ASCO</vendor>
@@ -351416,7 +351416,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">25</param>
       </offer>
-      <offer id="rs4u33878" selling_type="r" available="true">
+      <offer id="rs4u33878" selling_type="r" available="false">
         <name>Заглушка PPR Ø32 серый цвет ASCO® 50/400шт</name>
         <name_ua>Заглушка PPR Ø32 сірий колір ASCO® 50/400шт</name_ua>
         <article>AS31090104</article>
@@ -351428,9 +351428,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_72</categoryId>
         <price>8.32</price>
-        <amount>10</amount>
-        <quantity_in_stock>10</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33878/000zagl_2.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022562</vendorCode>
@@ -351488,7 +351488,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">40</param>
       </offer>
-      <offer id="rs4u33880" selling_type="r" available="false">
+      <offer id="rs4u33880" selling_type="r" available="true">
         <name>Заглушка PPR Ø50 серый цвет ASCO® 20/160шт</name>
         <name_ua>Заглушка PPR Ø50 сірий колір ASCO® 20/160шт</name_ua>
         <article>AS31090106</article>
@@ -351500,9 +351500,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_72</categoryId>
         <price>22.18</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>1</amount>
+        <quantity_in_stock>1</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33880/000zagl_2.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022564</vendorCode>
@@ -351849,7 +351849,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">32</param>
       </offer>
-      <offer id="rs4u33896" selling_type="r" available="false">
+      <offer id="rs4u33896" selling_type="r" available="true">
         <name>Клипса PPR Ø40 серый цвет ASCO® 30/500шт</name>
         <name_ua>Кліпса PPR Ø40 сірий колір ASCO® 30/500шт</name_ua>
         <article>AS31080105</article>
@@ -351861,9 +351861,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_73</categoryId>
         <price>10.16</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>16</amount>
+        <quantity_in_stock>16</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33896/00-ASCO-1na-klipsa.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022580</vendorCode>
@@ -351885,7 +351885,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">40</param>
       </offer>
-      <offer id="rs4u33897" selling_type="r" available="false">
+      <offer id="rs4u33897" selling_type="r" available="true">
         <name>Клипса PPR Ø50 серый цвет ASCO® 25/200шт</name>
         <name_ua>Кліпса PPR Ø50 сірий колір ASCO® 25/200шт</name_ua>
         <article>AS31080106</article>
@@ -351897,9 +351897,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_73</categoryId>
         <price>18.48</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>17</amount>
+        <quantity_in_stock>17</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33897/00-ASCO-1na-klipsa.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022581</vendorCode>
@@ -351957,7 +351957,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">63</param>
       </offer>
-      <offer id="rs4u33899" selling_type="r" available="false">
+      <offer id="rs4u33899" selling_type="r" available="true">
         <name>Клипса двойная PPR Ø20 серый цвет ASCO® 50/500шт</name>
         <name_ua>Кліпса подвійна PPR Ø20 сірий колір ASCO® 50/500шт</name_ua>
         <article>AS31080202</article>
@@ -351969,9 +351969,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_73</categoryId>
         <price>7.39</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>50</amount>
+        <quantity_in_stock>50</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33899/00-ASCO-2na-klipsa.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022583</vendorCode>
@@ -352101,7 +352101,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">32</param>
       </offer>
-      <offer id="rs4u33904" selling_type="r" available="false">
+      <offer id="rs4u33904" selling_type="r" available="true">
         <name>Обвод длинный PPR Ø20 серый цвет ASCO® 50/150шт</name>
         <name_ua>Обвід довгий PPR Ø20 сірий колір ASCO® 50/150шт</name_ua>
         <article>AS31090402</article>
@@ -352113,9 +352113,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_70</categoryId>
         <price>20.33</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>1</amount>
+        <quantity_in_stock>1</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33904/000obvid_dovg.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022588</vendorCode>
@@ -352317,7 +352317,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">25</param>
       </offer>
-      <offer id="rs4u33910" selling_type="r" available="false">
+      <offer id="rs4u33910" selling_type="r" available="true">
         <name>Обвод короткий PPR Ø32 серый цвет ASCO® 11/110шт</name>
         <name_ua>Обвід короткий PPR Ø32 сірий колір ASCO® 11/110шт</name_ua>
         <article>AS31090503</article>
@@ -352329,9 +352329,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_70</categoryId>
         <price>36.96</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>22</amount>
+        <quantity_in_stock>22</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33910/000obvid_korotk.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022594</vendorCode>
@@ -352353,7 +352353,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">32</param>
       </offer>
-      <offer id="rs4u33912" selling_type="r" available="true">
+      <offer id="rs4u33912" selling_type="r" available="false">
         <name>Муфта редукционная PPR Ø32/20 серый цвет ASCO® 30/390шт</name>
         <name_ua>Муфта редукційна PPR Ø32/20 сірий колір ASCO® 30/390шт</name_ua>
         <article>AS31020203</article>
@@ -352365,9 +352365,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_216</categoryId>
         <price>10.16</price>
-        <amount>1</amount>
-        <quantity_in_stock>1</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33912/000mufta_redukz.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00022596</vendorCode>
@@ -353012,8 +353012,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_216</categoryId>
         <price>11.09</price>
-        <amount>26</amount>
-        <quantity_in_stock>26</quantity_in_stock>
+        <amount>21</amount>
+        <quantity_in_stock>21</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/33941/000mufta_perehod.jpg</picture>
         <vendor>ASCO</vendor>
@@ -355520,8 +355520,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_214</categoryId>
         <price>84.08</price>
-        <amount>20</amount>
-        <quantity_in_stock>20</quantity_in_stock>
+        <amount>10</amount>
+        <quantity_in_stock>10</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/34035/000mufta_ZOVN.jpg</picture>
         <vendor>ASCO</vendor>
@@ -356672,8 +356672,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_226</categoryId>
         <price>64.68</price>
-        <amount>52</amount>
-        <quantity_in_stock>52</quantity_in_stock>
+        <amount>42</amount>
+        <quantity_in_stock>42</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/34068/000tr_ZOVN.jpg</picture>
         <vendor>ASCO</vendor>
@@ -357944,8 +357944,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_66</categoryId>
         <price>944.33</price>
-        <amount>14</amount>
-        <quantity_in_stock>14</quantity_in_stock>
+        <amount>6</amount>
+        <quantity_in_stock>6</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/34133/000kran.jpg</picture>
         <vendor>ASCO</vendor>
@@ -360690,8 +360690,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_512</categoryId>
         <price>274</price>
-        <amount>44</amount>
-        <quantity_in_stock>44</quantity_in_stock>
+        <amount>40</amount>
+        <quantity_in_stock>40</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/35158/zz00-napivzgon-1.jpg</picture>
         <vendor>VALOGIN</vendor>
@@ -360831,8 +360831,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>588</price>
-        <amount>11</amount>
-        <quantity_in_stock>11</quantity_in_stock>
+        <amount>10</amount>
+        <quantity_in_stock>10</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/35468/zIR-10.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -361142,8 +361142,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>200.01</price>
-        <amount>25</amount>
-        <quantity_in_stock>25</quantity_in_stock>
+        <amount>23</amount>
+        <quantity_in_stock>23</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/36048/zzIMG_20201106_132303.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -365671,8 +365671,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_201</categoryId>
         <price>483.71</price>
-        <amount>12</amount>
-        <quantity_in_stock>12</quantity_in_stock>
+        <amount>11</amount>
+        <quantity_in_stock>11</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37078/0_ETR-H.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -366429,8 +366429,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_88</categoryId>
         <price>2496</price>
-        <amount>94</amount>
-        <quantity_in_stock>94</quantity_in_stock>
+        <amount>93</amount>
+        <quantity_in_stock>93</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37116/zzzzzmembrana-z-baka1.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -366661,8 +366661,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_198</categoryId>
         <price>554.86</price>
-        <amount>47</amount>
-        <quantity_in_stock>47</quantity_in_stock>
+        <amount>42</amount>
+        <quantity_in_stock>42</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37143/zzztitansil.jpg</picture>
         <vendor>TITAN</vendor>
@@ -366763,8 +366763,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_103</categoryId>
         <price>21.01</price>
-        <amount>300</amount>
-        <quantity_in_stock>300</quantity_in_stock>
+        <amount>200</amount>
+        <quantity_in_stock>200</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37147/000_TTTTT.jpg</picture>
         <vendor>T&amp;T POLIMERS</vendor>
@@ -370770,8 +370770,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_544</categoryId>
         <price>2602</price>
-        <amount>42</amount>
-        <quantity_in_stock>42</quantity_in_stock>
+        <amount>31</amount>
+        <quantity_in_stock>31</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37271/zzDG01210-grey.jpg</picture>
         <vendor>AIM</vendor>
@@ -371126,7 +371126,7 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Покрытие" unit="">эмаль </param>
         <param name="Цвет смесителя" unit="">серый</param>
       </offer>
-      <offer id="rs4u37277" selling_type="r" available="true">
+      <offer id="rs4u37277" selling_type="r" available="false">
         <name>Смеситель для душевой кабины AIM хром DG01240 (chrome)</name>
         <name_ua>Змішувач для душової кабіни AIM хром DG01240 (chrome)</name_ua>
         <article>DG01240 chrome</article>
@@ -371145,9 +371145,9 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_455</categoryId>
         <price>2705</price>
-        <amount>4</amount>
-        <quantity_in_stock>4</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37277/zzDG01240-chrome.jpg</picture>
         <vendor>AIM</vendor>
         <vendorCode>ТР-00026063</vendorCode>
@@ -373758,8 +373758,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_181</categoryId>
         <price>452</price>
-        <amount>60</amount>
-        <quantity_in_stock>60</quantity_in_stock>
+        <amount>52</amount>
+        <quantity_in_stock>52</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37331/z_antyvibra_kut_0707.2023-004_zelena_birka.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -374056,8 +374056,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_88</categoryId>
         <price>4675</price>
-        <amount>50</amount>
-        <quantity_in_stock>50</quantity_in_stock>
+        <amount>38</amount>
+        <quantity_in_stock>38</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37372/zzzbakBlue-HOR100L.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -374630,8 +374630,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>1250.03</price>
-        <amount>1</amount>
-        <quantity_in_stock>1</quantity_in_stock>
+        <amount>5</amount>
+        <quantity_in_stock>5</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37432/000-STBB20.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -375171,8 +375171,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_177</categoryId>
         <price>215</price>
-        <amount>5</amount>
-        <quantity_in_stock>5</quantity_in_stock>
+        <amount>4</amount>
+        <quantity_in_stock>4</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37465/yyyyy-nerzhq.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -375721,8 +375721,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_86</categoryId>
         <price>107.5</price>
-        <amount>11</amount>
-        <quantity_in_stock>11</quantity_in_stock>
+        <amount>7</amount>
+        <quantity_in_stock>7</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37498/yy-to-M-120324-002.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -378506,8 +378506,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_123</categoryId>
         <price>327.5</price>
-        <amount>30</amount>
-        <quantity_in_stock>30</quantity_in_stock>
+        <amount>28</amount>
+        <quantity_in_stock>28</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37686/zSG09100033.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -378612,8 +378612,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_127</categoryId>
         <price>86.86</price>
-        <amount>13</amount>
-        <quantity_in_stock>13</quantity_in_stock>
+        <amount>11</amount>
+        <quantity_in_stock>11</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37689/zNS1005RR07.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -378647,8 +378647,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_127</categoryId>
         <price>71.96</price>
-        <amount>13</amount>
-        <quantity_in_stock>13</quantity_in_stock>
+        <amount>17</amount>
+        <quantity_in_stock>17</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37690/zNS1006RR07.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -378715,8 +378715,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_127</categoryId>
         <price>77.32</price>
-        <amount>66</amount>
-        <quantity_in_stock>66</quantity_in_stock>
+        <amount>65</amount>
+        <quantity_in_stock>65</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37692/zNS1012RR07.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -378768,7 +378768,7 @@ ISO 2548
         <param name="Тип упаковки" unit="">Полиэтилен</param>
         <param name="Регистрация бренда" unit="">Украина</param>
       </offer>
-      <offer id="rs4u37694" selling_type="r" available="true">
+      <offer id="rs4u37694" selling_type="r" available="false">
         <name>Пробка для сетки сифона MILLZ</name>
         <name_ua>Пробка для сітки сифона MILLZ</name_ua>
         <article>DS8001SP15</article>
@@ -378784,9 +378784,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_127</categoryId>
         <price>11.36</price>
-        <amount>2</amount>
-        <quantity_in_stock>2</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37694/zDS8001SP15.jpg</picture>
         <vendor>MILLZ</vendor>
         <vendorCode>ТР-00026788</vendorCode>
@@ -379266,8 +379266,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_129</categoryId>
         <price>211.4</price>
-        <amount>27</amount>
-        <quantity_in_stock>27</quantity_in_stock>
+        <amount>25</amount>
+        <quantity_in_stock>25</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37708/zBE0R0207.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -379956,8 +379956,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_130</categoryId>
         <price>536.94</price>
-        <amount>17</amount>
-        <quantity_in_stock>17</quantity_in_stock>
+        <amount>16</amount>
+        <quantity_in_stock>16</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37716/zBK1R0610.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380147,8 +380147,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_124</categoryId>
         <price>632.5</price>
-        <amount>18</amount>
-        <quantity_in_stock>18</quantity_in_stock>
+        <amount>16</amount>
+        <quantity_in_stock>16</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37718/zSM27020343.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380179,8 +380179,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_124</categoryId>
         <price>620.98</price>
-        <amount>24</amount>
-        <quantity_in_stock>24</quantity_in_stock>
+        <amount>22</amount>
+        <quantity_in_stock>22</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37719/zSM27020243.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380559,8 +380559,8 @@ Budfarfor Sanitek Colombo: Akcent.</description_ua>
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>465.26</price>
-        <amount>35</amount>
-        <quantity_in_stock>35</quantity_in_stock>
+        <amount>34</amount>
+        <quantity_in_stock>34</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37733/zzzzzzzAfina.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380682,8 +380682,8 @@ Kolo: Idol тощо.</description_ua>
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>472</price>
-        <amount>58</amount>
-        <quantity_in_stock>58</quantity_in_stock>
+        <amount>57</amount>
+        <quantity_in_stock>57</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37736/zzzzzzzHermes.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380734,8 +380734,8 @@ Kolo: Idol тощо.</description_ua>
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>31.76</price>
-        <amount>81</amount>
-        <quantity_in_stock>81</quantity_in_stock>
+        <amount>78</amount>
+        <quantity_in_stock>78</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37737/zCK0N0807.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380772,8 +380772,8 @@ Kolo: Idol тощо.</description_ua>
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>665.68</price>
-        <amount>11</amount>
-        <quantity_in_stock>11</quantity_in_stock>
+        <amount>10</amount>
+        <quantity_in_stock>10</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37738/zzzzzzzMERIDA.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380934,8 +380934,8 @@ Kolo: Idol, Record тощо.</description_ua>
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>117.22</price>
-        <amount>61</amount>
-        <quantity_in_stock>61</quantity_in_stock>
+        <amount>59</amount>
+        <quantity_in_stock>59</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37741/zCK0N1107.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -380971,8 +380971,8 @@ Kolo: Idol, Record тощо.</description_ua>
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>658.66</price>
-        <amount>12</amount>
-        <quantity_in_stock>12</quantity_in_stock>
+        <amount>11</amount>
+        <quantity_in_stock>11</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37742/zzzzzzzOlimpia.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -381023,8 +381023,8 @@ Kolo: Freja, Solo, Primo тощо.</description_ua>
         <typePrefix />
         <categoryId>c3_128</categoryId>
         <price>119.76</price>
-        <amount>70</amount>
-        <quantity_in_stock>70</quantity_in_stock>
+        <amount>68</amount>
+        <quantity_in_stock>68</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37743/zCK0N1207.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -381308,69 +381308,7 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Тип крепления смесителя" unit="">На борт</param>
         <param name="Цвет смесителя" unit="" />
       </offer>
-      <offer id="rs4u37779" selling_type="r" available="true">
-        <name>1 СОРТ Бак гидроаккумулятор вертикальный 100л toНасоси</name>
-        <name_ua>1 СОРТ Бак гідроакумулятор вертикальний 100л toНасоси</name_ua>
-        <article>1 СОРТ toCN-009/100-V</article>
-        <barcode>2000000019772</barcode>
-        <uktzed />
-        <keywords />
-        <currencyId>UAH</currencyId>
-        <portal_category_id>13240412</portal_category_id>
-        <typePrefix />
-        <categoryId>c3_88</categoryId>
-        <price>3228.92</price>
-        <amount>1</amount>
-        <quantity_in_stock>1</quantity_in_stock>
-        <available>true</available>
-        <picture>https://rs4u.com.ua/gallery/product/original/37779/1sorttoCN-009-100-V.jpg</picture>
-        <vendor>toНасоси</vendor>
-        <vendorCode>ТР-00026871</vendorCode>
-        <description>ЗАВОДСКИЕ ВМЯТИНЫ
-
-Гидробак вертикальный на 100л на ножках для насосной станции производства Китая бренда «TOнасосы». Обеспечивает своим пользователям высокие стандарты гигиены. Мембрана из EPDM черного цвета, которая в нем используется, отвечает всем гигиеническим стандартам Европейского Союза. Кроме того, единственной точкой, где вода касается резервуара, входного и выходного отверстия, является крышка фланца и соединитель из гальванизированной катаной стали. Оптимально подходит для использования в системах водоснабжения. Подходит для питьевой воды.
-ХАРАКТЕРИСТИКИ
-- Корпус из окрашенной стали (двухслойная эпоксидная основная и полиуретановая акриловая краска).
-- сменная мембрана с фланцевой крышкой винтового соединения
-- фланец из оцинкованной гальванизированной стали
-- рабочее давление и давление замены мембраны указано на самом изделии
-- работает при температуре от -10 до +99 градусов.
-Мембрана:
-Цвет: Синий - RAL 5015
-Комплект поставки: бак, инструкция по использованию, гарантийный талон.
-Габариты коробки: 450х450х840 мм</description>
-        <description_ua>ЗАВОДСЬКІ ВМЯТИНИ
-
-Гідробак вертикальний на 100 л на ніжках для насосної станції виробництва Китай бренду «TOнасоси». Забезпечує своїм користувачам високі гігієнічні стандарти. Мембрана з EPDM чорного кольору, що в ньому використовується, відповідає всім гігієнічним стандартам Європейського Союзу. Крім того, єдиною точкою, де вода торкається резервуара, вхідного і вихідного отвору, є кришка фланця та з’єднувач, з гальванізованої катаної сталі. Оптимально підходить для використання в системах водопостачання. Підходить для питної води.
-ХАРАКТЕРИСТИКИ
-- Корпус з пофарбованої сталі (двошарова епоксидна основна та поліуретанова акрилова фарба).
-- Змінна мембрана з фланцевою кришкою гвинтового з'єднання
-- Фланець із оцинкованої гальванізованої сталі
-- Робочий тиск і тиск заміни мембрани зазначений на самому виробі
-- Працює при температурі від -10 до +99 градусів.
-Мембрана: 
-Колір: Синій - RAL 5015
-Комплект поставки: бак, інструкція з використання, гарантійний талон.
-Габарити коробки: 450х450х840 мм</description_ua>
-        <param name="Торговая марка" unit="">toНасоси</param>
-        <param name="Страна" unit="">Китай</param>
-        <param name="Назначение" unit="">Вода</param>
-        <param name="Класc товара" unit="">Стандарт</param>
-        <param name="Материал изделия" unit="">Сталь</param>
-        <param name="Цвет" unit="">Синий</param>
-        <param name="Целевое назначение" unit="">Водоснабжение</param>
-        <param name="Тип упаковки" unit="">Картон</param>
-        <param name="Гарантия" unit="">1,5 года</param>
-        <param name="Комплект поставки" unit="">Паспорт, гарантийный талон</param>
-        <param name="Уценка" unit="" />
-        <param name="Регистрация бренда" unit="">Украина</param>
-        <param name="Емкость бака (л)" unit="">100 л</param>
-        <param name="Тип бака" unit="">Гидроаккумулятор</param>
-        <param name="Форма бака" unit="">цилиндрическая</param>
-        <param name="Вариант подключения" unit="">Фланцевое</param>
-        <param name="Размер резьбы, дюйм" unit="">1"</param>
-      </offer>
-      <offer id="rs4u37797" selling_type="r" available="false">
+      <offer id="rs4u37797" selling_type="r" available="true">
         <name>Американка с внутренней резьбой PPR Ø20x1/2" серый цвет ASCO® 1/240 шт</name>
         <name_ua>Американка з внутрішньою різьбою PPR Ø20x1/2" сірий колір ASCO® 1/240 шт</name_ua>
         <article>AS31021802N</article>
@@ -381382,9 +381320,9 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_62</categoryId>
         <price>145.07</price>
-        <amount>0</amount>
-        <quantity_in_stock>0</quantity_in_stock>
-        <available>false</available>
+        <amount>87</amount>
+        <quantity_in_stock>87</quantity_in_stock>
+        <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37797/000amer_vnutr.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00026889</vendorCode>
@@ -381583,7 +381521,7 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">25</param>
       </offer>
-      <offer id="rs4u37804" selling_type="r" available="true">
+      <offer id="rs4u37804" selling_type="r" available="false">
         <name>Американка с наружной резьбой PPR Ø32x1" серый цвет ASCO® 1/90 шт</name>
         <name_ua>Американка з зовнішньою різьбою PPR Ø32x1" сірий колір ASCO® 1/90 шт</name_ua>
         <article>AS31021904N</article>
@@ -381595,9 +381533,9 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_62</categoryId>
         <price>300.3</price>
-        <amount>1</amount>
-        <quantity_in_stock>1</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37804/000amer_zovn.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00026896</vendorCode>
@@ -384333,8 +384271,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_456</categoryId>
         <price>3317</price>
-        <amount>13</amount>
-        <quantity_in_stock>13</quantity_in_stock>
+        <amount>12</amount>
+        <quantity_in_stock>12</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37888/yyyyy-Al-C-28____.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -385004,8 +384942,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_147</categoryId>
         <price>1544</price>
-        <amount>55</amount>
-        <quantity_in_stock>55</quantity_in_stock>
+        <amount>54</amount>
+        <quantity_in_stock>54</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37902/yyy-liyka-GRAY.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -385273,8 +385211,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_115</categoryId>
         <price>202.96</price>
-        <amount>44</amount>
-        <quantity_in_stock>44</quantity_in_stock>
+        <amount>40</amount>
+        <quantity_in_stock>40</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37933/zzzzs-ch.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -385306,8 +385244,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_115</categoryId>
         <price>349.14</price>
-        <amount>15</amount>
-        <quantity_in_stock>15</quantity_in_stock>
+        <amount>11</amount>
+        <quantity_in_stock>11</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37934/zzzzb-ch.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -386916,8 +386854,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_155</categoryId>
         <price>181.34</price>
-        <amount>14</amount>
-        <quantity_in_stock>14</quantity_in_stock>
+        <amount>13</amount>
+        <quantity_in_stock>13</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/37997/yMRS-P-049_3.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -387660,8 +387598,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_525</categoryId>
         <price>350</price>
-        <amount>79</amount>
-        <quantity_in_stock>79</quantity_in_stock>
+        <amount>77</amount>
+        <quantity_in_stock>77</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38019/yPR_ss.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -389492,8 +389430,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_25</categoryId>
         <price>179</price>
-        <amount>40</amount>
-        <quantity_in_stock>40</quantity_in_stock>
+        <amount>38</amount>
+        <quantity_in_stock>38</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38187/2-5.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -389524,8 +389462,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_25</categoryId>
         <price>179</price>
-        <amount>56</amount>
-        <quantity_in_stock>56</quantity_in_stock>
+        <amount>51</amount>
+        <quantity_in_stock>51</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38188/3-0.jpg</picture>
         <vendor>ASCO armatura</vendor>
@@ -389752,8 +389690,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_24</categoryId>
         <price>625</price>
-        <amount>56</amount>
-        <quantity_in_stock>56</quantity_in_stock>
+        <amount>53</amount>
+        <quantity_in_stock>53</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38201/yAS-20.115.jpg</picture>
         <vendor>ASCO</vendor>
@@ -389803,67 +389741,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Тип упаковки" unit="">Картон</param>
         <param name="Регистрация бренда" unit="">Китай</param>
         <param name="Размер резьбы, дюйм 2" unit="">1"</param>
-      </offer>
-      <offer id="rs4u38227" selling_type="r" available="true">
-        <name>1Сорт Бак расширительный отопление плоский 6л 3/4" макс 3 бар EPDM мембрана toНасосы</name>
-        <name_ua>1Сорт Бак розширювальний опалення плоский  6л  3/4" макс 3 бар EPDM мембрана toНасоси</name_ua>
-        <article>1Сорт TO-6F-H</article>
-        <barcode>2000000031538</barcode>
-        <uktzed />
-        <keywords>то насоси, то насосі, тонасоси, тонасоси, тонасосы, то насосы, бак, бак расширитель, расширительный, росшерительный, росширительный, розшерительный, бак опалення, розширювальний бак, уцінка</keywords>
-        <currencyId>UAH</currencyId>
-        <portal_category_id>13240113</portal_category_id>
-        <typePrefix />
-        <categoryId>c3_87</categoryId>
-        <price>814.51</price>
-        <amount>1</amount>
-        <quantity_in_stock>1</quantity_in_stock>
-        <available>true</available>
-        <picture>https://rs4u.com.ua/gallery/product/original/38227/0-02-05-73dd36670104ad191ee5e8bedcd250bba104ce5f5668721491e7c844671bc79e_9ac7e4eb8c03c6a8.jpg</picture>
-        <vendor>toНасоси</vendor>
-        <vendorCode>ТР-00027303</vendorCode>
-        <description>Уценка: рабочий бак с небольшим дефектом - частично не прокрашенный корпус.
-
-Бак расширительный плоский от бренда toНАСОСИ, другое название – бак-таблетка. Плоская емкость плоской округлой формы. Мембрана – резиновая EPDM, неизменная. Баки этого типа удобны для размещения в ограниченном или труднодоступном пространстве. Присоединительный патрубок располагается по боковой окружности бака. Бак используется в системах отопления для бытовых и промышленных целей.
-
-Характеристики
-• Диаметр соединения (дюйма) – 3/4
-• макс. раб. давление (бар) – 3
-• Диапазон температур (°С) до +90С
-• Цвет – красный
-
-ОСОБЕННОСТИ
-• Фиксированная диафрагменная мембрана
-• Поставляется уже готовым к использованию</description>
-        <description_ua>Уцінка: бак робочий з невеличким дефектом - частково не профарбований корпус.
-
-Бак розширювальний плоский від бренду toНАСОСИ, інша назва - бак-таблетка. Плоска ємність плоского округлої форми. Мембрана — гумова EPDM, незмінна. Баки цього типу зручні для розміщення в обмеженому або важкодоступному просторі. Приєднувальний патрубок розташовується по боковій окружності бака. Бак застосовується в системах опалення для побутових і промислових цілей.
-
-Характеристики
-• Діаметр з'єднання (дюйми) - 3/4
-• Макс. раб. тиск (бар) - 3
-• Діапазон температур (°С) до +90С
-• Колір - червоний
-
-ОСОБЛИВОСТІ
-• Фіксована діафрагмова мембрана
-• Поставляється вже готовий до використання</description_ua>
-        <param name="Торговая марка" unit="">toНасоси</param>
-        <param name="Страна" unit="">Китай</param>
-        <param name="Назначение" unit="">Вода</param>
-        <param name="Класc товара" unit="">Стандарт</param>
-        <param name="Материал изделия" unit="">Сталь</param>
-        <param name="Цвет" unit="">Красный</param>
-        <param name="Целевое назначение" unit="">Водоснабжение/отопление</param>
-        <param name="Уценка" unit="" />
-        <param name="Регистрация бренда" unit="">Украина</param>
-        <param name="Емкость бака (л)" unit="">6 л</param>
-        <param name="Рабочее давлене бака, МПа" unit="">3</param>
-        <param name="Тип бака" unit="">плоский</param>
-        <param name="Форма бака" unit="">горизонтальная</param>
-        <param name="Размер резьбы, дюйм" unit="">3/4"</param>
-        <param name="Тип покрытия" unit="">Краска</param>
-        <param name="Температура жидкости, до" unit="" />
       </offer>
       <offer id="rs4u38279" selling_type="r" available="true">
         <name>1 СОРТ Бак гидроаккумулятор 100л вертикальный фланец 1" макс 8 бар сменная EPDM мембрана toНасосы</name>
@@ -391167,8 +391044,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_456</categoryId>
         <price>6678</price>
-        <amount>14</amount>
-        <quantity_in_stock>14</quantity_in_stock>
+        <amount>13</amount>
+        <quantity_in_stock>13</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38305/DG06544-1ch6.jpg</picture>
         <vendor>AIM</vendor>
@@ -393356,8 +393233,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_62</categoryId>
         <price>303.53</price>
-        <amount>99</amount>
-        <quantity_in_stock>99</quantity_in_stock>
+        <amount>93</amount>
+        <quantity_in_stock>93</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38350/000amer_VNUTR.jpg</picture>
         <vendor>ASCO</vendor>
@@ -393689,8 +393566,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_146</categoryId>
         <price>1495</price>
-        <amount>23</amount>
-        <quantity_in_stock>23</quantity_in_stock>
+        <amount>22</amount>
+        <quantity_in_stock>22</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38376/u000-MZJ60D-A182-40.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -395024,8 +394901,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_146</categoryId>
         <price>1617</price>
-        <amount>39</amount>
-        <quantity_in_stock>39</quantity_in_stock>
+        <amount>35</amount>
+        <quantity_in_stock>35</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38408/liyka_4.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -395066,8 +394943,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_141</categoryId>
         <price>720</price>
-        <amount>23</amount>
-        <quantity_in_stock>23</quantity_in_stock>
+        <amount>22</amount>
+        <quantity_in_stock>22</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38409/yyy-box.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -395190,8 +395067,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_146</categoryId>
         <price>1560</price>
-        <amount>45</amount>
-        <quantity_in_stock>45</quantity_in_stock>
+        <amount>44</amount>
+        <quantity_in_stock>44</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38412/hose.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -395497,8 +395374,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_147</categoryId>
         <price>1439</price>
-        <amount>26</amount>
-        <quantity_in_stock>26</quantity_in_stock>
+        <amount>25</amount>
+        <quantity_in_stock>25</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38420/liyka_2.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -396338,8 +396215,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_176</categoryId>
         <price>257</price>
-        <amount>73</amount>
-        <quantity_in_stock>73</quantity_in_stock>
+        <amount>67</amount>
+        <quantity_in_stock>67</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38475/y10.26.RS.PS-2A.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -396386,8 +396263,8 @@ AIM - це відомий завод-виробник, що має високи�
         <typePrefix />
         <categoryId>c3_176</categoryId>
         <price>473</price>
-        <amount>57</amount>
-        <quantity_in_stock>57</quantity_in_stock>
+        <amount>56</amount>
+        <quantity_in_stock>56</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38476/yyy10.26.RS.PS-9C.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -397184,8 +397061,8 @@ ISO 2548</description_ua>
         <typePrefix />
         <categoryId>c3_197</categoryId>
         <price>130.57</price>
-        <amount>63</amount>
-        <quantity_in_stock>63</quantity_in_stock>
+        <amount>49</amount>
+        <quantity_in_stock>49</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38547/yy-123.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -397831,8 +397708,8 @@ ISO 2548</description_ua>
         <typePrefix />
         <categoryId>c3_96</categoryId>
         <price>4560</price>
-        <amount>16</amount>
-        <quantity_in_stock>16</quantity_in_stock>
+        <amount>15</amount>
+        <quantity_in_stock>15</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38569/yyyyJetX.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -398210,8 +398087,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_89</categoryId>
         <price>4659</price>
-        <amount>41</amount>
-        <quantity_in_stock>41</quantity_in_stock>
+        <amount>40</amount>
+        <quantity_in_stock>40</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38573/ZZ805.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -399556,8 +399433,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_239</categoryId>
         <price>224.34</price>
-        <amount>23</amount>
-        <quantity_in_stock>23</quantity_in_stock>
+        <amount>21</amount>
+        <quantity_in_stock>21</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38617/FT3050115-147.jpg</picture>
         <vendor>MILLZ</vendor>
@@ -399823,8 +399700,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_199</categoryId>
         <price>226.21</price>
-        <amount>63</amount>
-        <quantity_in_stock>63</quantity_in_stock>
+        <amount>60</amount>
+        <quantity_in_stock>60</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38631/USTM_PP_10M_10BB.jpg</picture>
         <vendor>NO Brand</vendor>
@@ -400577,8 +400454,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_182</categoryId>
         <price>5003</price>
-        <amount>19</amount>
-        <quantity_in_stock>19</quantity_in_stock>
+        <amount>18</amount>
+        <quantity_in_stock>18</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38666/WQD.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -400820,8 +400697,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_182</categoryId>
         <price>5442</price>
-        <amount>8</amount>
-        <quantity_in_stock>8</quantity_in_stock>
+        <amount>7</amount>
+        <quantity_in_stock>7</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38669/WQD.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -401205,8 +401082,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_89</categoryId>
         <price>7109</price>
-        <amount>73</amount>
-        <quantity_in_stock>73</quantity_in_stock>
+        <amount>72</amount>
+        <quantity_in_stock>72</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38674/z_bottom.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -401776,7 +401653,7 @@ ISO 2548
         <param name="Тип питания" unit="">Сеть</param>
         <param name="Модель насоса" unit="">4SDm</param>
       </offer>
-      <offer id="rs4u38743" selling_type="r" available="true">
+      <offer id="rs4u38743" selling_type="r" available="false">
         <name>Угольник с накидной гайкой внутренняя резьба PPR Ø20x1/2" серый цвет Grandi</name>
         <name_ua>Кутник з накидною гайкою внутрішня різьба  PPR Ø20x1/2" сірий колір Grandi</name_ua>
         <article>PGT-PPR-093</article>
@@ -401788,9 +401665,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_64</categoryId>
         <price>81.77</price>
-        <amount>17</amount>
-        <quantity_in_stock>17</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38743/000kut-nak-gayka31001.jpg</picture>
         <vendor>ASCO</vendor>
         <vendorCode>ТР-00027813</vendorCode>
@@ -402052,8 +401929,8 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_176</categoryId>
         <price>1499</price>
-        <amount>65</amount>
-        <quantity_in_stock>65</quantity_in_stock>
+        <amount>64</amount>
+        <quantity_in_stock>64</quantity_in_stock>
         <available>true</available>
         <picture>https://rs4u.com.ua/gallery/product/original/38842/4.jpg</picture>
         <vendor>toНасоси</vendor>
@@ -403075,7 +402952,7 @@ ISO 2548
         <param name="Цвет ППР" unit="">Серый</param>
         <param name="Диаметр ППР" unit="">63</param>
       </offer>
-      <offer id="rs4u39250" selling_type="r" available="true">
+      <offer id="rs4u39250" selling_type="r" available="false">
         <name>Колба BigBlue 20" Titan  прозрачная (ПЛАСТИК.резьб./макс10атм)  1/4</name>
         <name_ua>Колба BigBlue 20" Titan  прозора (ПЛАСТИК.різьби/макс10атм)  1/4</name_ua>
         <article>01518</article>
@@ -403087,9 +402964,9 @@ ISO 2548
         <typePrefix />
         <categoryId>c3_199</categoryId>
         <price>2126.12</price>
-        <amount>2</amount>
-        <quantity_in_stock>2</quantity_in_stock>
-        <available>true</available>
+        <amount>0</amount>
+        <quantity_in_stock>0</quantity_in_stock>
+        <available>false</available>
         <picture>https://rs4u.com.ua/gallery/product/original/39250/01518.jpg</picture>
         <vendor>TITAN</vendor>
         <vendorCode>ТР-00028290</vendorCode>
@@ -489610,7 +489487,7 @@ ISO 2548
         <article>ETS-203-H</article>
         <barcode>2000000014920</barcode>
         <uktzed>8481 40 90 00</uktzed>
-        <keywords>взривний клапан бойлера, клапан бойлера, клапан для бойлера, латунь, запобіжний, підривний клапан, підривник, запобіжник, клапан запобіжник, спускний клапан, спускник, клапан для бойлера з флажком, клапан для бойлера з прапорцем</keywords>
+        <keywords>запобіжник для бойлера, взривний клапан бойлера, клапан бойлера, клапан для бойлера, латунь, запобіжний, підривний клапан, підривник, запобіжник, клапан запобіжник, спускний клапан, спускник, клапан для бойлера з флажком, клапан для бойлера з прапорцем</keywords>
         <currencyId>UAH</currencyId>
         <portal_category_id>13241102</portal_category_id>
         <typePrefix />
@@ -491599,7 +491476,7 @@ AIM - це відомий завод-виробник, що має високи�
         <article>AS-KB-001</article>
         <barcode />
         <uktzed />
-        <keywords>клапан для бойлера, латунь, запобіжний, підривний клапан, підривник, запобіжник, клапан запобіжник, спускний клапан, спускник, подревнік болера, підривник бойлера</keywords>
+        <keywords>запобіжник для бойлера, клапан для бойлера, латунь, запобіжний, підривний клапан, підривник, запобіжник, клапан запобіжник, спускний клапан, спускник, подревнік болера, підривник бойлера</keywords>
         <currencyId>UAH</currencyId>
         <portal_category_id>13241102</portal_category_id>
         <typePrefix />
@@ -631485,7 +631362,7 @@ AIM - це відомий завод-виробник, що має високи�
         <picture>https://cdn.olinfrastructure.com/productfile/f9595b0c-31b2-44bf-afe7-fc4304c73ef7/image_02.jpg</picture>
         <vendor>KOER</vendor>
         <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Достатньо</availabilityStatus>
+        <availabilityStatus>Малий залишок</availabilityStatus>
         <name>Душова колонна зі змішувачем KOER KB-56029-07, 3 функції (Колір графіт) (KR5497)</name>
         <description>&lt;![CDATA[]]&gt;</description>
         <vendorCode>KR5497</vendorCode>
