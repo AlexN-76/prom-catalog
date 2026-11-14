@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-14 16:13">
+<yml_catalog date="2026-11-14 21:47">
   <shop>
     <name>PlumberShop Suppliers Catalog</name>
     <company>Сантехник</company>
@@ -180205,7 +180205,7 @@
         <param name_ua="Країна виробника">Китай</param>
         <param name_ua="Розмір основної чаші (ШхГхВ), мм">350x400x180</param>
       <portal_category_id>1302</portal_category_id></offer>
-      <offer id="Pr45775" available="">
+      <offer id="Pr45775" available="true">
         <url>https://b2b.valeso.ua/catalog/45775</url>
         <price>1710.00</price>
         <currencyId>UAH</currencyId>
@@ -180224,7 +180224,7 @@
         <name_ua>Кухонна мийка з нержавіючої сталі Valeso 7750 САТИН (0,8/180 мм)</name_ua>
         <name>Кухонная мойка из нержавеющей стали Valeso 7750 САТИН (0,8/180 мм)</name>
         <vendorCode>SP000044170</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>47</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;Кухонная мойка VALESO 7750 – это оптимальное решение для кухни небольших и средних размеров. Лаконичный дизайн овальной формы хорошо подходит разным интерьерам кухни, а крыло сушки позволит сушить посуду и ставить горячие кухонные принадлежности.&lt;br&gt;Мойка изготовлена ​​из экологически чистого материала – нержавеющей стали SUS 201. Материал обеспечивает стойкость к перепаду температур, отсутствие сколов при использовании. Вы можете выбрать матовую или поверхность с микродекором.&lt;br&gt;Поверхность металлической кухонной мойки VALESO не задерживает пятна, за ней легко ухаживать, на ней не остается следов от воздействия моющих средств.&lt;br&gt;Преимущества мойки VALESO 7750:&lt;br&gt;- доступная стоимость;&lt;br&gt;- низкий вес;&lt;br&gt;- легкость монтажа;&lt;br&gt;- не требует специального ухода.&lt;br&gt;Мойка имеет чашу глубиной 180 мм, способную вместить габаритную посуду. Тип установки – врезная. Для монтажа мойки требуется ширина столешницы не менее 550 мм.&lt;br&gt;Комплектация мойки: сифон, крепеж.&lt;br&gt;Также у нас можно приобрести смеситель для этой мойки&lt;/p&gt;</description>
         <description_ua>&lt;p&gt;Кухонна мийка VALESO 7750 це оптимальне рішення для кухні невеликих та середніх розмірів. Лаконічний дизайн овальної форми добре пасує різним інтер’єрам кухні, а крило сушки дозволить сушити посуд та ставити гаряче кухонне приладдя. &lt;br&gt;Мийка виготовлена з екологічно чистого матеріалу – нержавіючої сталі SUS 201. Матеріал забезпечує стійкість до перепаду температур, відсутність сколів при використанні. Ви можете обрати матову чи поверхню з мікродекором.&lt;br&gt;Поверхня металевої кухонної мийки VALESO не затримує плями, її легко доглядати, на ній не залишається слідів від впливу мийних засобів.&lt;br&gt;Переваги мийки VALESO 7750:&lt;br&gt;-  доступна вартість;&lt;br&gt;- низька вага;&lt;br&gt;- легкість монтажу;&lt;br&gt;- не потребує спеціального догляду.&lt;br&gt;Мийка має чашу глибиною 180 мм, що здатна вмістити габаритний посуд. Тип встановлення – врізна. Для монтажу мийки потрібна ширина стільниці не менше 550 мм.&lt;br&gt;Комплектація мийки: сифон, кріплення. &lt;br&gt;Також у нас можна придбати змішувач для цієї мийки&lt;/p&gt;</description_ua>
@@ -187455,7 +187455,7 @@
         <name_ua>Змішувач кухонний VALESO 56 NESP</name_ua>
         <name>Смеситель кухонный VALESO 56 NESP</name>
         <vendorCode>SP000044341</vendorCode>
-        <quantity_in_stock>236</quantity_in_stock>
+        <quantity_in_stock>237</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="font-weight: bold;"&gt;Кухонный смеситель VALESO 56 NESP – сочетание стиля и качества&lt;/span&gt;&lt;br&gt;VALESO 56 NESP – это современный смеситель, который станет идеальным дополнением к вашей кухне, обеспечивая комфорт и долговечность в использовании.&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-weight: bold;"&gt;Основные характеристики:&lt;/span&gt;&lt;br&gt;✔ Материал: 100% нержавеющая сталь – гарантия прочности и стойкости к коррозии&lt;br&gt;✔ Высота смесителя: 330 мм – для удобного использования&lt;br&gt;✔ Высота от основания к носику: 245 мм – обеспечивает пространство для мытья больших предметов&lt;br&gt;✔ Длина излива: 200 мм – оптимальный размер для комфортного использования&lt;br&gt;✔ Современный дизайн – элегантное дополнение к любому интерьеру.&lt;/p&gt;
@@ -188374,7 +188374,7 @@
         <name_ua>Кухонний змішувач з висувною лійкою VALESO Q411B нержавійка</name_ua>
         <name>Смеситель кухонный с выдвижной воронкой VALESO Q411B нержавейка</name>
         <vendorCode>SP000044382</vendorCode>
-        <quantity_in_stock>92</quantity_in_stock>
+        <quantity_in_stock>94</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;Кухонный смеситель VALESO Q411B нержавейка – идеальное решение для современной кухни. Сочетание эстетики и практичности делает его незаменимым помощником в повседневном использовании.&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-weight: bold;"&gt;Основные характеристики:&lt;/span&gt;&lt;br&gt;Высота смесителя: 370 мм&lt;br&gt;Высота излива: 350 мм&lt;br&gt;Высота от основания к носику: от 210 мм.&lt;br&gt;Материал: высококачественная нержавеющая сталь SUS 304&lt;br&gt;Дизайн: нержавеющая сталь&lt;br&gt;&lt;span style="font-weight: bold;"&gt;Главные преимущества VALESO Q411B:&lt;/span&gt;&lt;br&gt;Выдвижная воронка:&lt;br&gt;Легко дотянуться до любого уголка мойки. Идеальна для наполнения высокой посуды или очистки поверхностей.&lt;br&gt; Прочность и долговечность:&lt;br&gt;Изготовлен из нержавеющей стали SUS 304, которая устойчива к коррозии и механическим повреждениям.&lt;br&gt;Удобный монтаж и использование:&lt;br&gt;В комплекте два шланга, обеспечивающих легкое подключение к водоснабжению.&lt;br&gt;Грузок для плавного и удобного выдвижения воронки.&lt;/p&gt;
@@ -189231,7 +189231,7 @@
         <name_ua>Змішувач з висувним виливом VALESO KT 8203 (8614)</name_ua>
         <name>Смеситель с выдвижным изливом VALESO KT 8203 (8614)</name>
         <vendorCode>SP000046002</vendorCode>
-        <quantity_in_stock>8</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;Представляем вам инновационный и стильный смеситель VALESO KT8203(8614), сочетающий в себе эффективность и элегантность. Этот смеситель является оптимальным выбором для вашей ванной комнаты, предлагая качество и функциональность в одном пакете.&lt;/p&gt;
 &lt;p&gt;Смеситель имеет компактную высоту 44,0 см, что делает его подходящим для разных пространств. От основания до носика высота составляет 110 мм, обеспечивая удобное использование даже в труднодоступных местах.&lt;/p&gt;
@@ -189520,7 +189520,7 @@
         <param name_ua="Країна виробника">Китай</param>
         <param name_ua="Гарантія">1 рік</param>
       <portal_category_id>130103</portal_category_id></offer>
-      <offer id="Pr47768" available="">
+      <offer id="Pr47768" available="true">
         <url>https://b2b.valeso.ua/catalog/47768</url>
         <price>4790.00</price>
         <currencyId>UAH</currencyId>
@@ -189533,7 +189533,7 @@
         <name_ua>Змішувач кухонний NES-TN66 з гнучким виливом під фільтр VALESO (PVD чорний)</name_ua>
         <name>Смеситель кухонный NES-TN66 с гибким изливом под фильтр VALESO (PVD черный)</name>
         <vendorCode>SP000046018</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;Смеситель кухонный NES-TN65 с гибким изливом под фильтр VALESO (PVD черный)&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Кухонный смеситель &lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;NES-TN65&lt;/span&gt; от &lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;VALESO&lt;/span&gt; выполнен в элегантном и стильном &lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;PVD-черном&lt;/span&gt; цвете, который придаёт кухонному пространству современный и лаконичный вид. Высота смесителя составляет &lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;540 мм&lt;/span&gt;, что делает его эффектным и функциональным дополнением интерьера.&lt;/p&gt;
@@ -191977,7 +191977,7 @@
         <name_ua>Гнучкий кухонний змішувач BR14B VALESO з тримачем (чорний вилив, корпус brush)</name_ua>
         <name>Гибкий кухонный смеситель BR14B VALESO с держателем (черное излияние, корпус brush)</name>
         <vendorCode>SP000052973</vendorCode>
-        <quantity_in_stock>84</quantity_in_stock>
+        <quantity_in_stock>83</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;Гибкий кухонный смеситель &lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;BR14B VALESO&lt;/span&gt; с держателем — это современное и функциональное решение для кухни, сочетающее стильный дизайн, практичность и комфорт в ежедневном использовании.&lt;/p&gt;
 &lt;p&gt;Модель оснащена гибким чёрным изливом и корпусом в цвете &lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;brush&lt;/span&gt;, что создаёт современный и элегантный внешний вид, отлично сочетаясь с интерьерами в стиле модерн, минимализм или loft.&lt;/p&gt;
@@ -199703,7 +199703,7 @@
         <name_ua>Кухонна мийка нержавійка CM 100*50 L VALESO Handmade (3.0/1.0)</name_ua>
         <name>Кухонная мойка нержавейка CM 100*50 L VALESO Handmade (3.0/1.0)</name>
         <vendorCode>SP000026090</vendorCode>
-        <quantity_in_stock>43</quantity_in_stock>
+        <quantity_in_stock>44</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="font-size: 12pt;font-weight: bold;"&gt;Кухонная мойка нержавейка CM 100*50 L VALESO Handmade (3.0/1.0)&lt;/span&gt;&lt;span style="font-size: 12pt;"&gt; отличное стильное решение для кухни небольших и средних размеров. Лаконичный дизайн прямоугольной формы хорошо подходит различным интерьерам кухни.&lt;br&gt;Мойка для кухни VALESO изготовлена из нержавеющей стали SUS 201, что гарантирует ее долговечность. Покрытие мойки защищает ее от царапин потемнения и налета. Такая кухонная мойка не боится высоких температур и воздействия средств бытовой химии. &lt;br&gt;Преимущества мойки Handmade 100*50 L нержавейка:&lt;br&gt;- оригинальный дизайн;&lt;br&gt;- возможность установить под столешницу и над столешницей;&lt;br&gt;- легко ухаживать и мыть.&lt;br&gt;- размер мойки - 1000х500х207&lt;br&gt;- размер чаши - 550х380х207&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Мойка имеет чашу глубиной 220 мм, что обеспечивает удобство ежедневного использования. Тип установки - универсальный, как на столешницу так и под столешницу. Для монтажа мойки нужна ширина столешницы не менее 1000 мм.&lt;br&gt;Комплектация мойки: сифон, крепления, дозатор.&lt;br&gt;Также у нас можно приобрести смеситель для этой мойки.&lt;br&gt;&lt;/p&gt;
@@ -200236,7 +200236,7 @@
         <name_ua>Кухонна мийка CM 58*48 L нержавійка VALESO Handmade (круглий сифон 3,0/1.0)</name_ua>
         <name>Кухонная мойка CM 58*48 L нержавейка VALESO Handmade (круглый сифон 3,0/1.0)</name>
         <vendorCode>SP000032277</vendorCode>
-        <quantity_in_stock>62</quantity_in_stock>
+        <quantity_in_stock>63</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;Обновите вашу кухню вместе с Кухонной мойкой CM 58*48 L нержавейка VALESO Handmade (круглый сифон 3,0/1.0)&lt;/p&gt;
 &lt;p&gt;Эта кухонная мойка станет не только функциональным, но и стильным элементом вашего интерьера. Элегантная высококачественная нержавеющая сталь SUS 201 обеспечивает долговечность и стойкость к царапинам.&lt;/p&gt;
@@ -200830,7 +200830,7 @@
         <name_ua>Кухонна мийка 58*43 PVD чорна VALESO Handmade DÉCOR (монтаж під стільницю, 3,0/1,0)</name_ua>
         <name>Кухонная мойка 58*43 PVD черная VALESO Handmade DÉCOR (монтаж под столешницу, 3,0/1,0)</name>
         <vendorCode>SP000032588</vendorCode>
-        <quantity_in_stock>45</quantity_in_stock>
+        <quantity_in_stock>46</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;Кухонная мойка PVD черная 58*43 VALESO Handmade DÉCOR — современная элегантность и премиальное качество.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Эта модель — идеальный выбор для изысканной кухни. Изготовленная из высококачественной нержавеющей стали SUS 201, мойка имеет стойкое PVD-покрытие черного цвета и фирменную фактуру DÉCOR, что обеспечивает долговечность, устойчивость к коррозии и эффектный внешний вид. Благодаря покрытию DÉCOR поверхность надежно защищена от мелких царапин и следов ежедневного использования.&lt;/p&gt;
@@ -201317,7 +201317,7 @@
         <name_ua>Кухонна мийка CM 78*50 L нержавійка VALESO Handmade 3.0/1.0</name_ua>
         <name>Кухонная мойка CM 78*50 L нержавейка VALESO Handmade 3.0/1.0</name>
         <vendorCode>SP000033653</vendorCode>
-        <quantity_in_stock>55</quantity_in_stock>
+        <quantity_in_stock>56</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;Обновите вашу кухню вместе с кухонной мойкой CM 78*50 L нержавейка VALESO Handmade (3,0/1,0)!&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Эта кухонная мойка станет не только функциональным, но и стильным элементом вашего интерьера. Элегантная высококачественная нержавеющая сталь SUS 201 обеспечивает долговечность и стойкость к царапинам.&lt;/p&gt;
@@ -204214,7 +204214,7 @@
         <name_ua>Кухонна мийка CM 65*50 L PVD чорна VALESO Handmade 3.0/1.0</name_ua>
         <name>Кухонная мойка CM 65*50 L PVD черная VALESO Handmade 3.0/1.0</name>
         <vendorCode>SP000043035</vendorCode>
-        <quantity_in_stock>97</quantity_in_stock>
+        <quantity_in_stock>98</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;Обновите вашу кухню вместе с кухонной мойкой CM 65*50 L PVD черная VALESO Handmade (3,0/1,0)!&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Эта кухонная мойка станет не только функциональным, но и стильным элементом вашего интерьера. Элегантное черное PVD покрытие добавляет роскоши, а высококачественная нержавеющая сталь обеспечивает долговечность и стойкость к царапинам.&lt;/p&gt;
@@ -204727,7 +204727,7 @@
         <name_ua>Кухонна мийка CM 78*50 R PVD чорна VALESO Handmade 3.0/1.0</name_ua>
         <name>Кухонная мойка CM 78*50 R PVD черная VALESO Handmade 3.0/1.0</name>
         <vendorCode>SP000043040</vendorCode>
-        <quantity_in_stock>90</quantity_in_stock>
+        <quantity_in_stock>91</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;Обновите вашу кухню вместе с кухонной мойкой CM 78*50 R PVD черная VALESO Handmade (правая чаша, 3,0/1,0)!&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Эта кухонная мойка с правосторонним расположением чаши станет не только функциональным, но и стильным элементом вашего интерьера. Элегантное черное PVD покрытие добавляет роскоши, а высококачественная нержавеющая сталь обеспечивает долговечность и стойкость к царапинам.&lt;/p&gt;
@@ -205182,7 +205182,7 @@
         <name_ua>Кухонна мийка CM 65*50 L PVD чорна VALESO Handmade DÉCOR 3.0/1.0</name_ua>
         <name>Кухонная мойка CM 65*50 L PVD черная VALESO Handmade DÉCOR 3.0/1.0</name>
         <vendorCode>SP000044036</vendorCode>
-        <quantity_in_stock>47</quantity_in_stock>
+        <quantity_in_stock>48</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;Кухонная мойка 65*50 L PVD черная VALESO Handmade DÉCOR — ваш выбор для стильной и функциональной кухни!&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Эта модель — идеальное сочетание премиального дизайна и высокой надежности. Благодаря технологии Handmade, мойка обладает безупречной геометрией и повышенной прочностью, что гарантирует долгий срок службы. Глубокое PVD-покрытие черного цвета вместе с фактурой DÉCOR придает изделию изысканный вид, при этом надежно защищая поверхность от царапин, потемнения и налета.&lt;/p&gt;
@@ -206932,7 +206932,7 @@
         <name_ua>Кухонна мийка нержавійка 44*44 VALESO Handmade монтаж під стільницю (3.0/0.8)</name_ua>
         <name>Кухонная мойка нержавейка 44*44 VALESO Handmade монтаж под столешницу (3.0/0.8)</name>
         <vendorCode>SP000045060</vendorCode>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>24</quantity_in_stock>
         <country_of_origin>Китай</country_of_origin>
         <description>&lt;p&gt;&lt;span style="font-weight: bold;"&gt;Кухонная мойка нержавейка 44*44 VALESO Handmade монтаж под столешницу (3.0/0.8)&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Мойка изготовлена из высококачественной нержавеющей стали SUS 201, что обеспечивает ее долговечность, устойчивость к коррозии и элегантный внешний вид. &lt;br&gt;Общий размер мойки составляет 440х440х215 мм, что позволяет удобно расположить ее под столешницей. &lt;br&gt;Размер чаши 390x390x215 мм предоставляет достаточно пространства для мытья посуды.&lt;br&gt;Толщина стали 3.0 - 0.8.&lt;br&gt;Мойка не имеет дополнительных отверстий, что позволяет вам самостоятельно выбрать оптимальное расположение смесителя и других аксессуаров, делая ее универсальным решением для любой кухни.&lt;br&gt;Врезная конструкция под столешницу придает кухне современный и аккуратный вид, сохраняя больше рабочего пространства на столешнице и облегчая уборку.&lt;br&gt;&lt;span style="font-weight: bold;"&gt;Вместе с мойкой вы получаете:&lt;/span&gt;&lt;br&gt;Сифон&lt;br&gt;Крепление&lt;br&gt;Заказывайте эту мойку уже сегодня и превратите вашу кухню в настоящее место комфорта и удобства!&lt;br&gt;&lt;/p&gt;
@@ -302311,7 +302311,7 @@
         <param name_ua="Розмір основної чаші (ШхГхВ), мм">500x400x215</param>
         <param name_ua="Сифон">підходить євросифон (широка горловина, 110 мм)</param>
       <portal_category_id>1302</portal_category_id></offer>
-      <offer id="Pr53589" available="">
+      <offer id="Pr53589" available="true">
         <url>https://b2b.valeso.ua/catalog/53589</url>
         <price>7026.00</price>
         <currencyId>UAH</currencyId>
@@ -302329,7 +302329,7 @@
         <name_ua>Кухонна гранітна мийка 5444 AMELI VALESO біла в крапку</name_ua>
         <name>Кухонная гранитная мойка 5444 AMELI VALESO белая в крапинку</name>
         <vendorCode>SP000051483</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <country_of_origin>Україна</country_of_origin>
         <description>&lt;p&gt;&lt;span style="background-color: #ffffff;color: #000000;font-family: Arial;font-size: 10pt;font-style: normal;font-weight: bold;line-height: 1.15;text-align: left;"&gt;Гранитная кухонная мойка 5444 AMELI VALESO (белая в крапинку) — премиальный подстольный монтаж, минимализм и 10 лет гарантии!&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Модель 5444 AMELI от украинского бренда VALESO в нежном цвете &amp;quot;белая в крапинку&amp;quot; — это глубокая одинарная чаша, разработанная специально для подстольного монтажа. Такой способ установки создает эффект бесшовного перехода от столешницы к мойке, подчеркивая современный и минималистичный дизайн вашей кухни. Благодаря значительной глубине (215 мм), чаша идеально подходит для мытья крупной посуды. Мойка имеет приятную матовую фактуру и элегантный белый цвет с деликатными вкраплениями, что делает её практичной и эстетичной.&lt;/p&gt;
