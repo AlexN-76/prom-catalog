@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-15 05:43">
+<yml_catalog date="2026-11-15 13:38">
   <shop>
     <name>Магазин СантехниК</name>
     <company>565043</company>
@@ -17,7 +17,6 @@
       <category id="13" parentId="0">Строительство</category>
       <category id="14" parentId="0">Промышленное оборудование и станки</category>
       <category id="15" parentId="0">Товары для дома</category>
-      <category id="18" parentId="0">Спорт и отдых</category>
       <category id="42" parentId="0">Изделия из металла, пластика, резины</category>
       <category id="50" parentId="0">Техника и электроника</category>
       <category id="59" parentId="0">Отопление</category>
@@ -50,9 +49,7 @@
       <category id="1535" parentId="15">Умный дом</category>
       <category id="1536" parentId="15">Хозяйственный инвентарь</category>
       <category id="1537" parentId="0">Контрольно-измерительные приборы</category>
-      <category id="1538" parentId="15">Оформление окон</category>
       <category id="1540" parentId="132402">Принадлежности для ванной и туалета</category>
-      <category id="2009" parentId="18">Тренажеры</category>
       <category id="2406" parentId="2829">Horeca&amp;fast-food</category>
       <category id="2829" parentId="0">Оборудование и товары для предоставления услуг</category>
       <category id="4205" parentId="81">Крепежные изделия</category>
@@ -114,7 +111,6 @@
       <category id="154006" parentId="1540">Шторки для ванной и душа</category>
       <category id="154008" parentId="1540">Карнизы для ванной</category>
       <category id="154009" parentId="1540">Держатели и стаканы для зубных щеток</category>
-      <category id="200901" parentId="2009">Гантели, гири, штанги и диски</category>
       <category id="240610" parentId="2406">Санитарно-гигиеническое оборудование</category>
       <category id="371032" parentId="1503">Зеркала и аксесуары</category>
       <category id="420509" parentId="4205">Хомуты, зажимы</category>
@@ -200,7 +196,6 @@
       <category id="15370405" parentId="132415">Счетчики воды</category>
       <category id="15370801" parentId="153708">Манометры</category>
       <category id="15370803" parentId="153708">Регуляторы давления</category>
-      <category id="15380302" parentId="1538">Карнизы для штор</category>
     </categories>
   <offers>
 <offer id="2102556766" available="true">
@@ -129641,7 +129636,7 @@ Lidz Handmade – це втілення польської якості та п�
     <picture>https://images.prom.ua/vgGIDwkMJYEJHggKpRurrQ2LWL0dJszzU_By4zRhmE0=/5803141352_smesitel-dlya-kuhni.jpg</picture>
     <picture>https://images.prom.ua/hLJdg1HjtijwS2nb_hryDX7oUTiowCqKiz-SQ4fbYnI=/5803141353_smesitel-dlya-kuhni.jpg</picture>
     <vendor>Valeso</vendor>
-    <stock_quantity>8</stock_quantity>
+    <stock_quantity>9</stock_quantity>
     <name>Смеситель для кухни Valeso KT 8203 (8614) Нержавеющая сталь с выдвижным изливом (SP000046002)</name>
     <name_ua>Змішувач для кухні Valeso KT 8203 (8614), одноважільний, з висувним виливом, нержавіюча сталь (SP000046002)</name_ua>
     <description>&lt;div&gt;&lt;h2&gt;Элегантность и Функциональность для Вашей Кухни&lt;/h2&gt;&lt;p&gt;Смеситель для кухни Valeso KT 8203 (8614) воплощает идеальное сочетание современного дизайна и высокой практичности, став центральным элементом любой кухонной зоны. Выполненный из высококачественной нержавеющей стали, он гарантирует долговечность и безупречный внешний вид.&lt;/p&gt;&lt;h2&gt;Преимущества Смесителя Valeso KT 8203 (8614)&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Высококачественный материал:&lt;/strong&gt; Нержавеющая сталь обеспечивает исключительную стойкость к коррозии, механическим повреждениям и сохраняет свой первоначальный блеск на протяжении многих лет.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Однорычажное управление:&lt;/strong&gt; Интуитивно понятный механизм позволяет легко и точно регулировать температуру и напор воды одним движением руки.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Выдвижной излив:&lt;/strong&gt; Главная особенность этой модели — выдвижной излив, значительно расширяющий функциональность смесителя. Это идеальное решение для мытья крупных предметов, наполнения емкостей за пределами мойки и легкой очистки всей раковины.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Эстетичный дизайн:&lt;/strong&gt; Изящная форма и современный серебристый оттенок нержавеющей стали гармонично дополнят интерьер любой кухни, от классики до минимализма.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Надежная комплектация:&lt;/strong&gt; В комплект входит все необходимое для быстрого и надежного монтажа.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Выбирая смеситель Valeso KT 8203 (8614), вы инвестируете в комфорт, стиль и надежность своей кухни.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Назначение смесителя&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для кухонной мойки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип смесителя (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Однорычажный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал корпуса смесителя (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавеющая сталь&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавеющая сталь&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поверхность&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сатин&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Врезной&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Количество монтажных отверстий&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Запорный клапан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Керамический картридж&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип подводки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Гибкая&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поворотный излив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Выдвижной излив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Присоединительный размер&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1/2"&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантийный срок&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;12 месяцев&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Состояние&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Новое&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектация&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Смеситель, гибкая подводка, крепление&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Страна производитель&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Китай&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
@@ -384015,45 +384010,6 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип затвора" unit="">Комбінований</param>
     <param name="Ширина (мм)" unit="">70</param>
   </offer>
-  <offer id="3254182730" available="true">
-    <article>AC3589</article>
-    <url>https://plumbershop.in.ua/p3254182730-shtanga-dlya-shtorki.html</url>
-    <price>1344</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>154008</categoryId>
-    <picture>https://images.prom.ua/heLTbUDjRWNxciDgaYYca2dupMBNQIHQMZwAbsxbyuY=/7841939909_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/AsI3p6LruJBdMEBSaOZA0BbTQXTyGmXneKrYh4xPy6o=/7841939910_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/wrM35plHUqvMz2N3EuMtqTUB2gLyZI0RsH0i4OM3tOU=/7841939911_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/HqJBBxzVLHfWmh9dNfCLodi8-TunIqpgWEBADmQzvwY=/7841939913_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/JmuXpNguhLP9J_KzX2EaheWxHLB5mtzRc273N-R2Cyc=/7841939914_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/dnri844Z3-f8rPy3DBCTCBaWo9UhFAAHWk-y_PmHReQ=/7841939915_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/FJT3VPJTE16weAqLoePZKw7eEZD6Djh3NHfGatFNBeo=/7841939916_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/ryU2ol9DjJasW1tzxzgyEBqZYnlBpzKEZCptgz2cdeM=/7841939917_shtanga-dlya-shtorki.jpg</picture>
-    <vendor>MIXXUS</vendor>
-    <stock_quantity>100</stock_quantity>
-    <name>Штанга для шторки телескопическая MIXXUS CRA-D-125x225 Белая Алюминий с держателем для полотенец 125-225 см, Алюміній (AC3589)</name>
-    <name_ua>Штанга для шторки телескопічна MIXXUS CRA-D-125x225 Біла з тримачем для рушників 125-225 см, Алюміній (AC3589)</name_ua>
-    <description>&lt;div&gt;&lt;h2&gt;Надежная телескопическая штанга MIXXUS CRA-D-125x225: функциональность и стиль для вашей ванной&lt;/h2&gt;&lt;p&gt;Штанга для шторки MIXXUS CRA-D-125x225 — это идеальное решение для организации пространства в вашей ванной комнате. Изготовленная из высококачественного алюминия и выполненная в элегантном белом цвете, она гармонично впишется в любой интерьер, от классического до современного. Благодаря телескопической конструкции, эту штангу легко адаптировать под необходимые размеры вашей душевой зоны, что обеспечивает быстрый и удобный монтаж без лишних усилий.&lt;/p&gt;&lt;p&gt;Особое преимущество этой модели – интегрированный держатель для полотенец. Это позволяет эффективно использовать пространство, имея полотенца всегда под рукой после водных процедур. Такое сочетание функциональности не только освобождает дополнительное место на стенах, но и способствует порядку и гигиене в ванной, предотвращая накопление влаги на поверхностях.&lt;/p&gt;&lt;h2&gt;Ключевые преимущества штанги MIXXUS CRA-D-125x225&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Телескопическая конструкция:&lt;/strong&gt; легкая регулировка длины в диапазоне от 125 до 225 см позволяет идеально подобрать размер под вашу ванну или душевой поддон, обеспечивая надежную фиксацию шторки.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Интегрированный держатель для полотенец:&lt;/strong&gt; удобное решение для хранения полотенец, которые всегда будут под рукой, освобождая пространство на других держателях или крючках.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Высококачественный алюминий:&lt;/strong&gt; гарантирует долговечность и устойчивость к коррозии, что особенно важно для влажной среды ванной комнаты, сохраняя эстетичный вид на протяжении многих лет.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Элегантный белый цвет:&lt;/strong&gt; универсальный дизайн, который легко сочетается с любыми цветовыми решениями вашей ванной комнаты, придавая ей свежести и опрятности.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Простой настенный монтаж:&lt;/strong&gt; быстрая и понятная установка штанги позволяет самостоятельно обустроить душевую зону без помощи специалистов.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектация:&lt;/strong&gt;&lt;br&gt;Штанга телескопическая с интегрированным держателем для полотенец.&lt;/p&gt;&lt;p&gt;Выбирая штангу MIXXUS CRA-D-125x225, вы получаете не просто функциональный элемент, а стильное и практичное дополнение, которое сделает вашу ванную комнату еще более комфортной и эстетичной.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюминий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Белый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямой&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регулируемая длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектация кольцами&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нет&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип крепления&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Телескопическое&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет покрытия&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сатин&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
-    <description_ua>&lt;div&gt;&lt;h2&gt;Надійна телескопічна штанга MIXXUS CRA-D-125x225: функціональність та стиль для вашої ванної&lt;/h2&gt;&lt;p&gt;Штанга для шторки MIXXUS CRA-D-125x225 — це ідеальне рішення для організації простору у вашій ванній кімнаті. Виготовлена з високоякісного алюмінію та виконана у елегантному білому кольорі, вона гармонійно впишеться в будь-який інтер'єр, від класичного до сучасного. Завдяки телескопічній конструкції, цю штангу легко адаптувати під необхідні розміри вашої душової зони, що забезпечує швидкий і зручний монтаж без зайвих зусиль.&lt;/p&gt;&lt;p&gt;Особлива перевага цієї моделі – інтегрований тримач для рушників. Це дозволяє ефективно використовувати простір, маючи рушники завжди під рукою після водних процедур. Таке поєднання функціональності не тільки звільняє додаткове місце на стінах, але й сприяє порядку та гігієні у ванній, запобігаючи накопиченню вологи на поверхнях.&lt;/p&gt;&lt;h2&gt;Ключові переваги штанги MIXXUS CRA-D-125x225&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Телескопічна конструкція:&lt;/strong&gt; легке регулювання довжини в діапазоні від 125 до 225 см дозволяє ідеально підібрати розмір під вашу ванну або душовий піддон, забезпечуючи надійну фіксацію шторки.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Інтегрований тримач для рушників:&lt;/strong&gt; зручне рішення для зберігання рушників, що завжди будуть під рукою, звільняючи простір на інших тримачах або гачках.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Високоякісний алюміній:&lt;/strong&gt; гарантує довговічність та стійкість до корозії, що особливо важливо для вологого середовища ванної кімнати, зберігаючи естетичний вигляд протягом багатьох років.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Елегантний білий колір:&lt;/strong&gt; універсальний дизайн, який легко поєднується з будь-якими кольоровими рішеннями вашої ванної кімнати, додаючи їй свіжості та охайності.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Простий настінний монтаж:&lt;/strong&gt; швидка та зрозуміла установка штанги дозволяє самостійно облаштувати душову зону без допомоги фахівців.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектація:&lt;/strong&gt;&lt;br&gt;Штанга телескопічна з інтегрованим тримачем для рушників.&lt;/p&gt;&lt;p&gt;Обираючи штангу MIXXUS CRA-D-125x225, ви отримуєте не просто функціональний елемент, а стильне та практичне доповнення, що зробить вашу ванну кімнату ще комфортнішою та естетичнішою.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюміній&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Білий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регульована довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектація кільцями&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Ні&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип кріплення&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Телескопічне&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сатин&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Длина" unit="мм">2250</param>
-    <param name="Цвет">Белый</param>
-    <param name="Цвет покрытия">Сатин</param>
-    <param name="Комплектация кольцами">Нет</param>
-    <param name="Материал">Алюминий</param>
-    <param name="Регулируемая длина">Да</param>
-    <param name="Тип">Карниз прямой</param>
-    <param name="Тип крепления">Телескопическое</param>
-    <param name="Ширина" unit="мм">2250</param>
-    <param name="Гарантійний період (міс)" unit="">12</param>
-    <param name="Діапазон довжини (мм)" unit="">1250-2250</param>
-    <param name="Комплектация" unit="">Штанга, запакована у блістер з тримачем</param>
-    <param name="Назначение" unit="">Аксесуари для ванної</param>
-    <param name="Серия" unit="">CRA</param>
-    <param name="Тип крепежа" unit="">До стіни</param>
-    <param name="Тип монтажа" unit="">Настенный</param>
-    <param name="Умови експлуатації та догляд" unit="">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
-    <param name="Форма" unit="">Телескопічна з тримачем для рушників</param>
-  </offer>
   <offer id="3254182731" available="true">
     <article>AC0623</article>
     <url>https://plumbershop.in.ua/p3254182731-dushevoj-trap-koer.html</url>
@@ -385070,7 +385026,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <url>https://plumbershop.in.ua/p3254182748-shtanga-dlya-shtory.html</url>
     <price>240</price>
     <currencyId>UAH</currencyId>
-    <categoryId>200901</categoryId>
+    <categoryId>154008</categoryId>
     <picture>https://images.prom.ua/90AjwW3rmo6nqT8enEQDavJ6BF1K5QNAfABTqA9sRkE=/7841940038_shtanga-dlya-shtory.jpg</picture>
     <picture>https://images.prom.ua/L7kfZ4GIblRKX4EvgDI_IsF9zqfgA2aUsJjTnmMj2Sg=/7841940039_shtanga-dlya-shtory.jpg</picture>
     <picture>https://images.prom.ua/MkBkxTgdxcZGKoFZgYXSqjU0zT-O7SkieMnoXY6YPXo=/7841940040_shtanga-dlya-shtory.jpg</picture>
@@ -385085,21 +385041,23 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <name_ua>Штанга для шторки MIXXUS CRA-S-60 Біла Алюмінієва Підтримуюча Пряма 60 см, Алюміній (AC3594)</name_ua>
     <description>&lt;div&gt;&lt;h2&gt;Надежная Штанга для Шторки MIXXUS CRA-S-60: Создайте Комфорт в Вашей Ванной Комнате&lt;/h2&gt;&lt;p&gt;Выбираете практичное и эстетичное решение для вашей душевой зоны? Штанга для шторки MIXXUS CRA-S-60 — это идеальный выбор для создания функционального и опрятного пространства в вашей ванной комнате. Благодаря прямой форме и оптимальной длине 60 см, она отлично подойдет для компактных душевых кабин, небольших ванн или для четкого разграничения зон в помещении. Изготовленная из высококачественного алюминия, эта штанга гарантирует легкость, прочность и высокую устойчивость к коррозии, что критически важно в условиях повышенной влажности ванной комнаты.&lt;/p&gt;&lt;p&gt;Белый цвет штанги MIXXUS CRA-S-60 гармонично впишется в любой интерьер, добавляя ему свежести и аккуратности. Она обеспечивает надежное крепление душевой шторки, предотвращая разбрызгивание воды и помогая поддерживать чистоту и порядок. Простой настенный монтаж позволяет быстро и легко установить штангу, обеспечивая удобный доступ к душу и ежедневный комфорт без лишних усилий.&lt;/p&gt;&lt;h3&gt;Преимущества штанги MIXXUS CRA-S-60:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Высококачественный алюминий:&lt;/strong&gt; Материал гарантирует долговечность изделия, устойчивость к ржавчине и легкий вес, что упрощает монтаж.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Оптимальная длина 60 см:&lt;/strong&gt; Идеально подходит для небольших душевых зон, обеспечивая эффективное удержание шторки без излишнего пространства.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Прямая форма:&lt;/strong&gt; Обеспечивает эстетичный вид и аккуратное крепление шторки, предотвращая ее провисание.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Универсальный белый цвет:&lt;/strong&gt; Легко интегрируется в любой дизайн ванной комнаты, от классики до модерна.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Настенный монтаж:&lt;/strong&gt; Простая и надежная система крепления для быстрой установки.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектация:&lt;/strong&gt; Штанга для шторки MIXXUS CRA-S-60, крепежные элементы (держатель).&lt;br&gt;Сделайте вашу ванную комнату более функциональной и стильной с надежной алюминиевой штангой MIXXUS CRA-S-60. Это практичное решение, которое обеспечит комфорт и порядок на долгие годы.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюминий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Белый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектация кольцами&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нет&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз универсальный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип крепления&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Винтовое&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет покрытия&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сатин&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
     <description_ua>&lt;div&gt;&lt;h2&gt;Надійна Штанга для Шторки MIXXUS CRA-S-60: Створіть Комфорт у Вашій Ванній Кімнаті&lt;/h2&gt;&lt;p&gt;Обираєте практичне та естетичне рішення для вашої душової зони? Штанга для шторки MIXXUS CRA-S-60 — це ідеальний вибір для створення функціонального та охайного простору у вашій ванній кімнаті. Завдяки прямій формі та оптимальній довжині 60 см, вона чудово підійде для компактних душових кабін, невеликих ванн або для чіткого розмежування зон у приміщенні. Виготовлена з високоякісного алюмінію, ця штанга гарантує легкість, міцність та високу стійкість до корозії, що є критично важливим в умовах підвищеної вологості ванної кімнати.&lt;/p&gt;&lt;p&gt;Білий колір штанги MIXXUS CRA-S-60 гармонійно впишеться в будь-який інтер'єр, додаючи йому свіжості та акуратності. Вона забезпечує надійне кріплення душової шторки, запобігаючи розбризкуванню води та допомагаючи підтримувати чистоту й порядок. Простий настінний монтаж дозволяє швидко та легко встановити штангу, забезпечуючи зручний доступ до душу та щоденний комфорт без зайвих зусиль.&lt;/p&gt;&lt;h3&gt;Переваги штанги MIXXUS CRA-S-60:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Високоякісний алюміній:&lt;/strong&gt; Матеріал гарантує довговічність виробу, стійкість до іржі та легку вагу, що спрощує монтаж.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Оптимальна довжина 60 см:&lt;/strong&gt; Ідеально підходить для невеликих душових зон, забезпечуючи ефективне утримання шторки без зайвого простору.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Пряма форма:&lt;/strong&gt; Забезпечує естетичний вигляд та акуратне кріплення шторки, запобігаючи її провисанню.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Універсальний білий колір:&lt;/strong&gt; Легко інтегрується в будь-який дизайн ванної кімнати, від класики до модерну.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Настінний монтаж:&lt;/strong&gt; Проста та надійна система кріплення для швидкої установки.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектація:&lt;/strong&gt; Штанга для шторки MIXXUS CRA-S-60, кріпильні елементи (тримач).&lt;br&gt;Зробіть вашу ванну кімнату більш функціональною та стильною з надійною алюмінієвою штангою MIXXUS CRA-S-60. Це практичне рішення, яке забезпечить комфорт та порядок на довгі роки.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюміній&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Білий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектація кільцями&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Ні&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз універсальний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип кріплення&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Гвинтове&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сатин&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
+    <param name="Тип">Карниз универсальный</param>
+    <param name="Материал">Алюминий</param>
+    <param name="Тип крепления">Винтовое</param>
+    <param name="Регулируемая длина">Нет</param>
+    <param name="Комплектация кольцами">Нет</param>
     <param name="Цвет">Белый</param>
-    <param name="Гарантійний період (міс)" unit="">12</param>
+    <param name="Цвет покрытия">Сатин</param>
     <param name="Длина" unit="мм">600</param>
-    <param name="Цвет покрытия" unit="">Сатин</param>
-    <param name="Комплектация" unit="">Штанга, запакована у блістер з тримачем</param>
-    <param name="Комплектация кольцами" unit="">Нет</param>
-    <param name="Материал" unit="">Алюминий</param>
-    <param name="Назначение" unit="">Аксесуари для ванної</param>
-    <param name="Серия" unit="">CRA</param>
-    <param name="Тип" unit="">Карниз универсальный</param>
-    <param name="Тип крепежа" unit="">Гвинтове</param>
-    <param name="Тип монтажа" unit="">Настенный</param>
-    <param name="Умови експлуатації та догляд" unit="">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
-    <param name="Форма" unit="">Підтримуюча пряма</param>
     <param name="Ширина" unit="мм">600</param>
+    <param name="Серия" unit="">CRA</param>
+    <param name="Назначение" unit="">Аксесуари для ванної</param>
+    <param name="Тип монтажа" unit="">Настенный</param>
+    <param name="Комплектация" unit="">Штанга, запакована у блістер з тримачем</param>
+    <param name="Форма" unit="">Підтримуюча пряма</param>
+    <param name="Тип крепежа" unit="">Гвинтове</param>
+    <param name="Гарантійний період (міс)" unit="">12</param>
+    <param name="Умови експлуатації та догляд" unit="">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
   </offer>
   <offer id="3254182749" available="true">
     <article>ZX4992</article>
@@ -385512,7 +385470,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Трап-решетка для слива" unit="">Да</param>
     <param name="Ширина (мм)" unit="">70</param>
   </offer>
-<offer id="3254182758" available="true">
+  <offer id="3254182758" available="true">
     <article>AC0649</article>
     <url>https://plumbershop.in.ua/p3254182758-shtorka-dlya-vannoj.html</url>
     <price>644</price>
@@ -385539,7 +385497,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип монтажа" unit="">Настенный</param>
     <param name="Форма" unit="">Квадратная</param>
   </offer>
-  <offer id="3254182759" available="true">
+<offer id="3254182759" available="true">
     <article>AC0705</article>
     <url>https://plumbershop.in.ua/p3254182759-dushevoj-trap-koer.html</url>
     <price>1934</price>
@@ -388697,68 +388655,6 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип затвора" unit="">Комбінований</param>
     <param name="Ширина (мм)" unit="">70</param>
   </offer>
-  <offer id="3254182908" available="true">
-    <article>ZX6099</article>
-    <url>https://plumbershop.in.ua/p3254182908-shtanga-dlya-shtorki.html</url>
-    <price>1344</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>154008</categoryId>
-    <picture>https://images.prom.ua/QIrlK1GhlMkFZ2XlbRFaNuDumrnLf_JwxYD9UDuypAk=/7841940855_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/FnX7RUDpwAU45FKf5fCI-UokDJmbMNXyIGeHvGL63Es=/7841940856_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/wOWhkG4Hp-zfslYizY3KjJyXer12M54vLtzm2LR1CZw=/7841940857_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/X7drBUmfPExjTyS_AqBvLVI2FsFwzCq6CMjapCHZfFc=/7841940858_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/L8rMd3zkCZxBjkLjH9CSGrSCQ9eNZaAuM6Nv5CeGeFA=/7841940859_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/DUNrzqKpwPD9Bm9WV8pNQmRk3b2wFamZ74REMQ7t8pM=/7841940860_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/yn6Taa6lIl1BBjSyMUmz7GFsoWhjR5tx2CYxuQNcBAQ=/7841940861_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/P05qSfBaQlILv5KuQSW7Z7dlaE870zC30PQtPtMprUE=/7841940863_shtanga-dlya-shtorki.jpg</picture>
-    <vendor>Zerix</vendor>
-    <stock_quantity>100</stock_quantity>
-    <name>Штанга для шторки телескопическая ZERIX CRS-D-125x225 , с держателем для полотенец, 125-225 см, Нержавеющая сталь (ZX6099)</name>
-    <name_ua>Штанга для шторки телескопічна ZERIX CRS-D-125x225 , з тримачем для рушників, 125-225 см, Нержавіюча сталь (ZX6099)</name_ua>
-    <description>&lt;div&gt;&lt;h2&gt;Создайте идеальное пространство в ванной с телескопической штангой ZERIX&lt;/h2&gt;
-&lt;p&gt;Представляем вашему вниманию универсальное решение для современной ванной комнаты – телескопическую штангу для шторки ZERIX CRS-D-125x225, изготовленную из высококачественной нержавеющей стали. Этот аксессуар не только надежно удерживает душевую шторку, обеспечивая комфорт и защиту от брызг, но и благодаря интегрированному держателю для полотенец помогает эффективно организовать пространство. Забудьте о беспорядке и наслаждайтесь порядком и функциональностью каждый день.&lt;/p&gt;
-&lt;p&gt;Благодаря телескопической конструкции, штанга ZERIX легко адаптируется к различным размерам ванных комнат, позволяя регулировать длину в диапазоне от 125 до 225 см. Это означает, что вам не придется тратить время на сложный выбор размера или дополнительные монтажные работы. Простой настенный монтаж гарантирует быструю установку и надежное крепление, а изысканный дизайн из нержавеющей стали гармонично дополнит любой интерьер, придавая ему элегантность и практичность.&lt;/p&gt;
-&lt;h3&gt;Преимущества, которые делают ZERIX CRS-D-125x225 незаменимым выбором:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Регулируемая длина (125-225 см):&lt;/strong&gt; Легко адаптируется к размерам вашей ванной, обеспечивая идеальное прилегание шторки без лишних усилий.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Встроенный держатель для полотенец:&lt;/strong&gt; Экономия пространства и удобный доступ к полотенцам, помогает поддерживать порядок и эстетику.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Высококачественная нержавеющая сталь:&lt;/strong&gt; Гарантирует долговечность, устойчивость к коррозии и влаге, сохраняя безупречный вид на протяжении длительного времени.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Простой и надежный монтаж:&lt;/strong&gt; Настенное крепление к стене обеспечивает легкую установку и прочную фиксацию штанги.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Современный дизайн:&lt;/strong&gt; Цвет и материал «нержавеющая сталь» идеально впишутся в любой стиль ванной комнаты, от классики до хай-тека.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Комплектация:&lt;/strong&gt; Штанга для шторки, упакованная в блистер, с интегрированным держателем для полотенец.&lt;/p&gt;
-&lt;p&gt;Выбирайте телескопическую штангу ZERIX CRS-D-125x225 для удобства, стиля и функциональности. Она станет неотъемлемым элементом вашей ванной комнаты, делая ежедневные процедуры еще приятнее и комфортнее.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Металл&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямой&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Серебристый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регулируемая длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектация кольцами&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нет&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет покрытия&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавеющая сталь&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
-    <description_ua>&lt;div&gt;&lt;h2&gt;Створіть ідеальний простір у ванній з телескопічною штангою ZERIX&lt;/h2&gt;
-&lt;p&gt;Представляємо вашій увазі універсальне рішення для сучасної ванної кімнати – телескопічну штангу для шторки ZERIX CRS-D-125x225, виготовлену з високоякісної нержавіючої сталі. Цей аксесуар не лише надійно утримує душову шторку, забезпечуючи комфорт та захист від бризок, але й завдяки інтегрованому тримачу для рушників допомагає ефективно організувати простір. Забудьте про безлад і насолоджуйтесь порядком та функціональністю щодня.&lt;/p&gt;
-&lt;p&gt;Завдяки телескопічній конструкції, штанга ZERIX легко адаптується до різних розмірів ванних кімнат, дозволяючи регулювати довжину в діапазоні від 125 до 225 см. Це означає, що вам не доведеться витрачати час на складний вибір розміру чи додаткові монтажні роботи. Простий настінний монтаж гарантує швидке встановлення та надійне кріплення, а вишуканий дизайн з нержавіючої сталі гармонійно доповнить будь-який інтер'єр, додаючи йому елегантності та практичності.&lt;/p&gt;
-&lt;h3&gt;Переваги, що роблять ZERIX CRS-D-125x225 незамінним вибором:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Регульована довжина (125-225 см):&lt;/strong&gt; Легко адаптується до розмірів вашої ванної, забезпечуючи ідеальне прилягання шторки без зайвих зусиль.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Вбудований тримач для рушників:&lt;/strong&gt; Економія простору та зручний доступ до рушників, допомагає підтримувати порядок та естетику.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Високоякісна нержавіюча сталь:&lt;/strong&gt; Гарантує довговічність, стійкість до корозії та вологи, зберігаючи бездоганний вигляд протягом тривалого часу.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Простий та надійний монтаж:&lt;/strong&gt; Настінне кріплення до стіни забезпечує легку установку та міцну фіксацію штанги.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Сучасний дизайн:&lt;/strong&gt; Колір та матеріал «нержавіюча сталь» ідеально впишуться в будь-який стиль ванної кімнати, від класики до хай-теку.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Комплектація:&lt;/strong&gt; Штанга для шторки, запакована у блістер, з інтегрованим тримачем для рушників.&lt;/p&gt;
-&lt;p&gt;Обирайте телескопічну штангу ZERIX CRS-D-125x225 для зручності, стилю та функціональності. Вона стане невід'ємним елементом вашої ванної кімнати, роблячи щоденні процедури ще приємнішими та комфортнішими.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Метал&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сріблястий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регульована довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектація кільцями&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Ні&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавіюча сталь&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Длина" unit="мм">2250</param>
-    <param name="Цвет">Серебристый</param>
-    <param name="Цвет покрытия">Нержавеющая сталь</param>
-    <param name="Комплектация кольцами">Нет</param>
-    <param name="Материал">Металл</param>
-    <param name="Регулируемая длина">Да</param>
-    <param name="Тип">Карниз прямой</param>
-    <param name="Ширина" unit="мм">2250</param>
-    <param name="Гарантійний період (міс)" unit="">12</param>
-    <param name="Діапазон довжини (мм)" unit="">1250-2250</param>
-    <param name="Комплектация" unit="">Штанга, запакована у блістер з тримачем</param>
-    <param name="Назначение" unit="">Аксесуари для ванної</param>
-    <param name="Серия" unit="">CRS</param>
-    <param name="Тип крепежа" unit="">До стіни</param>
-    <param name="Тип монтажа" unit="">Настенный</param>
-    <param name="Умови експлуатації та догляд" unit="">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
-    <param name="Форма" unit="">Телескопічна з тримачем для рушників</param>
-  </offer>
   <offer id="3254182909" available="true">
     <article>AC0662</article>
     <url>https://plumbershop.in.ua/p3254182909-dushevoj-trap-koer.html</url>
@@ -389147,67 +389043,6 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Тип затвора" unit="">Комбінований</param>
     <param name="Ширина (мм)" unit="">70</param>
   </offer>
-  <offer id="3254182917" available="true">
-    <article>AC0654</article>
-    <url>https://plumbershop.in.ua/p3254182917-shtanga-dlya-shtor.html</url>
-    <price>375</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>154008</categoryId>
-    <picture>https://images.prom.ua/likpAz0I8ZxzrK8QP6WQULbhD0ix13vxGg_u4GOPJLg=/7841940516_shtanga-dlya-shtor.jpg</picture>
-    <picture>https://images.prom.ua/nlNA9kcx1B9gIi4JtrkqejMzC2c2Tyq8bHMBVh2Nlz4=/7841940936_shtanga-dlya-shtor.jpg</picture>
-    <picture>https://images.prom.ua/asVtr9vvE9yCrXoT-N8sBnhE1EDx6QOvdUITSHJ5Hg8=/7841940937_shtanga-dlya-shtor.jpg</picture>
-    <picture>https://images.prom.ua/dYhBbf2NwYYVovamiqp_-9wLBH92Db4KhJr8hQ4xskk=/7841940938_shtanga-dlya-shtor.jpg</picture>
-    <picture>https://images.prom.ua/mBNkLEav6EWpBaMNmeceGXghcWxMEpqQnbYePkkaF8Q=/7841940939_shtanga-dlya-shtor.jpg</picture>
-    <picture>https://images.prom.ua/GDdv4iCdI96VOW1CvP05m6O_9TMiYCX8rteanAN3fOE=/7841940523_shtanga-dlya-shtor.jpg</picture>
-    <picture>https://images.prom.ua/tBu2kLSMt6wa3bLjWhOXLqeGh1p0VrfEOzDpXrdmXTs=/7841940940_shtanga-dlya-shtor.jpg</picture>
-    <picture>https://images.prom.ua/c7-eTvS1tlgEE01Gy8r6iskMG8EJlOI5cjGBC9FduEE=/7841940526_shtanga-dlya-shtor.jpg</picture>
-    <vendor>MIXXUS</vendor>
-    <stock_quantity>100</stock_quantity>
-    <name>Штанга для штор MIXXUS CRS телескопическая 140-260 см, Нержавеющая сталь (AC0654)</name>
-    <name_ua>Штанга для штор MIXXUS CRS телескопічна 140-260 см, Нержавіюча сталь (AC0654)</name_ua>
-    <description>&lt;div&gt;&lt;h2&gt;Идеальное решение для вашей ванной: штанга для штор MIXXUS CRS&lt;/h2&gt;
-&lt;p&gt;Создайте уют и функциональность в вашей ванной комнате с телескопической штангой для штор MIXXUS CRS. Эта прямая модель с регулируемой длиной от 140 до 260 см позволяет идеально адаптировать ее под размеры вашего пространства, обеспечивая аккуратный и эстетичный вид. Забудьте о проблемах с нестандартными размерами – MIXXUS CRS гарантирует точное прилегание, что предотвращает разбрызгивание воды за пределы душа или ванны.&lt;/p&gt;
-&lt;p&gt;Изготовленная из высококачественной нержавеющей стали, штанга MIXXUS CRS является надежным и долговечным изделием. Этот материал отлично противостоит коррозии и воздействию влаги, что критически важно для условий ванной комнаты. Современный дизайн и глянцевая поверхность из нержавеющей стали гармонично впишутся в любой интерьер, от классики до минимализма, добавляя элегантности и практичности.&lt;/p&gt;
-&lt;h3&gt;Ключевые преимущества штанги MIXXUS CRS:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Регулируемая длина 140-260 см:&lt;/strong&gt; Обеспечивает универсальность и точную подгонку под различные размеры ванных комнат, устраняя необходимость в поиске специальных решений.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Высококачественная нержавеющая сталь:&lt;/strong&gt; Гарантирует долговечность, устойчивость к ржавчине и сохранение первозданного вида даже при постоянном контакте с водой.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Прочность и надежность:&lt;/strong&gt; Штанга надежно удерживает шторку, выдерживая ее вес и обеспечивая безопасное использование без риска провисания.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Эстетичный внешний вид:&lt;/strong&gt; Стильный дизайн и блестящая поверхность материала придают ванной комнате современный и элегантный акцент.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Простой настенный монтаж:&lt;/strong&gt; Легко и быстро устанавливается на стену, что позволяет быстро организовать душевую зону без лишних усилий.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;В комплект поставки входит штанга и крепежные элементы, что позволяет сразу приступить к монтажу. Выбирая штангу MIXXUS CRS, вы получаете не просто функциональный аксессуар, а надежного помощника, который сделает вашу ванную комнату комфортнее и привлекательнее на долгие годы.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектация кольцами&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нет&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Металл&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямой&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Серебристый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип крепления&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Телескопическое&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регулируемая длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет покрытия&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавеющая сталь&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
-    <description_ua>&lt;div&gt;&lt;h2&gt;Ідеальне рішення для вашої ванної: штанга для штор MIXXUS CRS&lt;/h2&gt;
-&lt;p&gt;Створіть затишок та функціональність у вашій ванній кімнаті з телескопічною штангою для штор MIXXUS CRS. Ця пряма модель з регульованою довжиною від 140 до 260 см дозволяє ідеально адаптувати її під розміри вашого простору, забезпечуючи охайний та естетичний вигляд. Забудьте про проблеми з нестандартними розмірами – MIXXUS CRS гарантує точне прилягання, що запобігає розбризкуванню води за межі душу або ванни.&lt;/p&gt;
-&lt;p&gt;Виготовлена з високоякісної нержавіючої сталі, штанга MIXXUS CRS є надійним та довговічним виробом. Цей матеріал відмінно протистоїть корозії та впливу вологи, що є критично важливим для умов ванної кімнати. Сучасний дизайн і глянцева поверхня з нержавіючої сталі гармонійно впишуться в будь-який інтер'єр, від класики до мінімалізму, додаючи елегантності та практичності.&lt;/p&gt;
-&lt;h3&gt;Ключові переваги штанги MIXXUS CRS:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Регульована довжина 140-260 см:&lt;/strong&gt; Забезпечує універсальність та точне припасування до різних розмірів ванних кімнат, усуваючи потребу в пошуку спеціальних рішень.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Високоякісна нержавіюча сталь:&lt;/strong&gt; Гарантує довговічність, стійкість до іржі та збереження первозданного вигляду навіть при постійному контакті з водою.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Міцність та надійність:&lt;/strong&gt; Штанга надійно утримує шторку, витримуючи її вагу та забезпечуючи безпечне використання без ризику провисання.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Естетичний вигляд:&lt;/strong&gt; Стильний дизайн і блискуча поверхня матеріалу додають ванній кімнаті сучасний та елегантний акцент.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Простий настінний монтаж:&lt;/strong&gt; Легко та швидко встановлюється на стіну, що дозволяє швидко організувати душову зону без зайвих зусиль.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;У комплект постачання входить штанга та кріпильні елементи, що дозволяє одразу приступити до монтажу. Обираючи штангу MIXXUS CRS, ви отримуєте не просто функціональний аксесуар, а надійного помічника, який зробить вашу ванну кімнату комфортнішою та привабливішою на довгі роки.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектація кільцями&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Ні&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2600 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Метал&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сріблястий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип кріплення&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Телескопічне&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регульована довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавіюча сталь&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Длина" unit="мм">2600</param>
-    <param name="Цвет">Серебристый</param>
-    <param name="Цвет покрытия">Нержавеющая сталь</param>
-    <param name="Комплектация кольцами">Нет</param>
-    <param name="Материал">Металл</param>
-    <param name="Регулируемая длина">Да</param>
-    <param name="Тип">Карниз прямой</param>
-    <param name="Тип крепления">Телескопическое</param>
-    <param name="Ширина" unit="мм">2600</param>
-    <param name="Гарантійний період (міс)" unit="">12</param>
-    <param name="Діапазон довжини (мм)" unit="">1400-2600</param>
-    <param name="Комплектация" unit="">Штанга, запакована у блістер з тримачем</param>
-    <param name="Назначение" unit="">Аксесуари для ванної</param>
-    <param name="Серия" unit="">CRS</param>
-    <param name="Тип крепежа" unit="">До стіни</param>
-    <param name="Тип монтажа" unit="">Настенный</param>
-    <param name="Умови експлуатації та догляд" unit="">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
-    <param name="Форма" unit="">Телескопічна пряма</param>
-  </offer>
   <offer id="3254182918" available="true">
     <article>KR5226</article>
     <url>https://plumbershop.in.ua/p3254182918-dushevoj-trap-koer.html</url>
@@ -389586,44 +389421,6 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Трап-решетка для слива">Да</param>
     <param name="Скорость слива" unit="литр/мин">30</param>
     <param name="Назначение сифона" unit="">Для душової кімнати, Для душового кута</param>
-  </offer>
-  <offer id="3254182925" available="true">
-    <article>AC3588</article>
-    <url>https://plumbershop.in.ua/p3254182925-shtanga-dlya-shtorki.html</url>
-    <price>1152</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>154008</categoryId>
-    <picture>https://images.prom.ua/heLTbUDjRWNxciDgaYYca2dupMBNQIHQMZwAbsxbyuY=/7841939909_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/AKDQzVzJ-L1qoCgx_OHCOTGbxTXjJMKhDztNyrMDjrk=/7841940996_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/JmuXpNguhLP9J_KzX2EaheWxHLB5mtzRc273N-R2Cyc=/7841939914_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/hNeNmv4ajVAPXPxRDIRsZhL0SXMZh9nggtF44mfsIws=/7841940997_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/ZRWS-m4mOTdS5L0DAi1Wj3gSIQC8qT3Thn1gFEk9EnM=/7841940998_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/onFYpQb7mLyBj_aWkYmD6gEzF09jCYRgsTDeTdIjbv0=/7841940999_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/dnri844Z3-f8rPy3DBCTCBaWo9UhFAAHWk-y_PmHReQ=/7841939915_shtanga-dlya-shtorki.jpg</picture>
-    <picture>https://images.prom.ua/Uf8gvZf45uFhlN26HJBGeq8eGuXAqHPm3v_SuWX4D8M=/7841941000_shtanga-dlya-shtorki.jpg</picture>
-    <vendor>MIXXUS</vendor>
-    <stock_quantity>100</stock_quantity>
-    <name>Штанга для шторки телескопическая MIXXUS CRA-D белая Алюминий, 75-125 см, с держателем для полотенец, Алюміній (AC3588)</name>
-    <name_ua>Штанга для шторки телескопічна MIXXUS CRA-D біла , 75-125 см, з тримачем для рушників, Алюміній (AC3588)</name_ua>
-    <description>&lt;div&gt;&lt;h2&gt;Практичная штанга для шторки MIXXUS CRA-D: стиль и функциональность в вашей ванной комнате&lt;/h2&gt;&lt;p&gt;Современная ванная комната требует не только стильных, но и функциональных решений. Представляем телескопическую штангу для шторки MIXXUS CRA-D – идеальный выбор для организации пространства вокруг вашей ванны или душевой зоны. Благодаря раздвижной конструкции и диапазону длины от 75 до 125 см, эта штанга легко адаптируется к различным размерам помещения, обеспечивая надежное крепление шторки.&lt;/p&gt;&lt;p&gt;Изготовленная из высококачественного алюминия, штанга MIXXUS CRA-D устойчива к коррозии и влаге, что гарантирует длительный срок службы даже во влажной среде ванной комнаты. Ее белый цвет универсально впишется в любой интерьер, от классического до ультрасовременного. Особое преимущество этой модели – интегрированный держатель для полотенец, который позволяет удобно разместить банные аксессуары, экономя место и поддерживая порядок.&lt;/p&gt;&lt;h3&gt;Ключевые преимущества штанги MIXXUS CRA-D&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Регулируемая длина:&lt;/strong&gt; Телескопическая конструкция позволяет легко настроить штангу в диапазоне от 75 до 125 см, идеально подстраиваясь под размеры вашей ванной.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Высококачественный алюминий:&lt;/strong&gt; Материал обеспечивает отличную устойчивость к коррозии и влаге, продлевая срок службы изделия.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Встроенный держатель для полотенец:&lt;/strong&gt; Удобное решение для организации пространства, позволяющее иметь полотенце всегда под рукой.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Универсальный дизайн:&lt;/strong&gt; Белый цвет и лаконичная форма гармонично дополнят любой интерьер ванной комнаты.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Простой монтаж:&lt;/strong&gt; Настенное крепление обеспечивает надежную фиксацию штанги.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектация:&lt;/strong&gt; В комплект поставки входит штанга телескопическая с держателем для полотенец.&lt;/p&gt;&lt;p&gt;Выбирая штангу для шторки MIXXUS CRA-D, вы получаете не просто функциональный элемент, а надежный и стильный аксессуар, который сделает вашу ванную комнату еще более комфортной и эстетичной. Создайте идеальное пространство для отдыха и гигиены!&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюминий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Белый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектация кольцами&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нет&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямой&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип крепления&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Телескопическое&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регулируемая длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
-    <description_ua>&lt;div&gt;&lt;h2&gt;Практична штанга для шторки MIXXUS CRA-D: стиль та функціональність у вашій ванній кімнаті&lt;/h2&gt;&lt;p&gt;Сучасна ванна кімната потребує не лише стильних, але й функціональних рішень. Представляємо телескопічну штангу для шторки MIXXUS CRA-D – ідеальний вибір для організації простору навколо вашої ванни чи душової зони. Завдяки розсувній конструкції та діапазону довжини від 75 до 125 см, ця штанга легко адаптується до різних розмірів приміщення, забезпечуючи надійне кріплення шторки.&lt;/p&gt;&lt;p&gt;Виготовлена з високоякісного алюмінію, штанга MIXXUS CRA-D стійка до корозії та вологи, що гарантує тривалий термін служби навіть у вологому середовищі ванної кімнати. Її білий колір універсально впишеться в будь-який інтер'єр, від класичного до ультрасучасного. Особлива перевага цієї моделі – інтегрований тримач для рушників, який дозволяє зручно розмістити банні аксесуари, заощаджуючи місце та підтримуючи порядок.&lt;/p&gt;&lt;h3&gt;Ключові переваги штанги MIXXUS CRA-D&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Регульована довжина:&lt;/strong&gt; Телескопічна конструкція дозволяє легко налаштувати штангу в діапазоні від 75 до 125 см, ідеально підлаштовуючись під розміри вашої ванної.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Високоякісний алюміній:&lt;/strong&gt; Матеріал забезпечує відмінну стійкість до корозії та вологи, продовжуючи термін служби виробу.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Вбудований тримач для рушників:&lt;/strong&gt; Зручне рішення для організації простору, що дозволяє мати рушник завжди під рукою.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Універсальний дизайн:&lt;/strong&gt; Білий колір та лаконічна форма гармонійно доповнять будь-який інтер'єр ванної кімнати.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Простий монтаж:&lt;/strong&gt; Настінне кріплення забезпечує надійну фіксацію штанги.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектація:&lt;/strong&gt; У комплект поставки входить штанга телескопічна з тримачем для рушників.&lt;/p&gt;&lt;p&gt;Обираючи штангу для шторки MIXXUS CRA-D, ви отримуєте не просто функціональний елемент, а надійний та стильний аксесуар, що зробить вашу ванну кімнату ще комфортнішою та естетичнішою. Створіть ідеальний простір для відпочинку та гігієни!&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюміній&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Білий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1250 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Комплектація кільцями&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Ні&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Карниз прямий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип кріплення&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Телескопічне&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Регульована довжина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Длина" unit="мм">1250</param>
-    <param name="Цвет">Белый</param>
-    <param name="Комплектация кольцами">Нет</param>
-    <param name="Материал">Алюминий</param>
-    <param name="Регулируемая длина">Да</param>
-    <param name="Тип">Карниз прямой</param>
-    <param name="Тип крепления">Телескопическое</param>
-    <param name="Ширина" unit="мм">1250</param>
-    <param name="Гарантійний період (міс)" unit="">12</param>
-    <param name="Діапазон довжини (мм)" unit="">750-1250</param>
-    <param name="Комплектация" unit="">Штанга, запакована у блістер з тримачем</param>
-    <param name="Назначение" unit="">Аксесуари для ванної</param>
-    <param name="Серия" unit="">CRA</param>
-    <param name="Тип крепежа" unit="">До стіни</param>
-    <param name="Тип монтажа" unit="">Настенный</param>
-    <param name="Умови експлуатації та догляд" unit="">Виріб призначений для використання лише у побутових умовах. Не перевантажуйте штангу.</param>
-    <param name="Форма" unit="">Телескопічна з тримачем для рушників</param>
   </offer>
   <offer id="3254182926" available="true">
     <article>KR5139</article>
@@ -399222,7 +399019,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Материал душевой системы" unit="">Латунь</param>
     <param name="Стилистика дизайна" unit="">Современный стиль</param>
   </offer>
-<offer id="3259130782" available="true">
+  <offer id="3259130782" available="true">
     <article>MI2838</article>
     <url>https://plumbershop.in.ua/p3259130782-kran-dlya-pissuara.html</url>
     <price>3049</price>
@@ -399497,7 +399294,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Шланг">Да</param>
     <param name="Довжина виливу (см)" unit="">11-15</param>
   </offer>
-  <offer id="3259130787" available="true">
+<offer id="3259130787" available="true">
     <article>MI5939</article>
     <url>https://plumbershop.in.ua/p3259130787-smesitel-dlya-umyvalnika.html</url>
     <price>2074</price>
@@ -415106,7 +414903,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Шланг для подключения к водопроводу">Да</param>
     <param name="Довжина виливу (см)" unit="">11-15</param>
   </offer>
-<offer id="3259131461" available="true">
+  <offer id="3259131461" available="true">
     <article>MI6824</article>
     <url>https://plumbershop.in.ua/p3259131461-smesitel-dlya-umyvalnika.html</url>
     <price>1222</price>
@@ -415346,7 +415143,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Форма излива">Традиционная</param>
     <param name="Довжина виливу (см)" unit="">31-35</param>
   </offer>
-  <offer id="3259131465" available="true">
+<offer id="3259131465" available="true">
     <article>MI6745</article>
     <url>https://plumbershop.in.ua/p3259131465-smesitel-dlya-umyvalnika.html</url>
     <price>2527</price>
@@ -429776,7 +429573,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Назначение гибкой подводки" unit="">Для бойлерів, Для біде, Для пісуарів, Для унітазів</param>
     <param name="Робочий тиск (бар)" unit="">до 20</param>
   </offer>
-<offer id="3270975187" available="true">
+  <offer id="3270975187" available="true">
     <article>KR3517</article>
     <url>https://plumbershop.in.ua/p3270975187-gibkaya-podvodka-koer.html</url>
     <price>168</price>
@@ -429983,7 +429780,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <param name="Условный проход" unit="мм">15</param>
     <param name="Робочий тиск (бар)" unit="">до 20</param>
   </offer>
-  <offer id="3270975191" available="true">
+<offer id="3270975191" available="true">
     <article>KR4960</article>
     <url>https://plumbershop.in.ua/p3270975191-kran-sharovyj-koer.html</url>
     <price>284</price>
