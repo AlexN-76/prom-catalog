@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-15 22:15">
+<yml_catalog date="2026-11-16 03:38">
   <shop>
     <name>PlumberShop Suppliers Catalog</name>
     <company>Сантехник</company>
@@ -599824,7 +599824,7 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Гарантійний період (міс)">96</param>
         <param name="Максимальна температура робочої рідини (°C)">90</param>
       </offer>
-      <offer id="9b622d99-dfa0-4623-a07e-751e2dc51d92" available="true">
+      <offer id="9b622d99-dfa0-4623-a07e-751e2dc51d92" available="false">
         <url>https://ol.partners/products/zapirnoregulyuyucha-armatura/krani/krani-kulovi/kran-kuloviy-plamix-pvm34-fm-pvc-pm0620</url>
         <price>39.00</price>
         <currencyId>UAH</currencyId>
@@ -599832,8 +599832,8 @@ AIM - це відомий завод-виробник, що має високи�
         <picture>https://ol.partners/Products/Photo/23A5C698-8371-4CB3-91AF-63AD0C55DFE1</picture>
         <picture>https://cdn.olinfrastructure.com/productfile/9b622d99-dfa0-4623-a07e-751e2dc51d92/PM0620-PLAMIX-PVM-34-FM-1.jpg</picture>
         <vendor>PLAMIX</vendor>
-        <stock_quantity>100</stock_quantity>
-        <availabilityStatus>Малий залишок</availabilityStatus>
+        <stock_quantity>0</stock_quantity>
+        <availabilityStatus>Немає в наявності</availabilityStatus>
         <name>Кран кульовий Plamix PVM-3/4" FM PVC (PM0620)</name>
         <description>&lt;![CDATA[]]&gt;</description>
         <vendorCode>PM0620</vendorCode>
@@ -648531,6 +648531,56 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Кількість перемичок">9</param>
         <param name="Наявність полиці">Ні</param>
       </offer>
+      <offer id="3e53915c-d496-448c-90eb-95be63fc5fdb" available="false">
+        <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-umivalnika/odnovazhilniy-zmishuvach-dlya-rakovini/zmishuvach-dlya-umivalnika-mixxus-premium-vintage-001b-kolir-khrom-mi2850</url>
+        <price>1859.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c5_23c6d203-11f7-4053-af59-6b254d5b6662</categoryId>
+        <picture>https://ol.partners/Products/Photo/D1E2491A-2503-4894-BD95-443118D0351D</picture>
+        <vendor>MIXXUS PREMIUM</vendor>
+        <stock_quantity>0</stock_quantity>
+        <availabilityStatus>Немає в наявності</availabilityStatus>
+        <name>Змішувач для умивальника MIXXUS PREMIUM VINTAGE 001-B (Колір хром) (MI2850)</name>
+        <description>&lt;![CDATA[]]&gt;</description>
+        <vendorCode>MI2850</vendorCode>
+        <param name="Од. в упак.">10</param>
+        <param name="Об'єм ящ.">0.04</param>
+        <param name="Вага ящ.">13.5</param>
+        <param name="Тип кріплення">Шпилька</param>
+        <param name="Картридж чи кран букса">Картридж</param>
+        <param name="MAX різниця тиску гарячої та холодної води (бар)">1,50</param>
+        <param name="Максимальний тиск (бар)">10,00</param>
+        <param name="Діаметр картриджа (мм)">35</param>
+        <param name="Робочий тиск (бар)">1-5</param>
+        <param name="Довжина шланга підключення">50 см</param>
+        <param name="Діаметр шланга підключення">1/2</param>
+        <param name="Матеріал виробу">Латунь</param>
+        <param name="Тип керування">Одноважільні</param>
+        <param name="Мінімальна температура води (°C)">5</param>
+        <param name="Мінімальний тиск (бар)">0,50</param>
+        <param name="Максимальна температура води (°C)">90</param>
+        <param name="Висота змішувача (мм)">210</param>
+        <param name="Висота до виливу (мм)">100</param>
+        <param name="Висота змішувача (см)">21-25</param>
+        <param name="Загальна довжина (мм)">280</param>
+        <param name="Довжина виливу (мм)">150</param>
+        <param name="Довжина виливу (см)">11-15</param>
+        <param name="Група товару">Змішувачі</param>
+        <param name="Модель">001-B</param>
+        <param name="Країна бренду">Німеччина</param>
+        <param name="Тип виробу">Змішувачі для умивальника</param>
+        <param name="Торгова марка">MIXXUS PREMIUM</param>
+        <param name="Країна виробник">Китай</param>
+        <param name="Вид виробу">Змішувачі для умивальника низькі</param>
+        <param name="Тип монтажу">Врізні</param>
+        <param name="Серія">VINTAGE</param>
+        <param name="Покриття">З покриттям</param>
+        <param name="Колір">Хром</param>
+        <param name="Тип виливу">Литий</param>
+        <param name="Стиль">Ретро</param>
+        <param name="Гарантія на корпус змішувача (міс)">60</param>
+        <param name="Гарантія на деталі змішувача (міс)">12</param>
+      </offer>
       <offer id="7879ce82-24cb-4e10-93c0-a0485cabab2a" available="true">
         <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-kukhni/zmishuvach-na-kukhnyu-z-gnuchkim-silikonovim-vilivom/zmishuvach-dlya-kukhni-mixxus-premium-summer-017-reflblack-z-gnuchkim-vilivom-kolir-khromviliv-chorniy-mi6960</url>
         <price>1982.00</price>
@@ -648586,56 +648636,6 @@ AIM - це відомий завод-виробник, що має високи�
         <param name="Тип виливу">Гнучкий</param>
         <param name="Колір">Хром</param>
         <param name="Стиль">Модерн</param>
-      </offer>
-      <offer id="3e53915c-d496-448c-90eb-95be63fc5fdb" available="false">
-        <url>https://ol.partners/products/zmishuvachi-ta-krani/zmishuvachi-dlya-umivalnika/odnovazhilniy-zmishuvach-dlya-rakovini/zmishuvach-dlya-umivalnika-mixxus-premium-vintage-001b-kolir-khrom-mi2850</url>
-        <price>1859.00</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c5_23c6d203-11f7-4053-af59-6b254d5b6662</categoryId>
-        <picture>https://ol.partners/Products/Photo/D1E2491A-2503-4894-BD95-443118D0351D</picture>
-        <vendor>MIXXUS PREMIUM</vendor>
-        <stock_quantity>0</stock_quantity>
-        <availabilityStatus>Немає в наявності</availabilityStatus>
-        <name>Змішувач для умивальника MIXXUS PREMIUM VINTAGE 001-B (Колір хром) (MI2850)</name>
-        <description>&lt;![CDATA[]]&gt;</description>
-        <vendorCode>MI2850</vendorCode>
-        <param name="Од. в упак.">10</param>
-        <param name="Об'єм ящ.">0.04</param>
-        <param name="Вага ящ.">13.5</param>
-        <param name="Тип кріплення">Шпилька</param>
-        <param name="Картридж чи кран букса">Картридж</param>
-        <param name="MAX різниця тиску гарячої та холодної води (бар)">1,50</param>
-        <param name="Максимальний тиск (бар)">10,00</param>
-        <param name="Діаметр картриджа (мм)">35</param>
-        <param name="Робочий тиск (бар)">1-5</param>
-        <param name="Довжина шланга підключення">50 см</param>
-        <param name="Діаметр шланга підключення">1/2</param>
-        <param name="Матеріал виробу">Латунь</param>
-        <param name="Тип керування">Одноважільні</param>
-        <param name="Мінімальна температура води (°C)">5</param>
-        <param name="Мінімальний тиск (бар)">0,50</param>
-        <param name="Максимальна температура води (°C)">90</param>
-        <param name="Висота змішувача (мм)">210</param>
-        <param name="Висота до виливу (мм)">100</param>
-        <param name="Висота змішувача (см)">21-25</param>
-        <param name="Загальна довжина (мм)">280</param>
-        <param name="Довжина виливу (мм)">150</param>
-        <param name="Довжина виливу (см)">11-15</param>
-        <param name="Група товару">Змішувачі</param>
-        <param name="Модель">001-B</param>
-        <param name="Країна бренду">Німеччина</param>
-        <param name="Тип виробу">Змішувачі для умивальника</param>
-        <param name="Торгова марка">MIXXUS PREMIUM</param>
-        <param name="Країна виробник">Китай</param>
-        <param name="Вид виробу">Змішувачі для умивальника низькі</param>
-        <param name="Тип монтажу">Врізні</param>
-        <param name="Серія">VINTAGE</param>
-        <param name="Покриття">З покриттям</param>
-        <param name="Колір">Хром</param>
-        <param name="Тип виливу">Литий</param>
-        <param name="Стиль">Ретро</param>
-        <param name="Гарантія на корпус змішувача (міс)">60</param>
-        <param name="Гарантія на деталі змішувача (міс)">12</param>
       </offer>
       <offer id="53b154e7-f779-4a9a-bbb7-e1a9439bd3bc" available="false">
         <url>https://ol.partners/products/sifoni-trapi-dlya-dushu/sifoni/sifon-dlya-rakovini-koer-bt0205-bez-vipusku-pid-donniy-klapan-bez-revizii-kolir-chorniy-1-14-kr3412</url>
