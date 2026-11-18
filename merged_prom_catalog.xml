@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-18 13:22">
+<yml_catalog date="2026-11-18 14:44">
   <shop>
     <name>PlumberShop Suppliers Catalog</name>
     <company>Сантехник</company>
@@ -4691,7 +4691,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/2/2/22316/22316_6.jpg</picture>
         <name>Дозатор для жидкого мыла Lidz Playa 0101 настенный 380 мл LDPLA0101WHI22316 White</name>
         <model>LDPLA0101WHI22316</model>
-        <quantity_in_stock>33</quantity_in_stock>
+        <quantity_in_stock>30</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00028413</vendorCode>
         <description>Диспенсер для жидкого мыла Lidz (PLA) 120.01.01 на 380 мл с одинарным пластиковым резервуаром рассчитан на 380 мл. Подача мыла происходит при нажатии на кнопку. Диспенсер крепится на стену в любом удобном месте шурупами, которые входят в комплект. Версия каталога: P9ECA</description>
@@ -10494,7 +10494,7 @@
         <param name="Тип ручки">Бабочка</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>13100606</portal_category_id></offer>
-      <offer id="SD00002831" available="">
+      <offer id="SD00002831" available="true">
         <price>279</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_904</categoryId>
@@ -10508,7 +10508,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/5/8/5845/5845_7.jpg</picture>
         <name>Кран шаровой Thermo Alliance Base 3/4" ВН для воды (бабочка) SD607W20</name>
         <model>SD607W20</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00002831</vendorCode>
         <description>Кран шаровой Thermo Alliance Base 3/4" ВН для воды (бабочка) SD607W20 &amp;#8212; запорная арматура для систем горячего/холодного водоснабжения (и хозяйственного, и питьевого назначения) и отопления. Также может работать в составе технологических трубопроводов, транспортирующих жидкости, неагрессивные к материалам изготовления изделия. Запорный механизм &amp;#8212; шар с отверстием для пропуска рабочей среды. Для управления предназначена ручка-бабочка. Ее поворот на 90&amp;#176; закрывает или открывает проток. Версия каталога: P9ECA</description>
@@ -10708,7 +10708,7 @@
         <param name="Тип ручки">Рычаг</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>13100606</portal_category_id></offer>
-      <offer id="SD00002837" available="">
+      <offer id="SD00002837" available="true">
         <price>273</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_905</categoryId>
@@ -10722,7 +10722,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/5/8/5850/5850_7.jpg</picture>
         <name>Кран шаровой Thermo Alliance Base 3/4" ВН для газа (рычаг) SD605G20</name>
         <model>SD605G20</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00002837</vendorCode>
         <description>Шаровой кран Thermo Alliance Base 3/4 РГШ газ SD605G20 представляет собой надежное запорное устройство для газопроводов, предназначенное для управления потоком газа. Диаметр подключения 3/4 дюйма и конструкция крана обеспечивают надежное и долговечное функционирование. Версия каталога: P9ECA</description>
@@ -13804,7 +13804,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/8/7/8727/8727_6.jpg</picture>
         <name>Кран приборный шаровой Арко Thermo Alliance Standart 1/2"Н х 3/4"Н SF340W1520</name>
         <model>SF340W1520</model>
-        <quantity_in_stock>15</quantity_in_stock>
+        <quantity_in_stock>18</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00005496</vendorCode>
         <description>Кран приборный шаровой Thermo Alliance 1/2"х3/4" серии Standart изготавливается из латуни с хромированным покрытием. Версия каталога: P9ECA</description>
@@ -14471,7 +14471,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/1/1/11283/11283_1.jpg</picture>
         <name>Крепеж Thermo Alliance Standart на алюминиевый радиатор 9х170 мм SD109170R</name>
         <model>SD109170R</model>
-        <quantity_in_stock>71</quantity_in_stock>
+        <quantity_in_stock>81</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00005813</vendorCode>
         <description>Настеннный крепеж Thermo Alliance Standart 9х170 мм SD109170R для монтажа алюминиевого радиатора. Версия каталога: P9ECA</description>
@@ -18361,7 +18361,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/1/0/10584/10584_6.jpg</picture>
         <name>Сгон "Американка" Thermo Alliance Forte 1 1/2 прямой SF190W40</name>
         <model>SF190W40</model>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00008306</vendorCode>
         <description>Сгон "Американка" латунный Thermo Alliance Forte 1 1/2" прямой с никелированным покрытием, является надёжным и современным соединением, который позволяет соединить два неподвижных участка трубопровода. Версия каталога: P9ECA</description>
@@ -23790,7 +23790,7 @@
         <param name="Тип изделия">Удлинитель</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>13100645</portal_category_id></offer>
-      <offer id="SD00010151" available="">
+      <offer id="SD00010151" available="true">
         <price>291</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_941</categoryId>
@@ -23804,7 +23804,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/2/4281/4281_7.jpg</picture>
         <name>Удлинитель Thermo Alliance Standart 100х1/2" хром SD13015100</name>
         <model>SD13015100</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00010151</vendorCode>
         <description>Фитинг &amp;#8212; удлинитель для труб Thermo Alliance Standart 100 мм х 1/2" SD13015100 изготавливается из латуни и имеет хромированное покрытие. Резьба присоединения - 1/2" (внутренняя/наружная), длина фитинга - 100 мм. Версия каталога: P9ECA</description>
@@ -24089,7 +24089,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/7/3728/3728_5.jpg</picture>
         <name>Фильтр грубой очистки Thermo Alliance Base 1"ВВ для воды косой SD124W25</name>
         <model>SD124W25</model>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>6</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00010222</vendorCode>
         <description>Фильтр Thermo Alliance Base 1"ВВ SD124W25 для воды изготовлен из высококачественной латуни. Внутри фильтра установлена стальная сетка, препятствующая попаданию в воду частиц размером от 300 мкм. Версия каталога: P9ECA</description>
@@ -32229,7 +32229,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/2/5/25160/25160_4.jpg</picture>
         <name>Полка универсальная Qtap Police пластиковая QTPL02 White</name>
         <model>QTPL02</model>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00031257</vendorCode>
         <description>Полка Qtap PL02 прямая, быстросъёмная, благодаря чему уход за ней будет простым и легким. В полке предусмотрены отверстия для стекания воды, поэтому все предметы останутся сухими. Крепится на стене на необходимой высоте с помощью липкого трафарета с разметкой и шурупов, которые входят в комплект. На панель нанесен фирменный логотип производителя. Версия каталога: P9ECA</description>
@@ -36048,7 +36048,7 @@
         <param name="Цвет">Серый</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>13100611</portal_category_id></offer>
-      <offer id="SD00029362" available="true">
+      <offer id="SD00029362" available="">
         <price>51</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_871</categoryId>
@@ -36057,7 +36057,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/2/3/23265/23265_2.jpg</picture>
         <name>Тройник PPR Thermo Alliance 40х20х40</name>
         <model>DSC104</model>
-        <quantity_in_stock>22</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00029362</vendorCode>
         <description>Тройник PPR Thermo Alliance 40х20х40 служит для подключения к полипропиленовому трубопроводу новой ветки. Фасонная деталь переходная, два присоединительных размера &amp;#8212; 40, а третий &amp;#8212; 20 мм. Область применения &amp;#8212; сети отопления, горячего и холодного водоснабжения, вентиляции и другие. Фитинг подходит для систем, где температура рабочей среды не поднимается выше 90 &amp;#176;C. Материал изготовления детали высокого качества, при нагревании полифузным паяльником не пачкает инструмент. Версия каталога: P9ECA</description>
@@ -44455,14 +44455,14 @@
         <param name="Тип изделия">Теплообменник</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>13241102</portal_category_id></offer>
-      <offer id="SD00031584" available="true">
+      <offer id="SD00031584" available="">
         <price>107</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_808</categoryId>
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/2/5/25487.jpg</picture>
         <name>МикровыключательThermo Alliance (301126004)</name>
         <model>301126004</model>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00031584</vendorCode>
         <description>Микровыключатель Thermo Alliance (301126004) установлен в гидроблоке и служит для замыкания электрической цепи при возникновении протока воды через газовую колонку. При образовании протока отодвигается шток из гидроблока, который отодвигает язычок микровыключателя, что в свою очередь замыкает контакты. Он состоит из пластикового корпуса с контактной группой и проводов с разъемом. Версия каталога: P9ECA</description>
@@ -47645,7 +47645,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/3/33944/33944_2.jpg</picture>
         <name>Дозатор для жидкого мыла Qtap Liberty QTLIBCRM11522 Chrome</name>
         <model>QTLIBCRM11522</model>
-        <quantity_in_stock>23</quantity_in_stock>
+        <quantity_in_stock>24</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00040047</vendorCode>
         <description>Дозатор для жидкого мыла Qtap Liberty CRM 1152-2 делает процесс мытья рук гигиеничным и быстрым. Латунный корпус дозатора имеет стильное глянцевое покрытие. Данный дозатор будет хорошо сочетаться с аксессуарами такого же цвета. Устойчивая конструкция позволит без труда разместить данное изделие на борту раковины, а внешний стиль дозатора впишется в любой современный интерьер. Версия каталога: P9ECA</description>
@@ -47755,7 +47755,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/4/34937/34937_4.jpg</picture>
         <name>Смеситель для раковины Lidz Aria 001F (k35) LDARI001FNKS34937 Nickel</name>
         <model>LDARI001FNKS34937</model>
-        <quantity_in_stock>88</quantity_in_stock>
+        <quantity_in_stock>81</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00041041</vendorCode>
         <description>Lidz Aria &amp;#8212; низкий смеситель для раковины с брашированным никелевым покрытием, который позволяет регулировать температуру и напор одним рычагом. Корпус из нержавеющей стали 304 устойчив к коррозии, а гибкая подводка уже входит в комплект. Компактная модель подходит для большинства стандартных раковин, никелевый оттенок уместен и в современной, и в классической ванной, а производитель дает гарантию 20 лет. Версия каталога: P9ECA</description>
@@ -48243,7 +48243,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/4/34950/34950_7.jpg</picture>
         <name>Смеситель для кухни Lidz Aria 015F (k35) LDARI015FGRE34950 Grey</name>
         <model>LDARI015FGRE34950</model>
-        <quantity_in_stock>48</quantity_in_stock>
+        <quantity_in_stock>47</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00041054</vendorCode>
         <description>Модель Lidz Aria 015F &amp;#8212; смеситель для кухни с поворотным изливом и удобной регулировкой температуры и напора одним рычагом. Поворотный излив длиной 205 мм обслуживает всю площадь мойки, а корпус из пищевой нержавеющей стали 304 гигиеничен и не боится коррозии. Серый оттенок гармонирует с мойками из искусственного камня, а производитель дает гарантию 20 лет. Версия каталога: P9ECA</description>
@@ -56915,7 +56915,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/3/33510/33510_6.jpg</picture>
         <name>Смеситель для кухни Qtap Grand QTGRAWCR007F Chrome/White</name>
         <model>QTGRAWCR007F</model>
-        <quantity_in_stock>25</quantity_in_stock>
+        <quantity_in_stock>24</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00039613</vendorCode>
         <description>Смеситель для кухни Qtap Grand CRM 007F изготовлен из высококачественной пищевой латуни, которая не подвержена коррозии, устойчива к ударам и появлению трещин. Глянцевое хромированное покрытие не только повышает долговечность смесителя, но и придает ему привлекательности. Смеситель имеет однорычажное управление, с помощью которого можно отрегулировать температуру и напор холодной и горячей воды. Смеситель выполнен в современном стиле, следовательно, он дополнит любой интерьер кухни. Версия каталога: P9ECA</description>
@@ -57198,7 +57198,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/8/38087/38087_6.jpg</picture>
         <name>Смеситель для ванны Lidz Vida 005 с поворотным изливом (c душевым гарнитуром) (k35) LDVID005NKS38087 Nickel</name>
         <model>LDVID005NKS38087</model>
-        <quantity_in_stock>95</quantity_in_stock>
+        <quantity_in_stock>94</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00044190</vendorCode>
         <description>Смеситель для ванны с длинным поворотным изливом и душевым гарнитуром Lidz Vida обеспечивает удобную регулировку температуры и напора одним рычагом. Лейка, душевой шланг и держатель уже в комплекте &amp;#8212; душем можно пользоваться сразу, а корпус из пищевой нержавеющей стали 304 гигиеничен и не боится коррозии. Никелевый оттенок смотрится благородно и в современной, и в классической ванной, а производитель дает гарантию 20 лет. Версия каталога: P9ECA</description>
@@ -59534,7 +59534,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/6/36674/36674_2.jpg</picture>
         <name>Сифон для кухонной мойки Lidz (WHI) 60 05 M002 01 EURO с отводом для стиральной машины (выход 50 мм)</name>
         <model>LK05</model>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00042777</vendorCode>
         <description>Сифон для кухонной мойки Lidz LK05 изготовлен из качественного пластика белого цвета. При необходимости резервуар сифона может откручиваться для очистки. Гофрированный выход дает возможность изменять длину и угол трубы. Благодаря коммуникации для перелива можно избежать переполнения кухонной раковины водой. Мокрый гидрозатвор обеспечит надежную защиту от неприятных запахов из канализации. Версия каталога: P9ECA</description>
@@ -61037,7 +61037,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/0/40630/40630_8.jpg</picture>
         <name>Водонагреватель электрический Thermo Alliance 80 л плоский вертикальный, мокрый ТЭН 2 кВт (0,8+1,2) DT80V20G(PD)/2</name>
         <model>DT80V20GPD2</model>
-        <quantity_in_stock>42</quantity_in_stock>
+        <quantity_in_stock>41</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00046737</vendorCode>
         <description>Водонагреватель Thermo Alliance 80 л, мокрый ТЭН 2 кВт (0,8+1,2) DT80V20G(PD)/2 позволит решить проблему горячего водообеспечения там, где место для монтажа ограничено. Плоский корпус бойлера можно горизонтально разместить в шкафу или в нише. Нагрев воды обеспечивают 2 надежных нагревательных элемента. Функцию защиты от коррозии выполняют два магниевых анода и эмалевый слой внутреннего бака. Удобная панель управления снабжена дисплеем индикации температуры воды. Толщина внутреннего бака - 2 мм. Версия каталога: P9ECA</description>
@@ -68495,7 +68495,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/1/41618/41618_9.jpg</picture>
         <name>Котел электрический Thermo Alliance 6 кВт</name>
         <model>TA149DCN6</model>
-        <quantity_in_stock>54</quantity_in_stock>
+        <quantity_in_stock>99</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00047725</vendorCode>
         <description>Настенный электрический котел Thermo Alliance 6 кВт предназначен для нагрева теплоносителя в закрытых системах отопления при максимальном избыточном давлении до 3,0 бар. Основной частью котла является теплообменник из нержавеющей стали и алюминиевого сплава, с интегрированными нагревательными элементами. Котел оборудован циркуляционным насосом, расширительным баком, блоком управления и системой обеспечения безопасной эксплуатации. Корпус котла оснащен надежной термоизоляцией. Есть возможность подключения косвенного водонагревателя при помощи комплекта Thermo Alliance AquaKit (заказывается отдельно). Версия каталога: P9ECA</description>
@@ -68544,7 +68544,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/1/41621/41621_9.jpg</picture>
         <name>Котел электрический Thermo Alliance 8 кВт</name>
         <model>TA149DCN8</model>
-        <quantity_in_stock>25</quantity_in_stock>
+        <quantity_in_stock>99</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00047728</vendorCode>
         <description>Настенный электрический котел Thermo Alliance 8 кВт предназначен для нагрева теплоносителя в закрытых системах отопления при максимальном избыточном давлении до 3,0 бар. Основной частью котла является теплообменник из нержавеющей стали и алюминиевого сплава, с интегрированными нагревательными элементами. Котел оборудован циркуляционным насосом, расширительным баком, блоком управления и системой обеспечения безопасной эксплуатации. Корпус котла оснащен надежной термоизоляцией. Есть возможность подключения косвенного водонагревателя при помощи комплекта Thermo Alliance AquaKit (заказывается отдельно). Версия каталога: P9ECA</description>
@@ -68576,7 +68576,7 @@
         <param name="Электропитание, В">220/380</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>14210102</portal_category_id></offer>
-      <offer id="SD00047729" available="">
+      <offer id="SD00047729" available="true">
         <price>19079</price>
         <oldprice>21199</oldprice>
         <currencyId>UAH</currencyId>
@@ -68593,7 +68593,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/1/41622/41622_9.jpg</picture>
         <name>Котел электрический Thermo Alliance 10 кВт</name>
         <model>TA149DCN10</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>36</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00047729</vendorCode>
         <description>Настенный электрический котел Thermo Alliance 10 кВт предназначен для нагрева теплоносителя в закрытых системах отопления при максимальном избыточном давлении до 3,0 бар. Основной частью котла является теплообменник из нержавеющей стали и алюминиевого сплава, с интегрированными нагревательными элементами. Котел оборудован циркуляционным насосом, расширительным баком, блоком управления и системой обеспечения безопасной эксплуатации. Корпус котла оснащен надежной термоизоляцией. Есть возможность подключения косвенного водонагревателя при помощи комплекта Thermo Alliance AquaKit (заказывается отдельно). Версия каталога: P9ECA</description>
@@ -68642,7 +68642,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/1/41623/41623_9.jpg</picture>
         <name>Котел электрический Thermo Alliance 12 кВт</name>
         <model>TA149DCN12</model>
-        <quantity_in_stock>6</quantity_in_stock>
+        <quantity_in_stock>99</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00047730</vendorCode>
         <description>Настенный электрический котел Thermo Alliance 12 кВт предназначен для нагрева теплоносителя в закрытых системах отопления при максимальном избыточном давлении до 3,0 бар. Основной частью котла является теплообменник из нержавеющей стали и алюминиевого сплава, с интегрированными нагревательными элементами. Котел оборудован циркуляционным насосом, расширительным баком, блоком управления и системой обеспечения безопасной эксплуатации. Корпус котла оснащен надежной термоизоляцией. Есть возможность подключения косвенного водонагревателя при помощи комплекта Thermo Alliance AquaKit (заказывается отдельно). Версия каталога: P9ECA</description>
@@ -69530,7 +69530,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/2/5/25435/25435_4.jpg</picture>
         <name>Плата управления для газовых котлов Sime Brava (6324900I)</name>
         <model>6324900I</model>
-        <quantity_in_stock>13</quantity_in_stock>
+        <quantity_in_stock>12</quantity_in_stock>
         <vendor>Sime</vendor>
         <vendorCode>SD00031532</vendorCode>
         <description>Плата управления является ключевым элементом системы управления котлом, отвечая за контроль и координацию всех его рабочих процессов, включая подачу газа, управление температурой, розжиг и защитные функции. Плата управления обеспечивает взаимодействие между пользователем и котлом, обрабатывая сигналы от датчиков и выполняя команды, заданные через интерфейс управления. Она также контролирует системы безопасности, предотвращая перегрев, замерзание или утечку газа, что способствует надежной и безопасной работе котла. Она также выполняет функцию диагностики неисправностей, что упрощает сервисное обслуживание и устранение проблем. Версия каталога: P9ECA</description>
@@ -71137,7 +71137,7 @@
         <param name="Цвет">Черный</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>13240219</portal_category_id></offer>
-      <offer id="SD00048964" available="true">
+      <offer id="SD00048964" available="">
         <price>820</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_698</categoryId>
@@ -71148,7 +71148,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/2/42855/42855_4.jpg</picture>
         <name>Лейка для гигиенического душа Qtap Rucni округлая QT889910842855OB Black Matt</name>
         <model>QT889910842855OB</model>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00048964</vendorCode>
         <description>Лейка для гигиенического душа Qtap CRB B020 выполнена из латуни с хромированной поверхностью, которая всегда выглядит стильно и защитит изделие от образования коррозии. Ее устанавливают возле унитаза или раковины, что упрощает проведение гигиенических процедур, а также уход за животными. Благодаря универсальному диаметру лейка совместима со всеми гибкими шлангами для душа. В изделии предусмотрен один тип струи, который включается только при нажатии и удерживании кнопки на корпусе. Версия каталога: P9ECA</description>
@@ -79267,7 +79267,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/4/44319/44319_9.jpg</picture>
         <name>Котел электрический Thermo Alliance 18 кВт</name>
         <model>TA149DCN18</model>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>85</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00050443</vendorCode>
         <description>Настенный электрический котел Thermo Alliance 18 кВт предназначен для нагрева теплоносителя в закрытых системах отопления при максимальном избыточном давлении до 3,0 бар. Основной частью котла является теплообменник из нержавеющей стали и алюминиевого сплава, с интегрированными нагревательными элементами. Котел оборудован циркуляционным насосом, расширительным баком, блоком управления и системой обеспечения безопасной эксплуатации. Корпус котла оснащен надежной термоизоляцией. Есть возможность подключения косвенного водонагревателя при помощи комплекта Thermo Alliance AquaKit (заказывается отдельно). Версия каталога: P9ECA</description>
@@ -79316,7 +79316,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/4/44320/44320_9.jpg</picture>
         <name>Котел электрический Thermo Alliance 24 кВт</name>
         <model>TA149DCN24</model>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00050444</vendorCode>
         <description>Настенный электрический котел Thermo Alliance 24 кВт предназначен для нагрева теплоносителя в закрытых системах отопления при максимальном избыточном давлении до 3,0 бар. Основной частью котла является теплообменник из нержавеющей стали и алюминиевого сплава, с интегрированными нагревательными элементами. Котел оборудован циркуляционным насосом, расширительным баком, блоком управления и системой обеспечения безопасной эксплуатации. Корпус котла оснащен надежной термоизоляцией. Есть возможность подключения косвенного водонагревателя при помощи комплекта Thermo Alliance AquaKit (заказывается отдельно). Версия каталога: P9ECA</description>
@@ -79359,7 +79359,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/4/44321/44321_4.jpg</picture>
         <name>Аквакомплект Thermo Alliance AquaKit 3/4"в*3/4н для электрического котла</name>
         <model>TA149W2020</model>
-        <quantity_in_stock>11</quantity_in_stock>
+        <quantity_in_stock>99</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00050445</vendorCode>
         <description>Комплект 3-х ходового клапана Thermo Alliance предназначен для подключения бойлера косвенного нагрева к котлу. В состав комплекта входят: трехходовой клапан, элементы трубопровода для подключения к котлу, сервопривод, датчик бойлера, электрический кабель с разъемами для подключение сервопривода к плате котла. Версия каталога: P9ECA</description>
@@ -88008,7 +88008,7 @@
         <param name="Цвет">Хром / Белый</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>130119</portal_category_id></offer>
-      <offer id="SD00051527" available="">
+      <offer id="SD00051527" available="true">
         <price>1368</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_261</categoryId>
@@ -88019,7 +88019,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/5/45403/45403_8.jpg</picture>
         <name>Смеситель для раковины Lidz Dozorca 001 (k35) LDDOZ001CRM45403 Chrome</name>
         <model>LDDOZ001CRM45403</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00051527</vendorCode>
         <description>Низкий смеситель для раковины Lidz Dozorca с глянцевым хромированным покрытием обеспечивает удобную регулировку температуры и напора одним рычагом. Корпус из цинка рассчитан на ежедневное использование, а гибкая подводка уже входит в комплект. Компактная модель подходит для большинства стандартных раковин, хром универсально смотрится в любом интерьере, а производитель дает гарантию 36 месяцев. Версия каталога: P9ECA</description>
@@ -92693,7 +92693,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/5/45960/45960_3.jpg</picture>
         <name>Лейка для ручного душа Qtap Rucni 140*110 мм QTRUC125CRM45960 Chrome</name>
         <model>QTRUC125CRM45960</model>
-        <quantity_in_stock>6</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00052084</vendorCode>
         <description>Лейка для ручного душа Qtap Rucni QTRUC125CRM45960 изготовлена из качественного ABS пластика, который не чувствителен к гидроударам и перепадам температур и имеет глянцевое хромированное покрытие, которое не облезает от долгого ежедневного использования. Для подключения к душевому шлангу есть подводка с внешней резьбой, которая совместима со всеми шлангами для душа. Благодаря современному лаконичному дизайну изделие дополнит любой интерьер. Версия каталога: P9ECA</description>
@@ -92992,7 +92992,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/5/45946/45946_4.jpg</picture>
         <name>Лейка для верхнего душа Qtap Hlavova 280x190 мм прямоугольная QTHLA107CRM45946 Chrome</name>
         <model>QTHLA107CRM45946</model>
-        <quantity_in_stock>43</quantity_in_stock>
+        <quantity_in_stock>42</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00052070</vendorCode>
         <description>Лейка для верхнего душа Qtap Hlavova QTHLA107BLM45783 изготовлена из качественного ABS пластика, который не чувствителен к гидроударам и перепадам температур и имеет матовое черное покрытие, которое не облезает от долгого ежедневного использования. Такое изделие прослужит долгие годы, всегда будет выглядеть стильно и подойдет к любому дизайну ванной комнаты. Удобство потолочной лейки бесспорно, так как её не нужно держать в руках, а размер рабочей поверхности больше по сравнению с лейками для ру Версия каталога: P9ECA</description>
@@ -97412,7 +97412,7 @@
         <param name="Комплектация">Котел (TA149DCN8), водонагреватель (CWH 10046 12S F), термостат (TA2701WIFI), аквакомплект (TA149W2020).</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>14210102</portal_category_id></offer>
-      <offer id="SD00053272" available="">
+      <offer id="SD00053272" available="true">
         <price>57422</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_775</categoryId>
@@ -97424,7 +97424,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47148/47148_5.jpg</picture>
         <name>Комплексное решение Thermo Alliance для котельной: электрический котел 10 кВт + комплект бойлера + комбинированный напольный водонагреватель 100 л</name>
         <model>TA149DCN1047148</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00053272</vendorCode>
         <description>Комплексное решение Thermo Alliance для котельной TA149DCN1047148 включает электрокотел мощностью 10 кВт, что обеспечивает более высокую эффективность в системах отопления. Аквакомплект и комбинированный водонагреватель емкостью 100 литров позволяют быстро и надежно нагревать воду. Программатор с Wi-Fi управлением обеспечивает простое дистанционное управление. Идеален для домов и квартир, где требуется гибкость в управлении отоплением и горячей водой. Версия каталога: P9ECA</description>
@@ -99633,7 +99633,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/6/46513/46513_9.jpg</picture>
         <name>Колонка газовая дымоходная Thermo Alliance JSD20-10CLM 10 л White</name>
         <model>JSD2010CLMWHITE</model>
-        <quantity_in_stock>19</quantity_in_stock>
+        <quantity_in_stock>99</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00052637</vendorCode>
         <description>Газовая колонка дымоходная Thermo Alliance JSD20-10CLM 10 л в белом цвете имеет открытую камеру сгорания, питание от 2-х батареек типа D, регуляторы температуры воды, которые удобно расположены внизу на передней панели корпуса. Устройство эффективно обеспечивает нагрев воды для системы ГВС. Установку, подключение к газовым и водопроводным трубам, а также ввод в эксплуатацию должен выполнять только уполномоченный квалифицированный специалист. Версия каталога: P9ECA</description>
@@ -110335,7 +110335,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47280/47280_6.jpg</picture>
         <name>Сгон-американка Thermo Alliance Standart 1 1/2"ВН никель, прямой TAS190W40</name>
         <model>TAS190W40</model>
-        <quantity_in_stock>6</quantity_in_stock>
+        <quantity_in_stock>12</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00053404</vendorCode>
         <description>Прямой сгон-американка Thermo Alliance серии Standart (арт. TAS190W40) с никелевым покрытием используется для надежного соединения трубопроводных элементов в системах водоснабжения и отопления. Обеспечивает герметичность соединения, удобен в монтаже и разборке, а устойчивое к коррозии покрытие увеличивает срок службы изделия. Версия каталога: P9ECA</description>
@@ -110902,7 +110902,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47578/47578_8.jpg</picture>
         <name>Смеситель для ванны Qtap Evia с поворотным изливом (c душевым гарнитуром) QTEVI260CRM47578 Chrome</name>
         <model>QTEVI260CRM47578</model>
-        <quantity_in_stock>45</quantity_in_stock>
+        <quantity_in_stock>44</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00053702</vendorCode>
         <description>Смеситель для ванны Qtap Evia QTEVI260CRM47578 с поворотным изливом &amp;#8211; это надежное и удобное решение для ванной комнаты. Изготовленный из латуни с хромированным покрытием, он устойчив к коррозии и механическим повреждениям. Поворотный излив обеспечивает удобство в использовании, а встроенный переключатель позволяет легко переключаться между изливом и душем. Однорычажное управление упрощает настройку температуры и напора воды. В комплект входит душевой гарнитур, включая лейку и шланг. Настенный монтаж обеспечивает удобство установки и экономию пространства. Версия каталога: P9ECA</description>
@@ -112982,7 +112982,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/5/45023/45023_4.jpg</picture>
         <name>Lidz LT04 Клапан нижней подачи 1/2</name>
         <model>LT04</model>
-        <quantity_in_stock>3</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00051147</vendorCode>
         <description>Клапан нижней подачи Lidz LT04 1/2" - это надёжный компонент для унитазов с нижним подключением воды. Обеспечивает стабильную и бесшумную подачу воды в бачок, подходит для большинства стандартных моделей. Изготовлен из прочных, устойчивых к коррозии материалов, легко устанавливается и обеспечивает длительный срок службы. Версия каталога: P9ECA</description>
@@ -113823,7 +113823,7 @@
         <param name="Толщина теплоизоляции, мм">50</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>14210103</portal_category_id></offer>
-      <offer id="SD00054012" available="">
+      <offer id="SD00054012" available="true">
         <price>45895</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_745</categoryId>
@@ -113835,7 +113835,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47888/47888_5.jpg</picture>
         <name>Котел твердотопливный стальной Thermo Alliance Ferrum V 5.0 FSF 20</name>
         <model>FSF20V50</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00054012</vendorCode>
         <description>Котел твердотопливный стальной Thermo Alliance Ferrum V 5.0 FSF 20 &amp;#8212; надежный и эффективный твердотопливный котел, обеспечивающий стабильное отопление вашего дома. Высокое качество материалов и продуманная конструкция гарантируют долгий срок службы и экономичное использование топлива. Версия каталога: P9ECA</description>
@@ -118626,7 +118626,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47920/47920_9.jpg</picture>
         <name>Котел электрический Thermo Alliance 4 кВт TA149DCN4</name>
         <model>TA149DCN4</model>
-        <quantity_in_stock>22</quantity_in_stock>
+        <quantity_in_stock>62</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00054044</vendorCode>
         <description>Котел электрический Thermo Alliance 4 кВт TA149DCN4 Версия каталога: P9ECA</description>
@@ -119244,7 +119244,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47918/47918_1.jpg</picture>
         <name>Водонагреватель электрический Thermo Alliance 50 л, Black, плоский, вертикальный, сухой ТЭН 2 кВт (0,8+1,2) DT50V20GPDD2B</name>
         <model>DT50V20GPDD2B</model>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00054042</vendorCode>
         <description>Электрический водонагреватель Thermo Alliance объемом 50 л - это современное решение для комфортного обеспечения горячей водой. Модель в стильном черном цвете имеет плоскую прямоугольную форму, благодаря чему занимает минимум места при вертикальной установке. Оснащён сухим ТЭНом мощностью 2 кВт (0,8+1,2), который обеспечивает быстрый нагрев воды за 1 час 48 минут. Бак с эмалированным покрытием и двойным магниевым анодом гарантирует надёжную защиту от коррозии. Механическое управление позволяет легко настроить температуру до 75 &amp;#176;C. Гарантия на бак - 7 лет. Версия каталога: P9ECA</description>
@@ -119330,7 +119330,7 @@
         <param name="Тип ручки">Рычаг</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>130103</portal_category_id></offer>
-      <offer id="SD00053548" available="">
+      <offer id="SD00053548" available="true">
         <price>129</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_884</categoryId>
@@ -119344,7 +119344,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47424/47424_7.jpg</picture>
         <name>Кран угловой Thermo Alliance Standart 1/2"НН нерж., с керам. буксой TAS345W1515SS</name>
         <model>TAS345W1515SS</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00053548</vendorCode>
         <description>Кран угловой Thermo Alliance Standart 1/2"НН из нержавеющей стали с керамической буксой  (арт. TAS345W1515SS) - надежный элемент для подключения сантехнических приборов и организации подачи воды. Прочный корпус из нержавеющей стали гарантирует долговечность и устойчивость к коррозии, а керамическая букса обеспечивает плавное и надежное управление потоком без протечек. Версия каталога: P9ECA</description>
@@ -138360,7 +138360,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/9/49044/49044_9.jpg</picture>
         <name>Водонагреватель электрический Aquatronic 15 л под мойку вертикальный, мокрый ТЭН 1,5 кВт Сompact  WU1515 C2M</name>
         <model>Сompact  WU1515 C2M</model>
-        <quantity_in_stock>34</quantity_in_stock>
+        <quantity_in_stock>33</quantity_in_stock>
         <vendor>Aquatronic</vendor>
         <vendorCode>SD00055168</vendorCode>
         <description>Водонагреватель Aquatronic 15 л, мокрый ТЭН 1,5 кВт Compact WU1515 C2M предназначен для нагрева воды для хозяйственно-бытовых нужд. От коррозии внутреннюю поверхность бака защищает эмалевое покрытие, нанесённое мокрым методом и запечённое при температуре 890 градусов Цельсия (толщиной 300 микрон), а также магниевый анод увеличенного размера с резистором, что позволяет работать более длительный период. Теплоизоляция из пенополиуретана толщиной 20 мм эффективно сохраняет температуру нагретой воды (класс энергоэффективности B). Нагревательный элемент выполнен из нержавеющей стали мощностью 1500 Вт. Версия каталога: P9ECA</description>
@@ -140006,7 +140006,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/8/48638/48638_7.jpg</picture>
         <name>Смеситель для раковины низкий Qtap Arvin  QTARV270CRM48638 Chrome</name>
         <model>QTARV270CRM48638</model>
-        <quantity_in_stock>81</quantity_in_stock>
+        <quantity_in_stock>80</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00054762</vendorCode>
         <description>Низкий смеситель для раковины Qtap Arvin с глянцевым хромированным покрытием обеспечивает удобную регулировку температуры и напора одним рычагом. Латунный корпус &amp;#8212; это прочность и долгий срок службы, а гибкая подводка уже входит в комплект. Компактная модель подходит для большинства стандартных раковин, хром универсально смотрится в любом интерьере, а производитель дает гарантию 60 месяцев. Версия каталога: P9ECA</description>
@@ -140110,7 +140110,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/8/48643/48643_8.jpg</picture>
         <name>Душевая система универсальная Qtap Arvin на три потребителя (с изливом) QTARV111CRM48643 Chrome</name>
         <model>QTARV111CRM48643</model>
-        <quantity_in_stock>27</quantity_in_stock>
+        <quantity_in_stock>26</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00054767</vendorCode>
         <description>Универсальная душевая система Qtap Arvin в хромированном исполнении рассчитана на подключение трёх потребителей и оснащена изливом для удобного повседневного использования. Прочная металлическая конструкция обеспечивает надёжность и длительный срок службы, хромированное покрытие легко очищается и сохраняет аккуратный внешний вид, а продуманное управление позволяет комфортно переключать подачу воды между режимами. Версия каталога: P9ECA</description>
@@ -140518,7 +140518,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/8/48650/48650_6.jpg</picture>
         <name>Смеситель для раковины высокий Qtap Nando  QTNAN269CRM48650 Chrome</name>
         <model>QTNAN269CRM48650</model>
-        <quantity_in_stock>25</quantity_in_stock>
+        <quantity_in_stock>24</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00054774</vendorCode>
         <description>Модель Qtap Nando &amp;#8212; высокий смеситель для раковины с глянцевым хромированным покрытием и удобной регулировкой температуры и напора одним рычагом. Латунный корпус &amp;#8212; это прочность и долгий срок службы, а гибкая подводка уже входит в комплект. Высокий излив подходит для накладных раковин-чаш, хром универсально смотрится в любом интерьере, а производитель дает гарантию 60 месяцев. Версия каталога: P9ECA</description>
@@ -146258,7 +146258,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/9/49457/49457_9.jpg</picture>
         <name>Мойка для кухни интегрированная Lidz Handmade H7545 Brushed Steel 3,0/1,0 мм LDH7545BRU49457</name>
         <model>LDH7545BRU49457</model>
-        <quantity_in_stock>11</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00055581</vendorCode>
         <description>Кухонная мойка Lidz Handmade H7545 &amp;#8212; практичное решение для организации рабочей зоны. Интегрированный монтаж обеспечивает аккуратный внешний вид и удобство в использовании. Покрытие Brushed Steel устойчиво к износу и легко очищается. Толщина стали 3,0/1,0 мм гарантирует надёжность и долговечность изделия. Версия каталога: P9ECA</description>
@@ -146414,7 +146414,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/9/49438/49438_8.jpg</picture>
         <name>Мойка для кухни интегрированная Lidz Handmade H4545HB Decor Black PVD Honeycomb 2,5/0,5 мм LDH4545HDECBLM49438</name>
         <model>LDH4545HDECBLM49438</model>
-        <quantity_in_stock>12</quantity_in_stock>
+        <quantity_in_stock>11</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00055562</vendorCode>
         <description>Кухонная мойка Lidz Handmade H4545HB &amp;#8212; практичный вариант для современной кухни. Интегрированный монтаж обеспечивает удобство в использовании и аккуратный внешний вид. Покрытие Decor Black PVD Honeycomb сочетает износостойкость и простоту в уходе. Толщина стали 2,5/0,5 мм гарантирует долговечность. Версия каталога: P9ECA</description>
@@ -147385,7 +147385,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/5/0/50958/50958_8.jpg</picture>
         <name>Акционный набор Lidz: мойка Handmade H4545 Black PVD Decor 2,5/0,5 мм + K01B Корзина для кухонной мойки</name>
         <model>LDH4545HDECBLM4943850958</model>
-        <quantity_in_stock>12</quantity_in_stock>
+        <quantity_in_stock>11</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00057082</vendorCode>
         <description>Акционный набор Lidz включает мойку с декоративной поверхностью и современным черным PVD-покрытием, дополненную удобной корзиной для мытья овощей и посуды. Версия каталога: P9ECA</description>
@@ -149192,7 +149192,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/9/49184/49184_7.jpg</picture>
         <name>Смеситель для раковины низкий Lidz Nexus 001F (k35)  LDNEX001FNKS49184 Nickel</name>
         <model>LDNEX001FNKS49184</model>
-        <quantity_in_stock>54</quantity_in_stock>
+        <quantity_in_stock>52</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00055308</vendorCode>
         <description>Низкий смеситель для раковины Lidz Nexus с брашированным никелевым покрытием обеспечивает удобную регулировку температуры и напора одним рычагом. Корпус из нержавеющей стали 304 устойчив к коррозии, а гибкая подводка уже входит в комплект. Компактная модель подходит для большинства стандартных раковин, никелевый оттенок уместен и в современной, и в классической ванной, а производитель дает гарантию 20 лет. Версия каталога: P9ECA</description>
@@ -156192,7 +156192,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/5/0/50615/50615_11.jpg</picture>
         <name>Электрический водонагреватель Thermo Alliance Spectra 120 л вертикальный, сухие ТЭНы 2,0 кВт, d 435 мм</name>
         <model>SV1204420D</model>
-        <quantity_in_stock>3</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00056739</vendorCode>
         <description>Водонагреватель Thermo Alliance Spectra объемом 120 л обеспечивает достаточный запас горячей воды для семьи или коммерческого объекта. Сухие ТЭНы мощностью 2,0 кВт способствуют надежной работе устройства. Диаметр корпуса &amp;#8212; 435 мм. Версия каталога: P9ECA</description>
@@ -412757,7 +412757,7 @@ ISO 2548
         <personal_price>614.00</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>100</main_stock_quantity>
+        <main_stock_quantity>50</main_stock_quantity>
         <name>Счетчик холодной воды Gidrotek E-T 1,6U 1/2″ со штуцером (110мм)</name>
         <description>Счетчик воды Gidrotek Е-Т 1,5U для холодной воды со штуцером - предназначен для измерения объема холодной и горячей воды, протекающей по трубопроводу.&lt;br&gt;Счетчик применяется для учета воды, в том числе коммерческом, на объектах коммунально-бытовой сферы.&lt;br&gt;Дополнительные характеристики:&lt;br&gt;Область применения счетчика: Бытовой. &lt;br&gt;Тип счетчика: Механический. &lt;br&gt;Тип присоединения: Штуцерное. &lt;br&gt;Вид водосчетчика: Крыльчатый. &lt;br&gt;Гарантийный срок: 48. &lt;br&gt;Условный проход: 15.0. &lt;br&gt;Монтaжнaя длинa: 110. &lt;br&gt;Межповерочный интервал: 4.0. &lt;br&gt;Номинальный расход, Qn: 1.6&lt;br&gt;Страна-производитель товара: Украина&lt;br&gt;&lt;br&gt;Допольнительные характеристики:&lt;br&gt;Высота: 8,2 см&lt;br&gt;Ширина: 8,1см&lt;br&gt;Длина: 11 см&lt;br&gt;Сфера примененния : Комунально-бытовая&lt;br&gt;Размер резьбы: ½  дюйма&lt;br&gt;Вид счетчика: Крыльчатий&lt;br&gt;оличество обслужаваемых трубопроводов: Одноканальный&lt;br&gt;Номинальный объемный расход  Q 3 (м3 /год ): 1,6 &lt;br&gt;Номинальный объемный расход  Q 3 (м3 /час ) при горизонтальном положении: 0,0254&lt;br&gt;Номинальный объемный расход Q 3 (м3 /час ) при вертикальном положении: 0,04&lt;br&gt;Динамический диапазон Q3/Q1= R H при горизонтальном положении: 63&lt;br&gt;Динамический диапазон Q3/Q1= R H при вертикальном положении: 40&lt;br&gt;Класс точности: 2&lt;br&gt;Температурный класс: Т30 або Т90&lt;br&gt;Максимально допустимая погрешность : +- 5%&lt;br&gt;Метрологический класс: В&lt;br&gt;Тип установки: Вертикальный/горизонтальный&lt;br&gt;Максимальное допустимое давление: МАР 16&lt;br&gt;Цифровой индикатор целых едениц (м3): 99999&lt;br&gt;Аналоговый индикатор наименьших частиц (м3): 0,00005&lt;br&gt;Комплектация:&lt;br&gt;--Счетчик холодной или горячей воды, Е-Т 1,6-U – 1шт;&lt;br&gt;--Комплект монтажных часей – 1 комплект;&lt;br&gt;--Руководство по эксплуатации – 1 шт;&lt;br&gt;--Упаковка – 1комп.</description>
         <param name="Страна происхождения">Украина</param>
@@ -414502,7 +414502,7 @@ ISO 2548
         <vendor>TUCAI</vendor>
         <personal_price>2.66</personal_price>
         <personal_currency>EUR</personal_currency>
-        <stock_quantity>9</stock_quantity>
+        <stock_quantity>8</stock_quantity>
         <main_stock_quantity>100</main_stock_quantity>
         <name>Шланг водяной TUCAI 3/8″x1/2″ ВВ 0,5м TAQ HG-3812-500 200172</name>
         <description>Шланг водяной 3/8″х1/2″ ВВ 0,5м нержавейка TAQ HG-3812-500 TUCAI made in Spain&lt;br&gt;Производитель – Компания  TUCAI&lt;br&gt;Страна производства - Испания&lt;br&gt;Диаметр подключения - 1/2″ х3/8″       &lt;br&gt;Резьба: внутренняя/внутренняя&lt;br&gt;Длина: 50 см                                                                                         &lt;br&gt;Срок службы – 10 лет &lt;br&gt;• -Шланг - EPDM &lt;br&gt;• Латунні фітинги  CW617N&lt;br&gt;• Втулка і обплетення з нержавіючої сталі  AISI304&lt;br&gt;&lt;br&gt;КОМПАНИЯ TUCAI - мировой лидер в производстве гибких соединений для воды, газа и масла. Фабрика TUCAI расположена в Барселоне. &lt;br&gt;Основываясь на более чем 40-ти летнем опыте работы в области производства гибких соединений, компания постоянно увеличивает производство продукции для удовлетворения запросов. Сегодня продукцию торговой марки TUCAI можно встретить во многих строительных магазинах по всему миру. Высокое качество продукции подтверждено сертификатом качества ISO 9002. Соответствие Европейским Нормам подтверждено декларациями соответствия и гигиеническими аттестатами.&lt;br&gt;Шланг резиновый TUCAI (нержавейка) гибкая подводка с внешней оплеткой из нержавеющей стали и внутренним диаметром 8 mm для подключения санитарных приборов.      &lt;br&gt;Шланг резиновый TUCAI (нержавейка)   изготовлен из качественных и экологичных материалов, что позволяет подключать ее в водопроводные системы с питьевой водой. Также он не теряет своих качественных характеристик при использовании в технических системах, в системах горячего водоснабжения.&lt;br&gt;Компоненты шланга ( см. рис. )&lt;br&gt;Шланг применим в устройстве водопроводных систем в жилых домах, общественных зданиях, офисах, в производственных цехах. Материал изделия не склонен к накоплению примесей, содержащихся в воде. Пропускная способность остается неизменной в течении всего срока эксплуатации.&lt;br&gt;&lt;br&gt;Шланг  устойчив к агрессивным средам, к перепадам температур, гибкий и имеет повышенный срок службы. &lt;br&gt;Продукция бренда TUCAI отлично зарекомендовала себя на рынке Украины как изделия, отвечающие европейским стандартам качества.&lt;br&gt;&lt;br&gt;Конструктивная особенность шланга для подводки воды TUCAI  состоит в том, что поверхность покрыта нержавеющей сталью, которая не боится влажности и каких-либо воздействий. Резиновый шланг не боится температурных перепадов. Фитинги - прочные и надежные. &lt;br&gt;Внешний диаметр: 12 mm &lt;br&gt;Внутр. диаметр: 8 mm  &lt;br&gt;Диаметр отверстия: 6 mm &lt;br&gt;Номин. поток: 29 л/мин&lt;br&gt;Радиус изгиба: 30 мм &lt;br&gt;Рабочее давление: 10 bar &lt;br&gt;Температура: 90°С</description>
@@ -414529,7 +414529,7 @@ ISO 2548
         <vendor>TUCAI</vendor>
         <personal_price>2.85</personal_price>
         <personal_currency>EUR</personal_currency>
-        <stock_quantity>9</stock_quantity>
+        <stock_quantity>8</stock_quantity>
         <main_stock_quantity>100</main_stock_quantity>
         <name>Шланг водяной TUCAI 3/8″x1/2″ ВВ 0,6м TAQ HG-3812-600 200173</name>
         <description>Шланг водяной 3/8″х1/2″ ВВ 0,6м нержавейка TAQ HG-3812-600 TUCAI made in Spain&lt;br&gt;Производитель – Компания  TUCAI&lt;br&gt;Страна производства - Испания&lt;br&gt;Диаметр подключения - 1/2″ х3/8″       &lt;br&gt;Резьба: внутренняя/внутренняя&lt;br&gt;Длина: 60 см                                                                                         &lt;br&gt;Срок службы – 10 лет &lt;br&gt;• -Шланг - EPDM &lt;br&gt;• Латунні фітинги  CW617N&lt;br&gt;• Втулка і обплетення з нержавіючої сталі  AISI304&lt;br&gt;&lt;br&gt;КОМПАНИЯ TUCAI - мировой лидер в производстве гибких соединений для воды, газа и масла. Фабрика TUCAI расположена в Барселоне. &lt;br&gt;Основываясь на более чем 40-ти летнем опыте работы в области производства гибких соединений, компания постоянно увеличивает производство продукции для удовлетворения запросов. Сегодня продукцию торговой марки TUCAI можно встретить во многих строительных магазинах по всему миру. Высокое качество продукции подтверждено сертификатом качества ISO 9002. Соответствие Европейским Нормам подтверждено декларациями соответствия и гигиеническими аттестатами.&lt;br&gt;Шланг резиновый TUCAI (нержавейка) гибкая подводка с внешней оплеткой из нержавеющей стали и внутренним диаметром 8 mm для подключения санитарных приборов.      &lt;br&gt;Шланг резиновый TUCAI (нержавейка)   изготовлен из качественных и экологичных материалов, что позволяет подключать ее в водопроводные системы с питьевой водой. Также он не теряет своих качественных характеристик при использовании в технических системах, в системах горячего водоснабжения.&lt;br&gt;Компоненты шланга ( см. рис. )&lt;br&gt;Шланг применим в устройстве водопроводных систем в жилых домах, общественных зданиях, офисах, в производственных цехах. Материал изделия не склонен к накоплению примесей, содержащихся в воде. Пропускная способность остается неизменной в течении всего срока эксплуатации.&lt;br&gt;&lt;br&gt;Шланг  устойчив к агрессивным средам, к перепадам температур, гибкий и имеет повышенный срок службы. &lt;br&gt;Продукция бренда TUCAI отлично зарекомендовала себя на рынке Украины как изделия, отвечающие европейским стандартам качества.&lt;br&gt;&lt;br&gt;Конструктивная особенность шланга для подводки воды TUCAI  состоит в том, что поверхность покрыта нержавеющей сталью, которая не боится влажности и каких-либо воздействий. Резиновый шланг не боится температурных перепадов. Фитинги - прочные и надежные. &lt;br&gt;Внешний диаметр: 12 mm &lt;br&gt;Внутр. диаметр: 8 mm  &lt;br&gt;Диаметр отверстия: 6 mm &lt;br&gt;Номин. поток: 29 л/мин&lt;br&gt;Радиус изгиба: 30 мм &lt;br&gt;Рабочее давление: 10 bar &lt;br&gt;Температура: 90°С</description>
@@ -415771,7 +415771,7 @@ ISO 2548
         <personal_price>9.39</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>50</stock_quantity>
-        <main_stock_quantity>50</main_stock_quantity>
+        <main_stock_quantity>10</main_stock_quantity>
         <name>Кольцо резиновое 110 для канализационных соединений (черное)</name>
         <description>Раструбное кольцо 110 применяется для герметичного перехода, подключения  гофры унитаза, а также фановых труб. Производитель- Украина.</description>
         <param name="Страна происхождения">Украина</param>
@@ -418709,7 +418709,7 @@ ISO 2548
         <personal_price>31.58</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>1</main_stock_quantity>
+        <main_stock_quantity>0</main_stock_quantity>
         <name>Мембрана для систем обратного осмоса Filmtec 75G, (BW60)TW30-1812-75HR</name>
         <description>Мембрана для систем обратного осмоса Filmtec 75G, TW30-1812-75HR&lt;br&gt;&lt;br&gt;Мембрана — основной элемент домашних фильтров обратного осмоса. Именно мембрана делает воду из-под вашего крана питьевой и безопасной даже для детей.&lt;br&gt;&lt;br&gt; Filmtec 75G – Мембрана для обратного осмоса повышенной производительности, предназначена для ультратонкой очистки воды в средних объемах для небольшого производства или заведений общепита. Мембрана очищает до 98% загрязнений, благодаря полупроницаемому материалу, который пропускает только молекулу воды и растворимые в ней газы. &lt;br&gt;&lt;br&gt;Технические характеристики:&lt;br&gt;Производительность: до 280 л/сутки &lt;br&gt;Эффективность фильтрации: не меньше 98 %&lt;br&gt;Пористость: 0,0001 мкм&lt;br&gt;Рабочее давление: от 2,5 до 8 атм&lt;br&gt;Рабочая температура воды: от +4…+35 °С &lt;br&gt;Производитель: США</description>
         <param name="Страна происхождения" />
@@ -422847,7 +422847,7 @@ ISO 2548
         <personal_price>6.32</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>5</stock_quantity>
-        <main_stock_quantity>50</main_stock_quantity>
+        <main_stock_quantity>10</main_stock_quantity>
         <name>Комплект картриджей для систем очистки Bio+ Systems ″Стандарт″ (PP, GAS, СТО)</name>
         <description>Комплект картриджей для систем очистки Bio+ Systems ″Стандарт″ (PP, GAS, СТО)&lt;br&gt;&lt;br&gt;Комплект сменных картриджей для систем очистки воды ″Стандарт″ удаляет нерастворимые механические частицы (песок, грязь, ржавчину), органические и хлорорганические соединения, улучшает органолептические свойства воды. &lt;br&gt;Предназначаются для использования в системах обратного осмоса и трехступенчатых системах&lt;br&gt;&lt;br&gt;PP-10 - Картридж из полипропилена удаляет нерастворимые механические частицы (песок, грязь, ржавчину). &lt;br&gt;Размерр: 10 ″х 2,5″&lt;br&gt;Ресурс: 10000 л&lt;br&gt;Ступень фильтрации: 10 мкм&lt;br&gt;&lt;br&gt;GAS-10-LN - Картридж угольный насыпной  (высококачественный гранулированный активированный уголь из скорлупы кокосовых орехов). &lt;br&gt;Картридж удаляет из воды хлор и хлорорганические соединения, снижает концентрацию тяжёлых и цветных металлов, а также фенола, нефтепродуктов и пестицидов. &lt;br&gt;•-Размер: 10″ х 2,5″&lt;br&gt;•-Рабочая температура: до 40°С&lt;br&gt;•-Степень фильтрации: 10 мкм&lt;br&gt;•-Ресурс: 4 000 л&lt;br&gt;Степень фильтрации: 10 мкм&lt;br&gt;После установки нового картриджа слейте не менее 10 литров отфильтрованной воды в канализацию.&lt;br&gt;CTO-10 - Картридж угольный прессованный удаляет органические и хлорорганические соединения, улучшает органолептические свойства воды.&lt;br&gt;Размер: 10″ х 2,5″&lt;br&gt;Ресурс: 4000 л</description>
         <param name="Страна происхождения">Украина</param>
@@ -424566,7 +424566,7 @@ ISO 2548
         <personal_price>2.00</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>10</stock_quantity>
-        <main_stock_quantity>50</main_stock_quantity>
+        <main_stock_quantity>10</main_stock_quantity>
         <name>Муфта разборная внутр.резьба (латунь) PPR 25х3/4&amp;apos;&amp;apos; LIGHT  1017</name>
         <description>1017 Муфта разборная  PPR &lt;br&gt;Резьба: внутренняя  25х3/4″ LIGHT&lt;br&gt;Материал резьбы: латунь</description>
         <param name="Страна происхождения">Украина</param>
@@ -428005,7 +428005,7 @@ ISO 2548
         <personal_price>6.67</personal_price>
         <personal_currency>EUR</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>50</main_stock_quantity>
+        <main_stock_quantity>10</main_stock_quantity>
         <name>Шланг для смесителя TUCAI М10х1/2″ 0,8м АНТИКОРРОЗИЯ TAQ GRIF AСB 206222 ПАРА</name>
         <description>АНТИКОРРОЗИЯ Шланг для смесителя  H1/2″-M10-L17+L37 0,8м ПАРА  TAQ GRIF ASB  TUCAI  206222&lt;br&gt;Производитель – Компания  TUCAI&lt;br&gt;Страна производства - Испания&lt;br&gt;Диаметр подключения – гайка 1/2″- штуцера M10 длиной 37 и 17мм&lt;br&gt;Резьба – наружная/внутренняя (гайка - штуцер M10 )&lt;br&gt;Длина шланга -  0,8 м&lt;br&gt; Срок службы – 10 лет &lt;br&gt;&lt;br&gt;Преимущества антикоррозийного шланга:                                                                                                                                       &lt;br&gt;Высокая стойкость к коррозии                                                                                                                                          &lt;br&gt;10 лет гарантии                                                                                                                                          &lt;br&gt;Большая гибкость                                                                                                                                &lt;br&gt;Быстрое принятие правильной формы, то есть нет перегибов или скручивания                                                     &lt;br&gt;Более крепкое плетение (разрыв при 170 Бар при тестировании)                                                              &lt;br&gt;Устойчивость к ультрафиолетовых лучам &lt;br&gt;Электронепроводимость, то есть безопасность при соединениях с бойлерами и другими системами. &lt;br&gt;&lt;br&gt; КОМПАНИЯ TUCAI - мировой лидер в производстве гибких соединений для воды, газа и масла. Фабрика TUCAI расположена в Барселоне. &lt;br&gt;Основываясь на более чем 40-ти летнем опыте работы в области производства гибких соединений, компания постоянно увеличивает производство продукции для удовлетворения запросов. Сегодня продукцию торговой марки TUCAI можно встретить во многих строительных магазинах по всему миру. Высокое качество продукции подтверждено сертификатом качества ISO 9002. Соответствие Европейским Нормам подтверждено декларациями соответствия и гигиеническими аттестатами                                                             &lt;br&gt;Гибкие шланги TUCAI  с штуцером М10 служат для непосредственного присоединения  смесителей к системам водопровода. Это – стандартная подводка типа «гайка-штуцер», которая может использоваться для подсоединения к водоснабжению любых типов смесителей для раковины и ванны.                                                     &lt;br&gt;Шланг резиновый TUCAI (оплетка из полимера)   изготовлен из качественных и экологичных материалов, что позволяет подключать ее в водопроводные системы с питьевой водой. Также он не теряет своих качественных характеристик при использовании в технических системах, в системах горячего водоснабжения&lt;br&gt;&lt;br&gt;Шланг применим в устройстве водопроводных систем в жилых домах, общественных зданиях, офисах, в производственных цехах. Материал изделия не склонен к накоплению примесей, содержащихся в воде. Пропускная способность остается неизменной в течении всего срока эксплуатации&lt;br&gt;&lt;br&gt;Шланг - устойчив к агрессивным средам, к перепадам температур, гибкий и имеет повышенный срок службы. &lt;br&gt;Продукция бренда TUCAI отлично зарекомендовала себя на рынке Украины как изделия, отвечающие европейским стандартам качества.&lt;br&gt;• -Шланг - EPDM &lt;br&gt;• -Латунные фитинги &lt;br&gt;• -Оплетка из полимера&lt;br&gt;Конструктивная особенность шланга для подводки воды TUCAI  состоит в том, что поверхность покрыта спепциальным полимерным материалом, который не боится влажности и каких-либо воздействий. Резиновый шланг не боится температурных перепадов. Фитинги - прочные и надежные. &lt;br&gt;Внешний диаметр: 12 mm &lt;br&gt;Внутр. диаметр: 8 mm  &lt;br&gt;Диаметр отверстия: 6 mm &lt;br&gt; Номинальный поток: 29 л./мин &lt;br&gt;Радиус изгиба: 30 мм &lt;br&gt;Рабочее давление: 10 bar 0 &lt;br&gt;Температура: 90°С</description>
         <param name="Страна происхождения" />
@@ -430668,7 +430668,7 @@ ISO 2548
         <personal_price>0.09</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>100</stock_quantity>
-        <main_stock_quantity>1000</main_stock_quantity>
+        <main_stock_quantity>500</main_stock_quantity>
         <name>Муфта Kalde PPR ф20  12020</name>
         <description>Муфта полипропиленовая соединительная   «Kalde» 20 мм&lt;br&gt;&lt;br&gt;&lt;br&gt;Страна производитель – Турция&lt;br&gt;Торговая марка «Kalde»&lt;br&gt;Материал корпуса - полипропилен&lt;br&gt;Рабочее давление – PN25 (25 атмосфер )&lt;br&gt;&lt;br&gt;  Муфты полипропиленовые соединительные  «Kalde» это полипропиленовый фитинг, предназначенный для прямого соединения полипропиленовых труб одинакового диаметра. Применяются  в системах холодного и горячего водоснабжения. Используются для отопления жилых, административных, а также промышленных зданий, при прокладке трубопроводов.&lt;br&gt;    Муфты «Kalde» универсальны,  то есть  подходят для сварки всех видов полипропиленовых труб от разных производителей, будь то композитные ( армированные алюминиевой фольгой ), армированные стекловолокном или не армированные. &lt;br&gt;&lt;br&gt;Муфта 20 мм  полипропиленовая соединительная   «Kalde» &lt;br&gt;&lt;br&gt;Преимущества соединительных муфт «Kalde» &lt;br&gt;•-долговечность;&lt;br&gt;•-простота в монтажа;&lt;br&gt;•-надежное герметическое соединение &lt;br&gt;•-химическая устойчивость и устойчивость к коррозии;&lt;br&gt;•-возможность соединения с металлическими элементами;&lt;br&gt;•-экологически безопасны;&lt;br&gt;•-устойчивость к внешнему воздействию и перепадам температур, морозостойкость.</description>
         <param name="Страна происхождения">Турция</param>
@@ -430806,7 +430806,7 @@ ISO 2548
         <personal_price>0.14</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>100</stock_quantity>
-        <main_stock_quantity>1000</main_stock_quantity>
+        <main_stock_quantity>100</main_stock_quantity>
         <name>Угол 45 Kalde PPR   ф20  14020</name>
         <description>Угол полипропиленовый   «Kalde» 45 ф20 мм&lt;br&gt;&lt;br&gt;&lt;br&gt;Страна производитель – Турция&lt;br&gt;Торговая марка «Kalde»&lt;br&gt;Материал корпуса - полипропилен&lt;br&gt;Рабочее давление – PN25 (25 атмосфер )&lt;br&gt;&lt;br&gt;  Углы  полипропиленовые соединительные  «Kalde» это полипропиленовые фитинги, предназначенные для углового соединения полипропиленовых труб одинакового диаметра. Применяются  в системах холодного и горячего водоснабжения. Используются для отопления жилых, административных, а также промышленных зданий, при прокладке трубопроводов.&lt;br&gt;    Углы ( колена ) «Kalde» универсальны,  то есть  подходят для сварки всех видов полипропиленовых труб от разных производителей, будь то композитные ( армированные алюминиевой фольгой ), армированные стекловолокном или не армированные. &lt;br&gt;&lt;br&gt;Угол 45 ф20 мм полипропиленовый соединительный   «Kalde» &lt;br&gt;&lt;br&gt;Преимущества соединительных углов «Kalde» &lt;br&gt;•-долговечность;&lt;br&gt;•-простота в монтажа;&lt;br&gt;•-надежное герметическое соединение &lt;br&gt;•-химическая устойчивость и устойчивость к коррозии;&lt;br&gt;•-возможность соединения с металлическими элементами;&lt;br&gt;•-экологически безопасны;&lt;br&gt;•-устойчивость к внешнему воздействию и перепадам температур, морозостойкость.</description>
         <param name="Страна происхождения">Турция</param>
@@ -431059,7 +431059,7 @@ ISO 2548
         <personal_price>0.26</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>50</stock_quantity>
-        <main_stock_quantity>500</main_stock_quantity>
+        <main_stock_quantity>100</main_stock_quantity>
         <name>Тройник Kalde PPR   25  18025</name>
         <description>Тройник полипропиленовый соединительный   «Kalde» 25 мм&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Страна производитель – Турция&lt;br&gt;Торговая марка «Kalde»&lt;br&gt;Материал корпуса - полипропилен&lt;br&gt;Рабочее давление – PN25 (25 атмосфер )&lt;br&gt;&lt;br&gt;  Тройники полипропиленовые соединительные  «Kalde» это полипропиленовые фитинги, предназначенные для прямого и углового соединения полипропиленовых труб одинакового диаметра. Применяются  в системах холодного и горячего водоснабжения. Используются для отопления жилых, административных, а также промышленных зданий, при прокладке трубопроводов.&lt;br&gt;    Тройники «Kalde» универсальны,  то есть  подходят для всех видов полипропиленовых труб от разных производителей, будь то композитные ( армированные алюминиевой фольгой ), армированные стекловолокном или не армированные. &lt;br&gt;&lt;br&gt;Тройник 25 мм  полипропиленовый соединительный   «Kalde» &lt;br&gt;&lt;br&gt;Преимущества соединительных тройников «Kalde» &lt;br&gt;•-долговечность;&lt;br&gt;•-простота в монтажа;&lt;br&gt;•-надежное герметическое соединение &lt;br&gt;•-химическая устойчивость и устойчивость к коррозии;&lt;br&gt;•-возможность соединения с металлическими элементами;&lt;br&gt;•-экологически безопасны;&lt;br&gt;•-устойчивость к внешнему воздействию и перепадам температур, морозостойкость.</description>
         <param name="Страна происхождения">Турция</param>
@@ -432566,7 +432566,7 @@ ISO 2548
         <personal_price>3.59</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>1</stock_quantity>
-        <main_stock_quantity>100</main_stock_quantity>
+        <main_stock_quantity>50</main_stock_quantity>
         <name>Муфта РАЗБОРНАЯ нар.резьба Kalde PPR  ф25х3/4  13002</name>
         <description>Муфта разборная  полипропиленовая с внешней резьбой «Kalde» 25х3/4″&lt;br&gt;&lt;br&gt;&lt;br&gt;Страна производитель – Турция&lt;br&gt;Торговая марка «Kalde»&lt;br&gt;Рабочее давление – PN25 (25 атмосфер )&lt;br&gt;  Муфты разборные полипропиленовые с внешней резьбой «Kalde» это полипропиленовые фитинги, предназначенные для  соединения полипропиленовых труб с другими трубами, запорной арматурой.  Применяются  в системах холодного и горячего водоснабжения. Используются для отопления жилых, административных, а также промышленных зданий, при прокладке трубопроводов.&lt;br&gt;    Разборные муфты «Kalde» универсальны,  то есть  подходят для всех видов полипропиленовых труб от разных производителей, будь то композитные ( армированные алюминиевой фольгой ), армированные стекловолокном или не армированные. &lt;br&gt;&lt;br&gt;Разборная  муфта 25х3/4″  полипропиленовая с  внешней  резьбой    «Kalde» &lt;br&gt;&lt;br&gt;Преимущества разборных муфт «Kalde» &lt;br&gt;•-долговечность;&lt;br&gt;•-простота в монтажа;&lt;br&gt;•-надежное герметическое соединение &lt;br&gt;•-химическая устойчивость и устойчивость к коррозии;&lt;br&gt;•-возможность соединения с металлическими элементами;&lt;br&gt;•-экологически безопасны;&lt;br&gt;•-устойчивость к внешнему воздействию и перепадам температур, морозостойкость.</description>
         <param name="Страна происхождения">Турция</param>
@@ -433514,7 +433514,7 @@ ISO 2548
         <personal_price>87.05</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>10</stock_quantity>
-        <main_stock_quantity>100</main_stock_quantity>
+        <main_stock_quantity>500</main_stock_quantity>
         <name>Труба канализационная VSplast 110х2,7 500мм**</name>
         <description>Труба канализационная VSplast 110х2,7 500мм&lt;br&gt;Назначение - Для внутренней канализации&lt;br&gt;Тип - Труба &lt;br&gt;Диаметр - 110мм&lt;br&gt;Материал - ПП (полипропилен)&lt;br&gt;Длина - 500мм&lt;br&gt;Комплект поставки:    &lt;br&gt;- Труба канализационная&lt;br&gt;- Уплотнительное резиновое кольцо&lt;br&gt;Страна-производитель товара - Украина&lt;br&gt;&lt;br&gt;Высокое качество продукции гарантировано не только качественным сырьем, но и современным автоматизированным оборудованием. &lt;br&gt;Вся продукция изготовлена в соответствии с высокими требованиями европейских стандартов качества и конкурирует с изделиями ведущих мировых производителей.</description>
         <param name="Страна происхождения">Украина</param>
@@ -433560,7 +433560,7 @@ ISO 2548
         <personal_price>273.37</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>8</stock_quantity>
-        <main_stock_quantity>100</main_stock_quantity>
+        <main_stock_quantity>500</main_stock_quantity>
         <name>Труба канализационная VSplast 110х2,7 2000мм**</name>
         <description>Труба канализационная VSplast 110х2,7 2000мм&lt;br&gt;Назначение - Для внутренней канализации&lt;br&gt;Тип - Труба &lt;br&gt;Диаметр - 110мм&lt;br&gt;Материал - ПП (полипропилен)&lt;br&gt;Длина - 2000мм&lt;br&gt;Комплект поставки:    &lt;br&gt;- Труба канализационная&lt;br&gt;- Уплотнительное резиновое кольцо&lt;br&gt;Страна-производитель товара - Украина&lt;br&gt;&lt;br&gt;Высокое качество продукции гарантировано не только качественным сырьем, но и современным автоматизированным оборудованием. &lt;br&gt;Вся продукция изготовлена в соответствии с высокими требованиями европейских стандартов качества и конкурирует с изделиями ведущих мировых производителей.</description>
         <param name="Страна происхождения">Украина</param>
@@ -433583,7 +433583,7 @@ ISO 2548
         <personal_price>406.26</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>10</main_stock_quantity>
+        <main_stock_quantity>100</main_stock_quantity>
         <name>Труба канализационная VSplast 110х2,7 3000мм**</name>
         <description>Труба канализационная VSplast 110х2,7 3000мм&lt;br&gt;Назначение - Для внутренней канализации&lt;br&gt;Тип - Труба &lt;br&gt;Диаметр - 110мм&lt;br&gt;Материал - ПП (полипропилен)&lt;br&gt;Длина - 3000мм&lt;br&gt;Комплект поставки:    &lt;br&gt;- Труба канализационная&lt;br&gt;- Уплотнительное резиновое кольцо&lt;br&gt;Страна-производитель товара - Украина&lt;br&gt;&lt;br&gt;Высокое качество продукции гарантировано не только качественным сырьем, но и современным автоматизированным оборудованием. &lt;br&gt;Вся продукция изготовлена в соответствии с высокими требованиями европейских стандартов качества и конкурирует с изделиями ведущих мировых производителей.</description>
         <param name="Страна происхождения">Украина</param>
@@ -433654,7 +433654,7 @@ ISO 2548
         <personal_price>46.68</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>1000</main_stock_quantity>
+        <main_stock_quantity>500</main_stock_quantity>
         <name>Колено VSplast 110x45° *</name>
         <description>Колено VSplast 110x45°&lt;br&gt;Назначение - Для внутренней канализации&lt;br&gt;Тип - Колено&lt;br&gt;Диаметр - 110мм&lt;br&gt;Материал - ПП (полипропилен)&lt;br&gt;Угол изгиба - 45°&lt;br&gt;Комплект поставки:    &lt;br&gt;- Колено для внутренней канализации&lt;br&gt;- Уплотнительное резиновое кольцо&lt;br&gt;Страна-производитель товара - Украина&lt;br&gt;&lt;br&gt;Высокое качество продукции гарантировано не только качественным сырьем, но и современным автоматизированным оборудованием. &lt;br&gt;Вся продукция изготовлена в соответствии с высокими требованиями европейских стандартов качества и конкурирует с изделиями ведущих мировых производителей.</description>
         <param name="Страна происхождения">Украина</param>
@@ -444449,7 +444449,7 @@ ISO 2548
         <personal_price>394.73</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>6</main_stock_quantity>
+        <main_stock_quantity>5</main_stock_quantity>
         <name>Фильтр-колба 2-х комп.+ Коробка, , БЕЗ коробки OasisPro BSL2, 1″</name>
         <description>Фильтр-колба 2-х комп. + Коробка, БЕЗ картриджа OasisPro BSL2, 1″ &lt;br&gt;&lt;br&gt;Магистральный фильтр для воды ТМ «OasisPro» BSL2 тщательно очищает питьевую воду и защищает бытовую технику, смесители, сантехнические изделия от повреждения механическими частицами и примесями (песком, ржавчиной, окалиной), которые содержатся в воде.&lt;br&gt;&lt;br&gt;преимущества:&lt;br&gt;• Качество. Корпус выполнен из чистого первичного европейского пластика с применением современных технологий. Бисфенол здесь отсутствует. Благодаря этому состав пластмасс, из которых изготовлен фильтр, соответствует директиве ЕС «Предметы, используемые для контакта с продуктами питания».&lt;br&gt;• Надежная защита сантехники и трубопроводов. Фильтр способен не только очищать воду, но и защитить сантехническое оборудование от преждевременных поломок.&lt;br&gt;• Простое подключение.&lt;br&gt;• Прозрачный корпус (можно визуально определять время замены картриджа)&lt;br&gt;• Компактные габариты;&lt;br&gt;• Соединение к трубопроводу выполнены из латуни;&lt;br&gt;• Прочность и продолжалась эксплуатационная пригодность;&lt;br&gt;• Незначительное износа при активных амортизационных действиях;&lt;br&gt;• Оптимальное соотношение качество - цена.&lt;br&gt;&lt;br&gt;&lt;br&gt;ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ:&lt;br&gt;Максимальная температура воды: 40 ° С&lt;br&gt;Рабочее давление: 3-6 атм&lt;br&gt;Тип корпуса: 10 ″&lt;br&gt;Максимальное давление: 8 атм&lt;br&gt;Пропускная способность: 15 л / мин&lt;br&gt;Диаметры подключения: 1″&lt;br&gt;&lt;br&gt;КОМПЛЕКТАЦИЯ:&lt;br&gt;фильтр для воды-1 ед .;&lt;br&gt;уплотнительное кольцо (белый силикон) -1 ед .;&lt;br&gt;планка-1 ед .;&lt;br&gt;ключ-1 ед .;&lt;br&gt;шуруп-4 ед .;&lt;br&gt;коробка-1 шт;&lt;br&gt;инструкция по эксплуатации-1 ед.&lt;br&gt;&lt;br&gt;Гарантийный срок годности на корпус фильтр-колбы составляет 1 год с даты продажи товара.&lt;br&gt;Срок службы изделия 5 лет.&lt;br&gt;&lt;br&gt;ВНИМАНИЕ! Не используйте без установки редуктора давления на центральное водоснабжение.&lt;br&gt;&lt;br&gt;Производитель: ООО «теплоизоляционные»&lt;br&gt;Произведено согласно условиям ТУ У 28.2-33238878-001: 2019&lt;br&gt;&lt;br&gt;Вес нетто: 0,79 кг</description>
         <param name="Страна происхождения">Украина</param>
@@ -444585,7 +444585,7 @@ ISO 2548
         <personal_price>484.00</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>10</stock_quantity>
-        <main_stock_quantity>100</main_stock_quantity>
+        <main_stock_quantity>1000</main_stock_quantity>
         <name>Счетчик холодной воды ECOSTAR DN15 1/2″ L110 E-C 2,5</name>
         <description>Счетчик воды ECOSTAR E-C 2,5 для холодной воды со штуцером - предназначен для измерения объема холодной воды, протекающей по напорному трубопроводу.&lt;br&gt;Счетчик применяется для учета воды, в том числе коммерческом, на объектах коммунально-бытовой сферы.&lt;br&gt;Дополнительные характеристики:&lt;br&gt;Область применения счетчика: коммунально-бытовая сфера.&lt;br&gt;Тип счетчика: Механический.&lt;br&gt;Тип присоединения: Резьбовое.&lt;br&gt;Вид счетчика: Крыльчатый одноструйный.&lt;br&gt;Гарантийный срок: 48 месяцев.&lt;br&gt;Условный проход: DN15&lt;br&gt;Монтaжнaя длинa: 110 мм&lt;br&gt;Межповерочный интервал: 4 года&lt;br&gt;Номинальный расход, Q3: 2,5 м3/час&lt;br&gt;Страна-производитель товара: Украина&lt;br&gt;&lt;br&gt;Допольнительные характеристики:&lt;br&gt;Высота: 70 мм&lt;br&gt;Ширина: 70 мм&lt;br&gt;Длина: 110 мм&lt;br&gt;Сфера примененния : Комунально-бытовая сфера Размер резьбы: ½ дюйма Вид счетчика: Крыльчатый одноструйный.&lt;br&gt;Номинальный объемный расход Q3 (м3 /час ): 2,5 Минимальный объемный расход Q1 (м3 /час ) при горизонтальном положении: &lt;br&gt;0,025&lt;br&gt;Минимальный объемный расход Q1 (м3 /час ) при вертикальном положении: &lt;br&gt;0,04&lt;br&gt;Динамический диапазон Q3/Q1= R H при горизонтальном положении: 100 Динамический диапазон Q3/Q1= R V при вертикальном положении: 63 Класс точности: 2 Температурный класс: Т30 или Т90 Максимально допустимая погрешность :&lt;br&gt;&lt;br&gt;- в интервале диапазона объемного расхода от Q1 (включительно) до Q2 - ±&lt;br&gt;5 %;&lt;br&gt;&lt;br&gt;- в интервале диапазона объемного расхода от Q2 (включительно) до Q4&lt;br&gt;(включительно) - ± 2 % (при температуре воды от 0,1 до 30 С) та ± 3 % (при температуре воды выше 30 С).&lt;br&gt;&lt;br&gt;&lt;br&gt;Тип установки: Вертикальный/горизонтальный Максимальное допустимое давление: МАР 16 Цифровой индикатор целых едениц (м3): 99999 Аналоговый индикатор наименьших частиц (м3): 0,00005&lt;br&gt;Комплектация:&lt;br&gt;- Счетчик холодной  воды, ECOSTAR E-C – 1шт;&lt;br&gt;- Комплект монтажных часей – 1 комплект;&lt;br&gt;- Руководство по эксплуатации – 1 шт;&lt;br&gt;- Упаковка – 1комп.</description>
         <param name="Страна происхождения">Украина</param>
@@ -447188,7 +447188,7 @@ ISO 2548
         <personal_price>456.00</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>10</stock_quantity>
-        <main_stock_quantity>100</main_stock_quantity>
+        <main_stock_quantity>10</main_stock_quantity>
         <name>Счетчик холодной воды ECOSTAR DN15 1/2″ без штуцера L110 E-C 2,5</name>
         <description>Счетчик воды ECOSTAR E-C 2,5 для холодной воды со штуцером - предназначен для измерения объема холодной воды, протекающей по напорному трубопроводу.&lt;br&gt;Счетчик применяется для учета воды, в том числе коммерческом, на объектах коммунально-бытовой сферы.&lt;br&gt;Дополнительные характеристики:&lt;br&gt;Область применения счетчика: коммунально-бытовая сфера.&lt;br&gt;Тип счетчика: Механический.&lt;br&gt;Тип присоединения: Резьбовое.&lt;br&gt;Вид счетчика: Крыльчатый одноструйный.&lt;br&gt;Гарантийный срок: 48 месяцев.&lt;br&gt;Условный проход: DN15&lt;br&gt;Монтaжнaя длинa: 110 мм&lt;br&gt;Межповерочный интервал: 4 года&lt;br&gt;Номинальный расход, Q3: 2,5 м3/час&lt;br&gt;Страна-производитель товара: Украина&lt;br&gt;&lt;br&gt;Допольнительные характеристики:&lt;br&gt;Высота: 70 мм&lt;br&gt;Ширина: 70 мм&lt;br&gt;Длина: 110 мм&lt;br&gt;Сфера примененния : Комунально-бытовая сфера Размер резьбы: ½ дюйма Вид счетчика: Крыльчатый одноструйный.&lt;br&gt;Номинальный объемный расход Q3 (м3 /час ): 2,5 Минимальный объемный расход Q1 (м3 /час ) при горизонтальном положении: &lt;br&gt;0,025&lt;br&gt;Минимальный объемный расход Q1 (м3 /час ) при вертикальном положении: &lt;br&gt;0,04&lt;br&gt;Динамический диапазон Q3/Q1= R H при горизонтальном положении: 100 Динамический диапазон Q3/Q1= R V при вертикальном положении: 63 Класс точности: 2 Температурный класс: Т30 или Т90 Максимально допустимая погрешность :&lt;br&gt;&lt;br&gt;- в интервале диапазона объемного расхода от Q1 (включительно) до Q2 - ±&lt;br&gt;5 %;&lt;br&gt;&lt;br&gt;- в интервале диапазона объемного расхода от Q2 (включительно) до Q4&lt;br&gt;(включительно) - ± 2 % (при температуре воды от 0,1 до 30 С) та ± 3 % (при температуре воды выше 30 С).&lt;br&gt;&lt;br&gt;&lt;br&gt;Тип установки: Вертикальный/горизонтальный Максимальное допустимое давление: МАР 16 Цифровой индикатор целых едениц (м3): 99999 Аналоговый индикатор наименьших частиц (м3): 0,00005&lt;br&gt;Комплектация:&lt;br&gt;- Счетчик холодной  воды, ECOSTAR E-C – 1шт;&lt;br&gt;- Комплект монтажных часей – 1 комплект;&lt;br&gt;- Руководство по эксплуатации – 1 шт;&lt;br&gt;- Упаковка – 1комп.</description>
         <param name="Страна происхождения">Украина</param>
@@ -447210,7 +447210,7 @@ ISO 2548
         <personal_price>456.00</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>10</stock_quantity>
-        <main_stock_quantity>100</main_stock_quantity>
+        <main_stock_quantity>50</main_stock_quantity>
         <name>Счетчик горячей воды ECOSTAR DN15 1/2″ без штуцера L110 E-C 2,5</name>
         <description>Счетчик воды ECOSTAR E-C 2,5 для горячей воды без штуцеров - предназначен для измерения объема горячей воды, протекающей по напорному трубопроводу.&lt;br&gt;Счетчик применяется для учета воды, в том числе коммерческом, на объектах коммунально-бытовой сферы.&lt;br&gt;Дополнительные характеристики:&lt;br&gt;Область применения счетчика: коммунально-бытовая сфера.&lt;br&gt;Тип счетчика: Механический.&lt;br&gt;Тип присоединения: Резьбовое.&lt;br&gt;Вид счетчика: Крыльчатый одноструйный.&lt;br&gt;Гарантийный срок: 48 месяцев.&lt;br&gt;Условный проход: DN15&lt;br&gt;Монтaжнaя длинa: 110 мм&lt;br&gt;Межповерочный интервал: 4 года&lt;br&gt;Номинальный расход, Q3: 2,5 м3/час&lt;br&gt;Страна-производитель товара: Украина&lt;br&gt;&lt;br&gt;Допольнительные характеристики:&lt;br&gt;Высота: 70 мм&lt;br&gt;Ширина: 70 мм&lt;br&gt;Длина: 110 мм&lt;br&gt;Сфера примененния : Комунально-бытовая сфера Размер резьбы: ½ дюйма Вид счетчика: Крыльчатый одноструйный.&lt;br&gt;Номинальный объемный расход Q3 (м3 /час ): 2,5 Минимальный объемный расход Q1 (м3 /час ) при горизонтальном положении: &lt;br&gt;0,025&lt;br&gt;Минимальный объемный расход Q1 (м3 /час ) при вертикальном положении: &lt;br&gt;0,04&lt;br&gt;Динамический диапазон Q3/Q1= R H при горизонтальном положении: 100 Динамический диапазон Q3/Q1= R V при вертикальном положении: 63 Класс точности: 2 Температурный класс: Т30 или Т90 Максимально допустимая погрешность :&lt;br&gt;&lt;br&gt;- в интервале диапазона объемного расхода от Q1 (включительно) до Q2 - ±&lt;br&gt;5 %;&lt;br&gt;&lt;br&gt;- в интервале диапазона объемного расхода от Q2 (включительно) до Q4&lt;br&gt;(включительно) - ± 2 % (при температуре воды от 0,1 до 30 С) та ± 3 % (при температуре воды выше 30 С).&lt;br&gt;&lt;br&gt;&lt;br&gt;Тип установки: Вертикальный/горизонтальный Максимальное допустимое давление: МАР 16 Цифровой индикатор целых едениц (м3): 99999 Аналоговый индикатор наименьших частиц (м3): 0,00005&lt;br&gt;Комплектация:&lt;br&gt;- Счетчик горячей  воды, ECOSTAR E-C – 1шт;&lt;br&gt;- Руководство по эксплуатации – 1 шт;&lt;br&gt;- Упаковка – 1комп.</description>
         <param name="Страна происхождения">Украина</param>
@@ -447876,7 +447876,7 @@ ISO 2548
         <vendor>SELBA</vendor>
         <personal_price>4.14</personal_price>
         <personal_currency>USD</personal_currency>
-        <stock_quantity>3</stock_quantity>
+        <stock_quantity>1</stock_quantity>
         <main_stock_quantity>100</main_stock_quantity>
         <name>Кран шаровой угловой двойной SELBA 1/2″х 1/2″х3/4″ DOUBLE (SL1599)</name>
         <description>Кран шаровой угловой двойной SELBA 1/2″х 1/2″х3/4″ DOUBLE (SL1599)&lt;br&gt;Производитель – SELBA&lt;br&gt;Страна производитель - EU&lt;br&gt;10 лет гарантии от производителя&lt;br&gt;Размеры подключения - 1/2″х 1/2″х3/4″&lt;br&gt;Кран угловой шаровой двойной SELBA 1/2″х 1/2″х3/4″ DOUBLE (SL1599) объединяет 2 независимых выхода в один корпус и используется в сантехнических установках. Эти клапаны могут отключать индивидуально и независимо от водоснабжения оборудования или компоненты, подключенные к каждому из двух его выходов, таких как раковины, туалеты, цистерны. Модели DOUBLE (SL1588.SL1599) предлагают 2 независимых выхода от одного входа из сети питьевой воды.&lt;br&gt;Корпус изделия изготовлен из высокопрочной никелированной латуни марки CW617N Euro. Кроме того, кран дополнительно хромирован для высокого порога коррозостойкости.&lt;br&gt;На сегодняшний день компания является главным производителем угловых и шаровых кранов в и одним из самых значительных в мире, экспортируя свою продукцию в более чем 100 стран.&lt;br&gt;Компоненты (см. рис)&lt;br&gt;1 Розетка – нержавеющая сталь&lt;br&gt;2 Корпус - хромированная CW617N Euro латунь&lt;br&gt;3 Штамповочный противоизносный полимер&lt;br&gt;4 уплотнителя – кольцо NBR&lt;br&gt;5 Ручка - ABS хромированная&lt;br&gt;6 эмблема ARCO - ABS серый&lt;br&gt;7 Винт – нержавеющая сталь&lt;br&gt;8 Шайба - POM (Polioximetieno)&lt;br&gt;9 Шайба – POM (Polioximetieno)&lt;br&gt;10 Обратный клапан – POM (Polioximetieno)&lt;br&gt;11 Поддерживающий клип – POM (Polioximetieno)&lt;br&gt;12 Седло - NBR&lt;br&gt;&lt;br&gt;Рабочие положения крана:&lt;br&gt;&lt;br&gt;&lt;br&gt;размеры:&lt;br&gt;&lt;br&gt;Технические характеристики Кран угловой шаровой двойной SELBA 1/2″х 1/2″х3/4″ DOUBLE (SL1599)&lt;br&gt;• Резьба в дюймах – 1/2” х 1/2” х 3/4” Номинальное давление: 10 бар&lt;br&gt;• Испытательное давление: 15 бар&lt;br&gt;• Диапазон температур: холодная и горячая вода&lt;br&gt;• до 95ºC&lt;br&gt;• Жидкость: вода, предназначенная для употребления и бытовая горячая вода&lt;br&gt;Особенности конструкции крана:&lt;br&gt;&lt;br&gt;Ручка крана имеет 4 указанных позиций и имеет позиционирование, обеспечивающее правильную работу.&lt;br&gt;Зажим POM, расположенный внутри клапана, прижимает гнездо NBR к шаровому валу. Эта система зажима и сиденья не может быть разобрана, что позволяет избежать чрезмерных манипуляций.&lt;br&gt;Два уплотнительных кольца NBR, размещенных в валу, обеспечивают наружное уплотнение. Эта система двойного соединения обеспечивает дополнительную безопасность&lt;br&gt;&lt;br&gt;Преимущества крана шаровогог двойного SELBA 1/2″х 1/2″х3/4″ DOUBLE (SL1599)&lt;br&gt; Сокращение более чем на 80% времени установки.&lt;br&gt; Сокращение количества аксессуаров&lt;br&gt; Сокращение места установки&lt;br&gt; Повышенная надежность за счет сокращения количества подключений.&lt;br&gt; 100% продукции проверяется на внешнюю и внутреннюю герметичность&lt;br&gt; Двойные уплотнения размещены прокладками из NBR на валу обеспечивают внешнюю герметичность&lt;br&gt; двойная система уплотнения совместно гарантирует безопасность против внешних утечек, износа, старения.&lt;br&gt; Прочность и длительная эксплуатационная пригодность&lt;br&gt; Незначительный износ при активных амортизационных действиях&lt;br&gt; Оптимальное соотношение качество – цена</description>
@@ -479178,7 +479178,7 @@ ISO 2548
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/5/2/52533/52533_7.jpg</picture>
         <name>Комплект Lidz: Handmade H7545 Мойка для кухни интегрированная Brushed Steel в комплекте с дозатором + Измельчитель для мойки Black</name>
         <model>H754552533</model>
-        <quantity_in_stock>11</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
         <vendor>Lidz</vendor>
         <vendorCode>SD00058657</vendorCode>
         <description>Набор Lidz Handmade H7545 сочетает вместительную интегрированную мойку Brushed Steel и измельчитель пищевых отходов Lidz Black. Чаша 700&amp;#215;350&amp;#215;220 мм из нержавеющей стали толщиной 3,0/1,0 мм удобна для крупной посуды, а дозатор, корзина и кухонная доска уже в комплекте. Измельчитель 370 Вт со скоростью вращения диска 2600 об/мин быстро перерабатывает пищевые отходы и работает в режиме непрерывной загрузки. Версия каталога: P9ECA</description>
@@ -480373,7 +480373,7 @@ ISO 2548
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/5/1/51287/51287_6.jpg</picture>
         <name>Набор для гигиенического душа наружного монтажа Qtap Inspai-Varius (k25) округлый прогрессивный картридж QTINS262CRM51287 Chrome</name>
         <model>QTINS262CRM51287</model>
-        <quantity_in_stock>98</quantity_in_stock>
+        <quantity_in_stock>99</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00057411</vendorCode>
         <description>Набор для гигиенического душа наружного монтажа Qtap Inspai-Varius Chrome (k25) QTINS262CRM51287 предназначен для комфортного выполнения ежедневных гигиенических процедур. Модель оснащена округлым прогрессивным картриджем, который обеспечивает плавную регулировку подачи воды. Хромированное покрытие придает изделию привлекательный внешний вид и облегчает уход за поверхностью. Наружный тип монтажа обеспечивает удобную установку и доступ к основным элементам конструкции. Набор станет удобным дополнением санузла, позволяя организовать пространство для личной гигиены. Версия каталога: P9ECA</description>
@@ -482557,6 +482557,35 @@ ISO 2548
         <param name="Страна регистрации бренда">Турция</param>
         <param name="Страна-производитель">Турция</param>
         <param name="Тип изделия">Прокладка</param>
+        <param name="Версия каталога">P9ECA</param>
+      <portal_category_id>13240122</portal_category_id></offer>
+      <offer id="SD00051980" available="true">
+        <price>428</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>c1_796</categoryId>
+        <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/5/45856.jpg</picture>
+        <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/5/45856/45856_2.jpg</picture>
+        <name>Уплотнительное кольцо вентилятора Thermo Alliance Ewa 63x3 мм (15311019000014)</name>
+        <model>15311019000014</model>
+        <quantity_in_stock>5</quantity_in_stock>
+        <vendor>Thermo Alliance</vendor>
+        <vendorCode>SD00051980</vendorCode>
+        <description>Прокладка вентилятора для конденсационного котла служит для герметизации соединений между вентилятором и корпусом котла. Она предотвращает утечку воздуха и газов, обеспечивая безопасную и эффективную работу устройства. Изготавливается из высококачественных материалов, устойчивых к высоким температурам и химическим воздействиям. Эта прокладка помогает поддерживать необходимое давление в системе, улучшая циркуляцию воздуха и предотвращая нежелательные потери энергии. Регулярная проверка и своевременная замена прокладки обеспечивают длительную и безопасную эксплуатацию котла. Версия каталога: P9ECA</description>
+        <param name="Артикул">15311019000014</param>
+        <param name="Бренд">Thermo Alliance</param>
+        <param name="Вес брутто, кг">0,008</param>
+        <param name="Вес нетто, кг">0,008</param>
+        <param name="Габаритные размеры изделия (ШхГхВ), мм">63x3x63</param>
+        <param name="Габариты упаковки (ШхГхВ), мм">63x3x63</param>
+        <param name="Гарантия">6 месяцев</param>
+        <param name="Количество грузовых мест">1</param>
+        <param name="Материал">Резина</param>
+        <param name="Назначение">Ремонт газовых котлов</param>
+        <param name="Серия">Ewa</param>
+        <param name="Совместимость">KM0724300101005901, KM1024000101005911, KM0728350101005911, KM1028000101005911</param>
+        <param name="Страна регистрации бренда">Турция</param>
+        <param name="Страна-производитель">Турция</param>
+        <param name="Тип изделия">Уплотнение</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>13240122</portal_category_id></offer>
       <offer id="Pr42136" available="">
@@ -518777,7 +518806,7 @@ AIM - це відомий завод-виробник, що має високи�
         <personal_price>10.91</personal_price>
         <personal_currency>USD</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>4</main_stock_quantity>
+        <main_stock_quantity>3</main_stock_quantity>
         <name>Муфта РАЗБОРНАЯ нар.резьба Kalde PPR  ф50х1 1/2  13005</name>
         <description>Муфта разборная  полипропиленовая с внешней резьбой «Kalde» 50х1 1/2″&lt;br&gt;&lt;br&gt;&lt;br&gt;Страна производитель – Турция&lt;br&gt;Торговая марка «Kalde»&lt;br&gt;Рабочее давление – PN25 (25 атмосфер )&lt;br&gt;  Муфты разборные полипропиленовые с внешней резьбой «Kalde» это полипропиленовые фитинги, предназначенные для  соединения полипропиленовых труб с другими трубами, запорной арматурой.  Применяются  в системах холодного и горячего водоснабжения. Используются для отопления жилых, административных, а также промышленных зданий, при прокладке трубопроводов.&lt;br&gt;    Разборные муфты «Kalde» универсальны,  то есть  подходят для всех видов полипропиленовых труб от разных производителей, будь то композитные ( армированные алюминиевой фольгой ), армированные стекловолокном или не армированные. &lt;br&gt;&lt;br&gt;Разборная  муфта 50х1 1/2″  полипропиленовая с  внешней  резьбой    «Kalde» &lt;br&gt;&lt;br&gt;Преимущества разборных муфт «Kalde» &lt;br&gt;•-долговечность;&lt;br&gt;•-простота в монтажа;&lt;br&gt;•-надежное герметическое соединение &lt;br&gt;•-химическая устойчивость и устойчивость к коррозии;&lt;br&gt;•-возможность соединения с металлическими элементами;&lt;br&gt;•-экологически безопасны;&lt;br&gt;•-устойчивость к внешнему воздействию и перепадам температур, морозостойкость.</description>
         <param name="Страна происхождения">Турция</param>
@@ -519102,7 +519131,7 @@ AIM - це відомий завод-виробник, що має високи�
         <personal_price>116.41</personal_price>
         <personal_currency>UAH</personal_currency>
         <stock_quantity>0</stock_quantity>
-        <main_stock_quantity>10</main_stock_quantity>
+        <main_stock_quantity>100</main_stock_quantity>
         <name>Труба канализационная VSplast 110х2,7 750мм**</name>
         <description>Труба канализационная VSplast 110х2,7 750мм&lt;br&gt;Назначение - Для внутренней канализации&lt;br&gt;Тип - Труба &lt;br&gt;Диаметр - 110мм&lt;br&gt;Материал - ПП (полипропилен)&lt;br&gt;Длина - 750мм&lt;br&gt;Комплект поставки:    &lt;br&gt;- Труба канализационная&lt;br&gt;- Уплотнительное резиновое кольцо&lt;br&gt;Страна-производитель товара - Украина&lt;br&gt;&lt;br&gt;Высокое качество продукции гарантировано не только качественным сырьем, но и современным автоматизированным оборудованием. &lt;br&gt;Вся продукция изготовлена в соответствии с высокими требованиями европейских стандартов качества и конкурирует с изделиями ведущих мировых производителей.</description>
         <param name="Страна происхождения">Украина</param>
