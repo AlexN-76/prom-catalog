@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-26 07:53">
+<yml_catalog date="2026-11-26 17:59">
   <shop>
     <name>Магазин СантехниК</name>
     <company>565043</company>
@@ -106,8 +106,7 @@
       <category id="150339" parentId="1503">Полки и стелажи</category>
       <category id="151412" parentId="1514">Мусорные ведра</category>
       <category id="153503" parentId="1535">Центральные контроллеры умного дома</category>
-      <category id="153504" parentId="153505">Датчики и извещатели для дома</category>
-      <category id="153505" parentId="1535">Безопасность умного дома</category>
+      <category id="153504" parentId="1535">Датчики и извещатели для дома</category>
       <category id="153708" parentId="1537">Приборы для измерения давления</category>
       <category id="154001" parentId="1540">Ершики для унитаза</category>
       <category id="154003" parentId="1540">Аксессуары для ванных комнат</category>
@@ -36794,7 +36793,7 @@ Lidz Handmade H7849R стане центральним елементом ваш
     <picture>https://images.prom.ua/LxCZ_7kV_bvtxVWoMCCJPswmh9d7-nKZQ_OOBWYr_QU=/5952647115_kran-sharovoj-thermo.jpg</picture>
     <picture>https://images.prom.ua/-s1iX07nFsbEb3iP1r3J1eF28JcwMe2d_XPmQfU0Yzk=/6537521935_kran-sharovoj-thermo.jpg</picture>
     <vendor>Thermo Alliance</vendor>
-    <stock_quantity>32</stock_quantity>
+    <stock_quantity>30</stock_quantity>
     <name>Кран шаровой Thermo Alliance Forte 1 1/2'' ВВ для воды латунный никелированный</name>
     <name_ua>Кран шаровий Thermo Alliance Forte 1 1/2'' ВВ для води латунний нікельований</name_ua>
     <description>&lt;div&gt;&lt;p&gt;Шаровой кран Thermo Alliance Forte 1 1/2'' – это надежный запорный элемент для систем водоснабжения. Изготовлен из высококачественной латуни CW617N, что обеспечивает &lt;strong&gt;устойчивость к коррозии и длительный срок службы&lt;/strong&gt;. Никелевое покрытие дополнительно защищает корпус от воздействия агрессивных сред.&lt;/p&gt;
@@ -208693,30 +208692,32 @@ Lidz Handmade – це втілення польської якості та п�
 &lt;li&gt;Паспорт виробу та гарантійний талон (&lt;strong&gt;гарантія 4 роки&lt;/strong&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Змішувач Millz MRS-AL-F10 — це втілення функціональності, елегантності та довговічності, що дарує справжнє задоволення від щоденних водних процедур.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Бренд&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;MILLZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Призначення змішувача&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для ванни&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал корпусу змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюмінієві сплави&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Чорний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантійний термін&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;4 роки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Одноважільний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Настінний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Емаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поворотний вилив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аератор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Лійка&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тримач для душової лійки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Душовий шланг&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Запірний клапан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Керамічний картридж&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Аэратор">Да</param>
-    <param name="Гарантийный срок" unit="мес">48</param>
-    <param name="Длина шланга" unit="см">150</param>
-    <param name="Душевой шланг">Да</param>
-    <param name="Запорный клапан">Керамический картридж</param>
-    <param name="Цвет">Черный</param>
-    <param name="Количество монтажных отверстий">2</param>
-    <param name="Лейка">Да</param>
-    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
-    <param name="Монтаж">Настенный</param>
-    <param name="Поверхность">Матовая</param>
-    <param name="Поворотный излив">Да</param>
-    <param name="Покрытие">Эмаль</param>
     <param name="Назначение смесителя">Для ванны</param>
-    <param name="Способ монтажа">Вертикальный</param>
-    <param name="Состояние">Новое</param>
-    <param name="Термостат">Нет</param>
     <param name="Тип смесителя (крана)">Однорычажный</param>
-    <param name="Тип присоединения">Гайка</param>
+    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
+    <param name="Покрытие">Эмаль</param>
+    <param name="Цвет">Черный</param>
+    <param name="Поворотный излив">Да</param>
+    <param name="Монтаж">Настенный</param>
+    <param name="Способ монтажа">Вертикальный</param>
+    <param name="Количество монтажных отверстий">2</param>
     <param name="Тип подводки">Жесткая</param>
+    <param name="Запорный клапан">Керамический картридж</param>
+    <param name="Гарантийный срок" unit="мес">48</param>
+    <param name="Состояние">Новое</param>
+    <param name="Тип присоединения">Гайка</param>
+    <param name="Поверхность">Матовая</param>
+    <param name="Аэратор">Да</param>
+    <param name="Лейка">Да</param>
     <param name="Держатель для душевой лейки">Да</param>
+    <param name="Термостат">Нет</param>
+    <param name="Душевой шланг">Да</param>
+    <param name="Длина излива" unit="мм">30</param>
+    <param name="Диаметр керамического картриджа" unit="мм">35</param>
+    <param name="Длина шланга" unit="см">150</param>
     <param name="Материал" unit="">Алюминий</param>
-    <param name="Тип виливу" unit="">довгий поворотний</param>
     <param name="Форма излива" unit="">Традіційна</param>
+    <param name="Тип виливу" unit="">довгий поворотний</param>
   </offer>
   <offer id="2847251345" available="true">
     <article>ТР-00027522</article>
@@ -208735,30 +208736,32 @@ Lidz Handmade – це втілення польської якості та п�
     <name_ua>Змішувач для ванни MILLZ MRS-AL-F10, одноважільний, з довгим поворотним виливом та душовим гарнітуром, алюміній, сірий</name_ua>
     <description>&lt;div&gt;&lt;h2&gt;Изящный стиль и безупречная функциональность: Смеситель для ванны MILLZ MRS-AL-F10 серый алюминий&lt;/h2&gt;&lt;p&gt;Откройте для себя совершенство формы и материала с однорычажным смесителем для ванны MILLZ MRS-AL-F10. Это произведение сантехнического искусства, изготовленное из экологически чистого алюминия, не только придаст вашему интерьеру выразительности, но и гарантирует безопасное использование с питьевой водой. Его элегантный серый цвет и стойкое эмалевое покрытие подчеркнут современный дизайн вашей ванной комнаты.&lt;/p&gt;&lt;h2&gt;Особенности, которые впечатляют:&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Материал премиум-класса:&lt;/strong&gt; Корпус смесителя изготовлен из алюминиевых сплавов, что обеспечивает долговечность и стойкость к коррозии.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Удобное управление:&lt;/strong&gt; Однорычажный переключатель с гладкой овальной ручкой позволяет легко и точно регулировать температуру и напор воды. Интуитивная маркировка горячей и холодной воды добавляет комфорта.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Универсальный излив:&lt;/strong&gt; Длинный поворотный излив прямоугольной формы со встроенным аэратором обеспечивает мягкий, насыщенный воздухом поток воды, предотвращающий разбрызгивание. Аэратор легко чистить или заменить.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Встроенный переключатель:&lt;/strong&gt; Легкое переключение между режимами излива и душевого гарнитура, интегрированное прямо в корпус смесителя.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Полный душевой гарнитур:&lt;/strong&gt; В комплект входит душевой шланг длиной 1,5 м и стильная квадратная лейка с белыми форсунками. Для удобства предусмотрен настенный держатель.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Надежный механизм:&lt;/strong&gt; Картриджный тип запорного клапана гарантирует плавную и бесперебойную работу смесителя на протяжении многих лет.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Легкий монтаж:&lt;/strong&gt; Настенный тип монтажа со всеми необходимыми креплениями (декоративные чаши, эксцентрики, прокладки) для быстрой и простой установки.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Комплектация:&lt;/strong&gt; Смеситель, душевой шланг 1,5 м, душевая лейка, держатель для душа, прокладки, декоративные чаши, эксцентрики, инструкция, гарантийный талон.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Смеситель MILLZ MRS-AL-F10 — это идеальное решение для тех, кто ценит качество, функциональность и элегантный дизайн в своей ванной комнате. Наслаждайтесь расслабляющими водными процедурами и доверьтесь четырехлетней гарантии от производителя.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Бренд&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;MILLZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Страна производитель&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Китай&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Класс товара&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Стандарт&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал корпуса смесителя (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюминиевые сплавы&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Серый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Назначение смесителя&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для ванны&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантийный срок&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;4 года&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип смесителя (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Однорычажный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Настенный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покрытие&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Эмаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поворотный излив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аэратор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Лейка&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Душевой шланг&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина шланга&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1,5 м&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Держатель для душевой лейки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Запорный клапан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Керамический картридж&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
     <description_ua>&lt;div&gt;&lt;h2&gt;Витончений стиль та бездоганна функціональність: Змішувач для ванни MILLZ MRS-AL-F10 сірий алюміній&lt;/h2&gt;&lt;p&gt;Відкрийте для себе досконалість форми та матеріалу з одноважільним змішувачем для ванни MILLZ MRS-AL-F10. Цей витвір сантехнічного мистецтва, виготовлений з екологічно чистого алюмінію, не лише додасть вашому інтер'єру виразності, а й гарантує безпечне використання з питною водою. Його елегантний сірий колір та стійке емалеве покриття підкреслять сучасний дизайн вашої ванної кімнати.&lt;/p&gt;&lt;h2&gt;Особливості, що вражають:&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Матеріал преміум-класу:&lt;/strong&gt; Корпус змішувача виготовлений з алюмінієвих сплавів, що забезпечує довговічність та стійкість до корозії.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Зручне керування:&lt;/strong&gt; Одноричажний перемикач з гладкою овальною ручкою дозволяє легко та точно регулювати температуру й напір води. Інтуїтивне маркування гарячої та холодної води додає комфорту.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Універсальний вилив:&lt;/strong&gt; Довгий поворотний вилив прямокутної форми з вбудованим аератором забезпечує м'який, насичений повітрям потік води, що запобігає розбризкуванню. Аератор легко чистити або замінити.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Вбудований перемикач:&lt;/strong&gt; Легке перемикання між режимами виливу та душового гарнітуру, інтегроване прямо в корпус змішувача.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Повний душовий гарнітур:&lt;/strong&gt; У комплект входить душовий шланг довжиною 1,5 м та стильна квадратна лійка з білими форсунками. Для зручності передбачений настінний тримач.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Надійний механізм:&lt;/strong&gt; Картриджний тип запірного клапана гарантує плавну та безперебійну роботу змішувача протягом багатьох років.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Легкий монтаж:&lt;/strong&gt; Настінний тип монтажу з усіма необхідними кріпленнями (декоративні чаші, ексцентрики, прокладки) для швидкої та простої установки.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Комплектація:&lt;/strong&gt; Змішувач, душовий шланг 1,5 м, душова лійка, тримач для душу, прокладки, декоративні чаші, ексцентрики, інструкція, гарантійний талон.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Змішувач MILLZ MRS-AL-F10 — це ідеальне рішення для тих, хто цінує якість, функціональність та елегантний дизайн у своїй ванній кімнаті. Насолоджуйтесь розслабляючими водними процедурами та довіртеся чотирирічній гарантії від виробника.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Бренд&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;MILLZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Країна виробник&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Китай&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Класc товару&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Стандарт&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал корпусу змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюмінієві сплави&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сірий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Призначення змішувача&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для ванни&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантійний термін&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;4 роки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Одноважільний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Настінний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Емаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поворотний вилив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аератор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Лійка&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Душовий шланг&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина шланга&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1,5 м&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тримач для душової лійки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Запірний клапан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Керамічний картридж&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Аэратор">Да</param>
-    <param name="Гарантийный срок" unit="мес">48</param>
-    <param name="Длина шланга" unit="см">150</param>
-    <param name="Душевой шланг">Да</param>
-    <param name="Запорный клапан">Керамический картридж</param>
-    <param name="Цвет">Серый</param>
-    <param name="Количество монтажных отверстий">2</param>
-    <param name="Лейка">Да</param>
-    <param name="Материал">Силумин</param>
-    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
-    <param name="Монтаж">Настенный</param>
-    <param name="Поверхность">Матовая</param>
-    <param name="Поворотный излив">Да</param>
-    <param name="Покрытие">Эмаль</param>
     <param name="Назначение смесителя">Для ванны</param>
-    <param name="Способ монтажа">Вертикальный</param>
-    <param name="Состояние">Новое</param>
-    <param name="Термостат">Нет</param>
     <param name="Тип смесителя (крана)">Однорычажный</param>
-    <param name="Тип присоединения">Гайка</param>
+    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
+    <param name="Покрытие">Эмаль</param>
+    <param name="Цвет">Серый</param>
+    <param name="Поворотный излив">Да</param>
+    <param name="Монтаж">Настенный</param>
+    <param name="Способ монтажа">Вертикальный</param>
+    <param name="Количество монтажных отверстий">2</param>
     <param name="Тип подводки">Жесткая</param>
+    <param name="Запорный клапан">Керамический картридж</param>
+    <param name="Гарантийный срок" unit="мес">48</param>
+    <param name="Состояние">Новое</param>
+    <param name="Тип присоединения">Гайка</param>
+    <param name="Поверхность">Матовая</param>
+    <param name="Материал">Силумин</param>
+    <param name="Аэратор">Да</param>
+    <param name="Лейка">Да</param>
     <param name="Держатель для душевой лейки">Да</param>
-    <param name="Тип виливу" unit="">довгий поворотний</param>
+    <param name="Термостат">Нет</param>
+    <param name="Душевой шланг">Да</param>
+    <param name="Длина излива" unit="мм">30</param>
+    <param name="Диаметр керамического картриджа" unit="мм">35</param>
+    <param name="Длина шланга" unit="см">150</param>
     <param name="Форма излива" unit="">Традіційна</param>
+    <param name="Тип виливу" unit="">довгий поворотний</param>
   </offer>
   <offer id="2847251346" available="true">
     <article>ТР-00027523</article>
@@ -208776,30 +208779,32 @@ Lidz Handmade – це втілення польської якості та п�
     <name_ua>Змішувач для ванни Millz MRS-AL-F10, одноважільний, з довгим поворотним виливом та душовим гарнітуром, алюміній, сріблястий</name_ua>
     <description>&lt;div&gt;&lt;h2&gt;Элегантность и Функциональность в Каждой Детали&lt;/h2&gt;&lt;p&gt;Смеситель для ванны Millz MRS-AL-F10 в серебристом цвете — это воплощение современного дизайна и безупречной функциональности, гармонично дополняющее интерьер вашей ванной комнаты. Изготовленный из экологически чистого алюминия, этот смеситель не только выглядит стильно, но и абсолютно безопасен для использования с питьевой водой. Стойкое покрытие серебристого цвета придает ему изысканности, а удлиненная прямоугольная форма корпуса подчеркивает его современный характер.&lt;/p&gt;&lt;h2&gt;Безупречное Управление и Комфорт&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Простая Регулировка:&lt;/strong&gt; Однорычажный переключатель с гладкой овальной ручкой позволяет с легкостью регулировать температуру и напор воды. Удобная маркировка холодной и горячей воды обеспечивает интуитивное использование.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Поворотный Излив:&lt;/strong&gt; Длинный поворотный излив прямоугольной формы со встроенным аэратором создает комфортный и равномерный поток воды, минимизируя разбрызгивание.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Душевой Гарнитур в Комплекте:&lt;/strong&gt; Смеситель оснащен интегрированным переключателем, позволяющим легко переключаться между изливом и душевой лейкой. Комплект включает прямой силиконовый шланг длиной 1.5 м и квадратную лейку с белыми форсунками, которые обеспечивают приятный душ. Для удобства предусмотрен настенный держатель для лейки.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Надежный Механизм:&lt;/strong&gt; Картриджный механизм гарантирует плавную и бесперебойную работу смесителя в течение длительного времени.&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Полная Комплектация и Легкий Монтаж&lt;/h2&gt;&lt;p&gt;Монтаж смесителя Millz MRS-AL-F10 осуществляется на вертикальную поверхность. В комплект поставки входят все необходимые элементы для быстрой и простой установки:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Душевой шланг (1.5 м)&lt;/li&gt;&lt;li&gt;Лейка для душа&lt;/li&gt;&lt;li&gt;Держатель для душа&lt;/li&gt;&lt;li&gt;Прокладки&lt;/li&gt;&lt;li&gt;Декоративные чаши&lt;/li&gt;&lt;li&gt;Эксцентрики&lt;/li&gt;&lt;li&gt;Инструкция и гарантийный талон&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Смеситель аккуратно упакован в защитный мешочек для предотвращения царапин, а весь комплект поставляется в прочной картонной коробке. На товар предоставляется официальная гарантия 4 года.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Бренд&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;MILLZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантийный срок&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;4 года&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Серебристый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поверхность&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Глянцевая&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Назначение смесителя&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для ванны&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип смесителя (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Однорычажный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Настенный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал корпуса смесителя (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюминиевые сплавы&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поворотный излив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аэратор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Лейка&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Держатель для душевой лейки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покрытие&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Эмаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина шланга&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;150 см&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Запорный клапан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Керамический картридж&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
     <description_ua>&lt;div&gt;&lt;h2&gt;Елегантність та Функціональність у Кожній Деталі&lt;/h2&gt;&lt;p&gt;Змішувач для ванни Millz MRS-AL-F10 у сріблястому кольорі — це втілення сучасного дизайну та бездоганної функціональності, що гармонійно доповнить інтер'єр вашої ванної кімнати. Виготовлений з екологічно чистого алюмінію, цей змішувач не тільки має стильний вигляд, але й є абсолютно безпечним для використання з питною водою. Стійке покриття срібного кольору надає йому вишуканості, а видовжена прямокутна форма корпусу підкреслює його сучасний характер.&lt;/p&gt;&lt;h2&gt;Бездоганне Керування та Комфорт&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Просте Регулювання:&lt;/strong&gt; Одноважільний перемикач з гладкою овальною ручкою дозволяє з легкістю регулювати температуру та напір води. Зручне маркування холодної та гарячої води забезпечує інтуїтивне використання.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Поворотний Вилив:&lt;/strong&gt; Довгий поворотний вилив прямокутної форми з вбудованим аератором створює комфортний та рівномірний потік води, мінімізуючи розбризкування.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Душовий Гарнітур у Комплекті:&lt;/strong&gt; Змішувач оснащений інтегрованим перемикачем, що дозволяє легко перемикатися між виливом та душовою лійкою. Комплект включає прямий силіконовий шланг довжиною 1.5 м та квадратну лійку з білими форсунками, які забезпечують приємний душ. Для зручності передбачений настінний тримач для лійки.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Надійний Механізм:&lt;/strong&gt; Картриджний механізм гарантує плавну та безперебійну роботу змішувача протягом тривалого часу.&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Повна Комплектація та Легкий Монтаж&lt;/h2&gt;&lt;p&gt;Монтаж змішувача Millz MRS-AL-F10 здійснюється на вертикальну поверхню. У комплект поставки входять усі необхідні елементи для швидкої та простої установки:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Душовий шланг (1.5 м)&lt;/li&gt;&lt;li&gt;Лійка для душу&lt;/li&gt;&lt;li&gt;Тримач для душу&lt;/li&gt;&lt;li&gt;Прокладки&lt;/li&gt;&lt;li&gt;Декоративні чаші&lt;/li&gt;&lt;li&gt;Ексцентрики&lt;/li&gt;&lt;li&gt;Інструкція та гарантійний талон&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Змішувач акуратно упакований у захисний мішечок для запобігання подряпинам, а весь комплект постачається у міцній картонній коробці. На товар надається офіційна гарантія 4 роки.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Бренд&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;MILLZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантійний термін&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;4 роки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Сріблястий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поверхня&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Глянцева&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Призначення змішувача&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для ванни&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Одноважільний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Настінний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал корпусу змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюмінієві сплави&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поворотний вилив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аератор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Лійка&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тримач для душової лійки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Емаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина шланга&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;150 см&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Запірний клапан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Керамічний картридж&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Аэратор">Да</param>
-    <param name="Гарантийный срок" unit="мес">48</param>
-    <param name="Длина шланга" unit="см">150</param>
-    <param name="Душевой шланг">Да</param>
-    <param name="Запорный клапан">Керамический картридж</param>
-    <param name="Цвет">Серебристый</param>
-    <param name="Количество монтажных отверстий">2</param>
-    <param name="Лейка">Да</param>
-    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
-    <param name="Монтаж">Настенный</param>
-    <param name="Поверхность">Матовая</param>
-    <param name="Поворотный излив">Да</param>
-    <param name="Покрытие">Эмаль</param>
     <param name="Назначение смесителя">Для ванны</param>
-    <param name="Способ монтажа">Вертикальный</param>
-    <param name="Состояние">Новое</param>
-    <param name="Термостат">Нет</param>
     <param name="Тип смесителя (крана)">Однорычажный</param>
-    <param name="Тип присоединения">Гайка</param>
+    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
+    <param name="Покрытие">Эмаль</param>
+    <param name="Цвет">Серебристый</param>
+    <param name="Поворотный излив">Да</param>
+    <param name="Монтаж">Настенный</param>
+    <param name="Способ монтажа">Вертикальный</param>
+    <param name="Количество монтажных отверстий">2</param>
     <param name="Тип подводки">Жесткая</param>
+    <param name="Запорный клапан">Керамический картридж</param>
+    <param name="Гарантийный срок" unit="мес">48</param>
+    <param name="Состояние">Новое</param>
+    <param name="Тип присоединения">Гайка</param>
+    <param name="Поверхность">Матовая</param>
+    <param name="Аэратор">Да</param>
+    <param name="Лейка">Да</param>
     <param name="Держатель для душевой лейки">Да</param>
+    <param name="Термостат">Нет</param>
+    <param name="Душевой шланг">Да</param>
+    <param name="Длина излива" unit="мм">30</param>
+    <param name="Диаметр керамического картриджа" unit="мм">35</param>
+    <param name="Длина шланга" unit="см">150</param>
     <param name="Материал" unit="">Алюминий</param>
-    <param name="Тип виливу" unit="">довгий поворотний</param>
     <param name="Форма излива" unit="">Традіційна</param>
+    <param name="Тип виливу" unit="">довгий поворотний</param>
   </offer>
   <offer id="2847251347" available="true">
     <article>ТР-00027524</article>
@@ -208870,30 +208875,32 @@ Lidz Handmade – це втілення польської якості та п�
 &lt;li&gt;Гарантійний талон&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Змішувач надійно упакований у білий мішечок для запобігання подряпинам, а весь комплект постачається у міцній картонній коробці. На товар надається гарантія 4 роки, що свідчить про високу якість та надійність продукції Millz.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Бренд&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;MILLZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Країна виробник&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Китай&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Призначення змішувача&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для ванни&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Клас товару&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Стандарт&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал корпусу змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Алюмінієві сплави&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Золото&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантійний термін&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;4 роки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Одноважільний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Настінний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Емаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина виливу&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Довгий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поворотний вилив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аератор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Лійка&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Душовий шланг&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тримач для душової лійки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Запірний клапан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Керамічний картридж&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Поверхня&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Глянцева&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Форма виливу&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Традиційна&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип підводки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Жорстка&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Аэратор">Да</param>
-    <param name="Гарантийный срок" unit="мес">48</param>
-    <param name="Длина шланга" unit="см">150</param>
-    <param name="Душевой шланг">Да</param>
-    <param name="Запорный клапан">Керамический картридж</param>
-    <param name="Цвет">Золото</param>
-    <param name="Количество монтажных отверстий">2</param>
-    <param name="Лейка">Да</param>
-    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
-    <param name="Монтаж">Настенный</param>
-    <param name="Поверхность">Глянцевая</param>
-    <param name="Поворотный излив">Да</param>
-    <param name="Покрытие">Эмаль</param>
     <param name="Назначение смесителя">Для ванны</param>
-    <param name="Способ монтажа">Вертикальный</param>
-    <param name="Состояние">Новое</param>
-    <param name="Термостат">Нет</param>
     <param name="Тип смесителя (крана)">Однорычажный</param>
-    <param name="Тип присоединения">Гайка</param>
+    <param name="Материал корпуса смесителя (крана)">Алюминиевые сплавы</param>
+    <param name="Покрытие">Эмаль</param>
+    <param name="Цвет">Золото</param>
+    <param name="Поворотный излив">Да</param>
+    <param name="Монтаж">Настенный</param>
+    <param name="Способ монтажа">Вертикальный</param>
+    <param name="Количество монтажных отверстий">2</param>
     <param name="Тип подводки">Жесткая</param>
+    <param name="Запорный клапан">Керамический картридж</param>
+    <param name="Гарантийный срок" unit="мес">48</param>
+    <param name="Состояние">Новое</param>
+    <param name="Тип присоединения">Гайка</param>
+    <param name="Поверхность">Глянцевая</param>
+    <param name="Аэратор">Да</param>
+    <param name="Лейка">Да</param>
     <param name="Держатель для душевой лейки">Да</param>
+    <param name="Термостат">Нет</param>
+    <param name="Душевой шланг">Да</param>
+    <param name="Длина излива" unit="мм">30</param>
+    <param name="Диаметр керамического картриджа" unit="мм">35</param>
+    <param name="Длина шланга" unit="см">150</param>
     <param name="Материал" unit="">Алюминий</param>
-    <param name="Тип виливу" unit="">довгий поворотний</param>
     <param name="Форма излива" unit="">Традіційна</param>
+    <param name="Тип виливу" unit="">довгий поворотний</param>
   </offer>
   <offer id="2847251348" available="true">
     <article>ТР-00027525</article>
@@ -208932,6 +208939,8 @@ Lidz Handmade – це втілення польської якості та п�
     <param name="Держатель для душевой лейки">Да</param>
     <param name="Термостат">Нет</param>
     <param name="Душевой шланг">Да</param>
+    <param name="Длина излива" unit="мм">30</param>
+    <param name="Диаметр керамического картриджа" unit="мм">35</param>
     <param name="Длина шланга" unit="см">150</param>
     <param name="Материал" unit="">Алюминий</param>
     <param name="Форма излива" unit="">Традіційна</param>
@@ -244760,7 +244769,7 @@ Lidz Handmade – це втілення польської якості та п�
     <picture>https://images.prom.ua/-qVhCVgkNXjcFvpsOXLmeWZXXzt-9AE3F-0MhXIpUDE=/7258751258_tsirkulyatsionnyj-nasos-thermo.jpg</picture>
     <picture>https://images.prom.ua/5NRZcRyVfmFRe7BIZdIIkRsxQKMo_JaAUm50pZXQ150=/7258751690_tsirkulyatsionnyj-nasos-thermo.jpg</picture>
     <vendor>Thermo Alliance</vendor>
-    <stock_quantity>13</stock_quantity>
+    <stock_quantity>12</stock_quantity>
     <name>Циркуляционный насос Thermo Alliance LPS 25/60/180 для отопления, медная обмотка</name>
     <name_ua>Циркуляційний насос Thermo Alliance LPS 25/60/180 для опалення, мідна обмотка</name_ua>
     <description>&lt;div&gt;&lt;p&gt;Циркуляционный насос Thermo Alliance LPS 25/60/180 – это важная составляющая системы отопления с принудительной циркуляцией теплоносителя. Использование насоса позволяет избежать установки котла в самой нижней точке системы отопления, а также потребности в больших диаметрах трубопроводов, как в системах с естественной циркуляцией.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Основные преимущества&lt;/strong&gt; насоса Thermo Alliance LPS 25/60/180: &lt;strong&gt;три режима работы&lt;/strong&gt;, &lt;strong&gt;гайки в комплекте&lt;/strong&gt; для быстрого монтажа, а также &lt;strong&gt;катафорезное покрытие насосной камеры&lt;/strong&gt;, которое обеспечивает защиту от коррозии и продлевает срок эксплуатации. Обмотка статора изготовлена из &lt;strong&gt;меди&lt;/strong&gt;, что гарантирует надежность и эффективность работы.&lt;/p&gt;&lt;p&gt;Насос предназначен для использования в системах отопления и кондиционирования, обеспечивая стабильную и эффективную циркуляцию жидкости. Он имеет максимальный напор 6 метров и максимальную производительность 65 л/мин.&lt;/p&gt;&lt;p&gt;В комплекте с насосом поставляются гайки для подключения, инструкция и гарантийный талон. Гарантия на гидравлическую часть составляет 12 месяцев, а на электродвигатель – 36 месяцев.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Вид насоса&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Циркуляционный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Потребляемая мощность&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;100-67-46 Вт&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Максимальный напор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;6 м&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Пропускная способность&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;65 л/мин&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Качество воды&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Чистый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Минимальная температура рабочей жидкости&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;-10 °C&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Максимальная температура рабочей жидкости&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;110 °C&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Напряжение сети&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;220~240 В&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантийный срок&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;36 мес&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Страна-производитель&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Китай&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
@@ -245126,7 +245135,7 @@ Lidz Handmade – це втілення польської якості та п�
     <picture>https://images.prom.ua/gW3NNPivR-MQTgR59kF7cnKjlOayAHRg2sbfiw63yfE=/7258751625_tsirkulyatsionnyj-nasos-thermo.jpg</picture>
     <picture>https://images.prom.ua/iBx5oDl7btB1JDg4pV6kzFMATtaNwZm5VIBKWHbWjAk=/7258752926_tsirkulyatsionnyj-nasos-thermo.jpg</picture>
     <vendor>Thermo Alliance</vendor>
-    <stock_quantity>16</stock_quantity>
+    <stock_quantity>14</stock_quantity>
     <name>Циркуляционный насос Thermo Alliance LPS 32/60/180 для отопления, медная обмотка</name>
     <name_ua>Циркуляційний насос Thermo Alliance LPS 32/60/180 для опалення, мідна обмотка</name_ua>
     <description>&lt;div&gt;&lt;p&gt;Циркуляционный насос &lt;strong&gt;Thermo Alliance LPS 32/60/180&lt;/strong&gt; - это важная часть системы отопления с принудительной циркуляцией теплоносителя. Он позволяет отказаться от установки котла в нижней точке системы и использования труб большого диаметра, как в системах с естественной циркуляцией.&lt;/p&gt;&lt;p&gt;Насос &lt;strong&gt;Thermo Alliance&lt;/strong&gt; подходит для использования в различных системах отопления и кондиционирования. Имеет &lt;strong&gt;три режима работы&lt;/strong&gt; для оптимальной настройки под нужды системы. Насосная камера имеет &lt;strong&gt;катафорезное покрытие&lt;/strong&gt; для защиты от коррозии и увеличения срока службы.&lt;/p&gt;&lt;p&gt;Корпус насоса изготовлен из &lt;strong&gt;чугуна&lt;/strong&gt;, обмотка статора - из &lt;strong&gt;меди&lt;/strong&gt;, что гарантирует надежность и долговечность. В комплект входят &lt;strong&gt;гайки&lt;/strong&gt; для удобного подключения.&lt;/p&gt;&lt;p&gt;Основные характеристики: максимальный напор - &lt;strong&gt;6 метров&lt;/strong&gt;, максимальный расход - &lt;strong&gt;65 л/мин&lt;/strong&gt;. Допустимая температура жидкости - от -10 до +110 °C. Питание - 220/230 В. Мощность - 46-100 Вт.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Потребляемая мощность&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;46-100 Вт&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Вес&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;3,3 кг&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантийный термин&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;36 месяцев на двигатель, 12 месяцев на гидравлическую часть&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ширина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;125 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Высота&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;125 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;180 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал корпуса&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Чугун&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Напряжение сети&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;220~240 В&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Максимальный напор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;6 м&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Минимальная температура рабочей жидкости&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;-10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Максимальная температура рабочей жидкости&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;110&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Качество воды&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Чистый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Диаметр разъема соединения&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;2"&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Вид насоса&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Циркуляционный&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Количество скоростей&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Способ установки насоса&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Поверхностный&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
@@ -319459,7 +319468,7 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <picture>https://images.prom.ua/io5XDa_rgym8F5vKW0SqCA89hhCWOh1nrzH6xMjrVDY=/7701326981_koaksialnyj-udlinitel-thermo.jpg</picture>
     <picture>https://images.prom.ua/8pphrL-4pp7p0NYT2YeBHa1y4uHLv5ypJNAIWDbW17A=/7543016354_koaksialnyj-udlinitel-thermo.jpg</picture>
     <vendor>Thermo Alliance</vendor>
-    <stock_quantity>99</stock_quantity>
+    <stock_quantity>98</stock_quantity>
     <name>Коаксиальный удлинитель Thermo Alliance 500 мм 60/90 для турбированных газовых колонок (SD00053463)</name>
     <name_ua>Коаксіальний подовжувач Thermo Alliance 500 мм 60/90 для турбованих газових колонок (SD00053463)</name_ua>
     <description>&lt;div&gt;&lt;h2&gt;Премиальное решение для безопасного отвода газов&lt;/h2&gt;&lt;p&gt;Коаксиальный удлинитель &lt;strong&gt;Thermo Alliance 500 мм, 60/90&lt;/strong&gt; (арт. SD00053463) — это высококачественный компонент дымоходной системы, разработанный специально для турбированных газовых водонагревателей. Изделие обеспечивает эффективный и безопасный отвод продуктов сгорания за пределы помещения, гарантируя стабильную работу оборудования.&lt;/p&gt;&lt;h2&gt;Надежность материалов и долговечность&lt;/h2&gt;&lt;p&gt;Изготовленный из прочной нержавеющей стали премиум-класса, удлинитель устойчив к коррозии, перепадам температур и агрессивному воздействию конденсата. Использование качественных материалов продлевает срок службы всей системы и обеспечивает безупречную герметичность соединений.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Длина трубы: 500 мм&lt;/li&gt;&lt;li&gt;Стандарт подключения: 60/90 мм&lt;/li&gt;&lt;li&gt;Материал изготовления: Нержавеющая сталь&lt;/li&gt;&lt;li&gt;Совместимость: Турбированные газовые колонки (включая модель JSG2010ETP18SILVER)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Выбирая продукцию Thermo Alliance, вы получаете надежность, проверенную временем, и стандарты безопасности для вашего дома.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Бренд&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Thermo Alliance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал димаря&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавеющая сталь&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Диаметр дымохода&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;60/90 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гарантийный срок&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;12 месяцев&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Страна-производитель&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Китай&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Страна регистрации бренда&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Украина&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Состояние&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Новый&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
@@ -331598,25 +331607,29 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <price>3878</price>
     <currencyId>UAH</currencyId>
     <categoryId>130103</categoryId>
-    <picture>https://images.prom.ua/kfn_hcEzw-Jhs-eNhvYn4ylUui1OdCoudX-Apeb1g6c=/7750194814_kuhonnyj-smesitel-valeso.jpg</picture>
+    <picture>https://images.prom.ua/KGKYEOsSgYUwyJbILHZ4hs-CfTljJAOEB14ia7Ut8oY=/7924395287_kuhonnyj-smesitel-valeso.jpg</picture>
+    <picture>https://images.prom.ua/r_iqmqynXL3tLbj8Ru66gTQrpImc0-R7ryL-IaY8Vp8=/7924395965_kuhonnyj-smesitel-valeso.jpg</picture>
+    <picture>https://images.prom.ua/y4qNXtzqKi8bHJlxslK5jCr8mMfsMKSCuymp_ivjOdU=/7924396283_kuhonnyj-smesitel-valeso.jpg</picture>
+    <picture>https://images.prom.ua/e_C293Yi60Y-fNM3tkuv8yub03ZnFePQwZub8ErUNPg=/7924396741_kuhonnyj-smesitel-valeso.jpg</picture>
+    <picture>https://images.prom.ua/FDecbAkTpTiSSNWnHQe6pHFGMFTPsjtJ38AtZGDhEdk=/7924397140_kuhonnyj-smesitel-valeso.jpg</picture>
     <stock_quantity>56</stock_quantity>
-    <name>Кухонный смеситель VALESO NES-53 с магнитным держателем и белым гибким изливом SP000054013</name>
-    <name_ua>Кухонний змішувач VALESO NES-53 з магнітним тримачем та білим гнучким виливом SP000054013</name_ua>
+    <name>Кухонный смеситель VALESO NES-53 с магнитным держателем и черным гибким изливом SP000054013</name>
+    <name_ua>Кухонний змішувач VALESO NES-53 з магнітним тримачем та чорним гнучким виливом SP000054013</name_ua>
     <description>&lt;div&gt;&lt;h2&gt;Стильный и функциональный смеситель для вашей кухни&lt;/h2&gt;&lt;p&gt;Обновите рабочую зону возле мойки с помощью современного кухонного смесителя VALESO NES-53. Эргономичная конструкция с гибким белым изливом и практичным магнитным держателем позволяет легко направлять струю воды в нужную зону, делая ежедневное мытье посуды и продуктов значительно удобнее.&lt;/p&gt;&lt;p&gt;Корпус модели выполнен в белом цвете с эмалевым покрытием, что идеально сочетается со светлыми столешницами и кухонными мойками. Продуманная высота до аэратора обеспечивает достаточно пространства для удобного наполнения высоких емкостей.&lt;/p&gt;&lt;strong&gt;Преимущества модели:&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;удобный гибкий излив для максимального радиуса действия;&lt;/li&gt;&lt;li&gt;надежный магнитный держатель для фиксации лейки;&lt;/li&gt;&lt;li&gt;современный белый цвет и эмалевое покрытие;&lt;/li&gt;&lt;li&gt;корпус из нержавеющей стали для долговечности;&lt;/li&gt;&lt;li&gt;простой уход и элегантный внешний вид.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектация:&lt;/strong&gt; кухонный смеситель VALESO NES-53 с магнитным держателем. Этот элегантный прибор станет отличным дополнением интерьера и обеспечит комфорт на вашей кухне на каждый день.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покрытие&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Эмаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Цвет&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Белый&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Состояние&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Новое&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Материал корпуса смесителя (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавеющая сталь&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Высота&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;410 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Назначение смесителя&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для кухонной мойки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип подводки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Гибкая&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Длина излива&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;215 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Высота излива&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;200 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гибкий излив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
     <description_ua>&lt;div&gt;&lt;h2&gt;Стильний та функціональний змішувач для вашої кухні&lt;/h2&gt;&lt;p&gt;Оновіть пробіл біля мийки за допомогою сучасного кухонного змішувача VALESO NES-53. Ергономічна конструкція з гнучким білим виливом та практичним магнітним тримачем дозволяє легко спрямовувати струмінь води у потрібну зону, роблячи щоденне миття посуду та продуктів значно зручнішим.&lt;/p&gt;&lt;p&gt;Корпус моделі виконаний у білому кольорі з емалевим покриттям, що ідеально пасує до світлих стільниць та кухонних мийок. Продумана висота до аэратора забезпечує достатньо простору для зручного наповнення високих ємностей.&lt;/p&gt;&lt;strong&gt;Переваги моделі:&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;зручний гнучкий вилив для максимального радіуса дії;&lt;/li&gt;&lt;li&gt;надійний магнітний тримач для фіксації лійки;&lt;/li&gt;&lt;li&gt;сучасний білий колір та емалеве покриття;&lt;/li&gt;&lt;li&gt;корпус із нержавіючої сталі для довговічності;&lt;/li&gt;&lt;li&gt;простий догляд та елегантний зовнішній вигляд.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Комплектація:&lt;/strong&gt; кухонний змішувач VALESO NES-53 із магнітним тримачем. Цей елегантний прилад стане чудовим доповненням інтер'єру та забезпечить комфорт на вашій кухні на щодень.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Емаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Колір&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Білий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Стан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Новий&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Матеріал корпусу змішувача (крана)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Нержавіюча сталь&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Висота&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;410 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Призначення змішувача&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Для кухонної мийки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Тип підводки&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Гнучка&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Довжина виливу&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;215 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Висота виливу&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;200 мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Гнучкий вилив&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Высота" unit="мм">410</param>
-    <param name="Высота излива" unit="мм">200</param>
-    <param name="Гибкий излив">Да</param>
-    <param name="Длина излива" unit="мм">215</param>
-    <param name="Цвет">Белый</param>
-    <param name="Материал корпуса смесителя (крана)">Нержавеющая сталь</param>
-    <param name="Поверхность">Матовая</param>
-    <param name="Поворотный излив">Да</param>
-    <param name="Покрытие">Эмаль</param>
     <param name="Назначение смесителя">Для кухонной мойки</param>
-    <param name="Состояние">Новое</param>
     <param name="Тип смесителя (крана)">Однорычажный</param>
+    <param name="Материал корпуса смесителя (крана)">Нержавеющая сталь</param>
+    <param name="Покрытие">Эмаль</param>
+    <param name="Цвет">Белый</param>
+    <param name="Поворотный излив">Да</param>
     <param name="Тип подводки">Гибкая</param>
+    <param name="Состояние">Новое</param>
+    <param name="Гибкий излив">Да</param>
+    <param name="Поверхность">Матовая</param>
+    <param name="Длина излива" unit="мм">215</param>
+    <param name="Высота излива" unit="мм">200</param>
+    <param name="Высота" unit="мм">410</param>
   </offer>
   <offer id="3214423842" available="true">
     <article>SP000054014</article>
@@ -373327,42 +373340,57 @@ Lidz Handmade Max 500 – це не просто мийка, це централ
     <name_ua>Змішувач пластиковий для кухні PLAMIX CEZAR-017 білий з гнучким виливом, аератором і підводкою PM0743</name_ua>
     <description>&lt;div&gt;&lt;h2&gt;Современный смеситель для вашей кухни&lt;/h2&gt;&lt;p&gt;Обновите свою кухню с помощью стильного и практичного однорычажного смесителя PLAMIX CEZAR-017 в изящном белом исполнении. Эта модель гармонично сочетает современный дизайн и высокую функциональность, превращая ежедневное мытье посуды и продуктов в комфортный процесс. Врезной монтаж позволяет аккуратно установить изделие на мойку или столешницу, обеспечивая надежность фиксации и эстетичный вид рабочей зоны.&lt;/p&gt;&lt;p&gt;Высокий гибкий силиконовый излив позволяет легко направлять струю воды в любую точку раковины, что крайне удобно во время мытья габаритной посуды или наполнения емкостей большого объема. Плавное управление одной рукой гарантирует точную настройку температуры и напора воды благодаря надежному керамическому картриджу диаметром 35 мм.&lt;/p&gt;&lt;strong&gt;Преимущества модели PLAMIX CEZAR-017:&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Гибкий белый силиконовый излив для максимального радиуса действия и удобства.&lt;/li&gt;&lt;li&gt;Однорычажное управление позволяет быстро регулировать воду одной рукой.&lt;/li&gt;&lt;li&gt;Врезной тип монтажа обеспечивает легкую и надежную установку на кухонную мойку.&lt;/li&gt;&lt;li&gt;Встроенный аэратор делает струю мягче и равномернее, помогая рационально использовать воду.&lt;/li&gt;&lt;li&gt;Комплект с гибкой подводкой длиной 50 см и крепежными элементами для быстрого подключения.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;В комплект поставки входят: смеситель, гибкая подводка, аэратор и крепежный элемент. Этот сбалансированный набор обеспечивает все необходимое для монтажа и комфортного использования сразу после установки.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технические характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Врезной&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Шланг для подключения к водопроводу&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аэратор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Да&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покрытие&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Эмаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Состояние&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Новое&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description>
     <description_ua>&lt;div&gt;&lt;h2&gt;Сучасний змішувач для вашої кухні&lt;/h2&gt;&lt;p&gt;Оновіть свою кухню за допомогою стильного та практичного одноважільного змішувача PLAMIX CEZAR-017 у витонченому білому кольорі. Ця модель гармонійно поєднує сучасний дизайн і високу функціональність, перетворюючи щоденне миття посуду та продуктів на комфортний процес. Врізний монтаж дозволяє акуратно встановити виріб на мийку або стільницю, забезпечуючи надійність фіксації та естетичний вигляд робочої зони.&lt;/p&gt;&lt;p&gt;Високий гнучкий силіконовий вилив дає змогу легко спрямовувати струмінь води в будь-яку точку раковини, що надзвичайно зручно під час миття габаритного посуду чи наповнення ємностей великого об'єму. Плавне керування однією рукою гарантує точне налаштування температури та напору води завдяки надійному керамічному картриджу діаметром 35 мм.&lt;/p&gt;&lt;strong&gt;Переваги моделі PLAMIX CEZAR-017:&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Гнучкий білий силіконовий вилив для максимального радіуса дії та зручності.&lt;/li&gt;&lt;li&gt;Одноважільно-важільне керування дозволяє швидко регулювати воду однією рукою.&lt;/li&gt;&lt;li&gt;Врізний тип монтажу забезпечує легке та надійне встановлення на кухонну мийку.&lt;/li&gt;&lt;li&gt;Вбудований аератор робить струмінь м'якшим і рівномірнішим, допомагаючи раціонально використовувати воду.&lt;/li&gt;&lt;li&gt;Комплект із гнучкою підводкою довжиною 50 см та елементами кріплення для швидкого підключення.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;У комплект постачання входять: змішувач, гнучка підводка, аератор та елемент кріплення. Цей збалансований набір забезпечує все необхідне для монтажу та комфортного користування одразу після встановлення.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Технічні характеристики:&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Монтаж&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Врізний&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Шланг для підключення до водопроводу&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Аератор&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Так&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Покриття&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Емаль&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Стан&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Новий&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</description_ua>
-    <param name="Аэратор">Да</param>
-    <param name="Монтаж">Врезной</param>
+    <param name="Назначение смесителя">Для кухонной мойки</param>
+    <param name="Тип смесителя (крана)">Однорычажный</param>
+    <param name="Материал корпуса смесителя (крана)">Пластик</param>
     <param name="Покрытие">Эмаль</param>
-    <param name="Состояние">Новое</param>
-    <param name="Шланг для подключения к водопроводу">Да</param>
     <param name="Цвет">Белый</param>
-    <param name="MAX різниця тиску гарячої та холодної води (бар)" unit="">1,50</param>
-    <param name="Вага ящ." unit="">10.83</param>
-    <param name="Вид изделия" unit="">Змішувачі для кухні високі з гнучким виливом</param>
-    <param name="Гарантія на деталі змішувача (міс)" unit="">12</param>
-    <param name="Гарантія на корпус змішувача (міс)" unit="">24</param>
-    <param name="Група товару" unit="">Змішувачі</param>
-    <param name="Довжина шланга підключення" unit="">50 см</param>
-    <param name="Додаткові характеристики" unit="">З білим силіконовим виливом</param>
-    <param name="Діаметр картриджа (мм)" unit="">35</param>
-    <param name="Діаметр шланга підключення" unit="">1/2</param>
-    <param name="Картридж чи кран букса" unit="">Картридж</param>
+    <param name="Поворотный излив">Да</param>
+    <param name="Монтаж">На раковину</param>
+    <param name="Способ монтажа">Горизонтальный</param>
+    <param name="Количество монтажных отверстий">1</param>
+    <param name="Тип подводки">Гибкая</param>
+    <param name="Запорный клапан">Керамический картридж</param>
+    <param name="Гарантийный срок" unit="мес">12</param>
+    <param name="Состояние">Новое</param>
+    <param name="Тип присоединения">Гайка</param>
+    <param name="Гибкий излив">Да</param>
+    <param name="Выдвижной излив">Нет</param>
+    <param name="Подключение к фильтру">Нет</param>
+    <param name="Поверхность">Матовая</param>
+    <param name="Аэратор">Да</param>
+    <param name="Шланг для подключения к водопроводу">Да</param>
+    <param name="Диаметр керамического картриджа" unit="мм">35</param>
+    <param name="Серия" unit="">CEZAR</param>
+    <param name="Тип изделия" unit="">Змішувачі для кухні</param>
+    <param name="Тип монтажа" unit="">Врізні</param>
     <param name="Комплектация" unit="">Гнучка підводка, аератор, елемент кріплення</param>
-    <param name="Країна бренду" unit="">Китай</param>
     <param name="Мoдель" unit="">017</param>
-    <param name="Максимальна температура води (°C)" unit="">90</param>
-    <param name="Максимальний тиск (бар)" unit="">10,00</param>
+    <param name="Додаткові характеристики" unit="">З білим силіконовим виливом</param>
+    <param name="Тип керування" unit="">Одноважільні</param>
+    <param name="Тип виливу" unit="">Гнучкий</param>
+    <param name="Тип крепежа" unit="">Гайка</param>
     <param name="Материал изделия" unit="">ABS-пластик</param>
-    <param name="Мінімальна температура води (°C)" unit="">5</param>
-    <param name="Мінімальний тиск (бар)" unit="">0,50</param>
+    <param name="Торгова марка" unit="">PLAMIX</param>
+    <param name="Вага ящ." unit="">10.83</param>
     <param name="Об'єм ящ." unit="">0.068</param>
     <param name="Од. в упак." unit="">10</param>
+    <param name="Країна бренду" unit="">Китай</param>
+    <param name="Мінімальний тиск (бар)" unit="">0,50</param>
+    <param name="Картридж чи кран букса" unit="">Картридж</param>
     <param name="Робочий тиск (бар)" unit="">1-5</param>
-    <param name="Серия" unit="">CEZAR</param>
+    <param name="Максимальна температура води (°C)" unit="">90</param>
+    <param name="Максимальний тиск (бар)" unit="">10,00</param>
+    <param name="Гарантія на деталі змішувача (міс)" unit="">12</param>
+    <param name="Гарантія на корпус змішувача (міс)" unit="">24</param>
+    <param name="Мінімальна температура води (°C)" unit="">5</param>
+    <param name="MAX різниця тиску гарячої та холодної води (бар)" unit="">1,50</param>
+    <param name="Вид изделия" unit="">Змішувачі для кухні високі з гнучким виливом</param>
+    <param name="Група товару" unit="">Змішувачі</param>
+    <param name="Діаметр шланга підключення" unit="">1/2</param>
+    <param name="Діаметр картриджа (мм)" unit="">35</param>
     <param name="Стиль" unit="">Модерн</param>
-    <param name="Тип виливу" unit="">Гнучкий</param>
-    <param name="Тип изделия" unit="">Змішувачі для кухні</param>
-    <param name="Тип керування" unit="">Одноважільні</param>
-    <param name="Тип крепежа" unit="">Гайка</param>
-    <param name="Тип монтажа" unit="">Врізні</param>
-    <param name="Торгова марка" unit="">PLAMIX</param>
+    <param name="Довжина шланга підключення" unit="">50 см</param>
   </offer>
   <offer id="3238690429" available="true">
     <article>PM0694</article>
