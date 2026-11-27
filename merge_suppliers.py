@@ -5,7 +5,7 @@ from datetime import datetime
 
 FEED_URLS = [
     "https://b2b-sandi.com.ua/ru/export/view/518ff4f405eb0e0c32bd56bb365bc210-784-1712587389/yml_prom",
-    "https://b2b.valeso.ua/data/f0db8dbb55bd1610efe71fc5de37b972.xml",
+    "https://b2b.valeso.ua/data/b3f8dacb006af4b8715567f41cc79121.xml",
     "https://rs4u.com.ua/ua/cabinet/price/get?id=a924d145d45bdc58901689ec6299f6fb",
     "https://b2b-sklad.com/price/4452/ru/1/0/xml/export.xml",
     "https://back-prod.olinfrastructure.com/b2b/product-export/file/9E4F1743-7346-40D6-8AB9-422474591DA1/xml"
