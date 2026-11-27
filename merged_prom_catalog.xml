@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-27 15:00">
+<yml_catalog date="2026-11-27 15:46">
   <shop>
     <name>PlumberShop Suppliers Catalog</name>
     <company>Сантехник</company>
@@ -18658,7 +18658,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/3/7/3755/3755_5.jpg</picture>
         <name>Сгон-американка Thermo Alliance Base 1/2"ВН никель, прямой SD190W15</name>
         <model>SD190W15</model>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00008334</vendorCode>
         <description>Сгон-американка Thermo Alliance Base 1/2" ВН прямой никель SD190W15 используется для соединения труб в системах водоснабжения и отопления. Обеспечивает надежное соединение и долговечность благодаря качественным материалам. Версия каталога: P9ECA</description>
@@ -29577,7 +29577,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/1/5/15060/15060_7.jpg</picture>
         <name>Редуктор Thermo Alliance Standart 1" SF242W25</name>
         <model>SF242W25</model>
-        <quantity_in_stock>99</quantity_in_stock>
+        <quantity_in_stock>91</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00021158</vendorCode>
         <description>Редуктор давления воды Thermo Alliance Standart 1" выполнен из высококачественной латуни с никелированным покрытием. Диапазон работы от 0,5 до 6 бар. Версия каталога: P9ECA</description>
@@ -42285,7 +42285,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/2/9/29635/29635_2.jpg</picture>
         <name>Thermo Alliance StandartШтуцер с адаптером 3/4 "В SD140W2015</name>
         <model>SD140W2015</model>
-        <quantity_in_stock>27</quantity_in_stock>
+        <quantity_in_stock>28</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00035734</vendorCode>
         <description>Штуцер с адаптером Thermo Alliance Standart ВР SD140W2015 изготавливается из латуни, покрытие - хромирование. Имеет размер подключения 3/4", способ подключения - внутренняя резьба. Версия каталога: P9ECA</description>
@@ -61040,7 +61040,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/0/40630/40630_8.jpg</picture>
         <name>Водонагреватель электрический Thermo Alliance 80 л плоский вертикальный, мокрый ТЭН 2 кВт (0,8+1,2) DT80V20G(PD)/2</name>
         <model>DT80V20GPD2</model>
-        <quantity_in_stock>66</quantity_in_stock>
+        <quantity_in_stock>65</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00046737</vendorCode>
         <description>Водонагреватель Thermo Alliance 80 л, мокрый ТЭН 2 кВт (0,8+1,2) DT80V20G(PD)/2 позволит решить проблему горячего водообеспечения там, где место для монтажа ограничено. Плоский корпус бойлера можно горизонтально разместить в шкафу или в нише. Нагрев воды обеспечивают 2 надежных нагревательных элемента. Функцию защиты от коррозии выполняют два магниевых анода и эмалевый слой внутреннего бака. Удобная панель управления снабжена дисплеем индикации температуры воды. Толщина внутреннего бака - 2 мм. Версия каталога: P9ECA</description>
@@ -68059,7 +68059,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/1/41037/41037_20.jpg</picture>
         <name>Насос циркуляционный энергосберегающий Thermo Alliance LPS-A 32/100/180</name>
         <model>LPSA32100180</model>
-        <quantity_in_stock>7</quantity_in_stock>
+        <quantity_in_stock>8</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00047144</vendorCode>
         <description>Насос циркуляционный энергосберегающий Thermo Alliance LPS-A 32/100/180 с режимом AUTO может выполнять автоматическую регулировку и подстраиваться под фактическую потребность системы циркуляции. Прибор соответствует европейским стандартам качества и безопасности, может применяться в системах создания микроклимата, для бытового водоснабжения. Насосы этой серии отличаются низким уровнем шума во время работы и малым потреблением электроэнергии. В комплектацию входят гайки и кабель. Версия каталога: P9ECA</description>
@@ -85729,10 +85729,13 @@
         <vendorCode>SD00050948</vendorCode>
         <description>Пластинчастый теплообменник применяется для нагрева санитарной горячей воды. Версия каталога: P9ECA</description>
         <param name="Бренд">Airfel</param>
+        <param name="Вес брутто, кг">0,627</param>
         <param name="Вес нетто, кг">0,627</param>
-        <param name="Габаритные размеры изделия (ШхГхВ), мм">190х72х50</param>
+        <param name="Габаритные размеры изделия (ШхГхВ), мм">190х50х72</param>
+        <param name="Габариты упаковки (ШхГхВ), мм">190х50х72</param>
         <param name="Гарантия">6 месяцев</param>
         <param name="Количество грузовых мест">1</param>
+        <param name="Материал">Сталь</param>
         <param name="Назначение">Для газового котла</param>
         <param name="Страна регистрации бренда">Турция</param>
         <param name="Страна-производитель">Турция</param>
@@ -113895,7 +113898,7 @@
         <param name="Толщина теплоизоляции, мм">50</param>
         <param name="Версия каталога">P9ECA</param>
       <portal_category_id>14210103</portal_category_id></offer>
-      <offer id="SD00054012" available="">
+      <offer id="SD00054012" available="true">
         <price>45895</price>
         <currencyId>UAH</currencyId>
         <categoryId>c1_745</categoryId>
@@ -113907,7 +113910,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/7/47888/47888_5.jpg</picture>
         <name>Котел твердотопливный стальной Thermo Alliance Ferrum V 5.0 FSF 20</name>
         <model>FSF20V50</model>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00054012</vendorCode>
         <description>Котел твердотопливный стальной Thermo Alliance Ferrum V 5.0 FSF 20 &amp;#8212; надежный и эффективный твердотопливный котел, обеспечивающий стабильное отопление вашего дома. Высокое качество материалов и продуманная конструкция гарантируют долгий срок службы и экономичное использование топлива. Версия каталога: P9ECA</description>
@@ -119151,7 +119154,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/8/48297/48297_5.jpg</picture>
         <name>Контроллер для котла Thermo Alliance TA21, управление вентилятором и насосом CO</name>
         <model>ТА-21</model>
-        <quantity_in_stock>43</quantity_in_stock>
+        <quantity_in_stock>42</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00054421</vendorCode>
         <description>Контроллер котла TA21 Thermo Alliance предназначен для автоматического управления вентилятором и циркуляционным насосом системы отопления, что обеспечивает эффективную и безопасную работу твердотопливного котла. Устройство поддерживает заданную температуру воды в системе, регулируя обороты вентилятора и включает насос центрального отопления при достижении требуемой температуры. Простой в настройке и удобный в использовании контроллер помогает снизить расход топлива и продлить срок службы оборудования. Версия каталога: P9ECA</description>
@@ -119354,7 +119357,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/8/48307/48307_5.jpg</picture>
         <name>Вентилятор Thermo Alliance TA100 для котла до 30 кВт, 80Вт, 180 м. куб.</name>
         <model>NWS 100</model>
-        <quantity_in_stock>22</quantity_in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
         <vendor>Thermo Alliance</vendor>
         <vendorCode>SD00054431</vendorCode>
         <description>Вентилятор котла 30 кВт, 80 Вт, 180 м куб. Thermo Alliance TA 100 &amp;#8211; мощный и надежный вентилятор для котлов, обеспечивающий подачу воздуха и стабильную и эффективную работу котла. Версия каталога: P9ECA</description>
@@ -140650,7 +140653,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/4/8/48649/48649_7.jpg</picture>
         <name>Смеситель для раковины низкий Qtap Nando  QTNAN270CRM48649 Chrome</name>
         <model>QTNAN270CRM48649</model>
-        <quantity_in_stock>23</quantity_in_stock>
+        <quantity_in_stock>22</quantity_in_stock>
         <vendor>Qtap</vendor>
         <vendorCode>SD00054773</vendorCode>
         <description>Qtap Nando &amp;#8212; низкий смеситель для раковины с глянцевым хромированным покрытием, который позволяет регулировать температуру и напор одним рычагом. Латунный корпус &amp;#8212; это прочность и долгий срок службы, а гибкая подводка уже входит в комплект. Компактная модель подходит для большинства стандартных раковин, хром универсально смотрится в любом интерьере, а производитель дает гарантию 60 месяцев. Версия каталога: P9ECA</description>
@@ -150676,7 +150679,7 @@
         <picture>https://isw.b2b-sandi.com.ua/imagecache/large/5/1/51016/51016_4.jpg</picture>
         <name>Редукция канализационная Ostendorf-OSMA HT-System PLUS d50×40</name>
         <model />
-        <quantity_in_stock>86</quantity_in_stock>
+        <quantity_in_stock>87</quantity_in_stock>
         <vendor>Ostendorf-OSMA</vendor>
         <vendorCode>SD00057140</vendorCode>
         <description>Редукция канализационная Ostendorf-OSMA HT-System PLUS предназначена для соединения труб диаметром 50 и 40 мм во внутренних системах канализации. Отличается надежностью и долговечностью эксплуатации. Версия каталога: P9ECA</description>
